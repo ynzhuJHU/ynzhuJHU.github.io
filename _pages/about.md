@@ -36,7 +36,7 @@ My research interest mainly lies in...
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:MXK_kJrjxJIC'></span></strong>
 - In this paper, ...
 </div>
 </div>
@@ -48,7 +48,7 @@ My research interest mainly lies in...
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:WF5omc3nYNoC'></span></strong>
 - In this paper, ...
 </div>
 </div>
@@ -58,9 +58,9 @@ My research interest mainly lies in...
 
 [Size-controlled and shelf-stable DNA particles for production of lentiviral vectors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/)
 
-Hu Y\*, Zhu Y\*, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
+Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:UeHWp8X0CEIC'></span></strong>
 - In this paper, ...
 </div>
 </div>
@@ -70,8 +70,8 @@ Hu Y\*, Zhu Y\*, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke C
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2021.6*, Master of Science, JHU
-- *2015.09 - 2019.06*, Bachelor of Science, Sichuan U
+- *2019.06 - 2021.6*, Master of Engineering, JHU
+- *2015.09 - 2019.06*, Bachelor of Medicine, Sichuan U
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
