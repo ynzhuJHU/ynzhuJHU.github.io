@@ -70,7 +70,8 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2021.6*, Master of Engineering, JHU
+- *2021.09 - now*, Doctor of Philosophy, JHU
+- *2019.06 - 2021.06*, Master of Engineering, JHU
 - *2015.09 - 2019.06*, Bachelor of Medicine, Sichuan U
 
 # 💬 Invited Talks
