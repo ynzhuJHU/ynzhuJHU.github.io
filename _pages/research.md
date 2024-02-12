@@ -1,38 +1,48 @@
 ---
 permalink: /research
-title: "Research"
+title: ""
 author_profile: false
 ---
 
 <p>
-    My research focuses on ....
+    My research focuses on the interplay between
+    <b>End Users, Computational Platforms, and AI</b>.
 </p>
 <div class="research-columns">
     <div class="research-column-1">
         <div class="research-badge">
-            <b style="color: white; font-size: 10pt">Direction 1</b>
+            <b style="color: white; font-size: 10pt">End Users</b>
         </div>
         <p>
-            ...
+            I research and study on how to perceive and model user preferences to
+            facilitate human-centered interaction and proactive & adaptive guidelines
+            for design.
         </p>
     </div>
     <div class="research-column-2">
         <div class="research-badge" style="width: 150pt; background-color: #fce1e3">
-            <b style="color: #133481; font-size: 10pt">Direction 2</b>
+            <b style="color: #ba0023; font-size: 10pt">Computational Platforms</b>
         </div>
         <p>
-            ...
+            I build technical computational systems (Programming, Graphical User
+            Interface(GUI), Programming Tools, etc.) to re-organize and present
+            underlying data to users.
         </p>
     </div>
     <div class="research-column-3">
-        <div class="research-badge" style="width: 75pt; background-color: #5485d9">
-            <b style="color: white; font-size: 10pt">Direction 3</b>
+        <div class="research-badge" style="width: 75pt; background-color: #ff989f">
+            <b style="color: white; font-size: 10pt">AI</b>
         </div>
         <p>
-            ...
+            I design LLM-based AI-assistant technologies to augment human capabilities
+            in ordinary workflows like programming, design, and collaborations.
         </p>
     </div>
 </div>
+
+# Selected Publications
+
+My full list of publications can be viewed at [Google Scholar](https://scholar.google.com/citations?user=rp1pkakAAAAJ).
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Biomed. Eng. 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,7 +62,8 @@ author_profile: false
 [Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression](https://www.nature.com/articles/s41467-022-31993-y)
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
-<a href="https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC" class="paper-box-link" target="_blank">Google Scholar</a>
+
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:WF5omc3nYNoC'></span></strong>
 - In this paper, ...
 </div>
 </div>

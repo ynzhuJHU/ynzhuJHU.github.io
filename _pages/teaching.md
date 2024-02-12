@@ -1,7 +1,11 @@
 ---
 permalink: /teaching
-title: "Teaching"
+title: ""
 author_profile: false
 ---
 
-Lectures,...
+# Teaching
+
+# BME 101
+
+Lecturer,...
