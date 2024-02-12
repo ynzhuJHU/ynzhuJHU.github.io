@@ -38,7 +38,6 @@ My research interest mainly lies in...
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - In this paper, ...
-
 </div>
 </div>
 
@@ -51,7 +50,6 @@ My research interest mainly lies in...
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - In this paper, ...
-
 </div>
 </div>
 
@@ -64,7 +62,6 @@ Hu Y\*, Zhu Y\*, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke C
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - In this paper, ...
-
 </div>
 </div>
 
