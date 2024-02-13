@@ -10,8 +10,8 @@ author_profile: false
 </p>
 <div class="research-columns">
     <div class="research-column-1">
-        <div class="research-badge" style="width: 150pt; background-color: #ff989f">
-            <b style="color: white; font-size: 10pt">Topic 1</b>
+        <div class="research-badge">
+            <b style="color: white; font-size: 10pt">End Users</b>
         </div>
         <p>
             I research and study on how to perceive and model user preferences to
@@ -21,7 +21,7 @@ author_profile: false
     </div>
     <div class="research-column-2">
         <div class="research-badge" style="width: 150pt; background-color: #fce1e3">
-            <b style="color: #ba0023; font-size: 10pt">Topic 2</b>
+            <b style="color: #ba0023; font-size: 10pt">Computational Platforms</b>
         </div>
         <p>
             I build technical computational systems (Programming, Graphical User
@@ -30,8 +30,8 @@ author_profile: false
         </p>
     </div>
     <div class="research-column-3">
-        <div class="research-badge" style="width: 150pt; background-color: #ff989f">
-            <b style="color: white; font-size: 10pt">Topic 3</b>
+        <div class="research-badge" style="width: 75pt; background-color: #ff989f">
+            <b style="color: white; font-size: 10pt">AI</b>
         </div>
         <p>
             I design LLM-based AI-assistant technologies to augment human capabilities
@@ -39,6 +39,7 @@ author_profile: false
         </p>
     </div>
 </div>
+
 
 # Academic Services
 

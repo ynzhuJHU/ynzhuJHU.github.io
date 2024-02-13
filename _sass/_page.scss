@@ -411,6 +411,11 @@
   text-transform: uppercase;
 }
 
+.research-columns {
+  display: flex;
+  flex-direction: row;
+}
+
 .research-column-1 {
   flex: 0 0 28%; 
   margin-left: 4%;
