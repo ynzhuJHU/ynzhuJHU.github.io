@@ -18,9 +18,6 @@ redirect_from:
 
 I currently serves as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  I received his B.S. in Pharmacy from the Sichuan University in 2019, and M.S. in Biomedical Engineering from Johns Hopkins University in 2021.  As an undergraduate, I worked on constructing a nanosystem to co-deliver photosensitizer and immune adjuvant for cancer immunotherapy.  In Mao Lab, my thesis research focuses on developing and optimizing lipid nanoparticles with tailored compositions and properties for gene medicine and vaccine delivery.  In my free time, I enjoys movie and traveling.
 
-
-# 🔥 News
-
 # 🧬 Research Interest
 
 My research interest mainly lies in...
@@ -105,5 +102,5 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 
 # 💬 Talks
-- *2023*, Society of Biomaterials Annual Meeting and Exposition. *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
-- *2022*, Society of Biomaterials Annual Meeting and Exposition. *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*
+- *2023*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
+- *2022*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*
