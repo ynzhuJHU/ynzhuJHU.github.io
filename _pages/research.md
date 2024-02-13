@@ -10,7 +10,7 @@ author_profile: false
 </p>
 <div class="research-columns">
     <div class="research-column-1">
-        <div class="research-badge">
+        <div class="research-badge" style="width: 75pt">
             <b style="color: white; font-size: 10pt">Topic 1</b>
         </div>
         <p>
