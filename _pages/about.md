@@ -24,6 +24,8 @@ My research interest mainly lies in...
 
 # 📝 Selected Publications 
 
+<a href='https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/ynzhuJHU/ynzhuJHU.github.io@google-scholar-stats/gs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Biomed. Eng. 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
