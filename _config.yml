@@ -126,7 +126,20 @@ defaults:
     values:
       layout: default
       author_profile: true
-
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: false
+  # _publications
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: false
 
 # Sass/SCSS
 sass:
