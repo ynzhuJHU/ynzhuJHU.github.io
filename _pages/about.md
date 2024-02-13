@@ -20,8 +20,6 @@ I currently serves as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/). 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 🧬 Research Interest
 
@@ -69,14 +67,43 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.05*, Student Travel Achievement Recognition (STAR) award, Society for Biomaterials
 
 # 📖 Educations
-- *2021.09 - now*, Doctor of Philosophy, JHU
-- *2019.06 - 2021.06*, Master of Engineering, JHU
-- *2015.09 - 2019.06*, Bachelor of Medicine, Sichuan U
+<ul>
+  <li style="display: block;">
+    <div class="edu-box">
+      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+      <div>
+        <p style="color: black; margin: 0%; font-weight: 350;">
+          Ph.D. candidate in Biomedical Engineering</p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> John Hopkins University</p>
+      </div>
+    </div>
+  </li>
+  <li style="display: block;">
+    <div class="edu-box">
+      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+      <div>
+        <p style="color: black; margin: 0%; font-weight: 350;">
+          M.S. in Biomedical Engineering, 2021</p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> John Hopkins University</p>
+      </div>
+    </div>
+  </li>
+  <li style="display: block;">
+    <div class="edu-box">
+      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+      <div>
+        <p style="color: black; margin: 0%; font-weight: 350;">
+          B.S. in Medicine, 2019</p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Sichuan University</p>
+      </div>
+    </div>
+  </li>
+</ul>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+
+# 💬 Talks
+- *2023*, Society of Biomaterials Annual Meeting and Exposition. *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
+- *2022*, Society of Biomaterials Annual Meeting and Exposition. *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*

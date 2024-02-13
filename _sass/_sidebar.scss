@@ -268,3 +268,15 @@
     display: none;
   }
 }
+
+.news {
+  padding-left: 10px;
+}
+
+.news > p {
+  font-family: $sans-serif;
+}
+
+.sidebar p {
+  font-family: $sans-serif;
+}
