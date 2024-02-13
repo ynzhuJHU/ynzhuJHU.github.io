@@ -74,7 +74,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
       <div>
         <p style="color: black; margin: 0%; font-weight: 350;">
           Ph.D. candidate in Biomedical Engineering</p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> John Hopkins University</p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Johns Hopkins University</p>
       </div>
     </div>
   </li>
@@ -84,7 +84,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
       <div>
         <p style="color: black; margin: 0%; font-weight: 350;">
           M.S. in Biomedical Engineering, 2021</p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> John Hopkins University</p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Johns Hopkins University</p>
       </div>
     </div>
   </li>
