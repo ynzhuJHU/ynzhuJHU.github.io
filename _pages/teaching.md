@@ -10,7 +10,7 @@ author_profile: false
   .center {
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 80%;
   }
 </style>
 

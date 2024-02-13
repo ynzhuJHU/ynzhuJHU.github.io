@@ -6,36 +6,31 @@ author_profile: false
 
 <p>
     My research focuses on 
-    <b>Topic 1, Topic 2, and Topic 3</b>.
+    <b>Topic 1, Topic 2, and Topic 3</b>. ...
 </p>
 <div class="research-columns">
     <div class="research-column-1">
         <div class="research-badge">
-            <b style="color: white; font-size: 10pt">End Users</b>
+            <b style="color: white; font-size: 10pt">Topic 1</b>
         </div>
         <p>
-            I research and study on how to perceive and model user preferences to
-            facilitate human-centered interaction and proactive & adaptive guidelines
-            for design.
+        Example...
         </p>
     </div>
     <div class="research-column-2">
-        <div class="research-badge" style="width: 150pt; background-color: #fce1e3">
-            <b style="color: #ba0023; font-size: 10pt">Computational Platforms</b>
+        <div class="research-badge" style="width: 75pt; background-color: #fce1e3">
+            <b style="color: #ba0023; font-size: 10pt">Topic 2</b>
         </div>
         <p>
-            I build technical computational systems (Programming, Graphical User
-            Interface(GUI), Programming Tools, etc.) to re-organize and present
-            underlying data to users.
+        Example...
         </p>
     </div>
     <div class="research-column-3">
         <div class="research-badge" style="width: 75pt; background-color: #ff989f">
-            <b style="color: white; font-size: 10pt">AI</b>
+            <b style="color: white; font-size: 10pt">Topic 3</b>
         </div>
         <p>
-            I design LLM-based AI-assistant technologies to augment human capabilities
-            in ordinary workflows like programming, design, and collaborations.
+        Example...
         </p>
     </div>
 </div>
