@@ -36,7 +36,8 @@ My research interest mainly lies in...
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:MXK_kJrjxJIC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC)
+
 - In this paper, ...
 </div>
 </div>
@@ -48,7 +49,8 @@ My research interest mainly lies in...
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:WF5omc3nYNoC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC)
+
 - In this paper, ...
 </div>
 </div>
@@ -60,7 +62,8 @@ My research interest mainly lies in...
 
 Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:UeHWp8X0CEIC'></span></strong>
+[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC)
+
 - In this paper, ...
 </div>
 </div>
