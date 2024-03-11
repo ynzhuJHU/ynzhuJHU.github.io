@@ -10,7 +10,7 @@ layout: single
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh; /* You can adjust this if needed */
+    height: 25vh; /* You can adjust this if needed */
   }
 </style>
 
@@ -27,7 +27,7 @@ layout: single
   .center {
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
 </style>
 
