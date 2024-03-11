@@ -16,7 +16,7 @@ layout: single
 
 
 <div class="center">
-  <img src="images/Journals.png" alt="Centered Image">
+  <img src="images/500x300.png" alt="Centered Image">
 </div>
 
 ---
