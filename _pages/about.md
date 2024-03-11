@@ -18,9 +18,6 @@ redirect_from:
 
 I currently serves as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  I received my B.S. in Pharmacy from the Sichuan University in 2019, and M.S. in Biomedical Engineering from Johns Hopkins University in 2021.  As an undergraduate, I worked on constructing a nanosystem to co-deliver photosensitizer and immune adjuvant for cancer immunotherapy.  In Mao Lab, my thesis research focuses on developing and optimizing lipid nanoparticles with tailored compositions and properties for gene medicine and vaccine delivery.  In my free time, I enjoys movie and traveling.
 
-# 🧬 Research Interest
-
-My research interest mainly lies in...
 
 # 📝 Selected Publications 
 
@@ -39,7 +36,7 @@ My research interest mainly lies in...
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun. 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun. 2022</div><img src='images/Figuremultistep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression](https://www.nature.com/articles/s41467-022-31993-y)

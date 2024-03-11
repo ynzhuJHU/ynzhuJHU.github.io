@@ -19,12 +19,16 @@ layout: single
   <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Han Y</p>
 </div>
 
-# BME 101: An introduction to ...
 
-[Syllabus]() | [Slides]() | [Course Evaluation]()
+# Teaching Experience
+ ## EN.580.109.12 | Introduction to Nanomedicine	##
+  JHU Intersession Course Instructor	( *01/2023, 01/2024* )
+ 
 
-**Prequisities:** Working knowledge on ...
+Introduced and offered a comprehensive view of nanomedicine, including the physical and chemical basis of biomaterials in the nano-size range, bio-interactions governing efficacy and side effects, conventional and advanced design strategies to overcome biological barriers, and examples in diverse applications.
 
-# Former Teaching
-- 2022 Fall, ...
-- 2022 Spring, ...
+## Tissue Engineering ##	
+
+JHU Teaching Assistant 	( *09/2022 – 12/2022* )
+
+Provided insightful explanations and practical demonstrations during classes. Helped create a collaborative learning environment to assist students in learning the fundamental principles in the field of tissue engineering.

@@ -5,76 +5,52 @@ author_profile: false
 layout: single
 ---
 
-<p>
-    My research focuses on 
-    <b>Topic 1, Topic 2, and Topic 3</b>. ...
-</p>
-<div class="research-columns">
-    <div class="research-column-1">
-        <div class="research-badge" style="width: 75pt">
-            <b style="color: white; font-size: 10pt">Topic 1</b>
-        </div>
-        <p>
-        Example...
-        </p>
-    </div>
-    <div class="research-column-2">
-        <div class="research-badge" style="width: 75pt; background-color: #fce1e3">
-            <b style="color: #ba0023; font-size: 10pt">Topic 2</b>
-        </div>
-        <p>
-        Example...
-        </p>
-    </div>
-    <div class="research-column-3">
-        <div class="research-badge" style="width: 75pt; background-color: #ff989f">
-            <b style="color: white; font-size: 10pt">Topic 3</b>
-        </div>
-        <p>
-        Example...
-        </p>
-    </div>
-</div>
 
 
 # Academic Services
 
-# Selected Publications
+Currently, I am serving as a reviewer for various journals including: ***Biomaterials, Cancer Nanotechnology, Pharmaceutical Research, Bioengineering & Translational Medicine, Journal of drug delivery science and technology, Journal of liposome research***. 
+
+# Publications
 
 An up-to-date list and links to publications can be found at [Google Scholar](https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl).
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Biomed. Eng. 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+•	Y Zhu, et al., HQ Mao. Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity. Nature Biomedical Engineering, 2023.
 
-[Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity](https://www.nature.com/articles/s41551-023-01131-0)
+•	Y Zhu, et al., HQ Mao. Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression. Nature Communications, 2022.
 
-**Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
+•	Y Zhu, et al., X Sun. Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma. Journal of Controlled Release, 2020.
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:MXK_kJrjxJIC)
-- In this paper, ...
-</div>
-</div>
+•	Y Hu*, Y Zhu* (co-first authors), et al., HQ Mao. Size-controlled and shelf-stable DNA particles for production of lentiviral vectors. Nano Letters, 2021. 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun. 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+•	W Chen, Y Zhu, et al., X Sun. Path towards mRNA delivery for cancer immunotherapy from bench to bedside. Theranostics, 2024.
 
-[Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression](https://www.nature.com/articles/s41467-022-31993-y)
+•	W Chen, Y Zhu, et al., J He. Potentiating the systemic immunity by bacteria-delivered STING activation in a tumor microenvironment. Advanced Functional Materials, 2023.
 
-**Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
+•	Z Guo, Y Zhu, et al., X Sun. Rapid development of a subunit nano-vaccine against drug-resistant Pseudomonas aeruginosa with effective cross-protection. Nano Today, 2022.
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&sortby=pubdate&citation_for_view=rp1pkakAAAAJ:WF5omc3nYNoC)
-- In this paper, ...
-</div>
-</div>
+•	J Xue, Y Zhu, et al., X Sun. Nanoparticles with rough surface improve the therapeutic effect of photothermal immunotherapy against melanoma. Acta Pharmaceutica Sinica B, 2022.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Lett. 2021</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+•	W Chen, Y Zhu, et al., X Sun. Advances in Salmonella Typhimurium-based drug delivery system for cancer therapy. Advanced Drug Delivery Reviews, 2022.
 
-[Size-controlled and shelf-stable DNA particles for production of lentiviral vectors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/)
+•	S Huang, Y Zhu, et al., Z Zhang. Recent advances in delivery systems for genetic and other novel vaccines. Advanced Materials, 2022.
 
-Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
+•	W Chen, Z Guo, Y Zhu, et al., X Sun. Combination of bacterial‐photothermal therapy with an anti‐PD‐1 peptide depot for enhanced immunity against advanced cancer. Advanced Functional Materials, 2020.
 
-[**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&user=rp1pkakAAAAJ&citation_for_view=rp1pkakAAAAJ:UeHWp8X0CEIC)
-- In this paper, ...
-</div>
-</div>
+•	ZC Yao, YH Yang, J Kong, Y Zhu, et al., HQ Mao. Biostimulatory micro-fragmented nanofiber-hydrogel composite improves mesenchymal stem cell delivery and soft tissue remodeling. Small, 2022.
+
+•	S Bai, H Jiang, Y Song, Y Zhu, et al., X Sun. Aluminum nanoparticles deliver a dual-epitope peptide for enhanced anti-tumor immunotherapy. Journal of Controlled Release, 2022.
+
+•	X Ke, L Shelton, Y Hu, Y Zhu, et al., HQ Mao. Surface-functionalized PEGylated nanoparticles deliver messenger RNA to pulmonary immune cells. ACS Applied Materials & Interfaces, 2020.
+
+•	C Li, X Chen, X Luo, H Wang, Y Zhu, et al., X Sun. Nanoemulsions target to ectopic lymphoids in inflamed joints to restore immune tolerance in rheumatoid arthritis. Nano Letters, 2020.
+
+•	Y Hu, B Eder, J Lin, S Li, Y Zhu, et al., HQ Mao. Liter-scale manufacturing of shelf-stable plasmid DNA/PEI transfection particles for viral vector production. Molecular Therapy Methods & Clinical Development, 2024.
+
+•	X Zhong, G Du, X Wang, Y Ou, H Wang, Y Zhu, et al., X Sun. Nanovaccines mediated subcutis-to-intestine cascade for improved protection against intestinal infections. Small, 2022.
+
+•	W Chen, Y Song, S Bai, C He, G Zhao, Y Zhu, et al., X Sun. Cloaking mesoporous polydopamine with bacterial membrane vesicles to amplify local and systemic antitumor immunity. ACS nano, 2023.
+
+•	S Li, Y Hu, A Li, J Lin, K Hsieh, Z Schneiderman, P Zhang, Y Zhu, et al., HQ Mao. Payload distribution and capacity of mRNA lipid nanoparticles. Nature Communications, 2022.
+
+
