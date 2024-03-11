@@ -14,6 +14,7 @@ layout: single
   }
 </style>
 
+
 <div class="center">
   <img src="images/Journals.png" alt="Centered Image">
 </div>
