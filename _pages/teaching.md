@@ -10,13 +10,13 @@ layout: single
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh; /* You can adjust this if needed */
+    height: 30vh; /* You can adjust this if needed */
   }
 </style>
 
 
 <div class="center">
-  <img src="images/teaching.jpg" alt="Centered Image">
+  <img src="images/teaching2.png" alt="Centered Image">
 </div>
 
 <br> <!-- Add space here -->
