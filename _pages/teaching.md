@@ -22,20 +22,6 @@ layout: single
 <br> <!-- Add space here -->
 
 
-# Teaching
-
-<style>
-  .center {
-    text-align: center;
-    margin: auto;
-    width: 90%;
-  }
-</style>
-
-<div class="center">
-  <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Han Y</p>
-</div>
-
 
 # Teaching Experience
 
@@ -50,3 +36,19 @@ Introduced and offered a comprehensive view of nanomedicine, including the physi
 **JHU Teaching Assistant** 	( *09/2022 – 12/2022* )
 
 Provided insightful explanations and practical demonstrations during classes. Helped create a collaborative learning environment to assist students in learning the fundamental principles in the field of tissue engineering.
+
+# Teaching philosophy
+
+
+<style>
+  .center {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+  }
+</style>
+
+<div class="center">
+  <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Han Y</p>
+</div>
+
