@@ -36,8 +36,6 @@ My research interest mainly lies in...
 [**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:MXK_kJrjxJIC'></span></strong>
 
 - Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
-- The method involves screening for LNPs that enhance the maturation of bone-marrow-derived dendritic cells and antigen presentation in vitro, followed by assessing immune activation and tumour-growth suppression in a mouse model of melanoma after subcutaneous or intramuscular delivery of the LNPs. 
-- We found that the most potent antitumour activity, especially when combined with immune checkpoint inhibitors, resulted from a coordinated attack by T cells and NK cells, triggered by LNPs that elicited strong immune activity in both type-1 and type-2 T helper cells. Our findings highlight the importance of optimizing the LNP composition of mRNA-based cancer vaccines to tailor antigen-specific immune-activation profiles. 
 </div>
 </div>
 
@@ -51,12 +49,10 @@ My research interest mainly lies in...
 [**News**](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:WF5omc3nYNoC'></span></strong>
 
 - Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression. 
-- To achieve this, we analyze the role of different helper lipids and component ratios in plasmid DNA lipid nanoparticle-mediated gene delivery in vitro and in vivo. Compared to mRNA LNPs and in vivo-jetPEI/DNA nanoparticles, the identified plasmid DNA lipid nanoparticles successfully deliver transgenes and mediate prolonged expression in the liver following intravenous administration in mice. By addressing different physiological barriers in a stepwise manner, this screening platform can efficiently down select effective lipid nanoparticle candidates from a lipid nanoparticle library of over 1000 formulations. 
-- In addition, we substantially extend the duration of plasmid DNA nanoparticle-mediated transgene expression using a DNA/siRNA co-delivery approach that targets transcription factors regulating inflammatory response pathways. This lipid nanoparticle-based co-delivery strategy further highlights the unique advantages of an extended transgene expression profile using plasmid DNA delivery and offers new opportunities for DNA-based gene medicine applications.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Lett. 2021</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nano Lett. 2021</div><img src='images/FigureSize.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Size-controlled and shelf-stable DNA particles for production of lentiviral vectors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/)
@@ -66,7 +62,6 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 [**News**](https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/) <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:UeHWp8X0CEIC'></span></strong>
 
 - Polyelectrolyte complex particles assembled from plasmid DNA (pDNA) and poly(ethylenimine) (PEI) have been widely used to produce lentiviral vectors (LVVs) for gene therapy. The current batch-mode preparation for pDNA/PEI particles presents limited reproducibility in large-scale LVV manufacturing processes, leading to challenges in tightly controlling particle stability, transfection outcomes, and LVV production yield. In this paper, we identified the size of pDNA/PEI particles as a key determinant for a high transfection efficiency with an optimal size of 400–500 nm, due to a cellular-uptake-related mechanism. 
-- We developed a kinetics-based approach to assemble size-controlled and shelf-stable particles using preassembled nanoparticles as building blocks and demonstrated production scalability on a scale of at least 100 mL. The preservation of colloidal stability and transfection efficiency was benchmarked against particles generated using an industry standard protocol. This particle manufacturing method effectively streamlines the viral manufacturing process and improves the production quality and consistency.
 </div>
 </div>
 
