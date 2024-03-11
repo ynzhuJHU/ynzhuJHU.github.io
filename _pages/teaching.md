@@ -10,7 +10,7 @@ layout: single
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh; /* You can adjust this if needed */
+    height: 30vh; /* You can adjust this if needed */
   }
 </style>
 
@@ -20,6 +20,7 @@ layout: single
 </div>
 
 <br> <!-- Add space here -->
+
 
 # Teaching
 
