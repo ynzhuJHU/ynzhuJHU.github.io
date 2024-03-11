@@ -49,6 +49,6 @@ Provided insightful explanations and practical demonstrations during classes. He
 </style>
 
 <div class="center">
-  <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Han Y</p>
+  <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Y Han </p>
 </div>
 
