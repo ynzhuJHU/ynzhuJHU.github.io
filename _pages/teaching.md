@@ -5,6 +5,22 @@ author_profile: false
 layout: single
 ---
 
+<style>
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* You can adjust this if needed */
+  }
+</style>
+
+
+<div class="center">
+  <img src="images/teaching.jpg" alt="Centered Image">
+</div>
+
+<br> <!-- Add space here -->
+
 # Teaching
 
 <style>
