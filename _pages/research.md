@@ -15,7 +15,7 @@ layout: single
 </style>
 
 <div class="center">
-  <img src="journals.png" alt="Centered Image">
+  <img src="images/journals.png" alt="Centered Image">
 </div>
 
 # Academic Services
