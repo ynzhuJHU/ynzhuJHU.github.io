@@ -63,8 +63,9 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 
 # 🎖 Honors and Awards
-- *2024.03*, Young Investigators' Day - The Hans J. Prochaska Research Award, Johns Hopkins University
-- *2022.05*, Student Travel Achievement Recognition (STAR) award, Society for Biomaterials
+- *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
+- *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University*
+- *2022.05*, Student Travel Achievement Recognition (STAR) award, *Society for Biomaterials*
 
 # 📖 Educations
 <ul>
