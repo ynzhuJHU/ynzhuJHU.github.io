@@ -23,6 +23,20 @@ I currently serves as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/). 
 
 <a href='https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/ynzhuJHU/ynzhuJHU.github.io@google-scholar-stats/gs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930)
+
+**Zhu Y**, Cai SS, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Alan Mao SA, Lao YH, Leong KW, Mao HQ.
+
+ <strong><span class='show_paper_citations' data='rp1pkakAAAAJ:WF5omc3nYNoC'></span></strong>
+
+- Lipid nanoparticles have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Biomed. Eng. 2023</div><img src='images/FigureScreening.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
