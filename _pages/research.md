@@ -29,6 +29,8 @@ Currently, I am serving as a reviewer for various journals including: ***Biomate
 
 An up-to-date list and links to publications can be found at [Google Scholar](https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl).
 
+•	Y Zhu, et al., HQ Mao. Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery. ***Biomaterials***, 2024.
+
 •	Y Zhu, et al., HQ Mao. Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity. ***Nature Biomedical Engineering***, 2023.
 
 •	Y Zhu, et al., HQ Mao. Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression. ***Nature Communications***, 2022.
