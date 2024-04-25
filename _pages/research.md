@@ -23,7 +23,7 @@ layout: single
 
 # Academic Services
 
-Currently, I am serving as a reviewer for various journals including: ***Biomaterials, Cancer Nanotechnology, Pharmaceutical Research, Bioengineering & Translational Medicine, Journal of drug delivery science and technology, Journal of liposome research***. 
+Currently, I am serving as a reviewer for various journals including: ***Biomaterials, Journal of Controlled Release, Cancer Nanotechnology, Pharmaceutical Research, Bioengineering & Translational Medicine, Journal of drug delivery science and technology, Journal of liposome research***. 
 
 # Publications
 
