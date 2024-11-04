@@ -29,9 +29,9 @@ Currently, I am serving as a reviewer for various journals including: ***Biomate
 
 An up-to-date list and links to publications can be found at [Google Scholar](https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl).
 
-•	Y Zhu, et al., HQ Mao. Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery. ***Biomaterials***, 2024.
+•	Y Zhu\*, S Cai\*, et al., HQ Mao. Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery. ***Biomaterials***, 2024.
 
-• J Ma*, Y Zhu*, et al., HQ Mao. Tuning extracellular fluid viscosity for enhanced transfection efficiency in genetic cell engineering. ***Nature Chemical Engineering***, 2024.
+• J Ma\*, Y Zhu\*, et al., HQ Mao. Tuning extracellular fluid viscosity for enhanced transfection efficiency in genetic cell engineering. ***Nature Chemical Engineering***, 2024.
 
 •	Y Zhu, et al., HQ Mao. Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity. ***Nature Biomedical Engineering***, 2023.
 
@@ -39,7 +39,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 •	Y Zhu, et al., X Sun. Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma. ***Journal of Controlled Release***, 2020.
 
-•	Y Hu*, Y Zhu*, et al., HQ Mao. Size-controlled and shelf-stable DNA particles for production of lentiviral vectors. ***Nano Letters***, 2021. 
+•	Y Hu\*, Y Zhu\*, et al., HQ Mao. Size-controlled and shelf-stable DNA particles for production of lentiviral vectors. ***Nano Letters***, 2021. 
 
 •	L Cheng, Y Zhu, et al., HQ Mao. Machine learning elucidates design features of plasmid deoxyribonucleic acid lipid nanoparticles for cell type-preferential transfection. ***ACS nano***, 2024. 
 
