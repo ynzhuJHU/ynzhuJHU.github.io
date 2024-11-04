@@ -45,7 +45,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
 
-<strong><span class='show_paper_citations' data='rp1pkakAAAAJ:aqlVkmm33-oC'></span></strong>
+[**News**](https://www.nature.com/articles/s44286-024-00118-1)<strong><span class='show_paper_citations' data='rp1pkakAAAAJ:aqlVkmm33-oC'></span></strong>
 
 - Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types. 
 </div>
