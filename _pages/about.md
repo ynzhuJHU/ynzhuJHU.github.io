@@ -93,7 +93,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Control Release 2020</div><img src='images/JCR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Controlled Release 2020</div><img src='images/JCR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma](https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978)
