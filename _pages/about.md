@@ -19,7 +19,7 @@ redirect_from:
 I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  I received my B.S. in Pharmacy from the Sichuan University in 2019, and M.S. in Biomedical Engineering from Johns Hopkins University in 2021.  In Mao Lab, my thesis research focuses on developing and optimizing lipid nanoparticles with tailored compositions and properties for gene medicine and vaccine delivery.
 
 
-# 📝 Selected Publications 
+# Selected Publications 
 
 <a href='https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/ynzhuJHU/ynzhuJHU.github.io@google-scholar-stats/gs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -92,12 +92,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards
 - *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
 - *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University*
 - *2022.05*, Student Travel Achievement Recognition (STAR) award, *Society for Biomaterials*
 
-# 📖 Educations
+# Educations
 <ul>
   <li style="display: block;">
     <div class="edu-box">
