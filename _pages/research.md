@@ -31,7 +31,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 † Denotes equal contribution * Denotes corresponding author
 
-</div>
+
 
 ***Lead author publications:***
 
@@ -46,9 +46,9 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	Y Hu†, **Y Zhu†**, ND Sutherland, DR Wilson, M Pang, E Liu, JR Staub, et al., HQ Mao\*. Size-controlled and shelf-stable DNA particles for production of lentiviral vectors. ***Nano Letters***, 2021. 
 
 •	**Y Zhu**, J Xue, W Chen, S Bai, T Zheng, C He, Z Guo, M Jiang, G Du, X Sun\*. Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma. ***Journal of Controlled Release***, 2020.
-</div>
 
-</div>
+
+
 ***Collaborative publications:***
 
 •	L Cheng, **Y Zhu**, J Ma, A Aggarwal, WH Toh, C Shin, et al., HQ Mao\*. Machine learning elucidates design features of plasmid deoxyribonucleic acid lipid nanoparticles for cell type-preferential transfection. ***ACS nano***, 2024.
@@ -78,9 +78,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	S Li, Y Hu, A Li, J Lin, K Hsieh, Z Schneiderman, P Zhang, **Y Zhu**, et al., HQ Mao\*. Payload distribution and capacity of mRNA lipid nanoparticles. ***Nature Communications***, 2022.
 
 •	Y Hu, S Tzeng, L Cheng, J Lin, A Rueda, S Yu, S Li, Z Schneiderman, **Y Zhu**, et al., HQ Mao\*. Supramolecular assembly of polycation/mRNA nanoparticles and in vivo monocyte programming. ***Proceedings of the National Academy of Sciences of the United States of America***, 2024.
-</div>
 
-</div>
+
 
 ***Reviews:***
 
@@ -89,7 +88,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	W Chen, **Y Zhu**, Z Zhang, X Sun\*. Advances in Salmonella Typhimurium-based drug delivery system for cancer therapy. ***Advanced Drug Delivery Reviews***, 2022.
 
 •	S Huang, **Y Zhu**, L Zhang, Z Zhang\*. Recent advances in delivery systems for genetic and other novel vaccines. ***Advanced Materials***, 2022.
-</div>
+
 
 # Patents
 
