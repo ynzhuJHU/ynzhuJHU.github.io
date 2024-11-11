@@ -90,6 +90,24 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 - Polyelectrolyte complex particles assembled from plasmid DNA (pDNA) and poly(ethylenimine) (PEI) have been widely used to produce lentiviral vectors (LVVs) for gene therapy. The current batch-mode preparation for pDNA/PEI particles presents limited reproducibility in large-scale LVV manufacturing processes, leading to challenges in tightly controlling particle stability, transfection outcomes, and LVV production yield. In this paper, we identified the size of pDNA/PEI particles as a key determinant for a high transfection efficiency with an optimal size of 400–500 nm, due to a cellular-uptake-related mechanism. 
 </div>
+
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Control Release 2020</div><img src='images/JCR.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma](https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978)
+
+**Zhu Y\***, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X.
+
+<strong><span class='show_paper_citations' data='rp1pkakAAAAJ:u-x6o8ySG0sC'></span></strong>
+
+- To date, cancer phototherapy remains as an unsatisfactory method of cancer treatment due to the high probability of cancer recurrence - an effect that is partly driven by tumor-driven immunosuppression. Therefore, we propose inducing adequate immune responses after photo tumor ablation may be critical to achieve a long term therapeutic effect of phototherapy. Here, we engineered the photosensitizer chlorin e6 (Ce6) and the time-honored immunoadjuvant aluminum hydroxide into bovine serum albumin by albumin-based biomineralization as a novel nanosystem (Al-BSA-Ce6 NPs) for photoimmune therapy. 
+</div>
+
+
+
+
 </div>
 
 # Honors and Awards
