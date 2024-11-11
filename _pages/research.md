@@ -32,8 +32,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 † Denotes equal contribution * Denotes corresponding author
 
 
-
-***Lead author publications:***
+## Lead author publications: ##
 
 •	**Y Zhu†**, S Cai†, J Ma, L Cheng, C Wei, A Aggarwal, WH Toh, C Shin, et al., KW Leong\*, HQ Mao\*. Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery. ***Biomaterials***, 2024.
 
@@ -49,7 +48,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 
 
-***Collaborative publications:***
+## Collaborative publications: ##
 
 •	L Cheng, **Y Zhu**, J Ma, A Aggarwal, WH Toh, C Shin, et al., HQ Mao\*. Machine learning elucidates design features of plasmid deoxyribonucleic acid lipid nanoparticles for cell type-preferential transfection. ***ACS nano***, 2024.
 
@@ -81,7 +80,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 
 
-***Reviews:***
+## Reviews: ##
 
 •	W Chen, **Y Zhu**, J He, X Sun\*. Path towards mRNA delivery for cancer immunotherapy from bench to bedside. ***Theranostics***, 2024.
 
