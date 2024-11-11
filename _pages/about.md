@@ -132,7 +132,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </ul>
 
 
-# 💬 Talks
+# Talks
 - *2024*, [Biomedical Engineering Society Annual Meeting](https://www.bmes.org/bmes2024). *Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.*
 - *2024*, [American Society of Gene & Cell Therapy Annual Meeting](https://www.asgct.org/). *A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.*
 - *2023*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
