@@ -27,7 +27,7 @@ layout: single
 
 ## EN.580.109.12 | Introduction to Nanomedicine	##
 
-**JHU Intersession Course Instructor**	( *01/2023, 01/2024* )
+**JHU Intersession Course Instructor**	( *01/2023, 01/2024, 01/2025* )
 
 Introduced and offered a comprehensive view of nanomedicine, including the physical and chemical basis of biomaterials in the nano-size range, bio-interactions governing efficacy and side effects, conventional and advanced design strategies to overcome biological barriers, and examples in diverse applications.
 
