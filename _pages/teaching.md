@@ -31,7 +31,14 @@ layout: single
 
 Introduced and offered a comprehensive view of nanomedicine, including the physical and chemical basis of biomaterials in the nano-size range, bio-interactions governing efficacy and side effects, conventional and advanced design strategies to overcome biological barriers, and examples in diverse applications.
 
-## Tissue Engineering ##	
+## EN.580.453 | Immunoengineering: Principles and Applications ##	
+
+**JHU Teaching Assistant** 	( *09/2024 – 12/2024* )
+
+Offered insightful explanations and practical demonstrations in class, fostering a collaborative learning environment that supported students in mastering the fundamental principles of immunoengineering.
+
+
+## EN.580.642 | Tissue Engineering ##	
 
 **JHU Teaching Assistant** 	( *09/2022 – 12/2022* )
 
