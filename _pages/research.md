@@ -34,7 +34,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 ## Lead author publications (6): ##
 
-•	**Y Zhu†**, S Cai†, J Ma, L Cheng, C Wei, A Aggarwal, WH Toh, C Shin, et al., KW Leong\*, HQ Mao\*. Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery. ***Biomaterials***, 2024.
+•	**Y Zhu†**, S Cai†, J Ma, L Cheng, C Wei, A Aggarwal, WH Toh, C Shin, et al., KW Leong\*, HQ Mao\*. [Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930). ***Biomaterials***, 2024.
 
 •	J Ma†, **Y Zhu†**, J Kong, D Yu, WH Toh, M Jain, Q Ni, Z Ge, J Lin, J Choy, et al., SX Sun\*, HQ Mao\*. Tuning extracellular fluid viscosity for enhanced transfection efficiency in genetic cell engineering. ***Nature Chemical Engineering***, 2024.
 
