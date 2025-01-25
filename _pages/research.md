@@ -48,7 +48,9 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 
 
-## Collaborative publications (15): ##
+## Collaborative publications (17): ##
+
+• B Torkzaban, **Y Zhu**, C Lopez, JM Alexander, J Ma, Y Sun, KR Maschhoff, et al., J Coleer\*. [Use of poly adenosine tail mimetics to enhance mRNA expression from genes associated with haploinsufficiency disorders](https://www.sciencedirect.com/science/article/pii/S2162253125000071). ***Molecular Therapy Nucleic Acids***, 2025.
 
 •	L Cheng, **Y Zhu**, J Ma, A Aggarwal, WH Toh, C Shin, et al., HQ Mao\*. [Machine learning elucidates design features of plasmid deoxyribonucleic acid lipid nanoparticles for cell type-preferential transfection](https://pubs.acs.org/doi/10.1021/acsnano.4c07615). ***ACS nano***, 2024.
 
@@ -69,6 +71,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	C Li, X Chen, X Luo, H Wang, **Y Zhu**, G Du, W Chen, Z Chen, X Hao, et al., X Sun\*. [Nanoemulsions target to ectopic lymphoids in inflamed joints to restore immune tolerance in rheumatoid arthritis](https://pubs.acs.org/doi/10.1021/acs.nanolett.0c05110). ***Nano Letters***, 2020.
 
 •	Y Hu, B Eder, J Lin, S Li, **Y Zhu**, et al., HQ Mao\*. [Liter-scale manufacturing of shelf-stable plasmid DNA/PEI transfection particles for viral vector production](https://www.cell.com/molecular-therapy-family/methods/fulltext/S2329-0501(24)00010-X). ***Molecular Therapy Methods & Clinical Development***, 2024.
+
+•	Z Guo, F Wu, C Guo, R Hu, Y Ou, **Y Zhu**, S Luo, Y Song, P He, C He, Y Xu, et al., X Sun\*. [Metalloparticle-Engineered Pickering Emulsion Displaying AAV-Vectored Vaccine for Enhancing Antigen Expression and Immunogenicity Against Pathogens](https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202412627). ***Advanced Materials***, 2025.
 
 •	X Zhong, G Du, X Wang, Y Ou, H Wang, **Y Zhu**, X Hao, Z Xie, Y Zhang, et al., X Sun\*. [Nanovaccines mediated subcutis-to-intestine cascade for improved protection against intestinal infections](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202105530). ***Small***, 2022.
 
