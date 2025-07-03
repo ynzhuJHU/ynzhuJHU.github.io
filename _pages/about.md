@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. candidate in Biomedical Engineering at Johns Hopkins University, advised by Dr. Hai-Quan Mao [Mao Lab](https://maogroup.jhu.edu/). I received my B.S. in Pharmacy from Sichuan University in 2019 and my M.S. in Biomedical Engineering from Johns Hopkins in 2021. My doctoral research focuses on the design and optimization of lipid nanoparticles (LNPs) with tailored compositions for gene therapy and mRNA vaccine delivery. Through this work, I aim to advance next-generation nanomedicine platforms that can improve therapeutic efficacy and immunogenic precision.
+I am a Ph.D. candidate in Biomedical Engineering at Johns Hopkins University, advised by Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/). I received my B.S. in Pharmacy from Sichuan University in 2019 and my M.S. in Biomedical Engineering from Johns Hopkins in 2021. My doctoral research focuses on the design and optimization of lipid nanoparticles (LNPs) with tailored compositions for gene therapy and mRNA vaccine delivery. Through this work, I aim to advance next-generation nanomedicine platforms that can improve therapeutic efficacy and immunogenic precision.
 
 
 # Selected Publications 
