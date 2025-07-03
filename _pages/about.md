@@ -36,7 +36,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
   <div class="paper-box-text">
     <p>
       <a href="https://www.nature.com/articles/s41467-025-61299-8"><strong>An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy</strong></a><br>
-      **Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
+      <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
     </p>
 
     <p>

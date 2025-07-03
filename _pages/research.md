@@ -32,7 +32,9 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 † Denotes equal contribution * Denotes corresponding author
 
 
-## Lead author publications (6): ##
+## Lead author publications (7): ##
+
+•	**Y Zhu†**, ZC Y†, S L†, J Ma, C Wei, D Yu, JL Stelzel, et al., HQ Mao\*. [An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy](https://www.nature.com/articles/s41467-025-61299-8#citeas). ***Nature Communications***, 2025.
 
 •	**Y Zhu†**, S Cai†, J Ma, L Cheng, C Wei, A Aggarwal, WH Toh, C Shin, et al., KW Leong\*, HQ Mao\*. [Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930). ***Biomaterials***, 2024.
 
