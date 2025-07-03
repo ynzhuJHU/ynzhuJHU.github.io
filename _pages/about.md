@@ -33,7 +33,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 **Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
 
-<<img src="https://img.shields.io/badge/9%20citations-Google%20Scholar-blue?logo=google-scholar" alt="147 citations from Google Scholar" />
+<img src="https://img.shields.io/badge/9%20citations-Google%20Scholar-blue?logo=google-scholar" alt="147 citations from Google Scholar" />
 
 - Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
 </div>
