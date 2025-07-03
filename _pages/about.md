@@ -147,9 +147,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
     <div class="edu-box">
       <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
       <div>
-        <p style="color: black; margin: 0%; font-weight: 350;">
-          Ph.D. candidate in Biomedical Engineering</p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Johns Hopkins University</p>
+        <p style="color: black; margin: 0%; font-weight: 500;">
+          Ph.D. Candidate, Biomedical Engineering
+        </p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
+          Johns Hopkins University
+        </p>
       </div>
     </div>
   </li>
@@ -157,9 +160,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
     <div class="edu-box">
       <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
       <div>
-        <p style="color: black; margin: 0%; font-weight: 350;">
-          M.S.E. in Biomedical Engineering, 2021</p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Johns Hopkins University</p>
+        <p style="color: black; margin: 0%; font-weight: 500;">
+          M.S.E., Biomedical Engineering, 2021
+        </p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
+          Johns Hopkins University
+        </p>
       </div>
     </div>
   </li>
@@ -167,9 +173,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
     <div class="edu-box">
       <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
       <div>
-        <p style="color: black; margin: 0%; font-weight: 350;">
-          B.S. in Pharmacy, 2019</p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;"> Sichuan University</p>
+        <p style="color: black; margin: 0%; font-weight: 500;">
+          B.S., Pharmacy, 2019
+        </p>
+        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
+          Sichuan University
+        </p>
       </div>
     </div>
   </li>
