@@ -26,6 +26,19 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 </a>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy](https://www.nature.com/articles/s41467-025-61299-8)
+
+**Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
+
+<img src="https://img.shields.io/badge/1%20citations-lightgrey?style=flat" alt="1 citations" />
+
+- Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment/antigen expression and presentation/cellular interaction thereby eliciting antitumor efficacy with a single dose.
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -33,7 +46,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 **Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
 
-<img src="https://img.shields.io/badge/9%20citations-Google%20Scholar-blue?logo=google-scholar" alt="147 citations from Google Scholar" />
+<img src="https://img.shields.io/badge/9%20citations-lightgrey?style=flat" alt="9 citations" />
 
 - Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
 </div>
