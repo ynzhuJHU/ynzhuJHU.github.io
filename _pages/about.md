@@ -21,7 +21,9 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 # Selected Publications 
 
-<a href='https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/ynzhuJHU/ynzhuJHU.github.io@google-scholar-stats/gs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank">
+  <img src="https://img.shields.io/badge/Google%20Scholar-1027%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
+</a>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
