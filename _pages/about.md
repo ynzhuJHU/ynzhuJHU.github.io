@@ -33,7 +33,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 **Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
 
-<img src="https://img.shields.io/badge/1%20citations-lightgrey?style=flat" alt="1 citations" />
+<img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" />
 
 - Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment/antigen expression and presentation/cellular interaction thereby eliciting antitumor efficacy with a single dose.
 </div>
@@ -46,7 +46,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 **Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
 
-<img src="https://img.shields.io/badge/9%20citations-lightgrey?style=flat" alt="9 citations" />
+<img src="https://img.shields.io/badge/9%20citations-blue?style=flat" alt="9 citations" />
 
 - Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
 </div>
@@ -60,7 +60,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
 
-[**News**](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)<strong><span class='show_paper_citations' data='rp1pkakAAAAJ:aqlVkmm33-oC'></span></strong>
+[**News**](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)<strong><img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" /></strong>
 
 - Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types. 
 </div>
