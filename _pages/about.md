@@ -35,7 +35,7 @@ I am a Ph.D. candidate in Biomedical Engineering at Johns Hopkins University, ad
 
   <div class="paper-box-text">
     <p>
-      <a href="https://www.nature.com/articles/s41467-025-61299-8"><strong>An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy</strong></a><br>
+      <a href="https://www.nature.com/articles/s41467-025-61299-8">An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy</a><br>
       <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
     </p>
 
