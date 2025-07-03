@@ -25,19 +25,29 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
   <img src="https://img.shields.io/badge/Google%20Scholar-1027%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Nature Communications 2025</div>
+      <img src="images/LiNx.jpg" alt="sym" width="100%">
+    </div>
+  </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+  <div class="paper-box-text">
+    <p>
+      <a href="https://www.nature.com/articles/s41467-025-61299-8"><strong>An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy</strong></a><br>
+      <em>Zhu Y*, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.</em>
+    </p>
 
-[An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy](https://www.nature.com/articles/s41467-025-61299-8)
+    <p>
+      <img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citation" />
+    </p>
 
-**Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
-
-<img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" />
-
-- Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment/antigen expression and presentation/cellular interaction thereby eliciting antitumor efficacy with a single dose.
+    <p>
+      Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose.
+    </p>
+  </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
