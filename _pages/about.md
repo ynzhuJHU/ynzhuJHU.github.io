@@ -60,7 +60,7 @@ I currently serve as the Lab Captain for [Mao Lab](https://maogroup.jhu.edu/).  
 
 Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
 
-[**News**](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)<strong><img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" /></strong>
+[**News**](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" /></strong>
 
 - Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types. 
 </div>
