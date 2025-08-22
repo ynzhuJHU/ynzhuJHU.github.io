@@ -22,7 +22,7 @@ I am a Ph.D. candidate in Biomedical Engineering at Johns Hopkins University, ad
 # Selected Publications 
 
 <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-1071%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
+  <img src="https://img.shields.io/badge/Google%20Scholar-1106%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
 <div class="paper-box">
@@ -40,7 +40,7 @@ I am a Ph.D. candidate in Biomedical Engineering at Johns Hopkins University, ad
     </p>
 
     <p>
-      <img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citation" />
+      <img src="https://img.shields.io/badge/2%20citations-blue?style=flat" alt="2 citation" />
     </p>
 
     <p>
@@ -85,7 +85,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/57%20citations-blue?style=flat" alt="57 citations" /></strong>
+[**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/63%20citations-blue?style=flat" alt="63 citations" /></strong>
 
 - Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
 </div>
@@ -98,7 +98,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[**News**](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/106%20citations-blue?style=flat" alt="106 citations" /></strong>
+[**News**](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/112%20citations-blue?style=flat" alt="112 citations" /></strong>
 
 - Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression. 
 </div>
@@ -111,7 +111,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
 
-[**News**](https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/27%20citations-blue?style=flat" alt="27 citations" /></strong>
+[**News**](https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/28%20citations-blue?style=flat" alt="28 citations" /></strong>
 
 - Polyelectrolyte complex particles assembled from plasmid DNA (pDNA) and poly(ethylenimine) (PEI) have been widely used to produce lentiviral vectors (LVVs) for gene therapy. The current batch-mode preparation for pDNA/PEI particles presents limited reproducibility in large-scale LVV manufacturing processes, leading to challenges in tightly controlling particle stability, transfection outcomes, and LVV production yield. In this paper, we identified the size of pDNA/PEI particles as a key determinant for a high transfection efficiency with an optimal size of 400–500 nm, due to a cellular-uptake-related mechanism. 
 </div>
