@@ -101,12 +101,21 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 # Patents
 
-•	Y Zhu, J Ma, H Mao, et al. Composition of media with defined fluid viscosity for enhancing intracellular delivery of nanoparticles and viral vectors, and methods of use. US Provisional Patent Application; Filed 7/20/2023.
+•	Y Zhu, C Wei, H Mao. Lipid nanoparticles with integrated glycolipid adjuvant to promote tissue-specific cellular immunity. US Provisional Patent Application; Filed 2/18/2025.
+
+•	Y Zhu, C Wei, D Yu, H Mao. Lipid nanoparticle formulations capable of migrating to systemic organs following intramuscular administration. US Provisional Patent Application; Filed 1/28/2025.
+
+•	Y Zhu, X Lu, H Mao. Composition screening of lipid nanoparticle for intracellular delivery of gene-editing proteins. PCT/US2025/023531; Filed 4/7/2025.
+
+•	Y Zhu, C Wei, J Ma, H Mao, et al. A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite to generate a local immunostimulatory niche for immunotherapy. PCT/US2025/023530; Filed 4/7/2025.
+
+•	Y Zhu, J Ma, H Mao, et al. Composition of media with defined fluid viscosity for enhancing intracellular delivery of nanoparticles and viral vectors, and methods of use. PCT/US2024/039036; Filed 7/22/2024.
 
 •	Y Zhu, H Mao, et al. Compositions of Lipid Nanoparticles for Plasmid DNA Delivery to the Liver and Methods for Preparing the Same. PCT/US2023/016938; Filed 3/30/2023.
 
 •	Y Zhu, Y Hu, H Mao. Methods for preparation of plasmid DNA/lipid particles with defined size for in vitro and in vivo transfection. PCT/US2023, 18/546,221; Filed 8/11/2023.
 
-•	Y Hu, Y Zhu, H Mao. Composition of shelf-stable plasmid DNA/PEI particles with defined sizes for virus production and method for preparation of the same. PCT/US2023, 18/546,222, Filed 8/11/2023.
+•	Y Zhu, Y Hu, H Mao. Composition of shelf-stable plasmid DNA/PEI particles with defined sizes for virus production and method for preparation of the same. PCT/US2023, 18/546,222, Filed 8/11/2023.
 
-•	Y Hu, Y Zhu, H Mao. Methods for preparation of shelf-stable plasmid DNA/polycation particles with defined sizes for cell transfection. PCT/US2022, 18/261,944; Filed 7/18/2023.
+•	Y Zhu, Y Hu, H Mao. Methods for preparation of shelf-stable plasmid DNA/polycation particles with defined sizes for cell transfection. PCT/US2022, 18/261,944; Filed 7/18/2023.
+
