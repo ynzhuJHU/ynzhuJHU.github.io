@@ -50,7 +50,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 
 
-## Collaborative publications (17): ##
+## Collaborative publications (18): ##
 
 • B Torkzaban, **Y Zhu**, C Lopez, JM Alexander, J Ma, Y Sun, KR Maschhoff, et al., J Coller\*. [Use of poly adenosine tail mimetics to enhance mRNA expression from genes associated with haploinsufficiency disorders](https://www.sciencedirect.com/science/article/pii/S2162253125000071). ***Molecular Therapy Nucleic Acids***, 2025.
 
@@ -63,6 +63,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	J Xue, **Y Zhu**, S Bai, C He, G Du, Y Zhang, Y Zhong, W Chen, H Wang, et al., X Sun\*. [Nanoparticles with rough surface improve the therapeutic effect of photothermal immunotherapy against melanoma](https://www.sciencedirect.com/science/article/pii/S2211383521004585#:~:text=In%20the%20animal%20studies%2C%20the,prevented%20tumor%20metastasis%20and%20recurrence.). ***Acta Pharmaceutica Sinica B***, 2022.
 
 •	W Chen, Z Guo, **Y Zhu**, N Qiao, Z Zhang, X Sun\*. [Combination of bacterial‐photothermal therapy with an anti‐PD‐1 peptide depot for enhanced immunity against advanced cancer](https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201906623). ***Advanced Functional Materials***, 2020.
+
+•	A Greco, L Cheng, KD Goodier, **Y Zhu**, J Kong, S Gong, C Erb, J Lin, X Lu, et al., HQ Mao\*. [Adipocyte-selective mRNA lipid nanoparticles for cell programming with machine learning analysis](https://www.sciencedirect.com/science/article/pii/S0168365925007898). ***Journal of Controlled Release***, 2025.
 
 •	ZC Yao, YH Yang, J Kong, **Y Zhu**, L Li, C Chang, C Zhang, J Yin, J Chao, et al., HQ Mao\*. [Biostimulatory micro-fragmented nanofiber-hydrogel composite improves mesenchymal stem cell delivery and soft tissue remodeling](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202202309). ***Small***, 2022.
 
