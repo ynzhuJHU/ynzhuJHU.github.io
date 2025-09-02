@@ -22,7 +22,7 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
 # Selected Publications 
 
 <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-1106%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
+  <img src="https://img.shields.io/badge/Google%20Scholar-1124%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
 <div class="paper-box">
