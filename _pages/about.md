@@ -136,11 +136,11 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 
 # Honors and Awards
-- *2025.09*, Siebel Scholar award, *Siebel Foundation*
-- *2025.04*, Student Travel Achievement Recognition (STAR) award, *Society for Biomaterials*
+- *2025.09*, Siebel Scholar Award, *Siebel Foundation*
+- *2025.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 - *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
 - *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University*
-- *2023.04*, Student Travel Achievement Recognition (STAR) award, *Society for Biomaterials*
+- *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
 # Educations
 <ul>
