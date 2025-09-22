@@ -149,7 +149,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
       <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
       <div>
         <p style="color: black; margin: 0%; font-weight: 500;">
-          Ph.D. Candidate, Biomedical Engineering
+          Ph.D., Biomedical Engineering, 2025
         </p>
         <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
           Johns Hopkins University
