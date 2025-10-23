@@ -25,7 +25,7 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
   <img src="https://img.shields.io/badge/Google%20Scholar-1214%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
-</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
