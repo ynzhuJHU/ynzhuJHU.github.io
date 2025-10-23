@@ -67,9 +67,8 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
       <img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citation" />
     </p>
 
-    <p>
       - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines.
-    </p>
+
   </div>
 </div>
 
