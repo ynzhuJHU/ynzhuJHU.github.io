@@ -49,6 +49,30 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
   </div>
 </div>
 
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Science Advances 2025</div>
+      <img src="images/sciadv.ady5579-f1.jpg" alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class="paper-box-text">
+    <p>
+      <a href="https://www.science.org/doi/10.1126/sciadv.ady5579">A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins</a><br>
+      Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
+    </p>
+
+    <p>
+      <img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citation" />
+    </p>
+
+    <p>
+      We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines.
+    </p>
+  </div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
