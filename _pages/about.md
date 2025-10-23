@@ -34,18 +34,18 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
   </div>
 
   <div class="paper-box-text">
-    <p>
+  
       <a href="https://www.nature.com/articles/s41467-025-61299-8">An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy</a><br>
       <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
-    </p>
+  
 
-    <p>
+   
       <img src="https://img.shields.io/badge/6%20citations-blue?style=flat" alt="6 citation" />
-    </p>
+   
 
-    <p>
-      - Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose.
-    </p>
+   
+- Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose.
+    
   </div>
 </div>
 
@@ -58,16 +58,16 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
   </div>
 
   <div class="paper-box-text">
-    <p>
+    
       <a href="https://www.science.org/doi/10.1126/sciadv.ady5579">A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins</a><br>
       Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
-    </p>
+   
 
-    <p>
+   
       <img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citation" />
-    </p>
+    
 
-      - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines.
+- We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines.
 
   </div>
 </div>
