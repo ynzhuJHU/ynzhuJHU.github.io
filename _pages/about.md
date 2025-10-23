@@ -25,6 +25,7 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
   <img src="https://img.shields.io/badge/Google%20Scholar-1214%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -37,6 +38,7 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins Univer
 - Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose. 
 </div>
 
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances 2025</div><img src='images/sciadv.ady5579-f1.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -49,7 +51,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines. 
 </div>
 
-
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
