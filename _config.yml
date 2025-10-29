@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yining Zhu"
-description              : "Ph.D. in Biomedical Engineering, School of Medicine at JHU"
+title                    : "Yining Zhu, Ph.D."
+description              : "Biomedical Engineering, School of Medicine at JHU"
 repository               : "ynzhuJHU/ynzhuJHU.github.io"
 google_scholar_stats_use_cdn : true
 
