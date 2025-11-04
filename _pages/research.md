@@ -103,6 +103,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 # Patents
 
+•	Y Zhu, X Liu, H Mao. Compositions and methods of preparing RNA lipid nanoparticles with enhanced stability and transfection efficiency. US Provisional Patent Application; Filed 7/19/2025.
+
 •	Y Zhu, C Wei, H Mao. Lipid nanoparticles with integrated glycolipid adjuvant to promote tissue-specific cellular immunity. US Provisional Patent Application; Filed 2/18/2025.
 
 •	Y Zhu, C Wei, D Yu, H Mao. Lipid nanoparticle formulations capable of migrating to systemic organs following intramuscular administration. US Provisional Patent Application; Filed 1/28/2025.
