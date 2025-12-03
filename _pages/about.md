@@ -139,8 +139,8 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 
 # Honors and Awards
-- *2025.12*, Forbes 30 Under 30 in Science, *Forbes Media*
-- *2025.09*, Siebel Scholar Award, *Siebel Foundation*
+- *2025.12*, Forbes 30 Under 30 in Science, *Forbes Media* [**News**](https://www.forbes.com/profile/yining-zhu/?list=30under30-science/) &nbsp;&nbsp;
+- *2025.09*, Siebel Scholar Award, *Siebel Foundation* [**News**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) &nbsp;&nbsp;
 - *2025.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 - *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
 - *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University*
