@@ -143,7 +143,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2025.09*, Siebel Scholar Award, *Siebel Foundation* [**News**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) &nbsp;&nbsp;
 - *2025.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 - *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
-- *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University*
+- *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University* [**News**](https://hopkinsyidp.org/people/yining-zhu/) &nbsp;&nbsp;
 - *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
 # Educations
