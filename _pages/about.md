@@ -146,7 +146,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University* [**News**](https://hopkinsyidp.org/people/yining-zhu/) &nbsp;&nbsp;
 - *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
-# PROFESSIONAL APPOINTMENTS
+# Professional Appointments
 - *2025.10 - current*, Postdoctoral Associate, *Johns Hopkins University* 
 
 # Educations
