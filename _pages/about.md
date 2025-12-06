@@ -16,7 +16,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Postdoctoral Researcher in Biomedical Engineering at Johns Hopkins University, working with Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/). I received my Ph.D. in Biomedical Engineering from Johns Hopkins University in 2025, my M.S. in Biomedical Engineering from Johns Hopkins in 2021, and my B.S. in Pharmacy from Sichuan University in 2019. My doctoral research focuses on the design and optimization of lipid nanoparticles (LNPs) with tailored compositions for gene therapy and mRNA vaccine delivery. Through this work, I aim to advance next-generation nanomedicine platforms that can improve therapeutic efficacy and immunogenic precision. I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [Forbes 30 Under 30 – Science](https://www.forbes.com/profile/yining-zhu/) (U.S., 2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
+I am a Postdoctoral Researcher in Biomedical Engineering at Duke University, working in the laboratory of Dr. [John W. Hickey](https://sites.google.com/view/john-w-hickey/home), where I began my postdoctoral training in February 2026. Prior to this, I conducted postdoctoral research at Johns Hopkins University with Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/), following my doctoral training. I received my Ph.D. in Biomedical Engineering from Johns Hopkins University in 2025, after completing an M.S. in Biomedical Engineering (2021), and earned my B.S. in Pharmacy from Sichuan University in 2019.
+My doctoral and early postdoctoral research centered on the design and optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine delivery. In my current postdoctoral work, I am pivoting toward spatial proteomics and systems immunology to investigate aging-associated determinants of immunotherapy and mRNA vaccine responses, with an emphasis on tissue-level immune organization and functional heterogeneity. Through this work, I aim to integrate biomaterials engineering with spatially resolved immune profiling to enable age-adaptive immunotherapeutic strategies.
+I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [Forbes 30 Under 30 – Science](https://www.forbes.com/profile/yining-zhu/) (U.S., 2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
 
 
 # Selected Publications 
@@ -148,7 +150,8 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
 # Professional Appointments
-- *2025.10 - current*, Postdoctoral Associate, *Johns Hopkins University* 
+- *2026.02 - current*, Postdoctoral Associate, *Duke University* 
+- *2025.10 - 2026.01*, Postdoctoral Associate, *Johns Hopkins University* 
 
 # Educations
 <ul>

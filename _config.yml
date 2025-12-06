@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yining Zhu, Ph.D."
-description              : "Biomedical Engineering, School of Medicine at JHU"
+description              : "Biomedical Engineering, Duke University"
 repository               : "ynzhuJHU/ynzhuJHU.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Yining Zhu, Ph.D."
   avatar           : "images/android-chrome-512x512.png"
   bio              : 
-  location         : "Baltimore, MD"
+  location         : "Durham, NC"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl"
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : "yining-zhu-0b3b4816a"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0000-0002-7178-0097"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
