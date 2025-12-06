@@ -51,19 +51,20 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines. 
 </div>
 
+
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Biomedical Engineering 2024</div><img src='images/FigureScreening.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930)
+[Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity](https://www.nature.com/articles/s41551-023-01131-0)
 
-**Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
+**Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-<img src="https://img.shields.io/badge/13%20citations-blue?style=flat" alt="13 citations" />
+[**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/76%20citations-blue?style=flat" alt="76 citations" /></strong>
 
-- Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
+- Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
 </div>
-
 
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Chemical Engineering 2024</div><img src='images/Viscosity.png' alt="sym" width="100%"></div></div>
@@ -80,18 +81,18 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 
 </div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Biomedical Engineering 2023</div><img src='images/FigureScreening.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Biomaterials 2024</div><img src='images/Oral.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity](https://www.nature.com/articles/s41551-023-01131-0)
+[Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930)
 
-**Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
+**Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
 
-[**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/76%20citations-blue?style=flat" alt="76 citations" /></strong>
+<img src="https://img.shields.io/badge/13%20citations-blue?style=flat" alt="13 citations" />
 
-- Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
+- Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
 </div>
+
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2022</div><img src='images/Figuremultistep.png' alt="sym" width="100%"></div></div>
