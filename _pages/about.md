@@ -26,7 +26,7 @@ I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/john
 # Selected Publications 
 
 <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-1292%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
+  <img src="https://img.shields.io/badge/Google%20Scholar-1305%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
 </a>
 
 
