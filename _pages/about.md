@@ -74,7 +74,7 @@ I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/john
 
 Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
 
-[News](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" />
+[News](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" /><strong>
 
 - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines. 
 </div>
