@@ -280,41 +280,4 @@ p {
   font-weight: 400 !important;
 }
 
-/* ===== Fix paper-box layout so left figure actually uses the space ===== */
-.paper-box {
-  display: grid !important;
-  grid-template-columns: 46% 54% !important;
-  column-gap: 2.0rem !important;
-  align-items: start !important;
-}
-
-/* Force the LEFT column wrappers to expand (your HTML has nested divs) */
-.paper-box-image,
-.paper-box-image > div,
-.paper-box-image > div > div {
-  width: 100% !important;
-  max-width: none !important;
-}
-
-/* Make the image itself fill the column */
-.paper-box-image img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  display: block !important;
-}
-
-/* Prevent weird shrinking from theme flex rules */
-.paper-box-image {
-  flex: none !important;
-}
-
-/* Mobile: stack cleanly */
-@media (max-width: 900px) {
-  .paper-box {
-    grid-template-columns: 1fr !important;
-    row-gap: 1.2rem !important;
-  }
-}
-
 </style>
