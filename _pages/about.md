@@ -232,13 +232,13 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 <hr style="margin: 70px 0 40px 0;">
 
-<img src="/images/jhu2.png"
-     alt="Johns Hopkins University campus"
-     style="
-       width:100%;
-       height:auto;
-       border-radius:16px;
-       margin-top:20px;
-     ">
+<div class="footer-hero">
+  <img src="/images/jhu2.png" alt="Campus closing banner">
+
+  <div class="footer-overlay-text">
+    Engineering the future of medicine
+  </div>
+</div>
+
 
 

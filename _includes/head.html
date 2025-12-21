@@ -331,4 +331,48 @@ p {
   }
 }
 
+
+
+/* ===== Footer hero banner with closing statement ===== */
+.footer-hero {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.footer-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Left-top overlay text */
+.footer-overlay-text {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 70%;
+  line-height: 1.3;
+
+  /* subtle contrast enhancement */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Mobile refinement */
+@media (max-width: 768px) {
+  .footer-overlay-text {
+    font-size: 1.0rem;
+    top: 16px;
+    left: 16px;
+    max-width: 85%;
+  }
+}
+
 </style>
