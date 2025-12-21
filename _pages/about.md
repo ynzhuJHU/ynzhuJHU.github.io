@@ -20,9 +20,12 @@ redirect_from:
   <img src="/images/jhu.png" alt="Campus banner">
 
   <div class="hero-overlay-text">
-    <span>Spatial proteomics</span>
-    <span>Biomaterials</span>
     <span>Immunoengineering</span>
+    <span>Gene Therapy</span>
+    <span>Biomaterials</span>
+    <span>Spatial Proteomics</span>
+    
+    
   </div>
 </div>
 
