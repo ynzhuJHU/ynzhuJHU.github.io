@@ -280,5 +280,23 @@ p {
   font-weight: 400 !important;
 }
 
+/* === Publication layout: give more space to figures === */
+.paper-box {
+  display: grid;
+  grid-template-columns: 46% 54%;   /* image | text */
+  column-gap: 2.2rem;               /* space between image & text */
+  align-items: start;
+}
+
+/* Ensure images scale nicely */
+.paper-box-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Slightly relax text block width */
+.paper-box-text {
+  max-width: 100%;
+}
 
 </style>
