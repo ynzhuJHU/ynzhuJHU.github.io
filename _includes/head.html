@@ -129,6 +129,29 @@ a img[alt*="Google Scholar"] {
   margin-top: 0.1rem;
 }
 
+/* Justified body text */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Publication text block */
+.paper-box-text {
+  text-align: justify;
+}
+
+/* Publication titles should NOT be justified */
+.paper-box-text > p > a,
+.paper-box-text > a {
+  text-align: left;
+  display: inline-block;
+}
+
+/* Bullet points should NOT be justified */
+.paper-box-text ul,
+.paper-box-text li {
+  text-align: left;
+}
 
 
 </style>
