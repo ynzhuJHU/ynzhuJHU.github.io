@@ -33,7 +33,7 @@ redirect_from:
        ">
 </div>
 
-
+<div class="intro-text">
 
 I am a Postdoctoral Researcher in Biomedical Engineering at Duke University, working in the laboratory of Dr. [John W. Hickey](https://sites.google.com/view/john-w-hickey/home), where I began my postdoctoral training in February 2026. Prior to this, I conducted postdoctoral research at Johns Hopkins University with Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/), following my doctoral training. I received my Ph.D. in Biomedical Engineering from Johns Hopkins University in 2025, after completing an M.S. in Biomedical Engineering (2021), and earned my B.S. in Pharmacy from Sichuan University in 2019.
 
@@ -41,6 +41,7 @@ My doctoral and early postdoctoral research centered on the design and optimizat
 
 I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [Forbes 30 Under 30 – Science, U.S.](https://www.forbes.com/profile/yining-zhu/) (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
 
+</div>
 
 # Selected Publications 
 
