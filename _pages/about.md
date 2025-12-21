@@ -16,6 +16,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<img src="/images/jhu.jpg"
+     alt="JHU University campus"
+     style="width:100%; max-height:360px; object-fit:cover; border-radius:12px; margin-bottom:30px;">
+
 I am a Postdoctoral Researcher in Biomedical Engineering at Duke University, working in the laboratory of Dr. [John W. Hickey](https://sites.google.com/view/john-w-hickey/home), where I began my postdoctoral training in February 2026. Prior to this, I conducted postdoctoral research at Johns Hopkins University with Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/), following my doctoral training. I received my Ph.D. in Biomedical Engineering from Johns Hopkins University in 2025, after completing an M.S. in Biomedical Engineering (2021), and earned my B.S. in Pharmacy from Sichuan University in 2019.
 
 My doctoral and early postdoctoral research centered on the design and optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine delivery. In my current postdoctoral work, I am pivoting toward spatial proteomics and systems immunology to investigate aging-associated determinants of immunotherapy and mRNA vaccine responses, with an emphasis on tissue-level immune organization and functional heterogeneity. Through this work, I aim to integrate biomaterials engineering with spatially resolved immune profiling to enable age-adaptive immunotherapeutic strategies.
