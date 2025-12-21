@@ -236,7 +236,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
   <img src="/images/jhu2.png" alt="Campus closing banner">
 
   <div class="footer-overlay-text">
-    Engineering the future of medicine
+    Engineering the Future of Medicine.
   </div>
 </div>
 
