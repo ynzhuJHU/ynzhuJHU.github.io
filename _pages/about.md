@@ -36,7 +36,7 @@ I am a Postdoctoral Researcher in Biomedical Engineering at Duke University, wor
 
 My doctoral and early postdoctoral research centered on the design and optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine delivery. In my current postdoctoral work, I am pivoting toward spatial proteomics and systems immunology to investigate aging-associated determinants of immunotherapy and mRNA vaccine responses, with an emphasis on tissue-level immune organization and functional heterogeneity. Through this work, I aim to integrate biomaterials engineering with spatially resolved immune profiling to enable age-adaptive immunotherapeutic strategies.
 
-I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [Forbes 30 Under 30 – Science, U.S.](https://www.forbes.com/profile/yining-zhu/) (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
+I have been recognized as a [**Siebel Scholar**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [**Forbes 30 Under 30 – Science, U.S.**](https://www.forbes.com/profile/yining-zhu/) (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
 
 </div>
 
