@@ -147,10 +147,14 @@ p {
   display: inline-block;
 }
 
-/* Bullet points should NOT be justified */
-.paper-box-text ul,
+/* Bullet points: justify text, keep bullets aligned */
+.paper-box-text ul {
+  padding-left: 1.2em;
+}
+
 .paper-box-text li {
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 
