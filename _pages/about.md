@@ -70,7 +70,7 @@ I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/john
 
 Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
 
-[**News**](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" />
+[News](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" />
 
 - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines. 
 </div>
@@ -85,7 +85,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[**News**](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/81%20citations-blue?style=flat" alt="81 citations" /></strong>
+[News](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/81%20citations-blue?style=flat" alt="81 citations" /></strong>
 
 - Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
 </div>
@@ -98,7 +98,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 
 Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
 
-[**News**](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/5%20citations-blue?style=flat" alt="5 citations" /></strong>
+[News](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/5%20citations-blue?style=flat" alt="5 citations" /></strong>
 
 - Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types. 
 </div>
@@ -126,7 +126,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[**News**](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/127%20citations-blue?style=flat" alt="127 citations" /></strong>
+[News](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/127%20citations-blue?style=flat" alt="127 citations" /></strong>
 
 - Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression. 
 </div>
@@ -139,7 +139,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
 
-[**News**](https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/31%20citations-blue?style=flat" alt="31 citations" /></strong>
+[News](https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/31%20citations-blue?style=flat" alt="31 citations" /></strong>
 
 - Polyelectrolyte complex particles assembled from plasmid DNA (pDNA) and poly(ethylenimine) (PEI) have been widely used to produce lentiviral vectors (LVVs) for gene therapy. The current batch-mode preparation for pDNA/PEI particles presents limited reproducibility in large-scale LVV manufacturing processes, leading to challenges in tightly controlling particle stability, transfection outcomes, and LVV production yield. In this paper, we identified the size of pDNA/PEI particles as a key determinant for a high transfection efficiency with an optimal size of 400–500 nm, due to a cellular-uptake-related mechanism. 
 </div>
