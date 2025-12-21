@@ -18,7 +18,7 @@ redirect_from:
 
 <div style="
   width:100%;
-  height:250px;
+  height:300px;
   overflow:hidden;
   border-radius:12px;
   margin-bottom:30px;
