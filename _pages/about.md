@@ -228,22 +228,15 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 
 
-<hr style="margin: 60px 0 30px 0;">
+<hr style="margin: 70px 0 40px 0;">
 
-<div style="
-  width:100%;
-  height:520px;
-  overflow:hidden;
-  border-radius:16px;
-  margin-top:20px;
-">
-  <img src="/images/jhu-banner.jpg"
-       alt="Johns Hopkins University campus"
-       style="
-         width:100%;
-         height:100%;
-         object-fit:cover;
-         object-position: center 45%;
-       ">
-</div>
+<img src="/images/jhu2.png"
+     alt="Johns Hopkins University campus"
+     style="
+       width:100%;
+       height:auto;
+       border-radius:16px;
+       margin-top:20px;
+     ">
+
 
