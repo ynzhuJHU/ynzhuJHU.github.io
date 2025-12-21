@@ -78,7 +78,7 @@ a:hover {
 
 /* Paragraph rhythm */
 p {
-  margin-bottom: 1.15em;
+  margin-bottom: 1.0em;
 }
 
 /* Lists */
@@ -93,7 +93,7 @@ h1, h2 {
 
 /* Publication boxes spacing */
 .paper-box {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Education & custom lists */
@@ -140,12 +140,20 @@ p {
   text-align: justify;
 }
 
-/* Publication titles should NOT be justified */
-.paper-box-text > p > a,
-.paper-box-text > a {
-  text-align: left;
-  display: inline-block;
+/* Publication titles: justified, elegant */
+.paper-box-text p:first-of-type > a {
+  display: block;                 /* needed for justification */
+  text-align: justify;
+  text-justify: inter-word;
+
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.18rem;             /* refined size */
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: #0f2a44;                 /* refined navy */
 }
+
 
 /* Bullet points: justify text, keep bullets aligned */
 .paper-box-text ul {
