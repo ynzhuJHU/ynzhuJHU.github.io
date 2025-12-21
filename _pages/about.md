@@ -224,3 +224,23 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2024*, [American Society of Gene & Cell Therapy Annual Meeting](https://www.asgct.org/). *A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.*
 - *2023*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
 - *2022*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*
+
+
+<hr style="margin: 60px 0 30px 0;">
+
+<div style="
+  width:100%;
+  height:260px;
+  overflow:hidden;
+  border-radius:14px;
+  margin-top:20px;
+">
+  <img src="/images/jhu-banner.jpg"
+       alt="Johns Hopkins University campus"
+       style="
+         width:100%;
+         height:100%;
+         object-fit:cover;
+         object-position: center 45%;
+       ">
+</div>
