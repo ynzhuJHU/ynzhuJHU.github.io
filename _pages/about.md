@@ -18,7 +18,7 @@ redirect_from:
 
 <div style="
   width:100%;
-  height:170px;
+  height:210px;
   overflow:hidden;
   border-radius:12px;
   margin-bottom:30px;
@@ -32,6 +32,7 @@ redirect_from:
          object-position: center 35%;
        ">
 </div>
+
 
 
 I am a Postdoctoral Researcher in Biomedical Engineering at Duke University, working in the laboratory of Dr. [John W. Hickey](https://sites.google.com/view/john-w-hickey/home), where I began my postdoctoral training in February 2026. Prior to this, I conducted postdoctoral research at Johns Hopkins University with Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/), following my doctoral training. I received my Ph.D. in Biomedical Engineering from Johns Hopkins University in 2025, after completing an M.S. in Biomedical Engineering (2021), and earned my B.S. in Pharmacy from Sichuan University in 2019.
