@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<img src="/images/jhu.jpg"
+<img src="/images/jhu.png"
      alt="Johns Hopkins University campus"
      style="
        width:100%;
