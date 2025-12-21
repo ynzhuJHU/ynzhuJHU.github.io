@@ -227,13 +227,14 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2022*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*
 
 
+
 <hr style="margin: 60px 0 30px 0;">
 
 <div style="
   width:100%;
-  height:260px;
+  height:520px;
   overflow:hidden;
-  border-radius:14px;
+  border-radius:16px;
   margin-top:20px;
 ">
   <img src="/images/jhu-banner.jpg"
@@ -245,3 +246,4 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
          object-position: center 45%;
        ">
 </div>
+
