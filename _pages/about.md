@@ -16,22 +16,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div style="
-  width:100%;
-  height:300px;
-  overflow:hidden;
-  border-radius:12px;
-  margin-bottom:30px;
-">
-  <img src="/images/jhu.png"
-       alt="Johns Hopkins University campus"
-       style="
-         width:100%;
-         height:100%;
-         object-fit:cover;
-         object-position: center 35%;
-       ">
+<div class="hero-banner">
+  <img src="/images/jhu.png" alt="Campus banner">
+
+  <div class="hero-overlay-text">
+    <span>Spatial proteomics</span>
+    <span>Biomaterials</span>
+    <span>Immunoengineering</span>
+  </div>
 </div>
+
 
 <div class="intro-text" markdown="1">
 
