@@ -18,18 +18,18 @@ redirect_from:
 
 <div style="
   width:100%;
-  height:200px;
+  height:180px;
   overflow:hidden;
   border-radius:12px;
   margin-bottom:30px;
 ">
-  <img src="/images/jhu.png"
+  <img src="/images/jhu-banner.jpg"
        alt="Johns Hopkins University campus"
        style="
          width:100%;
          height:100%;
          object-fit:cover;
-         object-position:center;
+         object-position: center 40%;
        ">
 </div>
 
