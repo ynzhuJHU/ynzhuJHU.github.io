@@ -43,11 +43,15 @@ I have been recognized as a [Siebel Scholar](https://hub.jhu.edu/2025/10/13/john
 
 </div>
 
-# Selected Publications 
+<div class="pub-header">
+  <h2>Selected Publications</h2>
 
-<a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-1305%20citations-blue?logo=google-scholar" alt="Google Scholar Citations"/>
-</a>
+  <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
+    <img src="https://img.shields.io/badge/Google%20Scholar-1305%20citations-blue?logo=google-scholar"
+         alt="Google Scholar Citations">
+  </a>
+</div>
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
