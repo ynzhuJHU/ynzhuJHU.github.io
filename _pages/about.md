@@ -258,18 +258,18 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 # Professional Appointments
 
-<div class="appointments-row">
+<div class="appt-wrap">
 
-  <div class="appointments-text">
+  <div class="appt-left">
     <ul>
       <li><em>2026.02 – current</em>, Postdoctoral Associate, <strong>Duke University</strong></li>
       <li><em>2025.10 – 2026.01</em>, Postdoctoral Associate, <strong>Johns Hopkins University</strong></li>
     </ul>
   </div>
 
-  <div class="appointments-logos">
-    <img src="/images/duke.png" alt="Duke University">
-    <img src="/images/JHU engineering logo.png" alt="Johns Hopkins Engineering">
+  <div class="appt-right">
+    <img src="/images/duke.jpeg" alt="Duke University logo">
+    <img src="/images/JHU engineering logo.png" alt="Johns Hopkins University Engineering logo">
   </div>
 
 </div>
