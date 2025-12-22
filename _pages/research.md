@@ -123,6 +123,37 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 •	Y Zhu, Y Hu, H Mao. Methods for preparation of shelf-stable plasmid DNA/polycation particles with defined sizes for cell transfection. PCT/US2022, 18/261,944; Filed 7/18/2023.
 
+<div class="talk-gallery">
+  <h2>Conference Talk Moments</h2>
+
+  <div class="gallery-grid">
+
+    <figure class="gallery-figure">
+      <div class="gallery-item">
+        <img src="/images/2024 ASGCT.JPG" alt="Yining presenting at ASGCT 2024">
+      </div>
+      <figcaption class="gallery-caption">ASGCT 2024</figcaption>
+    </figure>
+
+    <figure class="gallery-figure">
+      <div class="gallery-item">
+        <img src="/images/2022 SFB.JPG" alt="Yining presenting at SFB 2022">
+      </div>
+      <figcaption class="gallery-caption">Society for Biomaterials 2022</figcaption>
+    </figure>
+
+    <figure class="gallery-figure">
+      <div class="gallery-item">
+        <img src="/images/2023 SFB.JPG" alt="Yining receiving STAR award at SFB 2023">
+      </div>
+      <figcaption class="gallery-caption">Society for Biomaterials 2023 (STAR)</figcaption>
+    </figure>
+
+  </div>
+</div>
+
+
+
 <hr style="margin: 70px 0 40px 0;">
 
 <div class="footer-hero">
