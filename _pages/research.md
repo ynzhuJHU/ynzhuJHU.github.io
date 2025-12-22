@@ -185,7 +185,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
     <figure class="gallery-figure">
       <div class="gallery-item">
-        <img src="/images/2023 SFB.JPG" alt="Yining receiving STAR award at SFB 2023">
+        <img src="/images/2023 SFB.png" alt="Yining receiving STAR award at SFB 2023">
       </div>
       <figcaption class="gallery-caption">Society for Biomaterials 2023 (STAR)</figcaption>
     </figure>
