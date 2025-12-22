@@ -71,10 +71,36 @@ layout: single
     border-radius: 12px;    /* optional */
     display: block;
   }
+
+.hero-image {
+  position: relative;   /* 👈 required for absolute positioning */
+}
+
+.hero-text {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  z-index: 2;
+
+  /* subtle readability boost */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+
+
 </style>
 
-<div class="center">
+<div class="center hero-image">
   <img src="images/duke.jpg" alt="Centered Image">
+
+  <div class="hero-text">
+    Improving Human Health Through Innovation
+  </div>
 </div>
 
 
