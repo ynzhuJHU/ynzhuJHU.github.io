@@ -15,7 +15,7 @@ layout: single
 
   .center img {
     max-width: 100%;
-    width: 900px;           /* pick a nice default size */
+    width: 1200px;           /* pick a nice default size */
     height: auto;
     border-radius: 12px;    /* optional */
     display: block;
