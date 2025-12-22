@@ -10,16 +10,21 @@ layout: single
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh; /* You can adjust this if needed */
+    margin: 24px 0 28px 0;   /* space above/below the image */
+  }
+
+  .center img {
+    max-width: 100%;
+    width: 900px;           /* pick a nice default size */
+    height: auto;
+    border-radius: 12px;    /* optional */
+    display: block;
   }
 </style>
-
 
 <div class="center">
   <img src="images/duke.jpg" alt="Centered Image">
 </div>
-
-<br> <!-- Add space here -->
 
 
 
