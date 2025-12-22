@@ -39,7 +39,7 @@ High-dimensional spatial profiling of immune organization and function to guide 
 
 ## Selected Highlights
 
-- Publications in *Nature Communications, Nature Biomedical Engineering, Science Advances,* and *Nature Chemical Engineering*
+- Publications in *Nature Biomedical Engineering, Nature Chemical Engineering, Science Advances,* and *Nature Communications*
 - Developer of high-throughput **in vivo LNP screening platforms** for gene and mRNA delivery
 - Recipient of **Siebel Scholar (2025)** and **Forbes 30 Under 30 – Science (2026)**
 
