@@ -37,9 +37,16 @@ redirect_from:
     </div>
     <p>
       I am a Postdoctoral Researcher in Biomedical Engineering at Duke University,
-      working in the laboratory of Dr. [John W. Hickey](https://sites.google.com/view/john-w-hickey/home) from February 2026. Prior to
-      this, I conducted postdoctoral research at Johns Hopkins University with
-      Dr. [Hai-Quan Mao](https://maogroup.jhu.edu/), following my doctoral training.
+      working in the laboratory of
+      <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
+        Dr. John W. Hickey
+      </a>
+      from February 2026. Prior to this, I conducted postdoctoral research at
+      Johns Hopkins University with
+      <a href="https://maogroup.jhu.edu/" target="_blank">
+        Dr. Hai-Quan Mao
+      </a>,
+      following my doctoral training.
     </p>
   </div>
 
@@ -60,12 +67,20 @@ redirect_from:
       <img src="/images/Recognition.png" alt="Recognition">
     </div>
     <p>
-      I have been recognized as a [**Siebel Scholar**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) (2025) and named to [**Forbes 30 Under 30 – Science, U.S.**](https://www.forbes.com/profile/yining-zhu/) (2026) for contributions to nanoparticle-enabled
-      gene delivery and immunoengineering.
+      I have been recognized as a
+      <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
+        <strong>Siebel Scholar</strong>
+      </a>
+      (2025) and named to
+      <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
+        <strong>Forbes 30 Under 30 – Science, U.S.</strong>
+      </a>
+      (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
     </p>
   </div>
 
 </div>
+
 
 
 <div class="pub-header">
