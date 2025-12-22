@@ -23,13 +23,22 @@ layout: single
     gap: 20px;
   }
 
-  .gallery-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    display: block;
-  }
+  .gallery-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* 👈 forces same height for all */
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* 👈 crops intelligently */
+  display: block;
+}
+
 
   .gallery-caption {
     margin-top: 10px;
