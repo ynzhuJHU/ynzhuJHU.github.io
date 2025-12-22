@@ -350,12 +350,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 /* JHMI is wide → make it taller */
 .education-logos img[alt*="Hopkins"] {
-  height: 100px;
+  height: 150px;
 }
 
 /* SCU is circular → must be smaller */
 .education-logos img[alt*="Sichuan"] {
-  height: 82px;
+  height: 123px;
 }
 
 </style>
