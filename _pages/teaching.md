@@ -82,8 +82,8 @@ layout: single
   left: 22px;
   color: white;
   font-family: Georgia, serif;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 800;
   letter-spacing: 0.5px;
   z-index: 2;
 
@@ -99,7 +99,7 @@ layout: single
   <img src="images/duke.jpg" alt="Centered Image">
 
   <div class="hero-text">
-    Improving Human Health Through Innovation
+    Improving Human Health Through Innovation.
   </div>
 </div>
 
