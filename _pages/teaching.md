@@ -4,6 +4,48 @@ title: "Teaching"
 author_profile: false
 layout: single
 ---
+<style>
+  .teaching-gallery {
+    margin: 48px auto 64px auto;
+    max-width: 1200px;
+  }
+
+  .teaching-gallery h2 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-family: Georgia, serif;
+    font-weight: 500;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    display: block;
+  }
+
+  .gallery-caption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    font-family: Georgia, serif;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 900px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
 <style>
   .center {
@@ -62,6 +104,39 @@ Provided insightful explanations and practical demonstrations during classes. He
 
 <div class="center">
   <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Y Han </p>
+</div>
+
+<div class="teaching-gallery">
+
+  <h2>Mentorship & Teaching in Practice</h2>
+
+  <div class="gallery-grid">
+
+    <div class="gallery-item">
+      <img src="/images/Yining with undergrad and master team.JPG"
+           alt="Yining Zhu with undergraduate and master students">
+      <div class="gallery-caption">
+        Mentoring undergraduate and master’s students
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="/images/Yining with lab.JPG"
+           alt="Yining Zhu with lab members">
+      <div class="gallery-caption">
+        Lab mentorship and collaborative research
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="/images/Yining with lab.png"
+           alt="Yining Zhu with research group at Johns Hopkins">
+      <div class="gallery-caption">
+        Teaching and research training in the lab
+      </div>
+    </div>
+
+  </div>
 </div>
 
 
