@@ -119,34 +119,38 @@ Provided insightful explanations and practical demonstrations during classes. He
 
   <h2>Mentorship & Teaching in Practice</h2>
 
+  <div class="teaching-gallery">
+  <h2>Mentorship & Teaching in Practice</h2>
+
   <div class="gallery-grid">
 
-    <div class="gallery-item">
-      <img src="/images/Yining with undergrad and master team.JPG"
-           alt="Yining Zhu with undergraduate and master students">
-      <div class="gallery-caption">
-        Mentoring undergraduate and master’s students
+    <div class="gallery-card">
+      <div class="gallery-item">
+        <img src="/images/Yining with undergrad and master team.JPG"
+             alt="Yining Zhu with undergraduate and master students">
       </div>
+      <div class="gallery-caption">Mentoring undergraduate and master’s students</div>
     </div>
 
-    <div class="gallery-item">
-      <img src="/images/Yining with lab.JPG"
-           alt="Yining Zhu with lab members">
-      <div class="gallery-caption">
-        Lab mentorship and collaborative research
+    <div class="gallery-card">
+      <div class="gallery-item">
+        <img src="/images/Yining with lab.JPG"
+             alt="Yining Zhu with lab members">
       </div>
+      <div class="gallery-caption">Lab mentorship and collaborative research</div>
     </div>
 
-    <div class="gallery-item">
-      <img src="/images/Yining with lab.png"
-           alt="Yining Zhu with research group at Johns Hopkins">
-      <div class="gallery-caption">
-        Teaching and research training in the lab
+    <div class="gallery-card">
+      <div class="gallery-item">
+        <img src="/images/Yining with lab.png"
+             alt="Yining Zhu with research group at Johns Hopkins">
       </div>
+      <div class="gallery-caption">Teaching and research training in the lab</div>
     </div>
 
   </div>
 </div>
+
 
 
 <hr style="margin: 70px 0 40px 0;">
