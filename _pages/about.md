@@ -310,49 +310,44 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
   }
 }
 
-
-
-
-  .appointments-row {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    align-items: center;
-    gap: 32px;
-    margin-top: 20px;
+  .appt-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 10px;
   }
 
-  .appointments-text ul {
+  .appt-left{
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .appt-left ul{
     margin: 0;
     padding-left: 1.2em;
   }
 
-  .appointments-text li {
-    margin-bottom: 10px;
-  }
-
-  .appointments-logos {
+  .appt-right{
+    flex: 0 0 360px;           /* controls the right column width */
     display: flex;
     justify-content: flex-end;
-    gap: 24px;
     align-items: center;
+    gap: 18px;
   }
 
-  .appointments-logos img {
-    height: 70px;
+  .appt-right img{
+    height: 56px;              /* 👈 main size control */
+    width: auto;
+    max-width: 170px;          /* prevents one logo dominating */
     object-fit: contain;
+    display: block;
   }
 
-  /* Mobile stacking */
-  @media (max-width: 900px) {
-    .appointments-row {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-
-    .appointments-logos {
-      justify-content: center;
-      margin-top: 16px;
-    }
+  /* Mobile: stack nicely */
+  @media (max-width: 900px){
+    .appt-wrap{ flex-direction: column; }
+    .appt-right{ flex: 0 0 auto; justify-content: flex-start; }
   }
 </style>
 
