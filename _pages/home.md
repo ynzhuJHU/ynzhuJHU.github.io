@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-author_profile: false
+author_profile: True
 ---
 
 <div class="hero">
