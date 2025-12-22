@@ -204,43 +204,6 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 </div>
 
-<style>
-
-.awards-wrapper {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin-top: 20px;
-}
-
-.awards-list {
-  flex: 1;
-}
-
-.awards-image {
-  flex: 0 0 320px;
-}
-
-.awards-image img {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
-}
-
-/* Mobile */
-@media (max-width: 900px) {
-  .awards-wrapper {
-    flex-direction: column;
-  }
-
-  .awards-image {
-    margin-top: 24px;
-  }
-}
-
-<style>
-
 
 # Honors and Awards
 
@@ -296,6 +259,44 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 </div>
 
 <style>
+
+
+.awards-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.awards-list {
+  flex: 1;
+}
+
+.awards-image {
+  flex: 0 0 320px;
+}
+
+.awards-image img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .awards-wrapper {
+    flex-direction: column;
+  }
+
+  .awards-image {
+    margin-top: 24px;
+  }
+}
+
+
+
+
   .appointments-row {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
