@@ -216,8 +216,67 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
 # Professional Appointments
-- *2026.02 - current*, Postdoctoral Associate, *Duke University* 
-- *2025.10 - 2026.01*, Postdoctoral Associate, *Johns Hopkins University* 
+
+<div class="appointments-row">
+
+  <div class="appointments-text">
+    <ul>
+      <li><em>2026.02 – current</em>, Postdoctoral Associate, <strong>Duke University</strong></li>
+      <li><em>2025.10 – 2026.01</em>, Postdoctoral Associate, <strong>Johns Hopkins University</strong></li>
+    </ul>
+  </div>
+
+  <div class="appointments-logos">
+    <img src="/images/duke.jpeg" alt="Duke University">
+    <img src="/images/JHU engineering logo.png" alt="Johns Hopkins Engineering">
+  </div>
+
+</div>
+
+<style>
+  .appointments-row {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 32px;
+    margin-top: 20px;
+  }
+
+  .appointments-text ul {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+
+  .appointments-text li {
+    margin-bottom: 10px;
+  }
+
+  .appointments-logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .appointments-logos img {
+    height: 70px;
+    object-fit: contain;
+  }
+
+  /* Mobile stacking */
+  @media (max-width: 900px) {
+    .appointments-row {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .appointments-logos {
+      justify-content: center;
+      margin-top: 16px;
+    }
+  }
+</style>
+
 
 <style>
 .education-section {
