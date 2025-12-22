@@ -355,7 +355,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 /* SCU is circular → must be smaller */
 .education-logos img[alt*="Sichuan"] {
-  height: 123px;
+  height: 110px;
 }
 
 </style>
