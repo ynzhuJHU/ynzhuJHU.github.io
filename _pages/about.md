@@ -207,29 +207,44 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 # Honors and Awards
 
+
 <div class="awards-wrapper">
 
   <div class="awards-list">
+    <ul>
+      <li>
+        <em>2025.12</em>, <strong>Forbes 30 Under 30 in Science</strong>,
+        <em>Forbes Media</em>
+        <a href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank"><strong>News</strong></a>
+      </li>
 
-- *2025.12*, **Forbes 30 Under 30 in Science**, *Forbes Media*
-  [**News**](https://www.forbes.com/profile/yining-zhu/?list=30under30-science/)
+      <li>
+        <em>2025.09</em>, Siebel Scholar Award,
+        <em>Siebel Foundation</em>
+        <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank"><strong>News</strong></a>
+      </li>
 
-- *2025.09*, Siebel Scholar Award, *Siebel Foundation*
-  [**News**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/)
+      <li>
+        <em>2025.04</em>, Student Travel Achievement Recognition (STAR) Award,
+        <em>Society for Biomaterials</em>
+      </li>
 
-- *2025.04*, Student Travel Achievement Recognition (STAR) Award,
-  *Society for Biomaterials*
+      <li>
+        <em>2024.05</em>, Meritorious Abstract Travel Award,
+        <em>American Society of Gene & Cell Therapy</em>
+      </li>
 
-- *2024.05*, Meritorious Abstract Travel Award,
-  *American Society of Gene & Cell Therapy*
+      <li>
+        <em>2024.04</em>, The Hans J. Prochaska Research Award,
+        <em>Johns Hopkins University</em>
+        <a href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank"><strong>News</strong></a>
+      </li>
 
-- *2024.04*, The Hans J. Prochaska Research Award,
-  *Johns Hopkins University*
-  [**News**](https://hopkinsyidp.org/people/yining-zhu/)
-
-- *2023.04*, Student Travel Achievement Recognition (STAR) Award,
-  *Society for Biomaterials*
-
+      <li>
+        <em>2023.04</em>, Student Travel Achievement Recognition (STAR) Award,
+        <em>Society for Biomaterials</em>
+      </li>
+    </ul>
   </div>
 
   <div class="awards-image">
@@ -238,6 +253,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
   </div>
 
 </div>
+
 
 
 # Professional Appointments
