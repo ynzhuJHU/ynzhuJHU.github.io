@@ -219,48 +219,99 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - *2026.02 - current*, Postdoctoral Associate, *Duke University* 
 - *2025.10 - 2026.01*, Postdoctoral Associate, *Johns Hopkins University* 
 
-# Educations
-<ul>
-  <li style="display: block;">
-    <div class="edu-box">
-      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+<style>
+.education-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.edu-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 22px;
+  font-size: 1.05rem;
+}
+
+.edu-icon {
+  color: #4da3ff;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.education-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.education-logos img {
+  max-width: 180px;
+  width: 100%;
+  opacity: 0.85;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .education-section {
+    grid-template-columns: 1fr;
+  }
+
+  .education-logos {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .education-logos img {
+    max-width: 140px;
+  }
+}
+</style>
+
+<h2>Educations</h2>
+
+<div class="education-section">
+
+  <div class="education-text">
+
+    <div class="edu-item">
+      <span class="edu-icon">🎓</span>
       <div>
-        <p style="color: black; margin: 0%; font-weight: 500;">
-          Ph.D., Biomedical Engineering, 2025
-        </p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
-          Johns Hopkins University
-        </p>
+        <strong>Ph.D., Biomedical Engineering, 2025</strong><br>
+        Johns Hopkins University
       </div>
     </div>
-  </li>
-  <li style="display: block;">
-    <div class="edu-box">
-      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+
+    <div class="edu-item">
+      <span class="edu-icon">🎓</span>
       <div>
-        <p style="color: black; margin: 0%; font-weight: 500;">
-          M.S.E., Biomedical Engineering, 2021
-        </p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
-          Johns Hopkins University
-        </p>
+        <strong>M.S.E., Biomedical Engineering, 2021</strong><br>
+        Johns Hopkins University
       </div>
     </div>
-  </li>
-  <li style="display: block;">
-    <div class="edu-box">
-      <img style="width: 15pt; height: 15pt; margin: 5pt;" src="images/svg/a.svg" />
+
+    <div class="edu-item">
+      <span class="edu-icon">🎓</span>
       <div>
-        <p style="color: black; margin: 0%; font-weight: 500;">
-          B.S., Pharmacy, 2019
-        </p>
-        <p style="color: rgba(0,0,0,.6); font-size: 10pt; margin: 0%;">
-          Sichuan University
-        </p>
+        <strong>B.S., Pharmacy, 2019</strong><br>
+        Sichuan University
       </div>
     </div>
-  </li>
-</ul>
+
+  </div>
+
+  <div class="education-logos">
+    <img src="/images/JHMI.png" alt="Johns Hopkins University">
+    <img src="/images/SCU.png" alt="Sichuan University">
+  </div>
+
+</div>
+
 
 
 # Talks
