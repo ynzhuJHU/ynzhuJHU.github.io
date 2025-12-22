@@ -64,3 +64,14 @@ Provided insightful explanations and practical demonstrations during classes. He
   <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Y Han </p>
 </div>
 
+
+<hr style="margin: 70px 0 40px 0;">
+
+<div class="footer-hero">
+  <img src="/images/jhu2.png" alt="Campus closing banner">
+
+  <div class="footer-overlay-text">
+    Engineering the Future of Medicine.
+  </div>
+</div>
+
