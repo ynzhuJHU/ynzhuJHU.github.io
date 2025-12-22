@@ -6,12 +6,53 @@ layout: single
 ---
 
 <style>
+  
   .center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60vh; /* You can adjust this if needed */
   }
+
+
+
+  .gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.gallery-figure{
+  margin:0;
+}
+
+.gallery-item{
+  width:100%;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  border-radius:14px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+.gallery-item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.gallery-caption{
+  margin-top:10px;
+  text-align:center;
+  font-size:0.9rem;
+  color:#555;
+  font-family:Georgia, serif;
+}
+
+@media (max-width: 900px){
+  .gallery-grid{ grid-template-columns:1fr; }
+}
+
 </style>
 
 
