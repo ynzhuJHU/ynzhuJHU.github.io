@@ -334,9 +334,33 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
     max-width: 140px;
   }
 }
+
+.education-logos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 36px;
+  margin-top: 24px;
+}
+
+.education-logos img {
+  object-fit: contain;
+  display: block;
+}
+
+/* JHMI is wide → make it taller */
+.education-logos img[alt*="Hopkins"] {
+  height: 70px;
+}
+
+/* SCU is circular → must be smaller */
+.education-logos img[alt*="Sichuan"] {
+  height: 58px;
+}
+
 </style>
 
-<h2>Educations</h2>
+# Educations
 
 <div class="education-section">
 
