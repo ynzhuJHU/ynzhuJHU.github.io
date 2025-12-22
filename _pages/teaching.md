@@ -16,7 +16,7 @@ layout: single
 
 
 <div class="center">
-  <img src="images/teaching2.png" alt="Centered Image">
+  <img src="images/duke.jpg" alt="Centered Image">
 </div>
 
 <br> <!-- Add space here -->
