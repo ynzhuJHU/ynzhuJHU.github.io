@@ -115,9 +115,7 @@ Provided insightful explanations and practical demonstrations during classes. He
   <p>A teacher is a person who passes down the Dao, imparts professional knowledge and resolves doubt. - Y Han </p>
 </div>
 
-<div class="teaching-gallery">
 
-  <h2>Mentorship & Teaching in Practice</h2>
 
   <div class="teaching-gallery">
   <h2>Mentorship & Teaching in Practice</h2>
