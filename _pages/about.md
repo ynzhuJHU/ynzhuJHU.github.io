@@ -202,18 +202,80 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 - To date, cancer phototherapy remains as an unsatisfactory method of cancer treatment due to the high probability of cancer recurrence - an effect that is partly driven by tumor-driven immunosuppression. Therefore, we propose inducing adequate immune responses after photo tumor ablation may be critical to achieve a long term therapeutic effect of phototherapy. Here, we engineered the photosensitizer chlorin e6 (Ce6) and the time-honored immunoadjuvant aluminum hydroxide into bovine serum albumin by albumin-based biomineralization as a novel nanosystem (Al-BSA-Ce6 NPs) for photoimmune therapy. 
 </div>
 
+</div>
+
+<style>
+
+.awards-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.awards-list {
+  flex: 1;
+}
+
+.awards-image {
+  flex: 0 0 320px;
+}
+
+.awards-image img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .awards-wrapper {
+    flex-direction: column;
+  }
+
+  .awards-image {
+    margin-top: 24px;
+  }
+}
+
+<style>
 
 
+# Honors and Awards
+
+<div class="awards-wrapper">
+
+  <div class="awards-list">
+
+- *2025.12*, **Forbes 30 Under 30 in Science**, *Forbes Media*
+  [**News**](https://www.forbes.com/profile/yining-zhu/?list=30under30-science/)
+
+- *2025.09*, Siebel Scholar Award, *Siebel Foundation*
+  [**News**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/)
+
+- *2025.04*, Student Travel Achievement Recognition (STAR) Award,
+  *Society for Biomaterials*
+
+- *2024.05*, Meritorious Abstract Travel Award,
+  *American Society of Gene & Cell Therapy*
+
+- *2024.04*, The Hans J. Prochaska Research Award,
+  *Johns Hopkins University*
+  [**News**](https://hopkinsyidp.org/people/yining-zhu/)
+
+- *2023.04*, Student Travel Achievement Recognition (STAR) Award,
+  *Society for Biomaterials*
+
+  </div>
+
+  <div class="awards-image">
+    <img src="/images/Forbes Science.jpg"
+         alt="Forbes 30 Under 30 Science">
+  </div>
 
 </div>
 
-# Honors and Awards
-- *2025.12*, Forbes 30 Under 30 in Science, *Forbes Media* [**News**](https://www.forbes.com/profile/yining-zhu/?list=30under30-science/) &nbsp;&nbsp;
-- *2025.09*, Siebel Scholar Award, *Siebel Foundation* [**News**](https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/) &nbsp;&nbsp;
-- *2025.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
-- *2024.05*, Meritorious Abstract Travel Award, *American Society of Gene & Cell Therapy*
-- *2024.04*, The Hans J. Prochaska Research Award, *Johns Hopkins University* [**News**](https://hopkinsyidp.org/people/yining-zhu/) &nbsp;&nbsp;
-- *2023.04*, Student Travel Achievement Recognition (STAR) Award, *Society for Biomaterials*
 
 # Professional Appointments
 
@@ -279,6 +341,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 
 <style>
+  
 .education-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
