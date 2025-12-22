@@ -268,7 +268,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
   </div>
 
   <div class="appt-right">
-    <img src="/images/duke.jpeg" alt="Duke University logo">
+    <img src="/images/duke.png" alt="Duke University logo">
     <img src="/images/JHU engineering logo.png" alt="Johns Hopkins University Engineering logo">
   </div>
 
