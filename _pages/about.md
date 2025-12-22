@@ -244,16 +244,20 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 .education-logos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;        /* 👈 same row */
+  justify-content: center;
   align-items: center;
-  gap: 28px;
+  gap: 40px;                  /* space between JHU and SCU */
 }
 
+
 .education-logos img {
-  max-width: 180px;
+  max-width: 160px;
   width: 100%;
+  height: auto;
   opacity: 0.85;
 }
+
 
 /* Mobile */
 @media (max-width: 900px) {
