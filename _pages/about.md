@@ -219,29 +219,29 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
       </li>
 
       <li>
-        <em>2025.09</em>, <strong>Siebel Scholar Award<strong>,
+        <em>2025.09</em>, <strong>Siebel Scholar Award</strong>,
         <em>Siebel Foundation</em>
         <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank"><strong>News</strong></a>
       </li>
 
       <li>
-        <em>2025.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award<strong>,
+        <em>2025.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award</strong>,
         <em>Society for Biomaterials</em>
       </li>
 
       <li>
-        <em>2024.05</em>, <strong>Meritorious Abstract Travel Award<strong>,
+        <em>2024.05</em>, <strong>Meritorious Abstract Travel Award</strong>,
         <em>American Society of Gene & Cell Therapy</em>
       </li>
 
       <li>
-        <em>2024.04</em>, <strong>The Hans J. Prochaska Research Award<strong>,
+        <em>2024.04</em>, <strong>The Hans J. Prochaska Research Award</strong>,
         <em>Johns Hopkins University</em>
         <a href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank"><strong>News</strong></a>
       </li>
 
       <li>
-        <em>2023.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award<strong>,
+        <em>2023.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award</strong>,
         <em>Society for Biomaterials</em>
       </li>
     </ul>
