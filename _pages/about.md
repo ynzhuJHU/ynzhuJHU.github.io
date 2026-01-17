@@ -87,7 +87,7 @@ redirect_from:
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    <img src="https://img.shields.io/badge/Google%20Scholar-1352%20citations-blue?logo=google-scholar"
+    <img src="https://img.shields.io/badge/Google%20Scholar-1360%20citations-blue?logo=google-scholar"
          alt="Google Scholar Citations">
   </a>
 </div>
@@ -101,7 +101,7 @@ redirect_from:
 
 **Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
 
-<img src="https://img.shields.io/badge/9%20citations-blue?style=flat" alt="9 citations" />
+<img src="https://img.shields.io/badge/11%20citations-blue?style=flat" alt="11 citations" />
 
 - Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose. 
 </div>
@@ -114,7 +114,7 @@ redirect_from:
 
 Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
 
-[News](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" /><strong>
+[News](https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" /><strong>
 
 - We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell–targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines. 
 </div>
@@ -129,7 +129,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[News](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/81%20citations-blue?style=flat" alt="81 citations" /></strong>
+[News](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/88%20citations-blue?style=flat" alt="88 citations" /></strong>
 
 - Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
 </div>
@@ -142,7 +142,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 
 Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
 
-[News](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/5%20citations-blue?style=flat" alt="5 citations" /></strong>
+[News](https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/7%20citations-blue?style=flat" alt="7 citations" /></strong>
 
 - Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types. 
 </div>
@@ -156,7 +156,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y\***, Cai SS\*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
 
-<img src="https://img.shields.io/badge/13%20citations-blue?style=flat" alt="13 citations" />
+<img src="https://img.shields.io/badge/14%20citations-blue?style=flat" alt="14 citations" />
 
 - Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels. 
 </div>
@@ -170,7 +170,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[News](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/127%20citations-blue?style=flat" alt="127 citations" /></strong>
+[News](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/138%20citations-blue?style=flat" alt="138 citations" /></strong>
 
 - Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression. 
 </div>
@@ -197,7 +197,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
 **Zhu Y\***, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X.
 
-<strong><img src="https://img.shields.io/badge/95%20citations-blue?style=flat" alt="95 citations" /></strong>
+<strong><img src="https://img.shields.io/badge/97%20citations-blue?style=flat" alt="97 citations" /></strong>
 
 - To date, cancer phototherapy remains as an unsatisfactory method of cancer treatment due to the high probability of cancer recurrence - an effect that is partly driven by tumor-driven immunosuppression. Therefore, we propose inducing adequate immune responses after photo tumor ablation may be critical to achieve a long term therapeutic effect of phototherapy. Here, we engineered the photosensitizer chlorin e6 (Ce6) and the time-honored immunoadjuvant aluminum hydroxide into bovine serum albumin by albumin-based biomineralization as a novel nanosystem (Al-BSA-Ce6 NPs) for photoimmune therapy. 
 </div>
