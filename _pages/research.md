@@ -93,7 +93,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 
 
-## Collaborative publications (19): ##
+## Collaborative publications (20): ##
 
 
 • B Torkzaban, **Y Zhu**, C Lopez, JM Alexander, J Ma, Y Sun, KR Maschhoff, et al., J Coller\*. [Use of poly adenosine tail mimetics to enhance mRNA expression from genes associated with haploinsufficiency disorders](https://www.sciencedirect.com/science/article/pii/S2162253125000071). ***Molecular Therapy Nucleic Acids***, 2025.
@@ -117,6 +117,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	S Bai, H Jiang, Y Song, **Y Zhu**, M Qin, C He, G Du, X Sun\*. [Aluminum nanoparticles deliver a dual-epitope peptide for enhanced anti-tumor immunotherapy](https://www.sciencedirect.com/science/article/abs/pii/S0168365922001018?via%3Dihub). ***Journal of Controlled Release***, 2022.
 
 •	X Ke, L Shelton, Y Hu, **Y Zhu**, E Chow, H Tang, JL Santos, HQ Mao\*. [Surface-functionalized PEGylated nanoparticles deliver messenger RNA to pulmonary immune cells](https://pubs.acs.org/doi/10.1021/acsami.0c08268). ***ACS Applied Materials & Interfaces***, 2020.
+
+•	J Choy, S Shannon, Y Zhang, SS Kang, **Y Zhu**, et al., J Schneck\*. [Nanoscale artificial antigen-presenting cells reveal metabolic interventions modulate clonal composition of CD8+ T cells](https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(26)00024-3). ***Cell Biomaterials***, 2026.
 
 •	C Li, X Chen, X Luo, H Wang, **Y Zhu**, G Du, W Chen, Z Chen, X Hao, et al., X Sun\*. [Nanoemulsions target to ectopic lymphoids in inflamed joints to restore immune tolerance in rheumatoid arthritis](https://pubs.acs.org/doi/10.1021/acs.nanolett.0c05110). ***Nano Letters***, 2020.
 
