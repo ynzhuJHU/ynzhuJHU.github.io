@@ -92,7 +92,6 @@ redirect_from:
   </a>
 </div>
 
-</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Chemical Engineering 2026</div><img src='images/crosslink.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
