@@ -92,6 +92,17 @@ redirect_from:
   </a>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Chemical Engineering 2026</div><img src='images/crosslink.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines](https://www.nature.com/articles/s44286-026-00356-5)
+
+Liu X\*, **Zhu Y\***, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ.
+
+<img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" />
+
+- This study reports a post-assembly, reversible crosslinking strategy that enhances lipid nanoparticle (LNP)-mediated MRNA delivery while preserving efficient intracellular release. The resulting crosslinked LNPs enable improved endosomal escape, sustained in vivo expression and robust immune and antitumor responses across multiple clinically relevant LNP platforms.
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
