@@ -105,6 +105,20 @@ Liu X\*, **Zhu Y\***, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y
 </div>
 
 </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Materials Today 2026</div><img src='images/Imidazolium.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response](https://www.sciencedirect.com/science/article/pii/S1369702126001112)
+
+Lin J\*, **Zhu Y\***, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ.
+
+<img src="https://img.shields.io/badge/0%20citations-blue?style=flat" alt="0 citations" />
+
+- Imidazolium LipidBrick® cationic lipid nanoparticles (LNPs) provide a pH-independent platform for nucleic acid delivery. Here, we screened 1,944 formulations and identified candidates that outperform the clinical ionizable benchmark ALC-0315 in multiple cell types. A lead formulation induced comparable antibody responses but ~3-fold stronger antigen-specific T-cell immunity while maintaining low cytotoxicity.
+</div>
+
+
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/LiNx.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
