@@ -77,7 +77,7 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 •	X Liu†, **Y Zhu†**, C Wei, et al., HQ Mao\*. [Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines](https://www.nature.com/articles/s44286-026-00356-5). ***Nature Chemical Engineering***, 2026.
 
-•	J Lin†, **Y Zhu†**, L Cheng, et al., HQ Mao\*. [CImidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response](https://www.sciencedirect.com/science/article/pii/S1369702126001112). ***Materials Today***, 2026.
+•	J Lin†, **Y Zhu†**, L Cheng, et al., HQ Mao\*. [Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response](https://www.sciencedirect.com/science/article/pii/S1369702126001112). ***Materials Today***, 2026.
 
 •	**Y Zhu†**, ZC Y†, S L†, J Ma, C Wei, D Yu, JL Stelzel, et al., HQ Mao\*. [An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy](https://www.nature.com/articles/s41467-025-61299-8). ***Nature Communications***, 2025.
 
