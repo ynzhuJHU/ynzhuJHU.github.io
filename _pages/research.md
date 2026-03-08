@@ -83,11 +83,11 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 
 •	X Lu†, **Y Zhu†**, C Wei, L Cheng, et al., HQ Mao\*. [A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins](https://www.science.org/doi/10.1126/sciadv.ady5579). ***Science Advances***, 2025.
 
+•	**Y Zhu**, J Ma, R Shen, J Lin, S Li, X Lu, JL Stelzel, J Kong, L Cheng, et al., SC Murphy\*, HQ Mao\*. [Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity](https://www.nature.com/articles/s41551-023-01131-0). ***Nature Biomedical Engineering***, 2024.
+
 •	**Y Zhu†**, S Cai†, J Ma, L Cheng, C Wei, A Aggarwal, WH Toh, C Shin, et al., KW Leong\*, HQ Mao\*. [Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery](https://www.sciencedirect.com/science/article/pii/S0142961224000930). ***Biomaterials***, 2024.
 
 •	J Ma†, **Y Zhu†**, J Kong, D Yu, WH Toh, M Jain, Q Ni, Z Ge, J Lin, J Choy, et al., SX Sun\*, HQ Mao\*. [Tuning extracellular fluid viscosity for enhanced transfection efficiency in genetic cell engineering](https://www.nature.com/articles/s44286-024-00116-3). ***Nature Chemical Engineering***, 2024.
-
-•	**Y Zhu**, J Ma, R Shen, J Lin, S Li, X Lu, JL Stelzel, J Kong, L Cheng, et al., SC Murphy\*, HQ Mao\*. [Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity](https://www.nature.com/articles/s41551-023-01131-0). ***Nature Biomedical Engineering***, 2023.
 
 •	**Y Zhu**, R Shen, I Vuong, RA Reynolds, MJ Shears, ZC Yao, Y Hu, WJ Cho, et al., SC Murphy\*, HQ Mao\*. [Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression](https://www.nature.com/articles/s41467-022-31993-y). ***Nature Communications***, 2022.
 
