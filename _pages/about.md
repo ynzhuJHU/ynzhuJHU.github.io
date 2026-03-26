@@ -239,7 +239,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
     <ul>
       <li>
         <em>2026.03</em>, <strong>Schmidt Science Fellow</strong>,
-        <em>Schmidt Science Fellows</em>
+        <em>Schmidt Science Foundation</em>
         <a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank"><strong>News</strong></a>
       </li>
 
