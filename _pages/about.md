@@ -238,6 +238,12 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
   <div class="awards-list">
     <ul>
       <li>
+        <em>2026.03</em>, <strong>Schmidt Science Fellow</strong>,
+        <em>Schmidt Science Fellows</em>
+        <a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank"><strong>News</strong></a>
+      </li>
+
+      <li>
         <em>2025.12</em>, <strong>Forbes 30 Under 30 in Science</strong>,
         <em>Forbes Media</em>
         <a href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank"><strong>News</strong></a>
@@ -287,7 +293,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
 
   <div class="appt-left">
     <ul>
-      <li><em>2026.02 – current</em>, Postdoctoral Associate, <strong>Duke University</strong></li>
+      <li><em>2026.02 – current</em>, Postdoctoral Fellow, <strong>Duke University</strong></li>
       <li><em>2025.10 – 2026.01</em>, Postdoctoral Associate, <strong>Johns Hopkins University</strong></li>
     </ul>
   </div>
