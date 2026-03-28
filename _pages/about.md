@@ -36,7 +36,7 @@ redirect_from:
       <img src="/images/Position and training.png" alt="Position and training">
     </div>
     <p>
-      I am a Postdoctoral Researcher in Biomedical Engineering at Duke University,
+      I am a Postdoct Fellow in Biomedical Engineering at Duke University,
       working in the laboratory of
       <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
         Dr. John W. Hickey
@@ -66,16 +66,21 @@ redirect_from:
     <div class="image-box">
       <img src="/images/Recognition.png" alt="Recognition">
     </div>
-    <p>
-      I have been recognized as a
-      <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
-        <strong>Siebel Scholar</strong>
-      </a>
-      (2025) and named to
-      <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
-        <strong>Forbes 30 Under 30 – Science, U.S.</strong>
-      </a>
-      (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
+     <p>
+    I have been recognized as a
+    <a href="https://www.schmidtsciencefellows.org/" target="_blank">
+      <strong>Schmidt Science Fellow</strong>
+    </a>
+    (2026),
+    a
+    <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
+      <strong>Siebel Scholar</strong>
+    </a>
+    (2025), and named to
+    <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
+      <strong>Forbes 30 Under 30 – Science, U.S.</strong>
+    </a>
+    (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
     </p>
   </div>
 
