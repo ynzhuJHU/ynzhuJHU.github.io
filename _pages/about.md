@@ -92,7 +92,7 @@ redirect_from:
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    <img src="https://img.shields.io/badge/Google%20Scholar-1462%20citations-blue?logo=google-scholar"
+    <img src="https://img.shields.io/badge/Google%20Scholar-1472%20citations-blue?logo=google-scholar"
          alt="Google Scholar Citations">
   </a>
 </div>
