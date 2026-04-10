@@ -289,6 +289,7 @@ Hu Y\*, **Zhu Y\***, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinic
          alt="Schmidt Science Fellows">
     <img src="/images/Forbes Science.jpg"
          alt="Forbes 30 Under 30 Science">
+         style="margin-top:16px;">
   </div>
 
 </div>
