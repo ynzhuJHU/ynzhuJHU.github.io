@@ -131,7 +131,7 @@ Lin J\*, **Zhu Y\***, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, S
 
 **Zhu Y\***, Yao ZC\*, Li S\*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
 
-<img src="https://img.shields.io/badge/17%20citations-blue?style=flat" alt="17 citations" />
+<img src="https://img.shields.io/badge/19%20citations-blue?style=flat" alt="19 citations" />
 
 - Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose. 
 </div>
@@ -159,7 +159,7 @@ Lu X\*, **Zhu Y\***, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Lon
 
 **Zhu Y**, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ. 
 
-[News](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/100%20citations-blue?style=flat" alt="100 citations" /></strong>
+[News](https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/105%20citations-blue?style=flat" alt="105 citations" /></strong>
 
 - Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity. 
 </div>
@@ -200,7 +200,7 @@ Ma J\*, **Zhu Y\***, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Ch
 
 **Zhu Y**, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
 
-[News](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/146%20citations-blue?style=flat" alt="146 citations" /></strong>
+[News](https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab) &nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/149%20citations-blue?style=flat" alt="149 citations" /></strong>
 
 - Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression. 
 </div>
