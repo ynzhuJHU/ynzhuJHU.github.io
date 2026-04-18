@@ -92,7 +92,7 @@ redirect_from:
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    <img src="https://img.shields.io/badge/Google%20Scholar-1472%20citations-blue?logo=google-scholar"
+    <img src="https://img.shields.io/badge/Google%20Scholar-1495%20citations-blue?logo=google-scholar"
          alt="Google Scholar Citations">
   </a>
 </div>
@@ -106,7 +106,7 @@ Liu X\*, **Zhu Y\***, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y
 
 [News](https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/)&nbsp;&nbsp;<strong><img src="https://img.shields.io/badge/1%20citations-blue?style=flat" alt="1 citations" />
 
-- This study reports a post-assembly, reversible crosslinking strategy that enhances lipid nanoparticle (LNP)-mediated MRNA delivery while preserving efficient intracellular release. The resulting crosslinked LNPs enable improved endosomal escape, sustained in vivo expression and robust immune and antitumor responses across multiple clinically relevant LNP platforms.
+- This study reports a post-assembly, reversible crosslinking strategy that enhances lipid nanoparticle (LNP)-mediated mRNA delivery while preserving efficient intracellular release. The resulting crosslinked LNPs enable improved endosomal escape, sustained in vivo expression and robust immune and antitumor responses across multiple clinically relevant LNP platforms.
 </div>
 
 </div>
