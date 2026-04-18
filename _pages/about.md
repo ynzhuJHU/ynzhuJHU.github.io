@@ -86,7 +86,7 @@ redirect_from:
 
 </div>
 
-
+<div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc, transparent); margin: 50px 0 25px 0;"></div>
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
