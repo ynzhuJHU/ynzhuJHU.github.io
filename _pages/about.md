@@ -119,7 +119,7 @@ redirect_from:
       <img src="/images/Position and training.png" alt="Position and training">
     </div>
     <p>
-      I am a Postdoct Fellow in Biomedical Engineering at Duke University,
+      I am a Postdoc Fellow in Biomedical Engineering at Duke University,
       working in the laboratory of
       <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
         Dr. John W. Hickey
