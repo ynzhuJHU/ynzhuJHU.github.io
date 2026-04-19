@@ -610,8 +610,19 @@ redirect_from:
   border-top: 1px solid #dce3ee;
 }
 
+.about-section-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 22px 0;
+  padding: 10px 16px;
+  border-left: 4px solid #1f57c3;
+  border-radius: 8px;
+  background: #f6f9ff;
+}
+
 .about-section h2 {
-  margin: 0 0 20px 0;
+  margin: 0;
   color: #172033;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 1.9rem;
@@ -620,13 +631,15 @@ redirect_from:
 }
 
 .about-section-kicker {
-  display: block;
-  margin-bottom: 8px;
-  color: #1f57c3;
-  font-size: 0.78rem;
-  font-weight: 750;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #dbe8ff;
+  border-radius: 50%;
+  background: #1f57c3;
+  box-shadow: 0 0 0 4px rgba(31, 87, 195, 0.08);
 }
 
 .awards-showcase {
@@ -824,8 +837,10 @@ redirect_from:
 <div class="about-lower">
 
 <section class="about-section">
-  <span class="about-section-kicker">Recognition</span>
-  <h2>Honors and Awards</h2>
+  <div class="about-section-heading">
+    <span class="about-section-kicker" aria-hidden="true"></span>
+    <h2>Honors and Awards</h2>
+  </div>
 
   <div class="awards-showcase">
     <div class="award-grid">
@@ -898,8 +913,10 @@ redirect_from:
 </section>
 
 <section class="about-section">
-  <span class="about-section-kicker">Appointments</span>
-  <h2>Professional Appointments</h2>
+  <div class="about-section-heading">
+    <span class="about-section-kicker" aria-hidden="true"></span>
+    <h2>Professional Appointments</h2>
+  </div>
 
   <div class="appointment-grid">
     <div class="appointment-card">
@@ -927,8 +944,10 @@ redirect_from:
 </section>
 
 <section class="about-section">
-  <span class="about-section-kicker">Training</span>
-  <h2>Education</h2>
+  <div class="about-section-heading">
+    <span class="about-section-kicker" aria-hidden="true"></span>
+    <h2>Education</h2>
+  </div>
 
   <div class="education-timeline">
     <div class="education-card">
@@ -967,8 +986,10 @@ redirect_from:
 </section>
 
 <section class="about-section">
-  <span class="about-section-kicker">Presentations</span>
-  <h2>Talks</h2>
+  <div class="about-section-heading">
+    <span class="about-section-kicker" aria-hidden="true"></span>
+    <h2>Talks</h2>
+  </div>
 
   <div class="talk-grid">
     <div class="talk-card">
