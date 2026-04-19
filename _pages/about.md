@@ -376,7 +376,7 @@ redirect_from:
   <div class="paper-box-text">
     <div class="paper-title">
       <a href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank">
-        Crosslinking of lipid nanoparticles enhances mRNA delivery efficiency and vaccine efficacy
+        Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines
       </a>
     </div>
     <div class="paper-authors">
@@ -400,7 +400,7 @@ redirect_from:
   <div class="paper-box-text">
     <div class="paper-title">
       <a href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank">
-        Imidazolium lipid-based nanoparticles enable efficient mRNA delivery and enhanced cellular immunity
+        Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response
       </a>
     </div>
     <div class="paper-authors">

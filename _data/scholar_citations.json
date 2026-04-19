@@ -1,28 +1,28 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-04-19T15:13:40+00:00",
+  "last_updated": "2026-04-19T15:15:49+00:00",
   "total_citations": 1500,
   "publications": [
     {
       "id": "crosslinking-lnp",
-      "title": "Crosslinking of lipid nanoparticles enhances mRNA delivery efficiency and vaccine efficacy",
+      "title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
       "citations": 1,
       "citation_label": "citation",
       "status": "matched",
       "matched_title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
       "matched_year": "2026",
-      "match_score": 0.83
+      "match_score": 1.0
     },
     {
       "id": "imidazolium-lnp",
-      "title": "Imidazolium lipid-based nanoparticles enable efficient mRNA delivery and enhanced cellular immunity",
+      "title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
       "citations": 0,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
       "matched_year": "2026",
-      "match_score": 0.847
+      "match_score": 1.0
     },
     {
       "id": "lnp-nanofiber-hydrogel",
