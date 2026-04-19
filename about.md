@@ -193,7 +193,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nature Chemical Engineering 2026</div>
   <div class="paper-box-image">
-    <img src="images/crosslink.png" alt="Crosslinking LNP figure">
+    <img src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -217,7 +217,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Materials Today 2026</div>
   <div class="paper-box-image">
-    <img src="images/Imidazolium.jpg" alt="Imidazolium LNP figure">
+    <img src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -240,7 +240,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nature Communications 2025</div>
   <div class="paper-box-image">
-    <img src="images/LiNx.jpg" alt="Nanofiber hydrogel composite figure">
+    <img src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -263,7 +263,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Science Advances 2025</div>
   <div class="paper-box-image">
-    <img src="images/sciadv.ady5579-f1.jpg" alt="Spleen-tropic LNP screening figure">
+    <img src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -287,7 +287,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nature Biomedical Engineering 2024</div>
   <div class="paper-box-image">
-    <img src="images/FigureScreening.png" alt="Helper T cell LNP screening figure">
+    <img src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -311,7 +311,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nature Chemical Engineering 2024</div>
   <div class="paper-box-image">
-    <img src="images/Viscosity.png" alt="Viscosity transfection figure">
+    <img src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -335,7 +335,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Biomaterials 2024</div>
   <div class="paper-box-image">
-    <img src="images/Oral.png" alt="Intraduodenal delivery figure">
+    <img src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -358,7 +358,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nature Communications 2022</div>
   <div class="paper-box-image">
-    <img src="images/Figuremultistep.png" alt="DNA LNP multistep screening figure">
+    <img src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -382,7 +382,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Nano Letters 2021</div>
   <div class="paper-box-image">
-    <img src="images/FigureSize.jpeg" alt="Lentiviral vector DNA particle figure">
+    <img src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
@@ -406,7 +406,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-label">Journal of Controlled Release 2020</div>
   <div class="paper-box-image">
-    <img src="images/JCR.jpg" alt="Melanoma photoimmunotherapy figure">
+    <img src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
