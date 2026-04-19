@@ -170,7 +170,6 @@ redirect_from:
 </div>
 
 <div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc, transparent); margin: 50px 0 25px 0;"></div>
-
 <style>
 .pub-header {
   display: flex;
@@ -257,7 +256,6 @@ redirect_from:
 
 .paper-title a:hover {
   color: #2563eb;
-  text-decoration: none;
 }
 
 .paper-authors {
@@ -267,31 +265,34 @@ redirect_from:
 
 .paper-meta {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
   margin: 10px 0 14px 0;
+  flex-wrap: wrap;
 }
 
 .meta-pill {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 34px;
+  height: 34px;
   padding: 0 14px;
   border-radius: 999px;
   background: #e9f1ff;
   font-size: 0.92rem;
   font-weight: 600;
   color: #1f57c3;
-  line-height: 1;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .meta-pill:hover {
   background: #dbe8ff;
-  text-decoration: none;
+}
+
+.meta-pill.news {
+  background: #eef2f7;
+  color: #4b5563;
 }
 
 .paper-summary {
@@ -349,7 +350,7 @@ redirect_from:
       Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a>
+      <a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a>
       <span class="meta-pill">1 citation</span>
     </div>
     <ul class="paper-summary">
@@ -419,7 +420,7 @@ redirect_from:
       Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a>
+      <a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a>
       <span class="meta-pill">2 citations</span>
     </div>
     <ul class="paper-summary">
@@ -443,7 +444,7 @@ redirect_from:
       <strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a>
+      <a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a>
       <span class="meta-pill">105 citations</span>
     </div>
     <ul class="paper-summary">
@@ -467,7 +468,7 @@ redirect_from:
       Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a>
+      <a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a>
       <span class="meta-pill">9 citations</span>
     </div>
     <ul class="paper-summary">
@@ -514,7 +515,7 @@ redirect_from:
       <strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a>
+      <a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a>
       <span class="meta-pill">149 citations</span>
     </div>
     <ul class="paper-summary">
@@ -538,7 +539,7 @@ redirect_from:
       Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
     </div>
     <div class="paper-meta">
-      <a class="meta-pill" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a>
+      <a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a>
       <span class="meta-pill">31 citations</span>
     </div>
     <ul class="paper-summary">
@@ -569,7 +570,6 @@ redirect_from:
     </ul>
   </div>
 </div>
-
 
 
 
