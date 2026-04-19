@@ -19,15 +19,70 @@ redirect_from:
 <div class="hero-banner">
   <img src="/images/jhu.png" alt="Campus banner">
 
+  <div class="hero-overlay"></div>
+
   <div class="hero-overlay-text">
+  
+  <h1 class="hero-title">
+    Designing Age-Adaptive mRNA Vaccines through Spatial Immunology
+  </h1>
+   
+  <div class="hero-tags">
     <span>Immunoengineering</span>
     <span>Gene Therapy</span>
     <span>Biomaterials</span>
     <span>Spatial Proteomics</span>
-    
+  </div>
     
   </div>
 </div>
+
+<style>
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.1));
+}
+
+.hero-overlay-text {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  color: white;
+  text-align: right;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  max-width: 400px;
+}
+
+.hero-tags span {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
+  padding: 6px 12px;
+  margin: 6px 6px 0 0;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+</style>
+
 
 <div class="intro-grid">
 
