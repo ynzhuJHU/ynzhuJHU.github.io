@@ -25,7 +25,7 @@ redirect_from:
 
   <div class="hero-content">
     <h1 class="hero-title">
-      Designing Next-Generation mRNA Therapies<br>
+      Designing Next-Generation genetic Medicines<br>
       through Biomaterials and Systems Immunology
     </h1>
 
