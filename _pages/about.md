@@ -24,7 +24,7 @@ redirect_from:
   <div class="hero-overlay-text">
   
   <h1 class="hero-title">
-    Designing Age-Adaptive mRNA Vaccines through Spatial Immunology
+    Designing Next-Generation mRNA Therapies through Biomaterials and Systems Immunology
   </h1>
    
   <div class="hero-tags">
