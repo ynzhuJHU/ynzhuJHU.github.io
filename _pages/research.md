@@ -329,10 +329,15 @@ layout: single
     <span>Biomaterials</span>
     <span>Journal of Controlled Release</span>
     <span>Cancer Nanotechnology</span>
+    <span>iScience</span>
     <span>Pharmaceutical Research</span>
     <span>Bioengineering & Translational Medicine</span>
     <span>Journal of Drug Delivery Science and Technology</span>
     <span>Journal of Liposome Research</span>
+    <span>Scientific Reports</span>
+    <span>Discover Chemistry</span>
+    <span>Journal of Nanobiotechnology</span>
+    <span>International Journal of Pharmaceutics</span>
   </div>
 </div>
 
