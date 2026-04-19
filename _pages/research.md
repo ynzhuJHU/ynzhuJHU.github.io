@@ -295,8 +295,8 @@ layout: single
   <img src="images/journals.png" alt="Journal covers featuring research publications">
   <div class="research-hero-content">
     <span class="research-eyebrow">Research Portfolio</span>
-    <h1>Engineering delivery systems for genetic medicine and cancer immunotherapy</h1>
-    <p>My work spans lipid nanoparticles, hydrogel composites, gene editing, and immune modulation, with an emphasis on translational biomaterials for mRNA and nucleic acid delivery.</p>
+    <h1>Engineering genetic medicines and spatial multiomics for immune discovery</h1>
+    <p>My work spans lipid nanoparticles, hydrogel composites, gene editing, immune modulation, and spatial multiomics, connecting translational biomaterials with systems-level studies of tissue immunity.</p>
   </div>
 </section>
 
