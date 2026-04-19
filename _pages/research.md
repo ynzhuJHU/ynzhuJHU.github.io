@@ -92,6 +92,7 @@ layout: single
   color: #1f57c3;
   font-size: 1.55rem;
   line-height: 1;
+  font-variant-numeric: tabular-nums;
 }
 
 .research-stat span {
@@ -302,22 +303,72 @@ layout: single
 
 <div class="research-stats">
   <div class="research-stat">
-    <strong>10</strong>
+    <strong class="count-up" data-count="10">0</strong>
     <span>lead-author publications</span>
   </div>
   <div class="research-stat">
-    <strong>20</strong>
+    <strong class="count-up" data-count="20">0</strong>
     <span>collaborative publications</span>
   </div>
   <div class="research-stat">
-    <strong>3</strong>
+    <strong class="count-up" data-count="3">0</strong>
     <span>review articles</span>
   </div>
   <div class="research-stat">
-    <strong>10</strong>
+    <strong class="count-up" data-count="10">0</strong>
     <span>patent filings</span>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var counters = document.querySelectorAll(".count-up");
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function animateCounter(counter) {
+      var target = Number(counter.dataset.count || 0);
+      var duration = 900;
+      var startTime = null;
+
+      if (reduceMotion) {
+        counter.textContent = target;
+        return;
+      }
+
+      function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        var progress = Math.min((timestamp - startTime) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 3);
+        counter.textContent = Math.floor(eased * target);
+
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        } else {
+          counter.textContent = target;
+        }
+      }
+
+      window.requestAnimationFrame(step);
+    }
+
+    if ("IntersectionObserver" in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.45 });
+
+      counters.forEach(function (counter) {
+        observer.observe(counter);
+      });
+    } else {
+      counters.forEach(animateCounter);
+    }
+  });
+</script>
 
 <section class="research-section" markdown="1">
 
