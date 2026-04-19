@@ -6,69 +6,346 @@ layout: single
 ---
 
 <style>
-  
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh; /* You can adjust this if needed */
+.research-page {
+  color: #172033;
+}
+
+.research-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 34px 0;
+  border-radius: 8px;
+  background: #101827;
+  box-shadow: 0 18px 42px rgba(18, 28, 45, 0.16);
+}
+
+.research-hero img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 470px;
+  object-fit: cover;
+  display: block;
+  opacity: 0.72;
+}
+
+.research-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(16, 24, 39, 0.92), rgba(16, 24, 39, 0.48) 48%, rgba(16, 24, 39, 0.1));
+}
+
+.research-hero-content {
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
+  z-index: 1;
+  max-width: 620px;
+  color: #fff;
+}
+
+.research-eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #99f6e4;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-hero h1 {
+  margin: 0 0 12px 0;
+  color: #fff;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 650;
+  line-height: 1.12;
+}
+
+.research-hero p {
+  max-width: 560px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.research-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 38px 0;
+}
+
+.research-stat {
+  padding: 18px 18px 16px 18px;
+  border: 1px solid rgba(31, 87, 195, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(20, 32, 56, 0.07);
+}
+
+.research-stat strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #1f57c3;
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.research-stat span {
+  color: #4b5563;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.research-section {
+  margin: 38px 0;
+  padding-top: 26px;
+  border-top: 1px solid #dce3ee;
+}
+
+.research-section h1,
+.research-section h2 {
+  margin: 0 0 14px 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+.research-section h1 {
+  font-size: 1.95rem;
+}
+
+.research-section h2 {
+  margin-top: 30px;
+  font-size: 1.35rem;
+}
+
+.research-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 18px 0 28px 0;
+}
+
+.research-note a,
+.service-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #1f57c3;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.research-note span {
+  color: #5d6675;
+  font-size: 0.92rem;
+}
+
+.service-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 28px;
+  align-items: start;
+  padding: 26px;
+  border: 1px solid rgba(15, 118, 110, 0.16);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7fbff, #ffffff);
+  box-shadow: 0 12px 32px rgba(20, 32, 56, 0.08);
+}
+
+.service-panel p {
+  margin: 0;
+  color: #293241;
+  font-size: 1rem;
+  line-height: 1.68;
+}
+
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.service-tags span {
+  background: #ecfdf5;
+  color: #0f766e;
+}
+
+.publication-section > p,
+.patent-section > p {
+  position: relative;
+  margin: 12px 0;
+  padding: 16px 18px;
+  border: 1px solid rgba(20, 32, 56, 0.09);
+  border-left: 4px solid #1f57c3;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(20, 32, 56, 0.055);
+  color: #293241;
+  line-height: 1.58;
+}
+
+.publication-section > p:first-of-type {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #5d6675;
+  font-size: 0.92rem;
+}
+
+.publication-section p a {
+  color: #1f57c3;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.publication-section p em strong,
+.publication-section p strong em,
+.publication-section p strong,
+.patent-section p strong {
+  color: #111827;
+}
+
+.patent-section > p {
+  border-left-color: #0f766e;
+}
+
+.talk-gallery {
+  margin-top: 46px;
+  padding-top: 28px;
+  border-top: 1px solid #dce3ee;
+}
+
+.talk-gallery h2 {
+  margin: 0 0 18px 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 650;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-figure {
+  margin: 0;
+}
+
+.gallery-item {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(20, 32, 56, 0.14);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  margin-top: 10px;
+  color: #4b5563;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 900px) {
+  .research-hero-content {
+    left: 20px;
+    right: 20px;
+    bottom: 22px;
   }
 
+  .research-hero h1 {
+    font-size: 1.75rem;
+  }
 
-
-  .gallery-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:20px;
-}
-
-.gallery-figure{
-  margin:0;
-}
-
-.gallery-item{
-  width:100%;
-  aspect-ratio:4/3;
-  overflow:hidden;
-  border-radius:14px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.12);
-}
-
-.gallery-item img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
-
-.gallery-caption{
-  margin-top:10px;
-  text-align:center;
-  font-size:0.9rem;
-  color:#555;
-  font-family:Georgia, serif;
-}
-
-@media (max-width: 900px){
-  .gallery-grid{ grid-template-columns:1fr; }
+  .research-stats,
+  .service-panel,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 </style>
 
 
-<div class="center">
-  <img src="images/journals.png" alt="Centered Image">
+<div class="research-page">
+
+<section class="research-hero">
+  <img src="images/journals.png" alt="Journal covers featuring research publications">
+  <div class="research-hero-content">
+    <span class="research-eyebrow">Research Portfolio</span>
+    <h1>Engineering delivery systems for genetic medicine and cancer immunotherapy</h1>
+    <p>My work spans lipid nanoparticles, hydrogel composites, gene editing, and immune modulation, with an emphasis on translational biomaterials for mRNA and nucleic acid delivery.</p>
+  </div>
+</section>
+
+<div class="research-stats">
+  <div class="research-stat">
+    <strong>10</strong>
+    <span>lead-author publications</span>
+  </div>
+  <div class="research-stat">
+    <strong>20</strong>
+    <span>collaborative publications</span>
+  </div>
+  <div class="research-stat">
+    <strong>3</strong>
+    <span>review articles</span>
+  </div>
+  <div class="research-stat">
+    <strong>10</strong>
+    <span>patent filings</span>
+  </div>
 </div>
 
-<br> <!-- Add space here -->
+<section class="research-section" markdown="1">
 
 # Academic Services
 
-Currently, I am serving as a reviewer for various journals including: ***Biomaterials, Journal of Controlled Release, Cancer Nanotechnology, Pharmaceutical Research, Bioengineering & Translational Medicine, Journal of drug delivery science and technology, Journal of liposome research***. 
+<div class="service-panel">
+  <p>Currently, I am serving as a reviewer for journals across biomaterials, gene delivery, nanomedicine, and translational therapeutics.</p>
+  <div class="service-tags">
+    <span>Biomaterials</span>
+    <span>Journal of Controlled Release</span>
+    <span>Cancer Nanotechnology</span>
+    <span>Pharmaceutical Research</span>
+    <span>Bioengineering & Translational Medicine</span>
+    <span>Journal of Drug Delivery Science and Technology</span>
+    <span>Journal of Liposome Research</span>
+  </div>
+</div>
+
+</section>
+
+<section class="research-section publication-section" markdown="1">
 
 # Publications
 
-An up-to-date list and links to publications can be found at [Google Scholar](https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl).
+<div class="research-note">
+  <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl=en" target="_blank">Google Scholar</a>
+  <span>Up-to-date publication links and citation counts.</span>
+</div>
 
 † Denotes equal contribution * Denotes corresponding author
 
@@ -151,6 +428,10 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	S Huang, **Y Zhu**, L Zhang, Z Zhang\*. [Recent advances in delivery systems for genetic and other novel vaccines](https://onlinelibrary.wiley.com/doi/10.1002/adma.202107946). ***Advanced Materials***, 2022.
 
 
+</section>
+
+<section class="research-section patent-section" markdown="1">
+
 # Patents
 
 •	Y Zhu, X Liu, H Mao. Compositions and methods of preparing RNA lipid nanoparticles with enhanced stability and transfection efficiency. US Provisional Patent Application; Filed 7/19/2025.
@@ -172,6 +453,8 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
 •	Y Zhu, Y Hu, H Mao. Composition of shelf-stable plasmid DNA/PEI particles with defined sizes for virus production and method for preparation of the same. PCT/US2023, 18/546,222, Filed 8/11/2023.
 
 •	Y Zhu, Y Hu, H Mao. Methods for preparation of shelf-stable plasmid DNA/polycation particles with defined sizes for cell transfection. PCT/US2022, 18/261,944; Filed 7/18/2023.
+
+</section>
 
 <div class="talk-gallery">
   <h2>Conference Talk Moments</h2>
@@ -214,4 +497,4 @@ An up-to-date list and links to publications can be found at [Google Scholar](ht
   </div>
 </div>
 
-
+</div>
