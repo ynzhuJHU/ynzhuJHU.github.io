@@ -111,6 +111,66 @@ redirect_from:
 
 </style>
 
+
+<div class="intro-grid">
+
+  <div class="intro-card">
+    <div class="image-box">
+      <img src="/images/Position and training.png" alt="Position and training">
+    </div>
+    <p>
+      I am a Postdoc Fellow in Biomedical Engineering at Duke University,
+      working in the laboratory of
+      <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
+        Dr. John W. Hickey
+      </a>
+      from February 2026. Prior to this, I conducted postdoctoral research at
+      Johns Hopkins University with
+      <a href="https://maogroup.jhu.edu/" target="_blank">
+        Dr. Hai-Quan Mao
+      </a>,
+      following my doctoral training.
+    </p>
+  </div>
+
+  <div class="intro-card">
+    <div class="image-box">
+      <img src="/images/Research focues.jpeg" alt="Research focus">
+    </div>
+    <p>
+      My doctoral and early postdoctoral research centered on the design and
+      optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine
+      delivery. I am now pivoting toward spatial proteomics and systems immunology
+      to study aging-associated immune responses.
+    </p>
+  </div>
+
+  <div class="intro-card">
+    <div class="image-box">
+      <img src="/images/Recognition.png" alt="Recognition">
+    </div>
+     <p>
+    I have been recognized as a
+    <a href="https://www.schmidtsciencefellows.org/" target="_blank">
+      <strong>Schmidt Science Fellow</strong>
+    </a>
+    (2026),
+    a
+    <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
+      <strong>Siebel Scholar</strong>
+    </a>
+    (2025), and named to
+    <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
+      <strong>Forbes 30 Under 30 – Science, U.S.</strong>
+    </a>
+    (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
+    </p>
+  </div>
+
+</div>
+
+<div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc, transparent); margin: 50px 0 25px 0;"></div>
+
 <style>
 .pub-header {
   display: flex;
@@ -176,42 +236,33 @@ redirect_from:
 
 .paper-box-text {
   flex: 1;
+  max-width: 620px;
   font-size: 1.02rem;
   line-height: 1.6;
 }
 
-.paper-box-text > p:first-child,
-.paper-box-text > p:first-of-type {
-  margin-top: 0;
-}
-
-.paper-box-text a {
-  text-decoration: none;
-}
-
-.paper-box-text a:hover {
-  text-decoration: underline;
-}
-
 .paper-title {
-  font-size: 1.35rem;        /* slightly smaller = more modern */
-  font-weight: 600;          /* not too bold */
+  font-size: 1.35rem;
+  font-weight: 600;
   line-height: 1.4;
+  letter-spacing: 0.2px;
   margin-bottom: 8px;
 }
 
 .paper-title a {
-  color: #1f2937;            /* 👈 dark gray instead of blue */
+  color: #1f2937;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .paper-title a:hover {
-  color: #2563eb;            /* subtle blue on hover only */
+  color: #2563eb;
+  text-decoration: none;
 }
 
 .paper-authors {
   margin-bottom: 10px;
+  color: #222;
 }
 
 .paper-meta {
@@ -243,19 +294,13 @@ redirect_from:
   text-decoration: none;
 }
 
-.meta-pill a {
-  color: inherit;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-}
-
 .paper-summary {
   margin: 0;
+  padding-left: 1.2em;
 }
 
 .paper-summary li {
-  margin-left: 0.2em;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -269,87 +314,22 @@ redirect_from:
     flex: 0 0 auto;
   }
 
+  .paper-box-text {
+    max-width: 100%;
+  }
+
   .paper-box-label {
     position: static;
     margin-bottom: 14px;
   }
 }
-
-.paper-title {
-  letter-spacing: 0.2px;
-}
-.paper-box-text {
-  max-width: 600px;
-}
-
 </style>
-
-
-
-<div class="intro-grid">
-
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Position and training.png" alt="Position and training">
-    </div>
-    <p>
-      I am a Postdoc Fellow in Biomedical Engineering at Duke University,
-      working in the laboratory of
-      <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
-        Dr. John W. Hickey
-      </a>
-      from February 2026. Prior to this, I conducted postdoctoral research at
-      Johns Hopkins University with
-      <a href="https://maogroup.jhu.edu/" target="_blank">
-        Dr. Hai-Quan Mao
-      </a>,
-      following my doctoral training.
-    </p>
-  </div>
-
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Research focues.jpeg" alt="Research focus">
-    </div>
-    <p>
-      My doctoral and early postdoctoral research centered on the design and
-      optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine
-      delivery. I am now pivoting toward spatial proteomics and systems immunology
-      to study aging-associated immune responses.
-    </p>
-  </div>
-
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Recognition.png" alt="Recognition">
-    </div>
-     <p>
-    I have been recognized as a
-    <a href="https://www.schmidtsciencefellows.org/" target="_blank">
-      <strong>Schmidt Science Fellow</strong>
-    </a>
-    (2026),
-    a
-    <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
-      <strong>Siebel Scholar</strong>
-    </a>
-    (2025), and named to
-    <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
-      <strong>Forbes 30 Under 30 – Science, U.S.</strong>
-    </a>
-    (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
-    </p>
-  </div>
-
-</div>
-
-<div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc, transparent); margin: 50px 0 25px 0;"></div>
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    <img src="https://img.shields.io/badge/Google%20Scholar-1500%20citations-blue?logo=google-scholar"
+    <img src="https://img.shields.io/badge/Google%20Scholar-1500%2B%20citations-blue?logo=google-scholar"
          alt="Google Scholar Citations">
   </a>
 </div>
@@ -362,18 +342,18 @@ redirect_from:
   <div class="paper-box-text">
     <div class="paper-title">
       <a href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank">
-        Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines
+        Crosslinking of lipid nanoparticles enhances mRNA delivery efficiency and vaccine efficacy
       </a>
     </div>
     <div class="paper-authors">
       Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a>
       <span class="meta-pill">1 citation</span>
     </div>
     <ul class="paper-summary">
-      <li>This study reports a post-assembly, reversible crosslinking strategy that enhances lipid nanoparticle (LNP)-mediated mRNA delivery while preserving efficient intracellular release. The resulting crosslinked LNPs enable improved endosomal escape, sustained in vivo expression and robust immune and antitumor responses across multiple clinically relevant LNP platforms.</li>
+      <li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li>
     </ul>
   </div>
 </div>
@@ -386,7 +366,7 @@ redirect_from:
   <div class="paper-box-text">
     <div class="paper-title">
       <a href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank">
-        Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response
+        Imidazolium lipid-based nanoparticles enable efficient mRNA delivery and enhanced cellular immunity
       </a>
     </div>
     <div class="paper-authors">
@@ -396,7 +376,7 @@ redirect_from:
       <span class="meta-pill">0 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Imidazolium LipidBrick® cationic lipid nanoparticles (LNPs) provide a pH-independent platform for nucleic acid delivery. Here, we screened 1,944 formulations and identified candidates that outperform the clinical ionizable benchmark ALC-0315 in multiple cell types. A lead formulation induced comparable antibody responses but ~3-fold stronger antigen-specific T-cell immunity while maintaining low cytotoxicity.</li>
+      <li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li>
     </ul>
   </div>
 </div>
@@ -419,7 +399,7 @@ redirect_from:
       <span class="meta-pill">19 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Hydrogel materials have emerged as versatile platforms for biomedical applications. Here this group reports an mRNA lipid nanoparticle-incorporated microgel matrix for immune cell recruitment, antigen expression and presentation, and cellular interaction, thereby eliciting antitumor efficacy with a single dose.</li>
+      <li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li>
     </ul>
   </div>
 </div>
@@ -439,11 +419,11 @@ redirect_from:
       Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a>
       <span class="meta-pill">2 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>We developed a multistep screening platform to identify lipid nanoparticles (LNPs) that preferentially target the spleen. Through systematic in vivo selection and formulation optimization, we discovered LNPs capable of delivering CRISPR–Cas9 ribonucleoprotein (RNP) complexes directly to T cells in vivo. The optimized LNPs achieved efficient gene editing of splenic T cells without requiring ex vivo manipulation. This work establishes a foundation for immune-cell-targeted gene editing, advancing the development of next-generation immunotherapies and RNA-based medicines.</li>
+      <li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li>
     </ul>
   </div>
 </div>
@@ -463,11 +443,11 @@ redirect_from:
       <strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a>
       <span class="meta-pill">105 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Lipid nanoparticles (LNPs) can be designed to potentiate cancer immunotherapy by promoting their uptake by antigen-presenting cells, stimulating the maturation of these cells and modulating the activity of adjuvants. In this paper, we report an LNP-screening method for the optimization of the type of helper lipid and of lipid-component ratios to enhance the delivery of tumour-antigen-encoding mRNA to dendritic cells and their immune-activation profile towards enhanced antitumour activity.</li>
+      <li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li>
     </ul>
   </div>
 </div>
@@ -487,11 +467,11 @@ redirect_from:
       Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a>
       <span class="meta-pill">9 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Gene therapies and cellular programming rely on effective cell transfection. Here it is shown that optimizing the viscosity of cell culture media to match that of biological fluids substantially enhances the transfection efficiency for various gene delivery vehicles across different cell types.</li>
+      <li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li>
     </ul>
   </div>
 </div>
@@ -514,7 +494,7 @@ redirect_from:
       <span class="meta-pill">15 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Lipid nanoparticles (LNP) have recently emerged as successful gene delivery platforms for a diverse array of disease treatments. Here, we employed a multi-step screening method to optimize the type of helper lipid and component ratios in a plasmid DNA (pDNA) LNP library to efficiently deliver pDNA through intraduodenal delivery as an indicative route for oral administration. Beyond reporter protein expression, we assessed the efficiency in non-viral gene editing in mouse liver mediated by LNPs to knockdown PCSK9 and ANGPTL3 expression, thereby lowering low-density lipoprotein (LDL) cholesterol levels.</li>
+      <li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li>
     </ul>
   </div>
 </div>
@@ -534,11 +514,11 @@ redirect_from:
       <strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a>
       <span class="meta-pill">149 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Lipid nanoparticles hold great potential as an effective non-viral vector for nucleic acid-based gene therapy. Plasmid DNA delivery can result in extended transgene expression compared to mRNA-based technologies, yet there is a lack of systematic investigation into lipid nanoparticle compositions for plasmid DNA delivery. In this paper, we report a multi-step screening platform to identify optimized plasmid DNA lipid nanoparticles for liver-targeted transgene expression.</li>
+      <li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li>
     </ul>
   </div>
 </div>
@@ -558,11 +538,11 @@ redirect_from:
       Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill"><a href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a></span>
+      <a class="meta-pill" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a>
       <span class="meta-pill">31 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>Polyelectrolyte complex particles assembled from plasmid DNA (pDNA) and poly(ethylenimine) (PEI) have been widely used to produce lentiviral vectors (LVVs) for gene therapy. The current batch-mode preparation for pDNA/PEI particles presents limited reproducibility in large-scale LVV manufacturing processes, leading to challenges in tightly controlling particle stability, transfection outcomes, and LVV production yield. In this paper, we identified the size of pDNA/PEI particles as a key determinant for a high transfection efficiency with an optimal size of 400–500 nm, due to a cellular-uptake-related mechanism.</li>
+      <li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li>
     </ul>
   </div>
 </div>
@@ -585,10 +565,12 @@ redirect_from:
       <span class="meta-pill">99 citations</span>
     </div>
     <ul class="paper-summary">
-      <li>To date, cancer phototherapy remains as an unsatisfactory method of cancer treatment due to the high probability of cancer recurrence - an effect that is partly driven by tumor-driven immunosuppression. Therefore, we propose inducing adequate immune responses after photo tumor ablation may be critical to achieve a long term therapeutic effect of phototherapy. Here, we engineered the photosensitizer chlorin e6 (Ce6) and the time-honored immunoadjuvant aluminum hydroxide into bovine serum albumin by albumin-based biomineralization as a novel nanosystem (Al-BSA-Ce6 NPs) for photoimmune therapy.</li>
+      <li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li>
     </ul>
   </div>
 </div>
+
+
 
 
 # Honors and Awards
