@@ -211,14 +211,14 @@ p {
   font-size: inherit;
 }
 
-/* "News" link: smaller + lighter */
+/* Publication press/news links */
 .paper-box-text a[href*="hub.jhu.edu"],
 .paper-box-text a[href*="engineering.jhu.edu"],
 .paper-box-text a[href*="inbt.jhu.edu"],
 .paper-box-text a[href*="jhu.edu"] {
-  font-size: 0.2rem !important;
-  font-weight: 400 !important;
-  color: #666 !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f57c3;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -258,27 +258,6 @@ p {
   letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 2.2rem;
-}
-
-/* ===== FORCE News to be small and subtle ===== */
-.paper-box-text a[href*="hub.jhu.edu"],
-.paper-box-text a[href*="engineering.jhu.edu"],
-.paper-box-text a[href*="inbt.jhu.edu"],
-.paper-box-text a[href*="jhu.edu"],
-.paper-box-text a[href*="news"] {
-  font-size: 0.4rem !important;   /* clearly smaller */
-  font-weight: 400 !important;
-  font-family: "Inter", sans-serif !important;
-  color: #4a6278 !important;       /* refined blue-gray */
-}
-
-/* Kill any bold inherited from markdown */
-.paper-box-text a[href*="hub.jhu.edu"] *,
-.paper-box-text a[href*="engineering.jhu.edu"] *,
-.paper-box-text a[href*="inbt.jhu.edu"] *,
-.paper-box-text a[href*="jhu.edu"] *,
-.paper-box-text a[href*="news"] * {
-  font-weight: 400 !important;
 }
 
 /* ===== Hero banner with top-right research keywords ===== */

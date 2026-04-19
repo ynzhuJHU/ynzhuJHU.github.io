@@ -290,9 +290,21 @@ redirect_from:
   background: #dbe8ff;
 }
 
-.meta-pill.news {
-  background: #eef2f7;
-  color: #4b5563;
+.paper-box-text .meta-pill.news {
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f57c3;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.paper-box-text .meta-pill.news:hover {
+  background: transparent;
+  color: #17439a;
 }
 
 .paper-summary {
@@ -874,6 +886,4 @@ redirect_from:
     Engineering the Future of Medicine.
   </div>
 </div>
-
-
 
