@@ -888,6 +888,8 @@ layout: single
 }
 
 .talk-card em {
+  display: block;
+  margin-top: 3px;
   color: #293241;
 }
 
