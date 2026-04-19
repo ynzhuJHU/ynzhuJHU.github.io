@@ -268,9 +268,9 @@ redirect_from:
 
 .paper-title {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.58rem;
+  font-size: 1.44rem;
   font-weight: 750;
-  line-height: 1.18;
+  line-height: 1.24;
   letter-spacing: 0;
   margin-bottom: 12px;
 }
@@ -371,7 +371,7 @@ redirect_from:
   }
 
   .paper-title {
-    font-size: 1.34rem;
+    font-size: 1.25rem;
   }
 
   .paper-box-label {
