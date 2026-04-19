@@ -757,16 +757,16 @@ redirect_from:
   object-fit: contain;
 }
 
-.education-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
-  gap: 28px;
-  align-items: center;
-}
-
 .education-timeline {
   display: grid;
   gap: 12px;
+}
+
+.education-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 120px;
+  gap: 18px;
+  align-items: center;
 }
 
 .education-card:nth-child(2) {
@@ -777,20 +777,15 @@ redirect_from:
   border-left-color: #9a3412;
 }
 
-.education-logos-modern {
-  display: grid;
-  gap: 18px;
-  justify-items: center;
-  padding: 22px;
-  border: 1px solid rgba(20, 32, 56, 0.09);
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 8px 22px rgba(20, 32, 56, 0.055);
+.education-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.education-logos-modern img {
-  max-width: 190px;
-  max-height: 100px;
+.education-logo img {
+  max-width: 115px;
+  max-height: 58px;
   object-fit: contain;
 }
 
@@ -820,17 +815,15 @@ redirect_from:
 @media (max-width: 900px) {
   .awards-showcase,
   .appointment-grid,
-  .education-layout {
-    grid-template-columns: 1fr;
-  }
-
   .award-card,
   .appointment-card,
+  .education-card,
   .talk-card {
     grid-template-columns: 1fr;
   }
 
-  .appointment-logo {
+  .appointment-logo,
+  .education-logo {
     justify-content: flex-start;
   }
 }
@@ -945,30 +938,38 @@ redirect_from:
   <span class="about-section-kicker">Training</span>
   <h2>Education</h2>
 
-  <div class="education-layout">
-    <div class="education-timeline">
-      <div class="education-card">
+  <div class="education-timeline">
+    <div class="education-card">
+      <div>
         <span class="education-date">2025</span>
         <span class="education-title">Ph.D., Biomedical Engineering</span>
         <span class="education-place">Johns Hopkins University</span>
       </div>
+      <div class="education-logo">
+        <img src="/images/JHMI.png" alt="Johns Hopkins University">
+      </div>
+    </div>
 
-      <div class="education-card">
+    <div class="education-card">
+      <div>
         <span class="education-date">2021</span>
         <span class="education-title">M.S.E., Biomedical Engineering</span>
         <span class="education-place">Johns Hopkins University</span>
       </div>
+      <div class="education-logo">
+        <img src="/images/JHMI.png" alt="Johns Hopkins University">
+      </div>
+    </div>
 
-      <div class="education-card">
+    <div class="education-card">
+      <div>
         <span class="education-date">2019</span>
         <span class="education-title">B.S., Pharmacy</span>
         <span class="education-place">Sichuan University</span>
       </div>
-    </div>
-
-    <div class="education-logos-modern">
-      <img src="/images/JHMI.png" alt="Johns Hopkins University">
-      <img src="/images/SCU.png" alt="Sichuan University">
+      <div class="education-logo">
+        <img src="/images/SCU.png" alt="Sichuan University">
+      </div>
     </div>
   </div>
 </section>
