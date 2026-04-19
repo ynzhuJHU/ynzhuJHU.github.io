@@ -31,7 +31,7 @@ redirect_from:
     <span>Immunoengineering</span>
     <span>Gene Therapy</span>
     <span>Biomaterials</span>
-    <span>Spatial Proteomics</span>
+    <span>Spatial Multiomics</span>
   </div>
     
   </div>
