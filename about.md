@@ -677,6 +677,10 @@ layout: single
   order: 3;
 }
 
+.about-talks-section {
+  order: 4;
+}
+
 .about-section-heading {
   display: inline-flex;
   align-items: center;
@@ -864,19 +868,16 @@ layout: single
 
 .talk-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-}
-
-.about-talks-wrap {
-  margin-top: 30px;
 }
 
 .talk-card {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr);
-  gap: 16px;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 12px;
   border-left-color: #0f766e;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .talk-card a {
@@ -1065,13 +1066,7 @@ layout: single
     </div>
   </div>
 </section>
-
-</div>
-</aside>
-</div>
-
-<div class="about-talks-wrap">
-<section class="about-section">
+<section class="about-section about-talks-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Talks</h2>
@@ -1115,4 +1110,6 @@ layout: single
   </div>
 </section>
 
+</div>
+</aside>
 </div>
