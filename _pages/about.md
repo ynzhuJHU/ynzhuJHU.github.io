@@ -210,6 +210,10 @@ redirect_from:
   color: #fff;
 }
 
+.scholar-citation-count {
+  font-variant-numeric: tabular-nums;
+}
+
 .paper-box {
   position: relative;
   display: flex;
@@ -381,9 +385,41 @@ redirect_from:
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    Google Scholar - {{ site.data.scholar_citations.total_citations | default: "1500+" }} citations
+    Google Scholar - <span class="scholar-citation-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations
   </a>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var counter = document.querySelector(".scholar-citation-count");
+    if (!counter) return;
+
+    var target = Number(String(counter.dataset.count || 0).replace(/\D/g, ""));
+    var duration = 4000;
+    var startTime = null;
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion || !target) {
+      counter.textContent = target;
+      return;
+    }
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 2);
+      counter.textContent = Math.min(target, Math.round(eased * target));
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        counter.textContent = target;
+      }
+    }
+
+    window.requestAnimationFrame(step);
+  });
+</script>
 
 <div class="paper-box">
   <div class="paper-box-label">Nature Chemical Engineering 2026</div>
