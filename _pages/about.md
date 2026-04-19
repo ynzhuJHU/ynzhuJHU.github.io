@@ -189,31 +189,6 @@ redirect_from:
   margin: 0;
 }
 
-.scholar-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 30px;
-  padding: 0 14px;
-  border-radius: 999px;
-  background: #1f57c3;
-  color: #fff;
-  font-size: 0.88rem;
-  font-weight: 700;
-  line-height: 1.2;
-  text-decoration: none;
-  box-shadow: 0 6px 16px rgba(31, 87, 195, 0.22);
-}
-
-.scholar-badge:hover {
-  background: #17439a;
-  color: #fff;
-}
-
-.scholar-citation-count {
-  font-variant-numeric: tabular-nums;
-}
-
 .paper-box {
   position: relative;
   display: flex;
@@ -383,43 +358,7 @@ redirect_from:
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
-
-  <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    Google Scholar - <span class="scholar-citation-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations
-  </a>
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var counter = document.querySelector(".scholar-citation-count");
-    if (!counter) return;
-
-    var target = Number(String(counter.dataset.count || 0).replace(/\D/g, ""));
-    var duration = 4000;
-    var startTime = null;
-    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    if (reduceMotion || !target) {
-      counter.textContent = target;
-      return;
-    }
-
-    function step(timestamp) {
-      if (!startTime) startTime = timestamp;
-      var progress = Math.min((timestamp - startTime) / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 2);
-      counter.textContent = Math.min(target, Math.round(eased * target));
-
-      if (progress < 1) {
-        window.requestAnimationFrame(step);
-      } else {
-        counter.textContent = target;
-      }
-    }
-
-    window.requestAnimationFrame(step);
-  });
-</script>
 
 <div class="paper-box">
   <div class="paper-box-label">Nature Chemical Engineering 2026</div>

@@ -19,8 +19,14 @@
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author.googlescholar %}
+        <li class="sidebar-scholar-link">
+          <a href="{{ author.googlescholar }}">
+            <i class="fas fa-fw fa-graduation-cap"></i>
+            <span>Google Scholar</span>
+            <strong><span class="author-scholar-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations</strong>
+          </a>
+        </li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -108,9 +114,6 @@
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
-      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
@@ -124,6 +127,37 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var counter = document.querySelector(".author-scholar-count");
+        if (!counter) return;
+
+        var target = Number(String(counter.dataset.count || 0).replace(/\D/g, ""));
+        var duration = 4000;
+        var startTime = null;
+        var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        if (reduceMotion || !target) {
+          counter.textContent = target;
+          return;
+        }
+
+        function step(timestamp) {
+          if (!startTime) startTime = timestamp;
+          var progress = Math.min((timestamp - startTime) / duration, 1);
+          var eased = 1 - Math.pow(1 - progress, 2);
+          counter.textContent = Math.min(target, Math.round(eased * target));
+
+          if (progress < 1) {
+            window.requestAnimationFrame(step);
+          } else {
+            counter.textContent = target;
+          }
+        }
+
+        window.requestAnimationFrame(step);
+      });
+    </script>
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>

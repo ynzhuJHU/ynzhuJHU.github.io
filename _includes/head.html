@@ -118,12 +118,6 @@ h1, h2 {
   margin-bottom: 0.3rem;
 }
 
-/* Reduce space below Google Scholar badge */
-a img[alt*="Google Scholar"] {
-  margin-bottom: 0.05rem;
-  display: inline-block;
-}
-
 /* Reduce top margin of first publication */
 .paper-box:first-of-type {
   margin-top: 0.005rem;
@@ -224,7 +218,7 @@ p {
 }
 
 
-/* Publications header with right-aligned Google Scholar badge */
+/* Publications header */
 .pub-header {
   display: flex;
   align-items: center;
@@ -235,27 +229,6 @@ p {
 
 .pub-header h2 {
   margin: 0;
-}
-
-.scholar-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 30px;
-  padding: 0 14px;
-  border-radius: 999px;
-  background: #1f57c3;
-  color: #fff;
-  font-size: 0.88rem;
-  font-weight: 700;
-  line-height: 1.2;
-  text-decoration: none;
-  box-shadow: 0 6px 16px rgba(31, 87, 195, 0.22);
-}
-
-.scholar-badge:hover {
-  background: #17439a;
-  color: #fff;
 }
 
 /* Mobile: stack vertically */
@@ -537,6 +510,31 @@ p {
   background: #f1f5f9;
   color: #1f57c3;
   text-decoration: none;
+}
+
+.sidebar .author__urls .sidebar-scholar-link a {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 6px 9px;
+  align-items: center;
+  background: #eef5ff;
+  color: #1f57c3;
+}
+
+.sidebar .author__urls .sidebar-scholar-link a:hover {
+  background: #dbe8ff;
+}
+
+.sidebar .author__urls .sidebar-scholar-link strong {
+  grid-column: 2;
+  color: #17439a;
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.author-scholar-count {
+  font-variant-numeric: tabular-nums;
 }
 
 .sidebar .author__urls i,
