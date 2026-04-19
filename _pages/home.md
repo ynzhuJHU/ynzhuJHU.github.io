@@ -212,7 +212,7 @@ author_profile: true
 </div>
 
 <div class="home-actions">
-  <a class="home-action" href="/about">
+  <a class="home-action" href="/about/">
     <span>Profile</span>
     <strong>Selected publications, honors, education, and talks</strong>
   </a>
