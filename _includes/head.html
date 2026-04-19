@@ -397,6 +397,7 @@ p {
   font-weight: 650;
   letter-spacing: 0;
   line-height: 1;
+  text-decoration: none !important;
   transition: background 0.18s ease, color 0.18s ease;
 }
 
@@ -480,13 +481,21 @@ p {
   border: 0;
   background: transparent;
   box-shadow: none;
+  list-style: none !important;
 }
 
 .sidebar .author__urls li {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
   white-space: normal;
   color: #4b5563;
   font-size: 0.9rem;
   line-height: 1.35;
+}
+
+.sidebar .author__urls li::marker {
+  content: "";
 }
 
 .sidebar .author__urls li:first-child {

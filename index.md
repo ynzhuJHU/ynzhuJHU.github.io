@@ -212,15 +212,15 @@ author_profile: true
 </div>
 
 <div class="home-actions">
-  <a class="home-action" href="/about">
+  <a class="home-action" href="/about/">
     <span>Profile</span>
     <strong>Selected publications, honors, education, and talks</strong>
   </a>
-  <a class="home-action" href="/research">
+  <a class="home-action" href="/research/">
     <span>Research</span>
     <strong>Publications, patents, services, and research moments</strong>
   </a>
-  <a class="home-action" href="/teaching">
+  <a class="home-action" href="/teaching/">
     <span>Teaching</span>
     <strong>Courses, mentorship, and teaching philosophy</strong>
   </a>

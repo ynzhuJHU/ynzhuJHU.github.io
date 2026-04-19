@@ -5,7 +5,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
   <div class="author__content">
@@ -35,7 +35,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       <li>
-        <a href="./assets/CV.pdf"
+        <a href="{{ '/assets/CV.pdf' | relative_url }}"
           ><i class="fas fa-fw fa-file" aria-hidden="true"></i>
            Curriculum Vitae</a>
       </li>
