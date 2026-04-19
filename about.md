@@ -92,6 +92,30 @@ layout: single
   font-weight: 700;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.about-main,
+.about-side {
+  min-width: 0;
+}
+
+.about-side {
+  display: grid;
+  gap: 20px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.about-main {
+  grid-column: 2;
+  grid-row: 1;
+}
+
 .pub-header {
   display: flex;
   justify-content: space-between;
@@ -103,18 +127,19 @@ layout: single
 
 .pub-header h2 {
   margin: 0;
+  font-size: 1.65rem;
 }
 
 .paper-box {
   position: relative;
   display: flex;
-  gap: 28px;
+  gap: 22px;
   align-items: center;
   background: #fbfcfe;
-  border-radius: 18px;
-  padding: 28px 24px 22px 24px;
-  margin: 28px 0;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  padding: 24px 22px 18px 22px;
+  margin: 24px 0;
+  box-shadow: 0 8px 20px rgba(20,32,56,0.06);
   border: 1px solid rgba(0,0,0,0.05);
   transition: all 0.25s ease;
 }
@@ -130,15 +155,15 @@ layout: single
   left: 24px;
   background: #1f57c3;
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  padding: 6px 14px;
+  padding: 5px 12px;
   border-radius: 999px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
 .paper-box-image {
-  flex: 0 0 40%;
+  flex: 0 0 36%;
   display: flex;
   align-items: center;
 }
@@ -152,18 +177,18 @@ layout: single
 
 .paper-box-text {
   flex: 1;
-  max-width: 620px;
-  font-size: 1.02rem;
-  line-height: 1.6;
+  max-width: none;
+  font-size: 0.94rem;
+  line-height: 1.5;
 }
 
 .paper-title {
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.44rem;
+  font-size: 1.12rem;
   font-weight: 750;
-  line-height: 1.24;
+  line-height: 1.28;
   letter-spacing: 0;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 
 .paper-title a {
@@ -177,10 +202,10 @@ layout: single
 }
 
 .paper-authors {
-  margin-bottom: 12px;
+  margin-bottom: 9px;
   color: #4b5563;
-  font-size: 0.94rem;
-  line-height: 1.55;
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
 
 .paper-authors strong {
@@ -190,9 +215,9 @@ layout: single
 
 .paper-meta {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
-  margin: 10px 0 14px 0;
+  margin: 8px 0 10px 0;
   flex-wrap: wrap;
 }
 
@@ -200,11 +225,11 @@ layout: single
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 34px;
-  padding: 0 14px;
+  height: 28px;
+  padding: 0 11px;
   border-radius: 999px;
   background: #e9f1ff;
-  font-size: 0.92rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #1f57c3;
   text-decoration: none;
@@ -220,7 +245,7 @@ layout: single
   padding: 0;
   border-radius: 0;
   background: transparent;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: #1f57c3;
   text-decoration: underline;
@@ -234,11 +259,11 @@ layout: single
 
 .paper-summary {
   margin: 0;
-  padding: 12px 0 0 18px;
+  padding: 10px 0 0 16px;
   border-top: 1px solid rgba(20, 32, 56, 0.08);
   color: #374151;
-  font-size: 0.96rem;
-  line-height: 1.6;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .paper-summary li {
@@ -247,6 +272,10 @@ layout: single
 }
 
 @media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
   .about-hero {
     min-height: 390px;
   }
@@ -280,7 +309,7 @@ layout: single
   }
 
   .paper-title {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
   }
 
   .paper-box-label {
@@ -304,6 +333,9 @@ layout: single
     </div>
   </div>
 </section>
+
+<div class="about-grid">
+<main class="about-main">
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
@@ -546,35 +578,40 @@ layout: single
 </div>
 
 
+</main>
+<aside class="about-side">
 
 <style>
 .about-lower {
-  margin-top: 52px;
+  margin-top: 0;
   color: #172033;
 }
 
 .about-section {
-  margin: 42px 0;
-  padding-top: 28px;
-  border-top: 1px solid #dce3ee;
+  margin: 0 0 18px 0;
+  padding: 18px;
+  border: 1px solid rgba(20, 32, 56, 0.09);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(20, 32, 56, 0.055);
 }
 
 .about-section-heading {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  margin: 0 0 22px 0;
-  padding: 10px 16px;
-  border-left: 4px solid #1f57c3;
-  border-radius: 8px;
-  background: #f6f9ff;
+  margin: 0 0 16px 0;
+  padding: 0;
+  border-left: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .about-section h2 {
   margin: 0;
   color: #172033;
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.9rem;
+  font-size: 1.22rem;
   font-weight: 650;
   line-height: 1.2;
 }
@@ -593,8 +630,8 @@ layout: single
 
 .awards-showcase {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: 28px;
+  grid-template-columns: 1fr;
+  gap: 16px;
   align-items: start;
 }
 
@@ -608,7 +645,7 @@ layout: single
 .education-card,
 .talk-card {
   position: relative;
-  padding: 18px 20px;
+  padding: 12px 14px;
   border: 1px solid rgba(20, 32, 56, 0.09);
   border-left: 4px solid #1f57c3;
   border-radius: 8px;
@@ -618,8 +655,8 @@ layout: single
 
 .award-card {
   display: grid;
-  grid-template-columns: 84px minmax(0, 1fr) auto;
-  gap: 14px;
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 10px;
   align-items: center;
 }
 
@@ -628,7 +665,7 @@ layout: single
 .education-date,
 .talk-year {
   color: #1f57c3;
-  font-size: 0.84rem;
+  font-size: 0.76rem;
   font-weight: 750;
   letter-spacing: 0.03em;
   white-space: nowrap;
@@ -639,7 +676,7 @@ layout: single
 .education-title {
   display: block;
   color: #111827;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 750;
   line-height: 1.35;
 }
@@ -650,13 +687,15 @@ layout: single
   display: block;
   margin-top: 3px;
   color: #5d6675;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.4;
 }
 
 .award-link {
   display: inline-flex;
   align-items: center;
+  grid-column: 2;
+  justify-self: start;
   min-height: 28px;
   padding: 0 11px;
   border-radius: 999px;
@@ -673,8 +712,7 @@ layout: single
 }
 
 .award-media {
-  display: grid;
-  gap: 18px;
+  display: none;
 }
 
 .award-media img {
@@ -685,14 +723,14 @@ layout: single
 
 .appointment-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 .appointment-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 110px;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) 78px;
+  gap: 12px;
   align-items: center;
 }
 
@@ -706,8 +744,8 @@ layout: single
 }
 
 .appointment-logo img {
-  max-width: 110px;
-  max-height: 56px;
+  max-width: 78px;
+  max-height: 46px;
   object-fit: contain;
 }
 
@@ -718,8 +756,8 @@ layout: single
 
 .education-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 120px;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) 78px;
+  gap: 12px;
   align-items: center;
 }
 
@@ -738,14 +776,19 @@ layout: single
 }
 
 .education-logo img {
-  max-width: 115px;
-  max-height: 58px;
+  max-width: 78px;
+  max-height: 46px;
   object-fit: contain;
 }
 
 .talk-grid {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+}
+
+.about-talks-wrap {
+  margin-top: 30px;
 }
 
 .talk-card {
@@ -767,6 +810,12 @@ layout: single
 }
 
 @media (max-width: 900px) {
+  .about-main,
+  .about-side {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   .awards-showcase,
   .appointment-grid,
   .award-card,
@@ -779,6 +828,10 @@ layout: single
   .appointment-logo,
   .education-logo {
     justify-content: flex-start;
+  }
+
+  .award-link {
+    grid-column: auto;
   }
 }
 </style>
@@ -860,7 +913,6 @@ layout: single
     </div>
   </div>
 </section>
-
 <section class="about-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
@@ -891,7 +943,6 @@ layout: single
     </div>
   </div>
 </section>
-
 <section class="about-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
@@ -934,6 +985,11 @@ layout: single
   </div>
 </section>
 
+</div>
+</aside>
+</div>
+
+<div class="about-talks-wrap">
 <section class="about-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
