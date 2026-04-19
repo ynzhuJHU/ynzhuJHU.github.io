@@ -263,11 +263,12 @@ redirect_from:
 }
 
 .paper-title {
-  font-size: 1.35rem;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-  margin-bottom: 8px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.58rem;
+  font-weight: 750;
+  line-height: 1.18;
+  letter-spacing: 0;
+  margin-bottom: 12px;
 }
 
 .paper-title a {
@@ -281,8 +282,15 @@ redirect_from:
 }
 
 .paper-authors {
-  margin-bottom: 10px;
-  color: #222;
+  margin-bottom: 12px;
+  color: #4b5563;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.paper-authors strong {
+  color: #111827;
+  font-weight: 750;
 }
 
 .paper-meta {
@@ -331,11 +339,16 @@ redirect_from:
 
 .paper-summary {
   margin: 0;
-  padding-left: 1.2em;
+  padding: 12px 0 0 18px;
+  border-top: 1px solid rgba(20, 32, 56, 0.08);
+  color: #374151;
+  font-size: 0.96rem;
+  line-height: 1.6;
 }
 
 .paper-summary li {
   margin: 0;
+  padding-left: 2px;
 }
 
 @media (max-width: 900px) {
@@ -351,6 +364,10 @@ redirect_from:
 
   .paper-box-text {
     max-width: 100%;
+  }
+
+  .paper-title {
+    font-size: 1.34rem;
   }
 
   .paper-box-label {
