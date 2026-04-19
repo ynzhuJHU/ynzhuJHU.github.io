@@ -606,295 +606,416 @@ redirect_from:
 
 
 
-# Honors and Awards
-
-
-<div class="awards-wrapper">
-
-  <div class="awards-list">
-    <ul>
-      <li>
-        <em>2026.03</em>, <strong>Schmidt Science Fellow</strong>,
-        <em>Schmidt Science Foundation</em>
-        <a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank"><strong>News</strong></a>
-      </li>
-
-      <li>
-        <em>2025.12</em>, <strong>Forbes 30 Under 30 in Science</strong>,
-        <em>Forbes Media</em>
-        <a href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank"><strong>News</strong></a>
-      </li>
-
-      <li>
-        <em>2025.09</em>, <strong>Siebel Scholar Award</strong>,
-        <em>Siebel Foundation</em>
-        <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank"><strong>News</strong></a>
-      </li>
-
-      <li>
-        <em>2025.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award</strong>,
-        <em>Society for Biomaterials</em>
-      </li>
-
-      <li>
-        <em>2024.05</em>, <strong>Meritorious Abstract Travel Award</strong>,
-        <em>American Society of Gene & Cell Therapy</em>
-      </li>
-
-      <li>
-        <em>2024.04</em>, <strong>The Hans J. Prochaska Research Award</strong>,
-        <em>Johns Hopkins University</em>
-        <a href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank"><strong>News</strong></a>
-      </li>
-
-      <li>
-        <em>2023.04</em>, <strong>Student Travel Achievement Recognition (STAR) Award</strong>,
-        <em>Society for Biomaterials</em>
-      </li>
-    </ul>
-  </div>
-
-  <div class="awards-image">
-
-    <img src="/images/schmidt_science_fellows.png"
-         alt="Schmidt Science Fellows">
-    <img src="/images/Forbes Science.jpg"
-         alt="Forbes 30 Under 30 Science"
-         style="margin-top:26px;">
-  </div>
-
-</div>
-
-
-
-# Professional Appointments
-
-<div class="appt-wrap">
-
-  <div class="appt-left">
-    <ul>
-      <li><em>2026.02 – current</em>, Postdoctoral Fellow, <strong>Duke University</strong></li>
-      <li><em>2025.10 – 2026.01</em>, Postdoctoral Associate, <strong>Johns Hopkins University</strong></li>
-    </ul>
-  </div>
-
-  <div class="appt-right">
-    <img src="/images/duke.png" alt="Duke University logo">
-    <img src="/images/JHU engineering logo1.png" alt="Johns Hopkins University Engineering logo">
-  </div>
-
-</div>
-
 <style>
-
-
-.awards-wrapper {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin-top: 20px;
+.about-lower {
+  margin-top: 52px;
+  color: #172033;
 }
 
-.awards-list {
-  flex: 1;
+.about-section {
+  margin: 42px 0;
+  padding-top: 28px;
+  border-top: 1px solid #dce3ee;
 }
 
-.awards-image {
-  flex: 0 0 320px;
+.about-section h2 {
+  margin: 0 0 20px 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.9rem;
+  font-weight: 650;
+  line-height: 1.2;
 }
 
-.awards-image img {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+.about-section-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: #1f57c3;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-/* Mobile */
-@media (max-width: 900px) {
-  .awards-wrapper {
-    flex-direction: column;
-  }
-
-  .awards-image {
-    margin-top: 24px;
-  }
-}
-
-  .appt-wrap{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 28px;
-    margin-top: 10px;
-  }
-
-  .appt-left{
-    flex: 1 1 auto;
-    min-width: 0;
-  }
-
-  .appt-left ul{
-    margin: 0;
-    padding-left: 1.2em;
-  }
-
-  .appt-right{
-    flex: 0 0 360px;           /* controls the right column width */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 18px;
-  }
-
-  .appt-right img{
-    height: 56px;              /* 👈 main size control */
-    width: auto;
-    max-width: 170px;          /* prevents one logo dominating */
-    object-fit: contain;
-    display: block;
-  }
-
-  /* Mobile: stack nicely */
-  @media (max-width: 900px){
-    .appt-wrap{ flex-direction: column; }
-    .appt-right{ flex: 0 0 auto; justify-content: flex-start; }
-  }
-</style>
-
-
-<style>
-  
-.education-section {
+.awards-showcase {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 40px;
-  align-items: center;
-  margin: 60px 0;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 28px;
+  align-items: start;
 }
 
-.edu-item {
-  display: flex;
-  align-items: flex-start;
+.award-grid {
+  display: grid;
   gap: 12px;
-  margin-bottom: 22px;
-  font-size: 1.05rem;
 }
 
-.edu-icon {
-  color: #4da3ff;
-  font-size: 1.2rem;
+.award-card,
+.appointment-card,
+.education-card,
+.talk-card {
+  position: relative;
+  padding: 18px 20px;
+  border: 1px solid rgba(20, 32, 56, 0.09);
+  border-left: 4px solid #1f57c3;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(20, 32, 56, 0.055);
+}
+
+.award-card {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+}
+
+.award-date,
+.appointment-date,
+.education-date,
+.talk-year {
+  color: #1f57c3;
+  font-size: 0.84rem;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.award-title,
+.appointment-title,
+.education-title {
+  display: block;
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.award-org,
+.appointment-place,
+.education-place {
+  display: block;
+  margin-top: 3px;
+  color: #5d6675;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 
-.education-logos {
-  display: flex;
-  flex-direction: row;        /* 👈 same row */
-  justify-content: center;
+.award-link {
+  display: inline-flex;
   align-items: center;
-  gap: 40px;                  /* space between JHU and SCU */
+  min-height: 28px;
+  padding: 0 11px;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #1f57c3;
+  font-size: 0.82rem;
+  font-weight: 750;
+  text-decoration: none;
 }
 
+.award-link:hover {
+  background: #dbe8ff;
+  color: #17439a;
+}
 
-.education-logos img {
-  max-width: 160px;
+.award-media {
+  display: grid;
+  gap: 18px;
+}
+
+.award-media img {
   width: 100%;
-  height: auto;
-  opacity: 0.85;
+  border-radius: 8px;
+  box-shadow: 0 14px 32px rgba(20, 32, 56, 0.16);
 }
 
+.appointment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
 
-/* Mobile */
+.appointment-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 110px;
+  gap: 18px;
+  align-items: center;
+}
+
+.appointment-card:nth-child(2) {
+  border-left-color: #0f766e;
+}
+
+.appointment-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.appointment-logo img {
+  max-width: 110px;
+  max-height: 56px;
+  object-fit: contain;
+}
+
+.education-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 28px;
+  align-items: center;
+}
+
+.education-timeline {
+  display: grid;
+  gap: 12px;
+}
+
+.education-card:nth-child(2) {
+  border-left-color: #0f766e;
+}
+
+.education-card:nth-child(3) {
+  border-left-color: #9a3412;
+}
+
+.education-logos-modern {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  padding: 22px;
+  border: 1px solid rgba(20, 32, 56, 0.09);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(20, 32, 56, 0.055);
+}
+
+.education-logos-modern img {
+  max-width: 190px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.talk-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.talk-card {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 16px;
+  border-left-color: #0f766e;
+}
+
+.talk-card a {
+  color: #1f57c3;
+  font-weight: 750;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.talk-card em {
+  color: #293241;
+}
+
 @media (max-width: 900px) {
-  .education-section {
+  .awards-showcase,
+  .appointment-grid,
+  .education-layout {
     grid-template-columns: 1fr;
   }
 
-  .education-logos {
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
+  .award-card,
+  .appointment-card,
+  .talk-card {
+    grid-template-columns: 1fr;
   }
 
-  .education-logos img {
-    max-width: 140px;
+  .appointment-logo {
+    justify-content: flex-start;
   }
 }
-
-.education-logos {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 36px;
-  margin-top: 24px;
-}
-
-.education-logos img {
-  object-fit: contain;
-  display: block;
-}
-
-/* JHMI is wide → make it taller */
-.education-logos img[alt*="Hopkins"] {
-  height: 120px;
-}
-
-/* SCU is circular → must be smaller */
-.education-logos img[alt*="Sichuan"] {
-  height: 100px;
-}
-
 </style>
 
-# Educations
+<div class="about-lower">
 
-<div class="education-section">
+<section class="about-section">
+  <span class="about-section-kicker">Recognition</span>
+  <h2>Honors and Awards</h2>
 
-  <div class="education-text">
+  <div class="awards-showcase">
+    <div class="award-grid">
+      <div class="award-card">
+        <span class="award-date">2026.03</span>
+        <div>
+          <span class="award-title">Schmidt Science Fellow</span>
+          <span class="award-org">Schmidt Science Foundation</span>
+        </div>
+        <a class="award-link" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank">News</a>
+      </div>
 
-    <div class="edu-item">
-      <span class="edu-icon">🎓</span>
-      <div>
-        <strong>Ph.D., Biomedical Engineering, 2025</strong><br>
-        Johns Hopkins University
+      <div class="award-card">
+        <span class="award-date">2025.12</span>
+        <div>
+          <span class="award-title">Forbes 30 Under 30 in Science</span>
+          <span class="award-org">Forbes Media</span>
+        </div>
+        <a class="award-link" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank">News</a>
+      </div>
+
+      <div class="award-card">
+        <span class="award-date">2025.09</span>
+        <div>
+          <span class="award-title">Siebel Scholar Award</span>
+          <span class="award-org">Siebel Foundation</span>
+        </div>
+        <a class="award-link" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">News</a>
+      </div>
+
+      <div class="award-card">
+        <span class="award-date">2025.04</span>
+        <div>
+          <span class="award-title">Student Travel Achievement Recognition Award</span>
+          <span class="award-org">Society for Biomaterials</span>
+        </div>
+      </div>
+
+      <div class="award-card">
+        <span class="award-date">2024.05</span>
+        <div>
+          <span class="award-title">Meritorious Abstract Travel Award</span>
+          <span class="award-org">American Society of Gene & Cell Therapy</span>
+        </div>
+      </div>
+
+      <div class="award-card">
+        <span class="award-date">2024.04</span>
+        <div>
+          <span class="award-title">The Hans J. Prochaska Research Award</span>
+          <span class="award-org">Johns Hopkins University</span>
+        </div>
+        <a class="award-link" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank">News</a>
+      </div>
+
+      <div class="award-card">
+        <span class="award-date">2023.04</span>
+        <div>
+          <span class="award-title">Student Travel Achievement Recognition Award</span>
+          <span class="award-org">Society for Biomaterials</span>
+        </div>
       </div>
     </div>
 
-    <div class="edu-item">
-      <span class="edu-icon">🎓</span>
-      <div>
-        <strong>M.S.E., Biomedical Engineering, 2021</strong><br>
-        Johns Hopkins University
-      </div>
+    <div class="award-media">
+      <img src="/images/schmidt_science_fellows.png" alt="Schmidt Science Fellows">
+      <img src="/images/Forbes Science.jpg" alt="Forbes 30 Under 30 Science">
     </div>
-
-    <div class="edu-item">
-      <span class="edu-icon">🎓</span>
-      <div>
-        <strong>B.S., Pharmacy, 2019</strong><br>
-        Sichuan University
-      </div>
-    </div>
-
   </div>
+</section>
 
-  <div class="education-logos">
-    <img src="/images/JHMI.png" alt="Johns Hopkins University">
-    <img src="/images/SCU.png" alt="Sichuan University">
+<section class="about-section">
+  <span class="about-section-kicker">Appointments</span>
+  <h2>Professional Appointments</h2>
+
+  <div class="appointment-grid">
+    <div class="appointment-card">
+      <div>
+        <span class="appointment-date">2026.02 - current</span>
+        <span class="appointment-title">Postdoctoral Fellow</span>
+        <span class="appointment-place">Duke University</span>
+      </div>
+      <div class="appointment-logo">
+        <img src="/images/duke.png" alt="Duke University logo">
+      </div>
+    </div>
+
+    <div class="appointment-card">
+      <div>
+        <span class="appointment-date">2025.10 - 2026.01</span>
+        <span class="appointment-title">Postdoctoral Associate</span>
+        <span class="appointment-place">Johns Hopkins University</span>
+      </div>
+      <div class="appointment-logo">
+        <img src="/images/JHU engineering logo1.png" alt="Johns Hopkins University Engineering logo">
+      </div>
+    </div>
   </div>
+</section>
+
+<section class="about-section">
+  <span class="about-section-kicker">Training</span>
+  <h2>Education</h2>
+
+  <div class="education-layout">
+    <div class="education-timeline">
+      <div class="education-card">
+        <span class="education-date">2025</span>
+        <span class="education-title">Ph.D., Biomedical Engineering</span>
+        <span class="education-place">Johns Hopkins University</span>
+      </div>
+
+      <div class="education-card">
+        <span class="education-date">2021</span>
+        <span class="education-title">M.S.E., Biomedical Engineering</span>
+        <span class="education-place">Johns Hopkins University</span>
+      </div>
+
+      <div class="education-card">
+        <span class="education-date">2019</span>
+        <span class="education-title">B.S., Pharmacy</span>
+        <span class="education-place">Sichuan University</span>
+      </div>
+    </div>
+
+    <div class="education-logos-modern">
+      <img src="/images/JHMI.png" alt="Johns Hopkins University">
+      <img src="/images/SCU.png" alt="Sichuan University">
+    </div>
+  </div>
+</section>
+
+<section class="about-section">
+  <span class="about-section-kicker">Presentations</span>
+  <h2>Talks</h2>
+
+  <div class="talk-grid">
+    <div class="talk-card">
+      <span class="talk-year">2026</span>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2025</span>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2025</span>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2024</span>
+      <div><a href="https://www.bmes.org/bmes2024" target="_blank">Biomedical Engineering Society Annual Meeting</a>. <em>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2024</span>
+      <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene & Cell Therapy Annual Meeting</a>. <em>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2023</span>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</em></div>
+    </div>
+
+    <div class="talk-card">
+      <span class="talk-year">2022</span>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</em></div>
+    </div>
+  </div>
+</section>
 
 </div>
-
-
-
-# Talks
-- *2026*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.*
-- *2025*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.*
-- *2025*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.*
-- *2024*, [Biomedical Engineering Society Annual Meeting](https://www.bmes.org/bmes2024). *Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.*
-- *2024*, [American Society of Gene & Cell Therapy Annual Meeting](https://www.asgct.org/). *A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.*
-- *2023*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.*
-- *2022*, [Society of Biomaterials Annual Meeting and Exposition](https://biomaterials.org/events). *Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.*
 
 
 
