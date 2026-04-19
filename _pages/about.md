@@ -223,18 +223,31 @@ redirect_from:
 }
 
 .meta-pill {
-  display: inline-block;
-  padding: 5px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 14px;
   border-radius: 999px;
   background: #e9f1ff;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 600;
   color: #1f57c3;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.meta-pill:hover {
+  background: #dbe8ff;
+  text-decoration: none;
 }
 
 .meta-pill a {
   color: inherit;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .paper-summary {
