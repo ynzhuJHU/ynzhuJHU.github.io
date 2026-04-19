@@ -194,14 +194,20 @@ redirect_from:
 }
 
 .paper-title {
-  font-size: 1.55rem;
-  font-weight: 700;
-  line-height: 1.35;
-  margin-bottom: 10px;
+  font-size: 1.35rem;        /* slightly smaller = more modern */
+  font-weight: 600;          /* not too bold */
+  line-height: 1.4;
+  margin-bottom: 8px;
 }
 
 .paper-title a {
-  color: #3f67ad;
+  color: #1f2937;            /* 👈 dark gray instead of blue */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.paper-title a:hover {
+  color: #2563eb;            /* subtle blue on hover only */
 }
 
 .paper-authors {
