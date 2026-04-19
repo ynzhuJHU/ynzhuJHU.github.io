@@ -1,0 +1,55 @@
+{
+  "scholar_id": "rp1pkakAAAAJ",
+  "publications": [
+    {
+      "id": "crosslinking-lnp",
+      "title": "Crosslinking of lipid nanoparticles enhances mRNA delivery efficiency and vaccine efficacy",
+      "fallback_citations": 1
+    },
+    {
+      "id": "imidazolium-lnp",
+      "title": "Imidazolium lipid-based nanoparticles enable efficient mRNA delivery and enhanced cellular immunity",
+      "fallback_citations": 0
+    },
+    {
+      "id": "lnp-nanofiber-hydrogel",
+      "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
+      "fallback_citations": 19
+    },
+    {
+      "id": "spleen-tropic-lnps",
+      "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
+      "fallback_citations": 2
+    },
+    {
+      "id": "helper-t-cell-lnps",
+      "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
+      "fallback_citations": 105
+    },
+    {
+      "id": "fluid-viscosity-transfection",
+      "title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
+      "fallback_citations": 9
+    },
+    {
+      "id": "intraduodenal-liver-editing",
+      "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
+      "fallback_citations": 15
+    },
+    {
+      "id": "dna-lnp-multistep-screening",
+      "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
+      "fallback_citations": 149
+    },
+    {
+      "id": "lentiviral-dna-particles",
+      "title": "Size-controlled and shelf-stable DNA particles for production of lentiviral vectors",
+      "fallback_citations": 31
+    },
+    {
+      "id": "albumin-biomineralized-melanoma",
+      "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
+      "fallback_citations": 99
+    }
+  ]
+}

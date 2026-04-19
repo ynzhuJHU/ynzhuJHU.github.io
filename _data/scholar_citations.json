@@ -1,0 +1,104 @@
+{
+  "scholar_id": "rp1pkakAAAAJ",
+  "source": "google_scholar",
+  "last_updated": "2026-04-19T15:11:22+00:00",
+  "total_citations": 1500,
+  "publications": [
+    {
+      "id": "crosslinking-lnp",
+      "title": "Crosslinking of lipid nanoparticles enhances mRNA delivery efficiency and vaccine efficacy",
+      "citations": 1,
+      "citation_label": "citation",
+      "status": "preserved",
+      "best_match_score": 0.83
+    },
+    {
+      "id": "imidazolium-lnp",
+      "title": "Imidazolium lipid-based nanoparticles enable efficient mRNA delivery and enhanced cellular immunity",
+      "citations": 0,
+      "citation_label": "citations",
+      "status": "preserved",
+      "best_match_score": 0.847
+    },
+    {
+      "id": "lnp-nanofiber-hydrogel",
+      "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
+      "citations": 19,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
+      "matched_year": "2025",
+      "match_score": 1.0
+    },
+    {
+      "id": "spleen-tropic-lnps",
+      "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
+      "citations": 2,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
+      "matched_year": "2025",
+      "match_score": 1.0
+    },
+    {
+      "id": "helper-t-cell-lnps",
+      "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
+      "citations": 107,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
+      "matched_year": "2024",
+      "match_score": 1.0
+    },
+    {
+      "id": "fluid-viscosity-transfection",
+      "title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
+      "citations": 9,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
+      "matched_year": "2024",
+      "match_score": 1.0
+    },
+    {
+      "id": "intraduodenal-liver-editing",
+      "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
+      "citations": 15,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
+      "matched_year": "2024",
+      "match_score": 1.0
+    },
+    {
+      "id": "dna-lnp-multistep-screening",
+      "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
+      "citations": 149,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
+      "matched_year": "2022",
+      "match_score": 1.0
+    },
+    {
+      "id": "lentiviral-dna-particles",
+      "title": "Size-controlled and shelf-stable DNA particles for production of lentiviral vectors",
+      "citations": 31,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Size-Controlled and Shelf-Stable DNA Particles for Production of Lentiviral Vectors",
+      "matched_year": "2021",
+      "match_score": 1.0
+    },
+    {
+      "id": "albumin-biomineralized-melanoma",
+      "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
+      "citations": 99,
+      "citation_label": "citations",
+      "status": "matched",
+      "matched_title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
+      "matched_year": "2020",
+      "match_score": 1.0
+    }
+  ]
+}

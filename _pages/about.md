@@ -7,13 +7,6 @@ redirect_from:
 ---
 
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 <div class="hero-banner">
@@ -196,8 +189,25 @@ redirect_from:
   margin: 0;
 }
 
-.scholar-badge img {
-  height: 24px;
+.scholar-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #1f57c3;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(31, 87, 195, 0.22);
+}
+
+.scholar-badge:hover {
+  background: #17439a;
+  color: #fff;
 }
 
 .paper-box {
@@ -354,8 +364,7 @@ redirect_from:
   <h2>Selected Publications</h2>
 
   <a href="https://scholar.google.com/citations?user=rp1pkakAAAAJ" target="_blank" class="scholar-badge">
-    <img src="https://img.shields.io/badge/Google%20Scholar-1500%2B%20citations-blue?logo=google-scholar"
-         alt="Google Scholar Citations">
+    Google Scholar - {{ site.data.scholar_citations.total_citations | default: "1500+" }} citations
   </a>
 </div>
 
@@ -375,7 +384,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a>
-      <span class="meta-pill">1 citation</span>
+      {% include citation_pill.html id="crosslinking-lnp" fallback=1 %}
     </div>
     <ul class="paper-summary">
       <li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li>
@@ -398,7 +407,7 @@ redirect_from:
       Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill">0 citations</span>
+      {% include citation_pill.html id="imidazolium-lnp" fallback=0 %}
     </div>
     <ul class="paper-summary">
       <li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li>
@@ -421,7 +430,7 @@ redirect_from:
       <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill">19 citations</span>
+      {% include citation_pill.html id="lnp-nanofiber-hydrogel" fallback=19 %}
     </div>
     <ul class="paper-summary">
       <li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li>
@@ -445,7 +454,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a>
-      <span class="meta-pill">2 citations</span>
+      {% include citation_pill.html id="spleen-tropic-lnps" fallback=2 %}
     </div>
     <ul class="paper-summary">
       <li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li>
@@ -469,7 +478,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a>
-      <span class="meta-pill">105 citations</span>
+      {% include citation_pill.html id="helper-t-cell-lnps" fallback=105 %}
     </div>
     <ul class="paper-summary">
       <li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li>
@@ -493,7 +502,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a>
-      <span class="meta-pill">9 citations</span>
+      {% include citation_pill.html id="fluid-viscosity-transfection" fallback=9 %}
     </div>
     <ul class="paper-summary">
       <li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li>
@@ -516,7 +525,7 @@ redirect_from:
       <strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW, Mao HQ.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill">15 citations</span>
+      {% include citation_pill.html id="intraduodenal-liver-editing" fallback=15 %}
     </div>
     <ul class="paper-summary">
       <li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li>
@@ -540,7 +549,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a>
-      <span class="meta-pill">149 citations</span>
+      {% include citation_pill.html id="dna-lnp-multistep-screening" fallback=149 %}
     </div>
     <ul class="paper-summary">
       <li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li>
@@ -564,7 +573,7 @@ redirect_from:
     </div>
     <div class="paper-meta">
       <a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a>
-      <span class="meta-pill">31 citations</span>
+      {% include citation_pill.html id="lentiviral-dna-particles" fallback=31 %}
     </div>
     <ul class="paper-summary">
       <li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li>
@@ -587,7 +596,7 @@ redirect_from:
       <strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X.
     </div>
     <div class="paper-meta">
-      <span class="meta-pill">99 citations</span>
+      {% include citation_pill.html id="albumin-biomineralized-melanoma" fallback=99 %}
     </div>
     <ul class="paper-summary">
       <li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li>

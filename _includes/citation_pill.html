@@ -1,0 +1,9 @@
+{% assign citation_record = site.data.scholar_citations.publications | where: "id", include.id | first %}
+{% assign citation_count = citation_record.citations | default: include.fallback %}
+{% assign citation_count_number = citation_count | plus: 0 %}
+{% if citation_count_number == 1 %}
+  {% assign citation_label = "citation" %}
+{% else %}
+  {% assign citation_label = "citations" %}
+{% endif %}
+<span class="meta-pill">{{ citation_count }} {{ citation_label }}</span>
