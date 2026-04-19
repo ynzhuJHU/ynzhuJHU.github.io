@@ -373,24 +373,48 @@ p {
 
 
 
-/* ===== Masthead navigation: Georgia serif ===== */
+/* ===== Masthead navigation ===== */
 .masthead,
 .masthead__menu,
 .masthead__menu-item a,
 .greedy-nav a {
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
 
-/* Optional: slightly refine nav font size */
+.masthead {
+  border-bottom: 1px solid rgba(20, 32, 56, 0.08);
+  box-shadow: 0 8px 24px rgba(20, 32, 56, 0.04);
+}
+
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .masthead__menu-item a {
-  font-size: 14pt !important;
+  margin: 0 0.15rem !important;
+  padding: 0.52rem 0.78rem !important;
+  border-radius: 8px;
+  color: #4b5563 !important;
+  font-size: 0.92rem !important;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1;
+  transition: background 0.18s ease, color 0.18s ease;
 }
 
-/* Icons stay aligned nicely */
-.masthead__menu-item i {
-  margin-right: 0.35em;
+.masthead__menu-item a:hover {
+  background: #f1f5f9;
+  color: #1f57c3 !important;
+}
+
+.greedy-nav .visible-links a:before {
+  display: none !important;
 }
 
 
