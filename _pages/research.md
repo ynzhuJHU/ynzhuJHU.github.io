@@ -293,7 +293,7 @@ layout: single
 <div class="research-page">
 
 <section class="research-hero">
-  <img src="images/journals.png" alt="Journal covers featuring research publications">
+  <img src="{{ '/images/journals.png' | relative_url }}" alt="Journal covers featuring research publications">
   <div class="research-hero-content">
     <span class="research-eyebrow">Research Portfolio</span>
     <h1>Engineering genetic medicines and spatial multiomics for immune discovery</h1>

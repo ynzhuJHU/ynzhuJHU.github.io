@@ -276,7 +276,7 @@ layout: single
 <div class="teaching-page">
 
 <section class="teaching-hero">
-  <img src="images/duke.jpg" alt="Duke University campus">
+  <img src="{{ '/images/duke.jpg' | relative_url }}" alt="Duke University campus">
   <div class="teaching-hero-content">
     <span class="teaching-eyebrow">Teaching and Mentorship</span>
     <h1>Helping students connect engineering principles with human health</h1>
