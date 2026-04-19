@@ -161,7 +161,10 @@ redirect_from:
 }
 
 .paper-box-text a {
-  text-decoration: none;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #1f4e8c;   /* slightly deeper blue */
 }
 
 .paper-box-text a:hover {
@@ -213,6 +216,19 @@ redirect_from:
     flex: 0 0 auto;
     width: 100%;
   }
+}
+
+.paper-box {
+  transition: all 0.25s ease;
+}
+
+.paper-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.paper-box {
+  background: #fbfcfe;   /* softer than pure white */
 }
 
 </style>
