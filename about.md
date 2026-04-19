@@ -6,6 +6,91 @@ author_profile: true
 
 
 <style>
+.about-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 310px;
+  margin: 0 0 34px 0;
+  border-radius: 8px;
+  background: #102233;
+  box-shadow: 0 18px 40px rgba(20, 32, 56, 0.14);
+}
+
+.about-hero img {
+  width: 100%;
+  min-height: 310px;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center 42%;
+  display: block;
+  opacity: 0.78;
+}
+
+.about-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(12, 24, 38, 0.74), rgba(12, 24, 38, 0.35) 56%, rgba(12, 24, 38, 0.1));
+}
+
+.about-hero-content {
+  position: absolute;
+  left: 32px;
+  right: 32px;
+  bottom: 30px;
+  z-index: 1;
+  max-width: 720px;
+  color: #fff;
+}
+
+.about-hero-kicker {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: #91f2df;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.about-hero h1 {
+  margin: 0 0 12px 0;
+  color: #fff;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2.05rem;
+  font-weight: 750;
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+.about-hero p {
+  max-width: 660px;
+  margin: 0;
+  color: rgba(255,255,255,0.9);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.about-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.about-hero-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .pub-header {
   display: flex;
   justify-content: space-between;
@@ -161,6 +246,24 @@ author_profile: true
 }
 
 @media (max-width: 900px) {
+  .about-hero {
+    min-height: 390px;
+  }
+
+  .about-hero img {
+    min-height: 390px;
+  }
+
+  .about-hero-content {
+    left: 20px;
+    right: 20px;
+    bottom: 24px;
+  }
+
+  .about-hero h1 {
+    font-size: 1.52rem;
+  }
+
   .paper-box {
     flex-direction: column;
     align-items: flex-start;
@@ -185,6 +288,21 @@ author_profile: true
   }
 }
 </style>
+
+<section class="about-hero">
+  <img src="{{ '/images/jhu2.png' | relative_url }}" alt="Johns Hopkins campus">
+  <div class="about-hero-content">
+    <span class="about-hero-kicker">About Me</span>
+    <h1>Engineering the Future of Medicine.</h1>
+    <p>I work at the interface of biomaterials, gene delivery, and systems immunology to design next-generation genetic medicines and immune-engineering platforms.</p>
+    <div class="about-hero-tags" aria-label="Research themes">
+      <span>Biomaterials</span>
+      <span>Gene Delivery</span>
+      <span>Systems Immunology</span>
+      <span>Spatial Multiomics</span>
+    </div>
+  </div>
+</section>
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
@@ -859,16 +977,4 @@ author_profile: true
   </div>
 </section>
 
-</div>
-
-
-
-<hr style="margin: 70px 0 40px 0;">
-
-<div class="footer-hero">
-  <img src="/images/jhu2.png" alt="Campus closing banner">
-
-  <div class="footer-overlay-text">
-    Engineering the Future of Medicine.
-  </div>
 </div>
