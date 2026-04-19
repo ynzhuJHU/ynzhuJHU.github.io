@@ -130,6 +130,31 @@ layout: single
   font-size: 1.65rem;
 }
 
+.scholar-pub-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #1f57c3;
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 750;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(31, 87, 195, 0.18);
+  white-space: nowrap;
+}
+
+.scholar-pub-pill:hover {
+  color: #fff;
+  background: #17439a;
+}
+
+.scholar-pub-count {
+  font-variant-numeric: tabular-nums;
+}
+
 .paper-box {
   position: relative;
   display: flex;
@@ -294,6 +319,12 @@ layout: single
     font-size: 1.52rem;
   }
 
+  .pub-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .paper-box {
     flex-direction: column;
     align-items: flex-start;
@@ -339,7 +370,42 @@ layout: single
 
 <div class="pub-header">
   <h2>Selected Publications</h2>
+  <a class="scholar-pub-pill" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl" target="_blank">
+    Google Scholar - <span class="scholar-pub-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations
+  </a>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var counter = document.querySelector(".scholar-pub-count");
+    if (!counter) return;
+
+    var target = Number(String(counter.dataset.count || 0).replace(/\D/g, ""));
+    var duration = 4000;
+    var startTime = null;
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion || !target) {
+      counter.textContent = target;
+      return;
+    }
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 2);
+      counter.textContent = Math.min(target, Math.round(eased * target));
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        counter.textContent = target;
+      }
+    }
+
+    window.requestAnimationFrame(step);
+  });
+</script>
 
 <div class="paper-box">
   <div class="paper-box-label">Nature Chemical Engineering 2026</div>
@@ -583,17 +649,32 @@ layout: single
 
 <style>
 .about-lower {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
   margin-top: 0;
   color: #172033;
 }
 
 .about-section {
-  margin: 0 0 18px 0;
+  margin: 0;
   padding: 18px;
   border: 1px solid rgba(20, 32, 56, 0.09);
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 8px 20px rgba(20, 32, 56, 0.055);
+}
+
+.about-training-section {
+  order: 1;
+}
+
+.about-education-section {
+  order: 2;
+}
+
+.about-honors-section {
+  order: 3;
 }
 
 .about-section-heading {
@@ -838,7 +919,7 @@ layout: single
 
 <div class="about-lower">
 
-<section class="about-section">
+<section class="about-section about-honors-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Honors and Awards</h2>
@@ -913,10 +994,10 @@ layout: single
     </div>
   </div>
 </section>
-<section class="about-section">
+<section class="about-section about-training-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
-    <h2>Professional Appointments</h2>
+    <h2>Professional Training</h2>
   </div>
 
   <div class="appointment-grid">
@@ -943,7 +1024,7 @@ layout: single
     </div>
   </div>
 </section>
-<section class="about-section">
+<section class="about-section about-education-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Education</h2>
