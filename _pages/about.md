@@ -57,7 +57,7 @@ redirect_from:
   position: absolute;
   inset: 0;
   border-radius: 16px;
-  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.08));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.33), rgba(0,0,0,0.08));
   z-index: 1;
 }
 
