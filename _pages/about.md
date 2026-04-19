@@ -57,32 +57,7 @@ redirect_from:
   inset: 0;
   border-radius: 16px;
   background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.1));
-}
-
-.hero-overlay-text {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%);
-  color: white;
-  text-align: right;
-}
-
-.hero-title {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  max-width: 400px;
-}
-
-.hero-tags span {
-  display: inline-block;
-  background: rgba(255,255,255,0.15);
-  backdrop-filter: blur(6px);
-  padding: 6px 12px;
-  margin: 6px 6px 0 0;
-  border-radius: 999px;
-  font-size: 14px;
+  z-index: 1;
 }
 
 .hero-overlay-text {
@@ -93,22 +68,38 @@ redirect_from:
   z-index: 2;
 
   display: flex;
-  justify-content: flex-end;   /* key */
+  justify-content: flex-end;
   width: 100%;
 }
 
 .hero-content {
-  max-width: 420px;   /* same width for title + tags */
+  width: 520px;              /* 👈 KEY: fixed width for layout control */
   text-align: right;
 }
 
+/* ===== TITLE ===== */
+.hero-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 14px;
+}
+
+/* ===== TAGS (FORCE ONE LINE) ===== */
 .hero-tags {
-  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;         /* 👈 prevents wrapping */
+  gap: 8px;
+  white-space: nowrap;       /* 👈 ensures single line */
 }
 
 .hero-tags span {
-  display: inline-block;
-  margin-left: 6px;   /* instead of right margin */
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(6px);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
 }
 
 </style>
