@@ -500,22 +500,51 @@ p {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-  margin: 48px 0 56px 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 42px 0 56px 0;
 }
 
 .intro-card {
-  text-align: center;
+  --intro-accent: #1f57c3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(31, 87, 195, 0.12);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(20, 32, 56, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.intro-card:nth-child(2) {
+  --intro-accent: #0f766e;
+}
+
+.intro-card:nth-child(3) {
+  --intro-accent: #9a3412;
+}
+
+.intro-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--intro-accent);
+}
+
+.intro-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(31, 87, 195, 0.24);
+  box-shadow: 0 16px 34px rgba(20, 32, 56, 0.13);
 }
 
 .intro-card .image-box {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
-  border-radius: 14px;
-  margin-bottom: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  background: #f4f7fb;
 }
 
 .intro-card img {
@@ -523,19 +552,62 @@ p {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.25s ease;
+}
+
+.intro-card:hover img {
+  transform: scale(1.03);
+}
+
+.intro-copy {
+  padding: 18px 20px 22px 20px;
+}
+
+.intro-kicker {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--intro-accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.intro-card h3 {
+  margin: 0 0 10px 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.18rem;
+  font-weight: 650;
+  line-height: 1.25;
 }
 
 .intro-card p {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.02rem;
-  line-height: 1.6;
-  text-align: justify;
+  color: #293241;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.96rem;
+  line-height: 1.65;
+  text-align: left;
   margin: 0;
+}
+
+.intro-card a {
+  color: #1f57c3;
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.intro-card a:hover {
+  color: #17439a;
 }
 
 @media (max-width: 900px) {
   .intro-grid {
     grid-template-columns: 1fr;
+    gap: 22px;
   }
 }
 

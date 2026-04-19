@@ -118,53 +118,65 @@ redirect_from:
     <div class="image-box">
       <img src="/images/Position and training.png" alt="Position and training">
     </div>
-    <p>
-      I am a Postdoc Fellow in Biomedical Engineering at Duke University,
-      working in the laboratory of
-      <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
-        Dr. John W. Hickey
-      </a>
-      from February 2026. Prior to this, I conducted postdoctoral research at
-      Johns Hopkins University with
-      <a href="https://maogroup.jhu.edu/" target="_blank">
-        Dr. Hai-Quan Mao
-      </a>,
-      following my doctoral training.
-    </p>
+    <div class="intro-copy">
+      <span class="intro-kicker">Current Role</span>
+      <h3>Duke Biomedical Engineering</h3>
+      <p>
+        I am a Postdoc Fellow in Biomedical Engineering at Duke University,
+        working in the laboratory of
+        <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">
+          Dr. John W. Hickey
+        </a>
+        from February 2026. Prior to this, I conducted postdoctoral research at
+        Johns Hopkins University with
+        <a href="https://maogroup.jhu.edu/" target="_blank">
+          Dr. Hai-Quan Mao
+        </a>,
+        following my doctoral training.
+      </p>
+    </div>
   </div>
 
   <div class="intro-card">
     <div class="image-box">
       <img src="/images/Research focues.jpeg" alt="Research focus">
     </div>
-    <p>
-      My doctoral and early postdoctoral research centered on the design and
-      optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine
-      delivery. I am now pivoting toward spatial proteomics and systems immunology
-      to study aging-associated immune responses.
-    </p>
+    <div class="intro-copy">
+      <span class="intro-kicker">Research Focus</span>
+      <h3>Gene Delivery to Systems Immunology</h3>
+      <p>
+        My doctoral and early postdoctoral research centered on the design and
+        optimization of lipid nanoparticles (LNPs) for gene therapy and mRNA vaccine
+        delivery. I am now pivoting toward spatial proteomics and systems immunology
+        to study aging-associated immune responses.
+      </p>
+    </div>
   </div>
 
   <div class="intro-card">
     <div class="image-box">
       <img src="/images/Recognition.png" alt="Recognition">
     </div>
-     <p>
-    I have been recognized as a
-    <a href="https://www.schmidtsciencefellows.org/" target="_blank">
-      <strong>Schmidt Science Fellow</strong>
-    </a>
-    (2026),
-    a
-    <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
-      <strong>Siebel Scholar</strong>
-    </a>
-    (2025), and named to
-    <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
-      <strong>Forbes 30 Under 30 – Science, U.S.</strong>
-    </a>
-    (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
-    </p>
+    <div class="intro-copy">
+      <span class="intro-kicker">Recognition</span>
+      <h3>Fellowships and Honors</h3>
+      <p>
+        I have been recognized as a
+        <a href="https://www.schmidtsciencefellows.org/" target="_blank">
+          <strong>Schmidt Science Fellow</strong>
+        </a>
+        (2026),
+        a
+        <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">
+          <strong>Siebel Scholar</strong>
+        </a>
+        (2025), and named to
+        <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank">
+          <strong>Forbes 30 Under 30 - Science, U.S.</strong>
+        </a>
+        (2026) for contributions to nanoparticle-enabled gene delivery and immunoengineering.
+      </p>
+    </div>
   </div>
 
 </div>
@@ -886,4 +898,3 @@ redirect_from:
     Engineering the Future of Medicine.
   </div>
 </div>
-
