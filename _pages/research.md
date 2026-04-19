@@ -327,7 +327,7 @@ layout: single
 
     function animateCounter(counter) {
       var target = Number(counter.dataset.count || 0);
-      var duration = 900;
+      var duration = 5000;
       var startTime = null;
 
       if (reduceMotion) {
@@ -338,8 +338,8 @@ layout: single
       function step(timestamp) {
         if (!startTime) startTime = timestamp;
         var progress = Math.min((timestamp - startTime) / duration, 1);
-        var eased = 1 - Math.pow(1 - progress, 3);
-        counter.textContent = Math.floor(eased * target);
+        var eased = 1 - Math.pow(1 - progress, 2);
+        counter.textContent = Math.min(target, Math.round(eased * target));
 
         if (progress < 1) {
           window.requestAnimationFrame(step);
