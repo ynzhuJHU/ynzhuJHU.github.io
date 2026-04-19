@@ -35,7 +35,9 @@ redirect_from:
       <span>Biomaterials</span>
       <span>Spatial Proteomics</span>
     </div>
-    
+  </div>
+
+  </div>
   </div>
 
 </div>
