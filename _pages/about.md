@@ -261,6 +261,14 @@ redirect_from:
     margin-bottom: 14px;
   }
 }
+
+.paper-title {
+  letter-spacing: 0.2px;
+}
+.paper-box-text {
+  max-width: 600px;
+}
+
 </style>
 
 
