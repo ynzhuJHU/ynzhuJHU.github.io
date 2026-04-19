@@ -22,19 +22,21 @@ redirect_from:
   <div class="hero-overlay"></div>
 
   <div class="hero-overlay-text">
-  
-  <h1 class="hero-title">
-    Designing Next-Generation mRNA Therapies through Biomaterials and Systems Immunology
-  </h1>
-   
-  <div class="hero-tags">
-    <span>Immunoengineering</span>
-    <span>Gene Therapy</span>
-    <span>Biomaterials</span>
-    <span>Spatial Multiomics</span>
+
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Designing Next-Generation mRNA Therapies<br>
+      through Biomaterials and Systems Immunology
+    </h1>
+
+    <div class="hero-tags">
+      <span>Immunoengineering</span>
+      <span>Gene Therapy</span>
+      <span>Biomaterials</span>
+      <span>Spatial Proteomics</span>
+    </div>
   </div>
-    
-  </div>
+
 </div>
 
 <style>
@@ -79,6 +81,32 @@ redirect_from:
   margin: 6px 6px 0 0;
   border-radius: 999px;
   font-size: 14px;
+}
+
+.hero-overlay-text {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  z-index: 2;
+
+  display: flex;
+  justify-content: flex-end;   /* key */
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 420px;   /* same width for title + tags */
+  text-align: right;
+}
+
+.hero-tags {
+  margin-top: 12px;
+}
+
+.hero-tags span {
+  display: inline-block;
+  margin-left: 6px;   /* instead of right margin */
 }
 
 </style>
