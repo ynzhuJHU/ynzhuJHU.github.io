@@ -127,6 +127,11 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+    <div class="sidebar-recognition">
+      <span class="sidebar-recognition__label">Recognition</span>
+      <img src="{{ '/images/schmidt_science_fellows.png' | relative_url }}" alt="Schmidt Science Fellows">
+      <img src="{{ '/images/Forbes Science.jpg' | relative_url }}" alt="Forbes 30 Under 30 Science">
+    </div>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var counter = document.querySelector(".author-scholar-count");
