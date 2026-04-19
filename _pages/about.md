@@ -50,56 +50,63 @@ redirect_from:
 .hero-banner img {
   width: 100%;
   border-radius: 16px;
+  display: block;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   border-radius: 16px;
-  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.1));
+  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.08));
   z-index: 1;
 }
 
 .hero-overlay-text {
   position: absolute;
   top: 50%;
-  right: 40px;
+  right: 36px;
   transform: translateY(-50%);
   z-index: 2;
-
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  color: white;
 }
 
 .hero-content {
-  width: 520px;              /* 👈 KEY: fixed width for layout control */
+  width: 620px;          /* wider so the title stays in 2 lines */
   text-align: right;
 }
 
-/* ===== TITLE ===== */
 .hero-title {
-  font-size: 26px;
+  font-size: 24px;       /* slightly smaller */
   font-weight: 600;
   line-height: 1.3;
-  margin-bottom: 14px;
+  margin: 0 0 14px 0;
+  color: white;
 }
 
-/* ===== TAGS (FORCE ONE LINE) ===== */
+.hero-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255,255,255,0.7);
+  margin: 0 0 16px 0;
+}
+
 .hero-tags {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: nowrap;         /* 👈 prevents wrapping */
-  gap: 8px;
-  white-space: nowrap;       /* 👈 ensures single line */
+  flex-wrap: nowrap;
+  gap: 10px;
+  white-space: nowrap;
 }
 
 .hero-tags span {
+  display: inline-block;
   background: rgba(255,255,255,0.18);
   backdrop-filter: blur(6px);
-  padding: 6px 12px;
+  -webkit-backdrop-filter: blur(6px);
+  padding: 7px 14px;
   border-radius: 999px;
   font-size: 13px;
+  line-height: 1;
 }
 
 </style>
