@@ -8,6 +8,14 @@ layout: single
 <style>
 .teaching-page {
   color: #172033;
+  width: 100%;
+  max-width: 100%;
+}
+
+.teaching-hero,
+.teaching-section,
+.teaching-gallery {
+  width: 100%;
 }
 
 .teaching-hero {
