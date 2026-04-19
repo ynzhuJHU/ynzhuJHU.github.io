@@ -327,7 +327,7 @@ layout: single
 
     function animateCounter(counter) {
       var target = Number(counter.dataset.count || 0);
-      var duration = 4000;
+      var duration = 3000;
       var startTime = null;
 
       if (reduceMotion) {
