@@ -124,7 +124,11 @@ def fetch_scholar_publications(scholar_id: str, pagesize: int, max_pages: int) -
     return total_citations, publications
 
 
-def find_match(target_title: str, scholar_publications: list[ScholarPublication]) -> tuple[ScholarPublication | None, float]:
+def find_match(
+    target_title: str,
+    scholar_publications: list[ScholarPublication],
+    min_score: float,
+) -> tuple[ScholarPublication | None, ScholarPublication | None, float]:
     normalized_target = normalize_title(target_title)
     best: ScholarPublication | None = None
     best_score = 0.0
@@ -133,9 +137,9 @@ def find_match(target_title: str, scholar_publications: list[ScholarPublication]
         if score > best_score:
             best = publication
             best_score = score
-    if best_score >= 0.86:
-        return best, best_score
-    return None, best_score
+    if best_score >= min_score:
+        return best, best, best_score
+    return None, best, best_score
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -155,12 +159,13 @@ def build_output(
     existing_output: dict[str, Any],
     scholar_total: int | None,
     scholar_publications: list[ScholarPublication],
+    min_score: float,
 ) -> dict[str, Any]:
     previous = previous_publications_by_id(existing_output)
     output_publications: list[dict[str, Any]] = []
 
     for target in config["publications"]:
-        matched, score = find_match(target["title"], scholar_publications)
+        matched, best_match, score = find_match(target["title"], scholar_publications, min_score)
         previous_record = previous.get(target["id"], {})
         fallback = target.get("fallback_citations", 0)
 
@@ -183,6 +188,8 @@ def build_output(
                 "citations": preserved_count,
                 "citation_label": citation_word(int(preserved_count)),
                 "status": "preserved" if previous_record else "fallback",
+                "best_match_title": best_match.title if best_match else None,
+                "best_match_year": best_match.year if best_match else None,
                 "best_match_score": round(score, 3),
             }
         output_publications.append(record)
@@ -202,6 +209,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--pagesize", type=int, default=100)
     parser.add_argument("--max-pages", type=int, default=3)
+    parser.add_argument("--min-score", type=float, default=0.82)
     args = parser.parse_args()
 
     config = load_json(args.input)
@@ -221,7 +229,7 @@ def main() -> int:
         print("No publications were found on the Google Scholar profile.", file=sys.stderr)
         return 1
 
-    output = build_output(config, existing_output, total, scholar_publications)
+    output = build_output(config, existing_output, total, scholar_publications, args.min_score)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8") as file:
         json.dump(output, file, ensure_ascii=False, indent=2)
