@@ -71,35 +71,6 @@ layout: single
   line-height: 1.6;
 }
 
-.teaching-stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin: 0 0 38px 0;
-}
-
-.teaching-stat {
-  padding: 18px;
-  border: 1px solid rgba(31, 87, 195, 0.12);
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 10px 28px rgba(20, 32, 56, 0.07);
-}
-
-.teaching-stat strong {
-  display: block;
-  margin-bottom: 4px;
-  color: #1f57c3;
-  font-size: 1.55rem;
-  line-height: 1;
-}
-
-.teaching-stat span {
-  color: #4b5563;
-  font-size: 0.88rem;
-  line-height: 1.35;
-}
-
 .teaching-section {
   margin: 38px 0;
   padding-top: 26px;
@@ -283,7 +254,6 @@ layout: single
     font-size: 1.75rem;
   }
 
-  .teaching-stats,
   .course-grid,
   .gallery-grid {
     grid-template-columns: 1fr;
@@ -305,21 +275,6 @@ layout: single
     <p>I teach and mentor at the intersection of nanomedicine, immunoengineering, tissue engineering, and translational biomaterials.</p>
   </div>
 </section>
-
-<div class="teaching-stats">
-  <div class="teaching-stat">
-    <strong>3</strong>
-    <span>courses supported or instructed</span>
-  </div>
-  <div class="teaching-stat">
-    <strong>3</strong>
-    <span>nanomedicine course offerings</span>
-  </div>
-  <div class="teaching-stat">
-    <strong>BME</strong>
-    <span>coursework across medicine-facing engineering</span>
-  </div>
-</div>
 
 <section class="teaching-section">
   <h1>Teaching Experience</h1>
