@@ -222,11 +222,19 @@ def main() -> int:
             max_pages=args.max_pages,
         )
     except Exception as exc:
-        print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
+        if existing_output:
+            print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
+            print("Keeping existing citation data.", file=sys.stderr)
+            return 0
+        print(f"Could not fetch Google Scholar data and no existing citation data is available: {exc}", file=sys.stderr)
         return 1
 
     if not scholar_publications:
-        print("No publications were found on the Google Scholar profile.", file=sys.stderr)
+        if existing_output:
+            print("No publications were found on the Google Scholar profile.", file=sys.stderr)
+            print("Keeping existing citation data.", file=sys.stderr)
+            return 0
+        print("No publications were found on the Google Scholar profile and no existing citation data is available.", file=sys.stderr)
         return 1
 
     output = build_output(config, existing_output, total, scholar_publications, args.min_score)
