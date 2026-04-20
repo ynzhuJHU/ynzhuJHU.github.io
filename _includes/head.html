@@ -310,6 +310,10 @@ p {
 }
 
 .masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow: visible;
   border-bottom: 1px solid rgba(20, 32, 56, 0.08);
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(10px);
@@ -321,6 +325,13 @@ p {
 #main {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.masthead__inner-wrap,
+.masthead__menu,
+.site-nav-modern,
+.site-nav-modern .visible-links {
+  overflow: visible;
 }
 
 .site-nav-modern {
@@ -426,6 +437,17 @@ p {
   margin: 0;
 }
 
+.masthead-submenu-group {
+  padding-bottom: 4px;
+}
+
+.masthead-submenu-group > ul {
+  margin: 2px 0 4px 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid rgba(31, 87, 195, 0.14);
+  list-style: none;
+}
+
 .masthead__menu-item .masthead-submenu a {
   margin: 0 !important;
   padding: 0.62rem 0.72rem !important;
@@ -433,6 +455,12 @@ p {
   font-size: 0.84rem !important;
   line-height: 1.2;
   white-space: nowrap;
+}
+
+.masthead__menu-item .masthead-submenu-group > ul a {
+  padding: 0.48rem 0.72rem !important;
+  color: #5d6675 !important;
+  font-size: 0.8rem !important;
 }
 
 .masthead__menu-item .masthead-submenu a:hover {
