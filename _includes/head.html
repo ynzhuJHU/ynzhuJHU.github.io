@@ -363,6 +363,15 @@ p {
   position: relative;
 }
 
+.masthead__menu-item--dropdown::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
+
 .masthead__menu-item a,
 .masthead-dropdown-trigger {
   display: block !important;
