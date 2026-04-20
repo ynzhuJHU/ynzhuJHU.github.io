@@ -195,13 +195,8 @@ author_profile: true
   </div>
 
   <div class="intro-card">
-    <div class="image-box recognition-links" aria-label="Recognition links">
-      <a href="https://schmidtsciencefellows.org/fellow/yining-zhu/" target="_blank" aria-label="Open Yining Zhu's Schmidt Science Fellows profile">
-        <img src="/images/schmidt_science_fellows.png" alt="Schmidt Science Fellows">
-      </a>
-      <a href="https://engineering.jhu.edu/news/yining-zhu-named-to-forbes-30-under-30-2026/" target="_blank" aria-label="Open Johns Hopkins news about Yining Zhu named to Forbes 30 Under 30">
-        <img src="/images/Forbes Science.jpg" alt="Forbes 30 Under 30 Science">
-      </a>
+    <div class="image-box">
+      <img src="/images/Recognition.png" alt="Recognition">
     </div>
     <div class="intro-copy">
       <span class="intro-kicker">Recognition</span>
