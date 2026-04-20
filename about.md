@@ -885,7 +885,6 @@ layout: single
   color: #1f57c3;
   font-weight: 750;
   text-align: justify;
-  text-align-last: justify;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
@@ -895,7 +894,6 @@ layout: single
   margin-top: 3px;
   color: #293241;
   text-align: justify;
-  text-align-last: justify;
 }
 
 @media (max-width: 900px) {
