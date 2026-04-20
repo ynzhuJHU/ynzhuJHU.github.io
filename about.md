@@ -881,8 +881,11 @@ layout: single
 }
 
 .talk-card a {
+  display: block;
   color: #1f57c3;
   font-weight: 750;
+  text-align: justify;
+  text-align-last: justify;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
@@ -891,6 +894,8 @@ layout: single
   display: block;
   margin-top: 3px;
   color: #293241;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 @media (max-width: 900px) {
@@ -1077,37 +1082,37 @@ layout: single
   <div class="talk-grid">
     <div class="talk-card">
       <span class="talk-year">2026</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2025</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</em></div>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2025</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2024</span>
-      <div><a href="https://www.bmes.org/bmes2024" target="_blank">Biomedical Engineering Society Annual Meeting</a>. <em>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
+      <div><a href="https://www.bmes.org/bmes2024" target="_blank">Biomedical Engineering Society Annual Meeting.</a> <em>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2024</span>
-      <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene & Cell Therapy Annual Meeting</a>. <em>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
+      <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene & Cell Therapy Annual Meeting.</a> <em>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2023</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</em></div>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</em></div>
     </div>
 
     <div class="talk-card">
       <span class="talk-year">2022</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition</a>. <em>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</em></div>
+      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</em></div>
     </div>
   </div>
 </section>
