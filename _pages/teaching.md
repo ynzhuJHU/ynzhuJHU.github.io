@@ -80,6 +80,7 @@ layout: single
 }
 
 .teaching-section {
+  scroll-margin-top: 90px;
   margin: 38px 0;
   padding-top: 26px;
   border-top: 1px solid #dce3ee;
@@ -206,6 +207,7 @@ layout: single
 }
 
 .teaching-gallery {
+  scroll-margin-top: 90px;
   margin-top: 46px;
   padding-top: 28px;
   border-top: 1px solid #dce3ee;
@@ -284,7 +286,7 @@ layout: single
   </div>
 </section>
 
-<section class="teaching-section">
+<section id="teaching-experience" class="teaching-section">
   <h1>Teaching Experience</h1>
 
   <div class="course-grid">
@@ -311,7 +313,7 @@ layout: single
   </div>
 </section>
 
-<section class="teaching-section">
+<section id="teaching-philosophy" class="teaching-section">
   <h1>Teaching Philosophy</h1>
 
   <div class="philosophy-card">
@@ -323,7 +325,7 @@ layout: single
   </div>
 </section>
 
-<div class="teaching-gallery">
+<div id="teaching-gallery" class="teaching-gallery">
   <h2>Mentorship and Teaching in Practice</h2>
 
   <div class="gallery-grid">

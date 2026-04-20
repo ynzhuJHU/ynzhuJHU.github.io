@@ -117,7 +117,7 @@ layout: single
 }
 
 .research-section {
-  scroll-margin-top: 24px;
+  scroll-margin-top: 90px;
   margin: 38px 0;
   padding-top: 26px;
   border-top: 1px solid #dce3ee;
@@ -125,7 +125,7 @@ layout: single
 
 .section-anchor {
   display: block;
-  scroll-margin-top: 24px;
+  scroll-margin-top: 90px;
 }
 
 .research-section h1,
@@ -402,7 +402,7 @@ layout: single
   });
 </script>
 
-<section class="research-section" markdown="1">
+<section id="academic-services" class="research-section" markdown="1">
 
 # Academic Services
 
@@ -426,7 +426,7 @@ layout: single
 
 </section>
 
-<section class="research-section publication-section" markdown="1">
+<section id="publications" class="research-section publication-section" markdown="1">
 
 # Publications
 

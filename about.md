@@ -117,6 +117,7 @@ layout: single
 }
 
 .pub-header {
+  scroll-margin-top: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -368,7 +369,7 @@ layout: single
 <div class="about-grid">
 <main class="about-main">
 
-<div class="pub-header">
+<div id="selected-publications" class="pub-header">
   <h2>Selected Publications</h2>
   <a class="scholar-pub-pill" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl" target="_blank">
     Google Scholar - <span class="scholar-pub-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations
@@ -657,6 +658,7 @@ layout: single
 }
 
 .about-section {
+  scroll-margin-top: 90px;
   margin: 0;
   padding: 18px;
   border: 1px solid rgba(20, 32, 56, 0.09);
@@ -925,7 +927,7 @@ layout: single
 
 <div class="about-lower">
 
-<section class="about-section about-honors-section">
+<section id="honors-awards" class="about-section about-honors-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Honors and Awards</h2>
@@ -1000,7 +1002,7 @@ layout: single
     </div>
   </div>
 </section>
-<section class="about-section about-training-section">
+<section id="professional-training" class="about-section about-training-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Professional Training</h2>
@@ -1030,7 +1032,7 @@ layout: single
     </div>
   </div>
 </section>
-<section class="about-section about-education-section">
+<section id="education" class="about-section about-education-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Education</h2>
@@ -1071,7 +1073,7 @@ layout: single
     </div>
   </div>
 </section>
-<section class="about-section about-talks-section">
+<section id="talks" class="about-section about-talks-section">
   <div class="about-section-heading">
     <span class="about-section-kicker" aria-hidden="true"></span>
     <h2>Talks</h2>
