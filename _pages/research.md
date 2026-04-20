@@ -123,11 +123,6 @@ layout: single
   border-top: 1px solid #dce3ee;
 }
 
-.section-anchor {
-  display: block;
-  scroll-margin-top: 90px;
-}
-
 .research-section h1,
 .research-section h2 {
   margin: 0 0 14px 0;
@@ -438,9 +433,7 @@ layout: single
 † Denotes equal contribution * Denotes corresponding author
 
 
-<span id="lead-author-publications" class="section-anchor"></span>
-
-## Lead author publications (10): ##
+<h2 id="lead-author-publications">Lead author publications (10):</h2>
 
 •	X Liu†, **Y Zhu†**, C Wei, et al., HQ Mao\*. [Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines](https://www.nature.com/articles/s44286-026-00356-5). ***Nature Chemical Engineering***, 2026.
 
@@ -464,9 +457,7 @@ layout: single
 
 
 
-<span id="collaborative-publications" class="section-anchor"></span>
-
-## Collaborative publications (20): ##
+<h2 id="collaborative-publications">Collaborative publications (20):</h2>
 
 
 • B Torkzaban, **Y Zhu**, C Lopez, JM Alexander, J Ma, Y Sun, KR Maschhoff, et al., J Coller\*. [Use of poly adenosine tail mimetics to enhance mRNA expression from genes associated with haploinsufficiency disorders](https://www.sciencedirect.com/science/article/pii/S2162253125000071). ***Molecular Therapy Nucleic Acids***, 2025.
@@ -511,9 +502,7 @@ layout: single
 
 
 
-<span id="review-articles" class="section-anchor"></span>
-
-## Reviews (3): ##
+<h2 id="review-articles">Reviews (3):</h2>
 
 •	W Chen, **Y Zhu**, J He, X Sun\*. [Path towards mRNA delivery for cancer immunotherapy from bench to bedside](https://www.thno.org/v14p0096.htm). ***Theranostics***, 2024.
 
