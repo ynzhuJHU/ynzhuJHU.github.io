@@ -13,15 +13,37 @@ author_profile: true
   border-radius: 16px;
   background: #101827;
   box-shadow: 0 18px 42px rgba(18, 28, 45, 0.16);
+  min-height: 280px;
+  height: clamp(280px, 32vw, 410px);
 }
 
-.home-hero img {
-  width: 100%;
-  min-height: 280px;
-  max-height: 410px;
-  object-fit: cover;
-  display: block;
-  opacity: 0.86;
+.home-hero-movie,
+.home-hero-slide {
+  position: absolute;
+  inset: 0;
+}
+
+.home-hero-slide {
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transform: scale(1.03);
+  animation: hero-movie 18s infinite;
+  will-change: opacity, transform;
+}
+
+.home-hero-slide:nth-child(1) {
+  background-image: url("/images/jhu.jpg");
+}
+
+.home-hero-slide:nth-child(2) {
+  background-image: url("/images/jhu2.png");
+  animation-delay: 6s;
+}
+
+.home-hero-slide:nth-child(3) {
+  background-image: url("/images/duke.jpg");
+  animation-delay: 12s;
 }
 
 .home-hero::after {
@@ -77,6 +99,42 @@ author_profile: true
   color: #fff;
   font-size: 0.86rem;
   font-weight: 650;
+}
+
+@keyframes hero-movie {
+  0% {
+    opacity: 0.86;
+    transform: scale(1.03);
+  }
+
+  27% {
+    opacity: 0.86;
+  }
+
+  33% {
+    opacity: 0;
+    transform: scale(1.13);
+  }
+
+  94% {
+    opacity: 0;
+    transform: scale(1.13);
+  }
+
+  100% {
+    opacity: 0.86;
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero-slide {
+    animation: none;
+  }
+
+  .home-hero-slide:first-child {
+    opacity: 0.86;
+  }
 }
 
 .home-actions {
@@ -149,7 +207,11 @@ author_profile: true
 </style>
 
 <section class="home-hero">
-  <img src="/images/jhu.png" alt="Campus banner">
+  <div class="home-hero-movie" aria-hidden="true">
+    <span class="home-hero-slide"></span>
+    <span class="home-hero-slide"></span>
+    <span class="home-hero-slide"></span>
+  </div>
   <div class="home-hero-content">
     <h1>Designing next-generation genetic medicines through biomaterials and systems immunology</h1>
     <div class="home-hero-line"></div>
