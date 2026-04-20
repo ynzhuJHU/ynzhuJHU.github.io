@@ -28,7 +28,7 @@ author_profile: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 18s infinite;
+  animation: hero-movie 30s infinite;
   will-change: opacity, transform;
 }
 
@@ -44,6 +44,16 @@ author_profile: true
 .home-hero-slide:nth-child(3) {
   background-image: url("/images/duke.jpg");
   animation-delay: 12s;
+}
+
+.home-hero-slide:nth-child(4) {
+  background-image: url("/images/Duke%202.jpeg");
+  animation-delay: 18s;
+}
+
+.home-hero-slide:nth-child(5) {
+  background-image: url("/images/Duke%203.jpg");
+  animation-delay: 24s;
 }
 
 .home-hero::after {
@@ -107,16 +117,16 @@ author_profile: true
     transform: scale(1.03);
   }
 
-  27% {
+  16% {
     opacity: 0.86;
   }
 
-  33% {
+  20% {
     opacity: 0;
     transform: scale(1.13);
   }
 
-  94% {
+  96% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -208,6 +218,8 @@ author_profile: true
 
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
+    <span class="home-hero-slide"></span>
+    <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
