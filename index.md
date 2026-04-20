@@ -169,7 +169,7 @@ author_profile: true
     </div>
     <div class="intro-copy">
       <span class="intro-kicker">Current Role</span>
-      <h3>Duke Biomedical Engineering</h3>
+      <h3>Postdoctoral Fellow, Duke University</h3>
       <p>
         I am a Postdoc Fellow in Biomedical Engineering at Duke University,
         working in the laboratory of
