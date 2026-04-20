@@ -398,7 +398,7 @@ p {
   border-right: 2px solid currentColor;
   border-bottom: 2px solid currentColor;
   transform: translateY(-0.14rem) rotate(45deg);
-  transition: transform 0.18s ease;
+  transition: transform 0.22s ease;
 }
 
 .masthead-dropdown[open] summary::after {
@@ -423,14 +423,31 @@ p {
   top: calc(100% + 8px);
   left: 0;
   z-index: 50;
-  min-width: 230px;
+  min-width: 238px;
   margin: 0;
-  padding: 8px;
-  border: 1px solid rgba(20, 32, 56, 0.1);
+  padding: 9px;
+  border: 1px solid rgba(31, 87, 195, 0.12);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 18px 36px rgba(20, 32, 56, 0.16);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 18px 42px rgba(20, 32, 56, 0.16), 0 2px 6px rgba(20, 32, 56, 0.06);
   list-style: none;
+  transform-origin: top left;
+  animation: mastheadMenuIn 180ms ease both;
+}
+
+.masthead-submenu::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 24px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid rgba(31, 87, 195, 0.12);
+  border-left: 1px solid rgba(31, 87, 195, 0.12);
+  background: rgba(255, 255, 255, 0.92);
+  transform: rotate(45deg);
 }
 
 .masthead-submenu li {
@@ -438,27 +455,29 @@ p {
 }
 
 .masthead-submenu-group {
-  padding-bottom: 4px;
+  padding: 3px 0 4px 0;
 }
 
 .masthead-submenu-group > ul {
-  margin: 2px 0 4px 0;
-  padding: 0 0 0 14px;
-  border-left: 2px solid rgba(31, 87, 195, 0.14);
+  margin: 2px 0 3px 8px;
+  padding: 3px 0 3px 10px;
+  border-left: 2px solid rgba(31, 87, 195, 0.16);
   list-style: none;
 }
 
 .masthead__menu-item .masthead-submenu a {
+  position: relative;
   margin: 0 !important;
-  padding: 0.62rem 0.72rem !important;
+  padding: 0.62rem 0.76rem !important;
   color: #4b5563 !important;
   font-size: 0.84rem !important;
   line-height: 1.2;
   white-space: nowrap;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
 }
 
 .masthead__menu-item .masthead-submenu-group > ul a {
-  padding: 0.48rem 0.72rem !important;
+  padding: 0.46rem 0.72rem !important;
   color: #5d6675 !important;
   font-size: 0.8rem !important;
 }
@@ -466,6 +485,23 @@ p {
 .masthead__menu-item .masthead-submenu a:hover {
   background: #eef5ff;
   color: #1f57c3 !important;
+  transform: translateX(3px);
+}
+
+.masthead__menu-item .masthead-submenu a:focus-visible {
+  outline-offset: -1px;
+}
+
+@keyframes mastheadMenuIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 @media (max-width: 760px) {
@@ -477,6 +513,21 @@ p {
     position: static;
     min-width: min(260px, calc(100vw - 40px));
     margin: 6px 0.15rem 0 0.15rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .masthead-submenu {
+    animation: none;
+  }
+
+  .masthead__menu-item .masthead-submenu a,
+  .masthead-dropdown summary::after {
+    transition: none;
+  }
+
+  .masthead__menu-item .masthead-submenu a:hover {
+    transform: none;
   }
 }
 
