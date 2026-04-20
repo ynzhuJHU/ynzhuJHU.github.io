@@ -79,11 +79,26 @@ layout: single
 }
 
 .research-stat {
+  display: block;
   padding: 18px 18px 16px 18px;
   border: 1px solid rgba(31, 87, 195, 0.12);
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 10px 28px rgba(20, 32, 56, 0.07);
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.research-stat:hover,
+.research-stat:focus-visible {
+  border-color: rgba(31, 87, 195, 0.32);
+  box-shadow: 0 18px 34px rgba(20, 32, 56, 0.12);
+  transform: translateY(-5px);
+}
+
+.research-stat:focus-visible {
+  outline: 3px solid rgba(31, 87, 195, 0.22);
+  outline-offset: 3px;
 }
 
 .research-stat strong {
@@ -102,9 +117,15 @@ layout: single
 }
 
 .research-section {
+  scroll-margin-top: 24px;
   margin: 38px 0;
   padding-top: 26px;
   border-top: 1px solid #dce3ee;
+}
+
+.section-anchor {
+  display: block;
+  scroll-margin-top: 24px;
 }
 
 .research-section h1,
@@ -287,6 +308,17 @@ layout: single
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .research-stat {
+    transition: none;
+  }
+
+  .research-stat:hover,
+  .research-stat:focus-visible {
+    transform: none;
+  }
+}
+
 </style>
 
 
@@ -302,22 +334,22 @@ layout: single
 </section>
 
 <div class="research-stats">
-  <div class="research-stat">
+  <a class="research-stat" href="#lead-author-publications">
     <strong class="count-up" data-count="10">0</strong>
     <span>lead-author publications</span>
-  </div>
-  <div class="research-stat">
+  </a>
+  <a class="research-stat" href="#collaborative-publications">
     <strong class="count-up" data-count="20">0</strong>
     <span>collaborative publications</span>
-  </div>
-  <div class="research-stat">
+  </a>
+  <a class="research-stat" href="#review-articles">
     <strong class="count-up" data-count="3">0</strong>
     <span>review articles</span>
-  </div>
-  <div class="research-stat">
+  </a>
+  <a class="research-stat" href="#patents">
     <strong class="count-up" data-count="10">0</strong>
     <span>patent filings</span>
-  </div>
+  </a>
 </div>
 
 <script>
@@ -406,6 +438,8 @@ layout: single
 † Denotes equal contribution * Denotes corresponding author
 
 
+<span id="lead-author-publications" class="section-anchor"></span>
+
 ## Lead author publications (10): ##
 
 •	X Liu†, **Y Zhu†**, C Wei, et al., HQ Mao\*. [Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines](https://www.nature.com/articles/s44286-026-00356-5). ***Nature Chemical Engineering***, 2026.
@@ -429,6 +463,8 @@ layout: single
 •	**Y Zhu**, J Xue, W Chen, S Bai, T Zheng, C He, Z Guo, M Jiang, G Du, X Sun\*. [Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma](https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978). ***Journal of Controlled Release***, 2020.
 
 
+
+<span id="collaborative-publications" class="section-anchor"></span>
 
 ## Collaborative publications (20): ##
 
@@ -475,6 +511,8 @@ layout: single
 
 
 
+<span id="review-articles" class="section-anchor"></span>
+
 ## Reviews (3): ##
 
 •	W Chen, **Y Zhu**, J He, X Sun\*. [Path towards mRNA delivery for cancer immunotherapy from bench to bedside](https://www.thno.org/v14p0096.htm). ***Theranostics***, 2024.
@@ -486,7 +524,7 @@ layout: single
 
 </section>
 
-<section class="research-section patent-section" markdown="1">
+<section id="patents" class="research-section patent-section" markdown="1">
 
 # Patents
 
