@@ -281,7 +281,7 @@ layout: single
   <img src="{{ '/images/duke.jpg' | relative_url }}" alt="Duke University campus">
   <div class="teaching-hero-content">
     <span class="teaching-eyebrow">Teaching and Mentorship</span>
-    <h1>Helping students connect engineering principles with human health</h1>
+    <h1>Mentorship in Nanomedicine and Translational Bioengineering</h1>
     <p>I teach and mentor at the intersection of nanomedicine, immunoengineering, tissue engineering, and translational biomaterials.</p>
   </div>
 </section>
