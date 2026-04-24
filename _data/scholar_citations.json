@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-04-20T19:43:59+00:00",
-  "total_citations": 1504,
+  "last_updated": "2026-04-24T22:29:47+00:00",
+  "total_citations": 1511,
   "publications": [
     {
       "id": "crosslinking-lnp",
@@ -27,7 +27,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 19,
+      "citations": 21,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -37,7 +37,7 @@
     {
       "id": "spleen-tropic-lnps",
       "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
-      "citations": 2,
+      "citations": 3,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
@@ -97,7 +97,7 @@
     {
       "id": "albumin-biomineralized-melanoma",
       "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
-      "citations": 99,
+      "citations": 100,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",

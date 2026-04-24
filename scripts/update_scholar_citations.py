@@ -210,6 +210,11 @@ def main() -> int:
     parser.add_argument("--pagesize", type=int, default=100)
     parser.add_argument("--max-pages", type=int, default=3)
     parser.add_argument("--min-score", type=float, default=0.82)
+    parser.add_argument(
+        "--fail-on-fetch-error",
+        action="store_true",
+        help="Exit with an error instead of preserving existing citation data when Google Scholar cannot be fetched.",
+    )
     args = parser.parse_args()
 
     config = load_json(args.input)
@@ -222,6 +227,9 @@ def main() -> int:
             max_pages=args.max_pages,
         )
     except Exception as exc:
+        if args.fail_on_fetch_error:
+            print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
+            return 1
         if existing_output:
             print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
             print("Keeping existing citation data.", file=sys.stderr)
@@ -230,6 +238,9 @@ def main() -> int:
         return 1
 
     if not scholar_publications:
+        if args.fail_on_fetch_error:
+            print("No publications were found on the Google Scholar profile.", file=sys.stderr)
+            return 1
         if existing_output:
             print("No publications were found on the Google Scholar profile.", file=sys.stderr)
             print("Keeping existing citation data.", file=sys.stderr)
