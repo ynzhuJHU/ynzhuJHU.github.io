@@ -238,7 +238,7 @@ layout: single
 }
 
 .journal-biomaterials {
-  --journal-accent: #0f766e;
+  --journal-accent: #7c3aed;
 }
 
 .journal-nano-letters {
