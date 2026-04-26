@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-04-25T09:13:11+00:00",
-  "total_citations": 1511,
+  "last_updated": "2026-04-26T09:15:58+00:00",
+  "total_citations": 1514,
   "publications": [
     {
       "id": "crosslinking-lnp",
@@ -27,7 +27,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 21,
+      "citations": 22,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -47,7 +47,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 108,
+      "citations": 109,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -87,7 +87,7 @@
     {
       "id": "lentiviral-dna-particles",
       "title": "Size-controlled and shelf-stable DNA particles for production of lentiviral vectors",
-      "citations": 31,
+      "citations": 32,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Size-Controlled and Shelf-Stable DNA Particles for Production of Lentiviral Vectors",
