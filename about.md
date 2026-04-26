@@ -179,45 +179,74 @@ layout: single
   position: absolute;
   top: -16px;
   left: 24px;
+  --journal-accent: #9a4fac;
   display: inline-flex;
-  align-items: flex-end;
-  gap: 9px;
+  align-items: baseline;
+  gap: 8px;
   max-width: calc(100% - 48px);
-  padding: 0;
-  background: transparent;
+  padding: 8px 0 0 0;
+  border-top: 4px solid var(--journal-accent);
+  background: #fbfcfe;
   color: #080808;
-  line-height: 1;
+  line-height: 1.05;
   white-space: nowrap;
 }
 
 .journal-name {
-  display: inline-flex;
-  align-items: flex-end;
-  min-height: 30px;
-  padding: 7px 0 0 0;
-  border-top: 4px solid #9a4fac;
-  background: #fbfcfe;
+  display: inline;
   color: #080808;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.06rem;
   font-weight: 800;
   letter-spacing: 0;
-  text-transform: lowercase;
 }
 
 .journal-year {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 24px;
-  padding: 0 10px;
-  border-radius: 999px;
-  background: #1f57c3;
-  color: #fff;
+  display: inline;
+  color: #1f57c3;
   font-size: 0.74rem;
-  font-weight: 750;
-  letter-spacing: 0.01em;
-  box-shadow: 0 5px 14px rgba(31, 87, 195, 0.18);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  vertical-align: baseline;
+}
+
+.journal-year::before {
+  content: "/";
+  margin-right: 8px;
+  color: #9ca3af;
+  font-weight: 700;
+}
+
+.journal-nature-chemical-engineering {
+  --journal-accent: #2f80ed;
+}
+
+.journal-nature-communications {
+  --journal-accent: #e64b35;
+}
+
+.journal-nature-biomedical-engineering {
+  --journal-accent: #9a4fac;
+}
+
+.journal-materials-today {
+  --journal-accent: #00a88f;
+}
+
+.journal-science-advances {
+  --journal-accent: #f2b705;
+}
+
+.journal-biomaterials {
+  --journal-accent: #0f766e;
+}
+
+.journal-nano-letters {
+  --journal-accent: #d97706;
+}
+
+.journal-journal-of-controlled-release {
+  --journal-accent: #64748b;
 }
 
 .paper-box-image {
@@ -389,6 +418,10 @@ layout: single
     font-size: 1rem;
     line-height: 1.08;
   }
+
+  .journal-year::before {
+    margin-right: 6px;
+  }
 }
 </style>
 
@@ -450,7 +483,7 @@ layout: single
 </script>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
+  <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure">
   </div>
@@ -474,7 +507,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Materials Today</span><span class="journal-year">2026</span></div>
+  <div class="paper-box-label journal-materials-today"><span class="journal-name">Materials Today</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure">
   </div>
@@ -497,7 +530,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nature Communications</span><span class="journal-year">2025</span></div>
+  <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2025</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure">
   </div>
@@ -520,7 +553,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Science Advances</span><span class="journal-year">2025</span></div>
+  <div class="paper-box-label journal-science-advances"><span class="journal-name">Science Advances</span><span class="journal-year">2025</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure">
   </div>
@@ -544,7 +577,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2024</span></div>
+  <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure">
   </div>
@@ -568,7 +601,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2024</span></div>
+  <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure">
   </div>
@@ -592,7 +625,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Biomaterials</span><span class="journal-year">2024</span></div>
+  <div class="paper-box-label journal-biomaterials"><span class="journal-name">Biomaterials</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure">
   </div>
@@ -615,7 +648,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nature Communications</span><span class="journal-year">2022</span></div>
+  <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2022</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure">
   </div>
@@ -639,7 +672,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Nano Letters</span><span class="journal-year">2021</span></div>
+  <div class="paper-box-label journal-nano-letters"><span class="journal-name">Nano Letters</span><span class="journal-year">2021</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure">
   </div>
@@ -663,7 +696,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label"><span class="journal-name">Journal of Controlled Release</span><span class="journal-year">2020</span></div>
+  <div class="paper-box-label journal-journal-of-controlled-release"><span class="journal-name">Journal of Controlled Release</span><span class="journal-year">2020</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure">
   </div>
