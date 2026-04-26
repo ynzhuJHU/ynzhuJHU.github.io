@@ -218,7 +218,7 @@ layout: single
 }
 
 .journal-nature-chemical-engineering {
-  --journal-accent: #2f80ed;
+  --journal-accent: #00a88f;
 }
 
 .journal-nature-communications {
@@ -230,7 +230,7 @@ layout: single
 }
 
 .journal-materials-today {
-  --journal-accent: #00a88f;
+  --journal-accent: #2f80ed;
 }
 
 .journal-science-advances {
