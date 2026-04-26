@@ -163,7 +163,7 @@ layout: single
   align-items: center;
   background: #fbfcfe;
   border-radius: 8px;
-  padding: 24px 22px 18px 22px;
+  padding: 34px 22px 18px 22px;
   margin: 24px 0;
   box-shadow: 0 8px 20px rgba(20,32,56,0.06);
   border: 1px solid rgba(0,0,0,0.05);
@@ -177,15 +177,47 @@ layout: single
 
 .paper-box-label {
   position: absolute;
-  top: -12px;
+  top: -16px;
   left: 24px;
-  background: #1f57c3;
-  color: white;
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 5px 12px;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 9px;
+  max-width: calc(100% - 48px);
+  padding: 0;
+  background: transparent;
+  color: #080808;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.journal-name {
+  display: inline-flex;
+  align-items: flex-end;
+  min-height: 30px;
+  padding: 7px 0 0 0;
+  border-top: 4px solid #9a4fac;
+  background: #fbfcfe;
+  color: #080808;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.06rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+
+.journal-year {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 24px;
+  padding: 0 10px;
   border-radius: 999px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  background: #1f57c3;
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+  box-shadow: 0 5px 14px rgba(31, 87, 195, 0.18);
 }
 
 .paper-box-image {
@@ -329,6 +361,7 @@ layout: single
   .paper-box {
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 22px;
   }
 
   .paper-box-image {
@@ -346,7 +379,15 @@ layout: single
 
   .paper-box-label {
     position: static;
+    flex-wrap: wrap;
+    max-width: 100%;
     margin-bottom: 14px;
+    white-space: normal;
+  }
+
+  .journal-name {
+    font-size: 1rem;
+    line-height: 1.08;
   }
 }
 </style>
@@ -409,7 +450,7 @@ layout: single
 </script>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nature Chemical Engineering 2026</div>
+  <div class="paper-box-label"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure">
   </div>
@@ -433,7 +474,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Materials Today 2026</div>
+  <div class="paper-box-label"><span class="journal-name">Materials Today</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure">
   </div>
@@ -456,7 +497,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nature Communications 2025</div>
+  <div class="paper-box-label"><span class="journal-name">Nature Communications</span><span class="journal-year">2025</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure">
   </div>
@@ -479,7 +520,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Science Advances 2025</div>
+  <div class="paper-box-label"><span class="journal-name">Science Advances</span><span class="journal-year">2025</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure">
   </div>
@@ -503,7 +544,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nature Biomedical Engineering 2024</div>
+  <div class="paper-box-label"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure">
   </div>
@@ -527,7 +568,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nature Chemical Engineering 2024</div>
+  <div class="paper-box-label"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure">
   </div>
@@ -551,7 +592,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Biomaterials 2024</div>
+  <div class="paper-box-label"><span class="journal-name">Biomaterials</span><span class="journal-year">2024</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure">
   </div>
@@ -574,7 +615,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nature Communications 2022</div>
+  <div class="paper-box-label"><span class="journal-name">Nature Communications</span><span class="journal-year">2022</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure">
   </div>
@@ -598,7 +639,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Nano Letters 2021</div>
+  <div class="paper-box-label"><span class="journal-name">Nano Letters</span><span class="journal-year">2021</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure">
   </div>
@@ -622,7 +663,7 @@ layout: single
 </div>
 
 <div class="paper-box">
-  <div class="paper-box-label">Journal of Controlled Release 2020</div>
+  <div class="paper-box-label"><span class="journal-name">Journal of Controlled Release</span><span class="journal-year">2020</span></div>
   <div class="paper-box-image">
     <img src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure">
   </div>
