@@ -163,7 +163,7 @@ layout: single
   align-items: center;
   background: #fbfcfe;
   border-radius: 8px;
-  padding: 34px 22px 18px 22px;
+  padding: 58px 22px 18px 22px;
   margin: 24px 0;
   box-shadow: 0 8px 20px rgba(20,32,56,0.06);
   border: 1px solid rgba(0,0,0,0.05);
@@ -183,7 +183,7 @@ layout: single
   display: inline-flex;
   align-items: baseline;
   gap: 8px;
-  max-width: calc(100% - 48px);
+  width: calc(100% - 48px);
   padding: 7px 0 0 0;
   border-top: 4px solid var(--journal-accent);
   background: transparent;
@@ -409,7 +409,7 @@ layout: single
   .paper-box-label {
     position: static;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 14px;
     white-space: normal;
   }
