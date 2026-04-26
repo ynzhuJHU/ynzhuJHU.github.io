@@ -177,16 +177,16 @@ layout: single
 
 .paper-box-label {
   position: absolute;
-  top: -16px;
+  top: 12px;
   left: 24px;
   --journal-accent: #9a4fac;
   display: inline-flex;
   align-items: baseline;
   gap: 8px;
   max-width: calc(100% - 48px);
-  padding: 8px 0 0 0;
+  padding: 7px 0 0 0;
   border-top: 4px solid var(--journal-accent);
-  background: #fbfcfe;
+  background: transparent;
   color: #080808;
   line-height: 1.05;
   white-space: nowrap;
