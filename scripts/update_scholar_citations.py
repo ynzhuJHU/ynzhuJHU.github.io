@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -28,6 +29,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "_data" / "scholar_publications.json"
 DEFAULT_OUTPUT = ROOT / "_data" / "scholar_citations.json"
 SCHOLAR_URL = "https://scholar.google.com/citations"
+SERPAPI_URL = "https://serpapi.com/search.json"
 
 
 @dataclass
@@ -124,6 +126,65 @@ def fetch_scholar_publications(scholar_id: str, pagesize: int, max_pages: int) -
     return total_citations, publications
 
 
+def parse_serpapi_total_citations(data: dict[str, Any]) -> int | None:
+    for row in data.get("cited_by", {}).get("table", []):
+        citations = row.get("citations")
+        if isinstance(citations, dict):
+            value = citations.get("all")
+            return int(value) if isinstance(value, int) else None
+    return None
+
+
+def fetch_serpapi_publications(
+    api_key: str,
+    scholar_id: str,
+    pagesize: int,
+    max_pages: int,
+) -> tuple[int | None, list[ScholarPublication]]:
+    session = requests.Session()
+    total_citations: int | None = None
+    publications: list[ScholarPublication] = []
+
+    for page in range(max_pages):
+        response = session.get(
+            SERPAPI_URL,
+            params={
+                "engine": "google_scholar_author",
+                "author_id": scholar_id,
+                "hl": "en",
+                "num": pagesize,
+                "start": page * pagesize,
+                "api_key": api_key,
+            },
+            timeout=60,
+        )
+        response.raise_for_status()
+        data = response.json()
+        if data.get("error"):
+            raise RuntimeError(f"SerpApi returned an error: {data['error']}")
+        if total_citations is None:
+            total_citations = parse_serpapi_total_citations(data)
+
+        page_publications = []
+        for article in data.get("articles", []):
+            cited_by = article.get("cited_by", {})
+            count = cited_by.get("value", 0) if isinstance(cited_by, dict) else 0
+            page_publications.append(
+                ScholarPublication(
+                    title=article.get("title", ""),
+                    citations=int(count) if isinstance(count, int) else 0,
+                    year=str(article["year"]) if article.get("year") else None,
+                )
+            )
+
+        publications.extend(page_publications)
+        if len(page_publications) < pagesize:
+            break
+        time.sleep(1)
+
+    return total_citations, publications
+
+
 def find_match(
     target_title: str,
     scholar_publications: list[ScholarPublication],
@@ -211,6 +272,12 @@ def main() -> int:
     parser.add_argument("--max-pages", type=int, default=3)
     parser.add_argument("--min-score", type=float, default=0.82)
     parser.add_argument(
+        "--source",
+        choices=("auto", "scholar", "serpapi"),
+        default="auto",
+        help="Citation data source. 'auto' uses SERPAPI_API_KEY when available, otherwise direct Google Scholar scraping.",
+    )
+    parser.add_argument(
         "--fail-on-fetch-error",
         action="store_true",
         help="Exit with an error instead of preserving existing citation data when Google Scholar cannot be fetched.",
@@ -219,22 +286,33 @@ def main() -> int:
 
     config = load_json(args.input)
     existing_output = load_json(args.output)
+    serpapi_key = os.environ.get("SERPAPI_API_KEY", "").strip()
 
     try:
-        total, scholar_publications = fetch_scholar_publications(
-            config["scholar_id"],
-            pagesize=args.pagesize,
-            max_pages=args.max_pages,
-        )
+        if args.source == "serpapi" or (args.source == "auto" and serpapi_key):
+            if not serpapi_key:
+                raise RuntimeError("SERPAPI_API_KEY is required when --source=serpapi")
+            total, scholar_publications = fetch_serpapi_publications(
+                serpapi_key,
+                config["scholar_id"],
+                pagesize=args.pagesize,
+                max_pages=args.max_pages,
+            )
+        else:
+            total, scholar_publications = fetch_scholar_publications(
+                config["scholar_id"],
+                pagesize=args.pagesize,
+                max_pages=args.max_pages,
+            )
     except Exception as exc:
         if args.fail_on_fetch_error:
-            print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
+            print(f"Could not fetch citation data: {exc}", file=sys.stderr)
             return 1
         if existing_output:
-            print(f"Could not fetch Google Scholar data: {exc}", file=sys.stderr)
+            print(f"Could not fetch citation data: {exc}", file=sys.stderr)
             print("Keeping existing citation data.", file=sys.stderr)
             return 0
-        print(f"Could not fetch Google Scholar data and no existing citation data is available: {exc}", file=sys.stderr)
+        print(f"Could not fetch citation data and no existing citation data is available: {exc}", file=sys.stderr)
         return 1
 
     if not scholar_publications:

@@ -29,7 +29,9 @@ jobs:
         run: python -m pip install -r scripts/requirements-scholar.txt
 
       - name: Fetch Google Scholar citations
-        run: python scripts/update_scholar_citations.py --fail-on-fetch-error
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: python scripts/update_scholar_citations.py --source serpapi --fail-on-fetch-error
 
       - name: Commit updated citation data
         run: |
