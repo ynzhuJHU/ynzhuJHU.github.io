@@ -13,8 +13,8 @@ author_profile: true
   border-radius: 16px;
   background: #101827;
   box-shadow: 0 18px 42px rgba(18, 28, 45, 0.16);
-  min-height: 280px;
-  height: clamp(280px, 32vw, 410px);
+  min-height: 360px;
+  height: clamp(360px, 42vw, 560px);
 }
 
 .home-hero-movie,
@@ -82,6 +82,42 @@ author_profile: true
   transform: translateY(-50%);
   color: #fff;
   text-align: right;
+}
+
+.home-main {
+  display: block !important;
+  max-width: 1220px;
+}
+
+.home-main .page {
+  width: 100% !important;
+  max-width: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.home-lower {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  align-items: start;
+  gap: 34px;
+  margin-top: 42px;
+}
+
+.home-sidebar-slot .sidebar {
+  float: none !important;
+  width: 250px !important;
+  padding-right: 0;
+}
+
+.home-content-tabs {
+  min-width: 0;
+}
+
+.home-content-tabs .intro-grid {
+  margin-top: 0;
 }
 
 .home-hero h1 {
@@ -206,6 +242,11 @@ author_profile: true
 }
 
 @media (max-width: 900px) {
+  .home-hero {
+    min-height: 320px;
+    height: clamp(320px, 72vw, 440px);
+  }
+
   .home-hero-content {
     left: 20px;
     right: 20px;
@@ -222,6 +263,15 @@ author_profile: true
 
   .home-actions {
     grid-template-columns: 1fr;
+  }
+
+  .home-lower {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .home-sidebar-slot .sidebar {
+    width: 100% !important;
   }
 }
 </style>
@@ -248,66 +298,74 @@ author_profile: true
   </div>
 </section>
 
-<div class="intro-grid">
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Position and training.png" alt="Position and training">
-    </div>
-    <div class="intro-copy">
-      <span class="intro-kicker">Current Role</span>
-      <h3>Postdoctoral Fellow, Duke University</h3>
-      <p>
-        I am a Postdoc Fellow in Biomedical Engineering at Duke University,
-        working in the laboratory of
-        <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">Dr. John W. Hickey</a>
-        from February 2026, following postdoctoral research at Johns Hopkins University with
-        <a href="https://maogroup.jhu.edu/" target="_blank">Dr. Hai-Quan Mao</a>.
-      </p>
-    </div>
+<div class="home-lower">
+  <div class="home-sidebar-slot">
+    {% include sidebar.html %}
   </div>
 
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Research focues.jpeg" alt="Research focus">
+  <div class="home-content-tabs">
+    <div class="intro-grid">
+      <div class="intro-card">
+        <div class="image-box">
+          <img src="/images/Position and training.png" alt="Position and training">
+        </div>
+        <div class="intro-copy">
+          <span class="intro-kicker">Current Role</span>
+          <h3>Postdoctoral Fellow, Duke University</h3>
+          <p>
+            I am a Postdoc Fellow in Biomedical Engineering at Duke University,
+            working in the laboratory of
+            <a href="https://sites.google.com/view/john-w-hickey/home" target="_blank">Dr. John W. Hickey</a>
+            from February 2026, following postdoctoral research at Johns Hopkins University with
+            <a href="https://maogroup.jhu.edu/" target="_blank">Dr. Hai-Quan Mao</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="intro-card">
+        <div class="image-box">
+          <img src="/images/Research focues.jpeg" alt="Research focus">
+        </div>
+        <div class="intro-copy">
+          <span class="intro-kicker">Research Focus</span>
+          <h3>Gene Delivery to Systems Immunology</h3>
+          <p>
+            My work connects lipid nanoparticles, genetic medicine delivery, cancer immunotherapy,
+            spatial proteomics, and systems immunology to study immune responses across tissues.
+          </p>
+        </div>
+      </div>
+
+      <div class="intro-card">
+        <div class="image-box">
+          <img src="/images/Recognition.png" alt="Recognition">
+        </div>
+        <div class="intro-copy">
+          <span class="intro-kicker">Recognition</span>
+          <h3>Fellowships and Honors</h3>
+          <p>
+            I have been recognized as a
+            <a href="https://www.schmidtsciencefellows.org/" target="_blank"><strong>Schmidt Science Fellow</strong></a>,
+            a <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank"><strong>Siebel Scholar</strong></a>,
+            and named to <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank"><strong>Forbes 30 Under 30 - Science, U.S.</strong></a>.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="intro-copy">
-      <span class="intro-kicker">Research Focus</span>
-      <h3>Gene Delivery to Systems Immunology</h3>
-      <p>
-        My work connects lipid nanoparticles, genetic medicine delivery, cancer immunotherapy,
-        spatial proteomics, and systems immunology to study immune responses across tissues.
-      </p>
+
+    <div class="home-actions">
+      <a class="home-action" href="/about/">
+        <span>Profile</span>
+        <strong>Selected publications, honors, education, and talks</strong>
+      </a>
+      <a class="home-action" href="/research/">
+        <span>Research</span>
+        <strong>Publications, patents, services, and research moments</strong>
+      </a>
+      <a class="home-action" href="/teaching/">
+        <span>Teaching</span>
+        <strong>Courses, mentorship, and teaching philosophy</strong>
+      </a>
     </div>
   </div>
-
-  <div class="intro-card">
-    <div class="image-box">
-      <img src="/images/Recognition.png" alt="Recognition">
-    </div>
-    <div class="intro-copy">
-      <span class="intro-kicker">Recognition</span>
-      <h3>Fellowships and Honors</h3>
-      <p>
-        I have been recognized as a
-        <a href="https://www.schmidtsciencefellows.org/" target="_blank"><strong>Schmidt Science Fellow</strong></a>,
-        a <a href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank"><strong>Siebel Scholar</strong></a>,
-        and named to <a href="https://www.forbes.com/profile/yining-zhu/" target="_blank"><strong>Forbes 30 Under 30 - Science, U.S.</strong></a>.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="home-actions">
-  <a class="home-action" href="/about/">
-    <span>Profile</span>
-    <strong>Selected publications, honors, education, and talks</strong>
-  </a>
-  <a class="home-action" href="/research/">
-    <span>Research</span>
-    <strong>Publications, patents, services, and research moments</strong>
-  </a>
-  <a class="home-action" href="/teaching/">
-    <span>Teaching</span>
-    <strong>Courses, mentorship, and teaching philosophy</strong>
-  </a>
 </div>
