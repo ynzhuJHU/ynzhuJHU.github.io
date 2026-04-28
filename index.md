@@ -2,6 +2,7 @@
 permalink: /
 title: "Homepage"
 author_profile: true
+home_layout: true
 ---
 
 <span class='anchor' id='home'></span>
@@ -86,16 +87,26 @@ author_profile: true
 
 .home-main {
   display: block !important;
-  max-width: 1220px;
+  width: 100%;
+  max-width: 1220px !important;
 }
 
 .home-main .page {
+  display: block !important;
+  float: none !important;
+  flex: none !important;
   width: 100% !important;
   max-width: none;
   padding-left: 0 !important;
   padding-right: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+.home-main .page__inner-wrap,
+.home-main .page__content {
+  float: none !important;
+  width: 100% !important;
 }
 
 .home-lower {
@@ -107,7 +118,9 @@ author_profile: true
 }
 
 .home-sidebar-slot .sidebar {
+  display: block !important;
   float: none !important;
+  flex: none !important;
   width: 250px !important;
   padding-right: 0;
 }
@@ -117,7 +130,21 @@ author_profile: true
 }
 
 .home-content-tabs .intro-grid {
+  gap: 18px;
   margin-top: 0;
+}
+
+.home-content-tabs .intro-copy {
+  padding: 16px 18px 20px 18px;
+}
+
+.home-content-tabs .intro-card h3 {
+  font-size: 1.05rem;
+}
+
+.home-content-tabs .intro-card p {
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 .home-hero h1 {
