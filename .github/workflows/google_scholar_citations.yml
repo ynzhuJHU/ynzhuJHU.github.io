@@ -2,6 +2,7 @@ name: Update Google Scholar Citations
 
 on:
   workflow_dispatch:
+  # Changing this workflow file also kicks a one-off remote citation refresh.
   push:
     branches:
       - main
