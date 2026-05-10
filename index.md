@@ -320,9 +320,9 @@ home_layout: true
 
 .timeline-board {
   position: relative;
-  width: 1900px;
+  width: 2500px;
   height: 286px;
-  min-width: 1900px;
+  min-width: 2500px;
   --axis-y: 250px;
 }
 
@@ -619,97 +619,97 @@ a.timeline-event {
           <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
           <div class="timeline-lane talks"><div class="timeline-lane-label">Talks</div></div>
 
-          <div class="timeline-gridline" style="--x: 9%;"></div>
-          <div class="timeline-gridline" style="--x: 20%;"></div>
-          <div class="timeline-gridline" style="--x: 31%;"></div>
-          <div class="timeline-gridline" style="--x: 42%;"></div>
-          <div class="timeline-gridline" style="--x: 53%;"></div>
-          <div class="timeline-gridline" style="--x: 64%;"></div>
-          <div class="timeline-gridline" style="--x: 75%;"></div>
-          <div class="timeline-gridline" style="--x: 86%;"></div>
+          <div class="timeline-gridline" style="--x: 7%;"></div>
+          <div class="timeline-gridline" style="--x: 15%;"></div>
+          <div class="timeline-gridline" style="--x: 24%;"></div>
+          <div class="timeline-gridline" style="--x: 34%;"></div>
+          <div class="timeline-gridline" style="--x: 45%;"></div>
+          <div class="timeline-gridline" style="--x: 59%;"></div>
+          <div class="timeline-gridline" style="--x: 76%;"></div>
+          <div class="timeline-gridline" style="--x: 93%;"></div>
 
           <div class="timeline-axis"></div>
-          <span class="timeline-year" style="--x: 9%;">2019</span>
-          <span class="timeline-year" style="--x: 20%;">2020</span>
-          <span class="timeline-year" style="--x: 31%;">2021</span>
-          <span class="timeline-year" style="--x: 42%;">2022</span>
-          <span class="timeline-year" style="--x: 53%;">2023</span>
-          <span class="timeline-year" style="--x: 64%;">2024</span>
-          <span class="timeline-year" style="--x: 75%;">2025</span>
-          <span class="timeline-year" style="--x: 86%;">2026</span>
+          <span class="timeline-year" style="--x: 7%;">2019</span>
+          <span class="timeline-year" style="--x: 15%;">2020</span>
+          <span class="timeline-year" style="--x: 24%;">2021</span>
+          <span class="timeline-year" style="--x: 34%;">2022</span>
+          <span class="timeline-year" style="--x: 45%;">2023</span>
+          <span class="timeline-year" style="--x: 59%;">2024</span>
+          <span class="timeline-year" style="--x: 76%;">2025</span>
+          <span class="timeline-year" style="--x: 93%;">2026</span>
 
-          <div class="timeline-event education" style="--x: 9%; --y: 10px; --w: 150px;">
+          <div class="timeline-event education" style="--x: 7%; --y: 10px; --w: 150px;">
             <strong>B.S., Pharmacy</strong>
             <span>Sichuan University</span>
           </div>
-          <div class="timeline-event education" style="--x: 31%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" style="--x: 24%; --y: 10px; --w: 172px;">
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event education" style="--x: 75%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" style="--x: 76%; --y: 10px; --w: 172px;">
             <strong>Ph.D., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
 
-          <div class="timeline-event training" style="--x: 83%; --y: 38px; --w: 160px;">
+          <div class="timeline-event training" style="--x: 87%; --y: 38px; --w: 160px;">
             <strong>Postdoctoral Associate</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event training" style="--x: 87%; --y: 38px; --w: 156px;">
+          <div class="timeline-event training" style="--x: 94%; --y: 38px; --w: 156px;">
             <strong>Postdoctoral Fellow</strong>
             <span>Duke University</span>
           </div>
 
-          <div class="timeline-event award" style="--x: 56%; --y: 84px; --w: 154px;">
+          <div class="timeline-event award" style="--x: 48%; --y: 84px; --w: 154px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" style="--x: 67%; --y: 84px; --w: 160px;">
+          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" style="--x: 61%; --y: 84px; --w: 160px;">
             <strong>Hans J. Prochaska Award</strong>
             <span>Johns Hopkins University</span>
             <em>Media</em>
           </a>
-          <div class="timeline-event award" style="--x: 70%; --y: 110px; --w: 160px;">
+          <div class="timeline-event award" style="--x: 66%; --y: 110px; --w: 160px;">
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
           </div>
-          <div class="timeline-event award" style="--x: 78%; --y: 84px; --w: 146px;">
+          <div class="timeline-event award" style="--x: 75%; --y: 84px; --w: 146px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" style="--x: 82%; --y: 110px; --w: 136px;">
+          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" style="--x: 83%; --y: 110px; --w: 136px;">
             <strong>Siebel Scholar</strong>
             <span>Siebel Foundation</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" style="--x: 85%; --y: 84px; --w: 150px;">
+          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" style="--x: 88%; --y: 84px; --w: 150px;">
             <strong>Forbes 30 Under 30</strong>
             <span>Science, U.S.</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" style="--x: 88%; --y: 110px; --w: 156px;">
+          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" style="--x: 94%; --y: 110px; --w: 156px;">
             <strong>Schmidt Science Fellow</strong>
             <span>Schmidt Science Foundation</span>
             <em>Media</em>
           </a>
 
-          <div class="timeline-event talk" style="--x: 45%; --y: 208px; --w: 154px;">
+          <div class="timeline-event talk" style="--x: 37%; --y: 208px; --w: 154px;">
             <strong>SFB Annual Meeting</strong>
             <span>pDNA lipid nanoparticles</span>
           </div>
-          <div class="timeline-event talk" style="--x: 56%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" style="--x: 48%; --y: 182px; --w: 162px;">
             <strong>SFB Annual Meeting</strong>
             <span>mRNA vaccine immunity</span>
           </div>
-          <div class="timeline-event talk" style="--x: 68%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" style="--x: 63%; --y: 208px; --w: 170px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Local immunostimulatory niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 72%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" style="--x: 69%; --y: 182px; --w: 162px;">
             <strong>BMES Annual Meeting</strong>
             <span>Biomaterials lymphoid niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 78%; --y: 208px; --w: 152px;">
+          <div class="timeline-event talk" style="--x: 75%; --y: 208px; --w: 152px;">
             <strong>SFB Annual Meeting</strong>
             <span>Extracellular fluid viscosity</span>
           </div>
@@ -717,7 +717,7 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" style="--x: 89%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" style="--x: 94%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
