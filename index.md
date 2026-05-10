@@ -328,6 +328,13 @@ home_layout: true
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center;
+}
+
+.timeline-feature-media img.is-contained {
+  object-fit: contain;
+  padding: 14px;
+  background: #fff;
 }
 
 .timeline-feature-copy span {
@@ -801,7 +808,7 @@ a.timeline-event {
             <span>Science, U.S.</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" data-date="2026.03" data-image="/images/schmidt_science_fellows.png" data-description="Selected as a Schmidt Science Fellow to pursue interdisciplinary postdoctoral research." style="--x: 94%; --y: 110px; --w: 156px;">
+          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" data-date="2026.03" data-image="/images/2026%20Schmidt.JPG" data-description="Selected as a Schmidt Science Fellow to pursue interdisciplinary postdoctoral research." style="--x: 94%; --y: 110px; --w: 156px;">
             <strong>Schmidt Science Fellow</strong>
             <span>Schmidt Science Foundation</span>
             <em>Media</em>
@@ -884,6 +891,7 @@ a.timeline-event {
       if (previewImage) {
         previewImage.src = selected.dataset.image || '/images/jhu-banner.jpg';
         previewImage.alt = eventTitle(selected) || 'Selected timeline milestone';
+        previewImage.classList.remove('is-contained');
       }
 
       if (previewDate) previewDate.textContent = selected.dataset.date || '';
@@ -938,6 +946,13 @@ a.timeline-event {
     if (nextButton) {
       nextButton.addEventListener('click', function () {
         selectEvent(activeIndex + 1, true);
+      });
+    }
+
+    if (previewImage) {
+      previewImage.addEventListener('load', function () {
+        var ratio = previewImage.naturalWidth / previewImage.naturalHeight;
+        previewImage.classList.toggle('is-contained', ratio < 1.1 || ratio > 2.4);
       });
     }
 
