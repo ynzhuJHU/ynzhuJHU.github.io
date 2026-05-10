@@ -789,7 +789,7 @@ a.timeline-event {
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" data-date="2024.04" data-image="/images/JHMI.png" data-description="Honored by Johns Hopkins University with the Hans J. Prochaska Research Award." style="--x: 61%; --y: 84px; --w: 160px;">
+          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" data-date="2024.04" data-image="/images/Hans%20J.%20Prochaska%20Award.JPG" data-description="Honored by Johns Hopkins University with the Hans J. Prochaska Research Award." style="--x: 61%; --y: 84px; --w: 160px;">
             <strong>Hans J. Prochaska Award</strong>
             <span>Johns Hopkins University</span>
             <em>Media</em>
