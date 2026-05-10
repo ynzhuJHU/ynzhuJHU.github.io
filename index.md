@@ -321,16 +321,16 @@ home_layout: true
 .timeline-board {
   position: relative;
   width: 3250px;
-  height: 286px;
+  height: 340px;
   min-width: 3250px;
-  --axis-y: 250px;
+  --axis-y: 300px;
 }
 
 .timeline-lane {
   position: absolute;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 82px;
   border-bottom: 1px solid rgba(20, 32, 56, 0.07);
   background: rgba(20, 32, 56, 0.025);
 }
@@ -340,8 +340,8 @@ home_layout: true
 }
 
 .timeline-lane.education { top: 0; }
-.timeline-lane.awards { top: 70px; }
-.timeline-lane.talks { top: 140px; }
+.timeline-lane.awards { top: 82px; }
+.timeline-lane.talks { top: 164px; }
 
 .timeline-lane-label {
   position: sticky;
@@ -361,7 +361,7 @@ home_layout: true
 .timeline-gridline {
   position: absolute;
   top: 0;
-  bottom: 38px;
+  bottom: 40px;
   left: var(--x);
   width: 1px;
   background: rgba(20, 32, 56, 0.1);
@@ -369,7 +369,7 @@ home_layout: true
 
 .timeline-year {
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   left: var(--x);
   transform: translateX(-50%);
   color: #7a8494;
@@ -381,7 +381,7 @@ home_layout: true
   position: absolute;
   left: 118px;
   right: 46px;
-  bottom: 34px;
+  bottom: 40px;
   height: 2px;
   background: #c8ced8;
 }
