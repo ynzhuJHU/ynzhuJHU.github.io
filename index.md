@@ -831,7 +831,7 @@ home_layout: true
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" data-date="2025.09" data-image="/images/Siebel%20scholar%20images.png" data-description="Named a Siebel Scholar in recognition of leadership and academic achievement in engineering." style="--x: 83%; --y: 110px; --w: 136px;">
+          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" data-date="2025.09" data-image="/images/Siebel-Scholars-1024x664.png" data-description="Named a Siebel Scholar in recognition of leadership and academic achievement in engineering." style="--x: 83%; --y: 110px; --w: 136px;">
             <strong>Siebel Scholar</strong>
             <span>Siebel Foundation</span>
             <em>Media</em>
