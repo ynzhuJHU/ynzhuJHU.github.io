@@ -794,7 +794,7 @@ a.timeline-event {
             <span>Johns Hopkins University</span>
             <em>Media</em>
           </a>
-          <div class="timeline-event award" data-date="2024.05" data-image="/images/2024%20ASGCT.JPG" data-description="Received a Meritorious Abstract Travel Award from the American Society of Gene & Cell Therapy." style="--x: 66%; --y: 110px; --w: 160px;">
+          <div class="timeline-event award" data-date="2024.05" data-image="/images/2024%20ASGCT%20MERITORIOUS%20ABSTRACT%20TRAVEL%20AWARD.JPG" data-description="Received a Meritorious Abstract Travel Award from the American Society of Gene & Cell Therapy." style="--x: 66%; --y: 110px; --w: 160px;">
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
           </div>
