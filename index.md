@@ -312,6 +312,10 @@ home_layout: true
   box-shadow: 0 10px 28px rgba(20, 32, 56, 0.06);
 }
 
+.home-content-tabs > .timeline-feature {
+  margin: 34px 0 0 0;
+}
+
 .timeline-feature-media {
   overflow: hidden;
   aspect-ratio: 16 / 9;
@@ -695,28 +699,28 @@ a.timeline-event {
       </div>
     </div>
 
+    <div class="timeline-feature" aria-live="polite">
+      <div class="timeline-feature-media">
+        <img data-timeline-image src="/images/Oral.png" alt="Selected timeline milestone">
+      </div>
+      <div class="timeline-feature-copy">
+        <span data-timeline-date>2026.05</span>
+        <h3 data-timeline-title>ASGCT Annual Meeting</h3>
+        <p data-timeline-description>Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines.</p>
+      </div>
+      <div class="timeline-feature-controls" aria-label="Timeline event navigation">
+        <button type="button" data-timeline-prev aria-label="Previous timeline event">&#8249;</button>
+        <button type="button" data-timeline-next aria-label="Next timeline event">&#8250;</button>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <section class="home-timeline" aria-labelledby="career-timeline-title">
       <div class="home-timeline-header">
         <h2 id="career-timeline-title">Career Timeline</h2>
-        <span>Scroll right for recent milestones</span>
-      </div>
-
-      <div class="timeline-feature" aria-live="polite">
-        <div class="timeline-feature-media">
-          <img data-timeline-image src="/images/SCU.png" alt="Selected timeline milestone">
-        </div>
-        <div class="timeline-feature-copy">
-          <span data-timeline-date>2019.06</span>
-          <h3 data-timeline-title>B.S., Pharmacy</h3>
-          <p data-timeline-description>Completed undergraduate training in pharmacy at Sichuan University, building the foundation for later work in biomaterials and genetic medicine delivery.</p>
-        </div>
-        <div class="timeline-feature-controls" aria-label="Timeline event navigation">
-          <button type="button" data-timeline-prev aria-label="Previous timeline event">&#8249;</button>
-          <button type="button" data-timeline-next aria-label="Next timeline event">&#8250;</button>
-        </div>
+        <span>Scroll left for earlier milestones</span>
       </div>
 
       <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, and talks from 2019 to 2026">
@@ -892,8 +896,13 @@ a.timeline-event {
       if (shouldFocus) selected.focus({ preventScroll: true });
     }
 
-    function scrollToStart() {
-      scroller.scrollLeft = 0;
+    function scrollToPresent() {
+      scroller.scrollLeft = scroller.scrollWidth - scroller.clientWidth;
+    }
+
+    function initializeTimeline() {
+      selectEvent(events.length - 1, false);
+      scrollToPresent();
     }
 
     events.forEach(function (eventNode, index) {
@@ -944,9 +953,8 @@ a.timeline-event {
       }
     });
 
-    window.addEventListener('load', scrollToStart);
-    scrollToStart();
-    selectEvent(0, false);
+    window.addEventListener('load', initializeTimeline);
+    initializeTimeline();
 
     scroller.addEventListener('pointerdown', function (event) {
       isDragging = true;
