@@ -660,6 +660,10 @@ a.timeline-event {
             <span>Duke University</span>
           </div>
 
+          <div class="timeline-event award" style="--x: 7%; --y: 84px; --w: 174px;">
+            <strong>Outstanding Graduates Award</strong>
+            <span>Sichuan Province, China</span>
+          </div>
           <div class="timeline-event award" style="--x: 48%; --y: 84px; --w: 154px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
