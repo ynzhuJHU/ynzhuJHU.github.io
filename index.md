@@ -268,6 +268,178 @@ home_layout: true
   box-shadow: 0 12px 28px rgba(20, 32, 56, 0.1);
 }
 
+.home-timeline {
+  margin: 0 0 34px 0;
+}
+
+.home-timeline-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.home-timeline-header h2 {
+  margin: 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.45rem;
+  font-variant-caps: normal;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.home-timeline-header span {
+  color: #697386;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.timeline-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid rgba(20, 32, 56, 0.1);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.96), rgba(255,255,255,0) 38px),
+    linear-gradient(270deg, rgba(255,255,255,0.96), rgba(255,255,255,0) 38px),
+    #fff;
+  box-shadow: 0 10px 28px rgba(20, 32, 56, 0.06);
+  cursor: grab;
+  scrollbar-color: #b8c0cc #f2f4f8;
+  scrollbar-width: thin;
+}
+
+.timeline-scroll.is-dragging {
+  cursor: grabbing;
+}
+
+.timeline-board {
+  position: relative;
+  width: 1380px;
+  height: 442px;
+  min-width: 1380px;
+}
+
+.timeline-lane {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 88px;
+  border-bottom: 1px solid rgba(20, 32, 56, 0.07);
+  background: rgba(20, 32, 56, 0.025);
+}
+
+.timeline-lane:nth-child(even) {
+  background: rgba(20, 32, 56, 0.045);
+}
+
+.timeline-lane.education { top: 0; }
+.timeline-lane.awards { top: 88px; }
+.timeline-lane.training { top: 176px; }
+.timeline-lane.talks { top: 264px; }
+
+.timeline-lane-label {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 100%;
+  padding-left: 16px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.96), rgba(255,255,255,0.72));
+  color: #526071;
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.timeline-gridline {
+  position: absolute;
+  top: 0;
+  bottom: 58px;
+  left: var(--x);
+  width: 1px;
+  background: rgba(20, 32, 56, 0.1);
+}
+
+.timeline-year {
+  position: absolute;
+  bottom: 26px;
+  left: var(--x);
+  transform: translateX(-50%);
+  color: #7a8494;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.timeline-axis {
+  position: absolute;
+  left: 118px;
+  right: 46px;
+  bottom: 52px;
+  height: 2px;
+  background: #c8ced8;
+}
+
+.timeline-event {
+  position: absolute;
+  z-index: 3;
+  left: var(--x);
+  top: var(--y);
+  width: var(--w, 176px);
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid rgba(20, 32, 56, 0.12);
+  border-left: 4px solid var(--color, #1f57c3);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.94);
+  box-shadow: 0 8px 18px rgba(20, 32, 56, 0.07);
+  color: #172033;
+  font-size: 0.76rem;
+  line-height: 1.25;
+}
+
+.timeline-event::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: -17px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--color, #1f57c3);
+  box-shadow: 0 0 0 1px rgba(20, 32, 56, 0.14);
+}
+
+.timeline-event.talk::after,
+.timeline-event.training::after,
+.timeline-event.education::after {
+  bottom: auto;
+  top: -17px;
+}
+
+.timeline-event strong {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 0.78rem;
+}
+
+.timeline-event span {
+  display: block;
+  color: #657184;
+}
+
+.timeline-event.education { --color: #1f57c3; }
+.timeline-event.award { --color: #9a3412; }
+.timeline-event.training { --color: #0f766e; }
+.timeline-event.talk { --color: #6d4ca4; }
+
 @media (max-width: 900px) {
   .home-hero {
     min-height: 320px;
@@ -290,6 +462,12 @@ home_layout: true
 
   .home-actions {
     grid-template-columns: 1fr;
+  }
+
+  .home-timeline-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .home-lower {
@@ -346,6 +524,121 @@ home_layout: true
       </a>
     </div>
 
+    <section class="home-timeline" aria-labelledby="career-timeline-title">
+      <div class="home-timeline-header">
+        <h2 id="career-timeline-title">Career Timeline</h2>
+        <span>Scroll left for earlier milestones</span>
+      </div>
+
+      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline from 2019 to 2026">
+        <div class="timeline-board">
+          <div class="timeline-lane education"><div class="timeline-lane-label">Education</div></div>
+          <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
+          <div class="timeline-lane training"><div class="timeline-lane-label">Training</div></div>
+          <div class="timeline-lane talks"><div class="timeline-lane-label">Talks</div></div>
+
+          <div class="timeline-gridline" style="--x: 9%;"></div>
+          <div class="timeline-gridline" style="--x: 20%;"></div>
+          <div class="timeline-gridline" style="--x: 31%;"></div>
+          <div class="timeline-gridline" style="--x: 42%;"></div>
+          <div class="timeline-gridline" style="--x: 53%;"></div>
+          <div class="timeline-gridline" style="--x: 64%;"></div>
+          <div class="timeline-gridline" style="--x: 75%;"></div>
+          <div class="timeline-gridline" style="--x: 86%;"></div>
+
+          <div class="timeline-axis"></div>
+          <span class="timeline-year" style="--x: 9%;">2019</span>
+          <span class="timeline-year" style="--x: 20%;">2020</span>
+          <span class="timeline-year" style="--x: 31%;">2021</span>
+          <span class="timeline-year" style="--x: 42%;">2022</span>
+          <span class="timeline-year" style="--x: 53%;">2023</span>
+          <span class="timeline-year" style="--x: 64%;">2024</span>
+          <span class="timeline-year" style="--x: 75%;">2025</span>
+          <span class="timeline-year" style="--x: 86%;">2026</span>
+
+          <div class="timeline-event education" style="--x: 9%; --y: 22px; --w: 165px;">
+            <strong>B.S., Pharmacy</strong>
+            <span>Sichuan University</span>
+          </div>
+          <div class="timeline-event education" style="--x: 31%; --y: 22px; --w: 190px;">
+            <strong>M.S.E., Biomedical Engineering</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event education" style="--x: 75%; --y: 22px; --w: 190px;">
+            <strong>Ph.D., Biomedical Engineering</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+
+          <div class="timeline-event award" style="--x: 56%; --y: 108px; --w: 172px;">
+            <strong>SFB STAR Award</strong>
+            <span>Society for Biomaterials</span>
+          </div>
+          <div class="timeline-event award" style="--x: 67%; --y: 108px; --w: 178px;">
+            <strong>Hans J. Prochaska Award</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event award" style="--x: 70%; --y: 148px; --w: 178px;">
+            <strong>ASGCT Travel Award</strong>
+            <span>Gene & Cell Therapy</span>
+          </div>
+          <div class="timeline-event award" style="--x: 78%; --y: 108px; --w: 162px;">
+            <strong>SFB STAR Award</strong>
+            <span>Society for Biomaterials</span>
+          </div>
+          <div class="timeline-event award" style="--x: 82%; --y: 148px; --w: 150px;">
+            <strong>Siebel Scholar</strong>
+            <span>Siebel Foundation</span>
+          </div>
+          <div class="timeline-event award" style="--x: 85%; --y: 108px; --w: 166px;">
+            <strong>Forbes 30 Under 30</strong>
+            <span>Science, U.S.</span>
+          </div>
+          <div class="timeline-event award" style="--x: 88%; --y: 148px; --w: 172px;">
+            <strong>Schmidt Science Fellow</strong>
+            <span>Schmidt Science Foundation</span>
+          </div>
+
+          <div class="timeline-event training" style="--x: 83%; --y: 206px; --w: 178px;">
+            <strong>Postdoctoral Associate</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event training" style="--x: 87%; --y: 246px; --w: 174px;">
+            <strong>Postdoctoral Fellow</strong>
+            <span>Duke University</span>
+          </div>
+
+          <div class="timeline-event talk" style="--x: 45%; --y: 334px; --w: 172px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>pDNA lipid nanoparticles</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 56%; --y: 294px; --w: 180px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>mRNA vaccine immunity</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 68%; --y: 334px; --w: 190px;">
+            <strong>ASGCT Annual Meeting</strong>
+            <span>Local immunostimulatory niche</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 72%; --y: 294px; --w: 180px;">
+            <strong>BMES Annual Meeting</strong>
+            <span>Biomaterials lymphoid niche</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 78%; --y: 334px; --w: 168px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Extracellular fluid viscosity</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 81%; --y: 294px; --w: 178px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Nanofiber-hydrogel cancer immunotherapy</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 89%; --y: 334px; --w: 190px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Age-related systemic gene expression</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="intro-grid">
       <div class="intro-card">
         <div class="image-box">
@@ -396,3 +689,44 @@ home_layout: true
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var scroller = document.querySelector('[data-timeline-scroll]');
+    if (!scroller) return;
+
+    var isDragging = false;
+    var startX = 0;
+    var startScroll = 0;
+
+    function scrollToPresent() {
+      scroller.scrollLeft = scroller.scrollWidth - scroller.clientWidth;
+    }
+
+    window.addEventListener('load', scrollToPresent);
+    scrollToPresent();
+
+    scroller.addEventListener('pointerdown', function (event) {
+      isDragging = true;
+      startX = event.clientX;
+      startScroll = scroller.scrollLeft;
+      scroller.classList.add('is-dragging');
+      scroller.setPointerCapture(event.pointerId);
+    });
+
+    scroller.addEventListener('pointermove', function (event) {
+      if (!isDragging) return;
+      scroller.scrollLeft = startScroll - (event.clientX - startX);
+    });
+
+    scroller.addEventListener('pointerup', function () {
+      isDragging = false;
+      scroller.classList.remove('is-dragging');
+    });
+
+    scroller.addEventListener('pointercancel', function () {
+      isDragging = false;
+      scroller.classList.remove('is-dragging');
+    });
+  }());
+</script>
