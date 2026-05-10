@@ -814,7 +814,7 @@ home_layout: true
             <strong>Outstanding Graduates Award</strong>
             <span>Sichuan Province, China</span>
           </div>
-          <div class="timeline-event award" data-date="2023.04" data-image="/images/2023%20SFB.jpeg" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 48%; --y: 84px; --w: 154px;">
+          <div class="timeline-event award" data-date="2023.04" data-image="/images/2023%20SFBaward.png" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 48%; --y: 84px; --w: 154px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
