@@ -759,7 +759,7 @@ a.timeline-event {
             <strong>B.S., Pharmacy</strong>
             <span>Sichuan University</span>
           </div>
-          <div class="timeline-event education" data-date="2021" data-image="/images/JHMI.png" data-description="Earned the M.S.E. in Biomedical Engineering at Johns Hopkins University while developing research interests at the interface of materials and medicine." style="--x: 24%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" data-date="2021" data-image="/images/MSE%20graduation.png" data-description="Earned the M.S.E. in Biomedical Engineering at Johns Hopkins University while developing research interests at the interface of materials and medicine." style="--x: 24%; --y: 10px; --w: 172px;">
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
