@@ -900,6 +900,8 @@ home_layout: true
     var startX = 0;
     var startScroll = 0;
     var activeIndex = 0;
+    var hoverTimer = null;
+    var hoverDelay = 260;
 
     function eventTitle(eventNode) {
       var title = eventNode.querySelector('strong');
@@ -953,10 +955,29 @@ home_layout: true
       scrollToPresent();
     }
 
+    function queueHoverSelect(index) {
+      window.clearTimeout(hoverTimer);
+      hoverTimer = window.setTimeout(function () {
+        selectEvent(index, false);
+      }, hoverDelay);
+    }
+
+    function cancelHoverSelect() {
+      window.clearTimeout(hoverTimer);
+      hoverTimer = null;
+    }
+
     events.forEach(function (eventNode, index) {
       if (!eventNode.hasAttribute('href')) eventNode.setAttribute('tabindex', '0');
 
+      eventNode.addEventListener('mouseenter', function () {
+        queueHoverSelect(index);
+      });
+
+      eventNode.addEventListener('mouseleave', cancelHoverSelect);
+
       eventNode.addEventListener('click', function () {
+        cancelHoverSelect();
         selectEvent(index, false);
       });
 
