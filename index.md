@@ -307,6 +307,7 @@ home_layout: true
   margin: 0 0 18px 0;
   padding: 18px;
   border: 1px solid rgba(20, 32, 56, 0.1);
+  border-top: 4px solid #0f766e;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 10px 28px rgba(20, 32, 56, 0.06);
@@ -314,6 +315,26 @@ home_layout: true
 
 .home-content-tabs > .timeline-feature {
   margin: 34px 0 0 0;
+}
+
+.timeline-feature-label {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -2px 0 -6px 0;
+  color: #0f766e;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.timeline-feature-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(15, 118, 110, 0.34), rgba(15, 118, 110, 0));
 }
 
 .timeline-feature-media {
@@ -498,14 +519,13 @@ home_layout: true
   background: rgba(255,255,255,0.94);
   box-shadow: 0 8px 18px rgba(20, 32, 56, 0.07);
   color: #172033;
+  cursor: pointer;
   font-size: 0.68rem;
   line-height: 1.18;
   text-decoration: none;
   transition: background 0.16s ease, box-shadow 0.16s ease, z-index 0s;
 }
 
-.timeline-event:hover,
-.timeline-event:focus,
 .timeline-event.is-active {
   z-index: 12;
   background: #fff;
@@ -516,10 +536,6 @@ home_layout: true
 .timeline-event:focus-visible {
   outline: 2px solid var(--color, #1f57c3);
   outline-offset: 3px;
-}
-
-a.timeline-event {
-  cursor: pointer;
 }
 
 .timeline-event::before {
@@ -715,6 +731,7 @@ a.timeline-event {
     </div>
 
     <div class="timeline-feature" aria-live="polite">
+      <div class="timeline-feature-label">Career Timeline Highlight</div>
       <div class="timeline-feature-media is-empty" data-timeline-media>
         <img data-timeline-image alt="Selected timeline milestone">
       </div>
@@ -834,7 +851,7 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>pDNA lipid nanoparticles</span>
           </div>
-          <div class="timeline-event talk" data-date="2023.03" data-image="/images/2023%20SFB.jpeg" data-description="Presented research on how lipid nanoparticle composition shapes immune responses to mRNA vaccines and anticancer immunity." style="--x: 48%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" data-date="2023.03" data-image="/images/2023%20SFB.JPG" data-description="Presented research on how lipid nanoparticle composition shapes immune responses to mRNA vaccines and anticancer immunity." style="--x: 48%; --y: 182px; --w: 162px;">
             <strong>SFB Annual Meeting</strong>
             <span>mRNA vaccine immunity</span>
           </div>
@@ -939,15 +956,16 @@ a.timeline-event {
     events.forEach(function (eventNode, index) {
       if (!eventNode.hasAttribute('href')) eventNode.setAttribute('tabindex', '0');
 
-      eventNode.addEventListener('mouseenter', function () {
-        selectEvent(index, false);
-      });
-
-      eventNode.addEventListener('focus', function () {
+      eventNode.addEventListener('click', function () {
         selectEvent(index, false);
       });
 
       eventNode.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          selectEvent(index, true);
+        }
+
         if (event.key === 'ArrowRight') {
           event.preventDefault();
           selectEvent(activeIndex + 1, true);
