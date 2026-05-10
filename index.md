@@ -269,7 +269,7 @@ home_layout: true
 }
 
 .home-timeline {
-  margin: 0 0 34px 0;
+  margin: 34px 0 0 0;
 }
 
 .home-timeline-header {
@@ -321,7 +321,7 @@ home_layout: true
 .timeline-board {
   position: relative;
   width: 1380px;
-  height: 442px;
+  height: 268px;
   min-width: 1380px;
 }
 
@@ -329,7 +329,7 @@ home_layout: true
   position: absolute;
   left: 0;
   right: 0;
-  height: 88px;
+  height: 74px;
   border-bottom: 1px solid rgba(20, 32, 56, 0.07);
   background: rgba(20, 32, 56, 0.025);
 }
@@ -339,9 +339,8 @@ home_layout: true
 }
 
 .timeline-lane.education { top: 0; }
-.timeline-lane.awards { top: 88px; }
-.timeline-lane.training { top: 176px; }
-.timeline-lane.talks { top: 264px; }
+.timeline-lane.awards { top: 74px; }
+.timeline-lane.talks { top: 148px; }
 
 .timeline-lane-label {
   position: sticky;
@@ -349,7 +348,7 @@ home_layout: true
   z-index: 4;
   display: flex;
   align-items: center;
-  width: 116px;
+  width: 138px;
   height: 100%;
   padding-left: 16px;
   background: linear-gradient(90deg, rgba(255,255,255,0.96), rgba(255,255,255,0.72));
@@ -361,7 +360,7 @@ home_layout: true
 .timeline-gridline {
   position: absolute;
   top: 0;
-  bottom: 58px;
+  bottom: 38px;
   left: var(--x);
   width: 1px;
   background: rgba(20, 32, 56, 0.1);
@@ -369,7 +368,7 @@ home_layout: true
 
 .timeline-year {
   position: absolute;
-  bottom: 26px;
+  bottom: 10px;
   left: var(--x);
   transform: translateX(-50%);
   color: #7a8494;
@@ -381,7 +380,7 @@ home_layout: true
   position: absolute;
   left: 118px;
   right: 46px;
-  bottom: 52px;
+  bottom: 34px;
   height: 2px;
   background: #c8ced8;
 }
@@ -392,25 +391,25 @@ home_layout: true
   left: var(--x);
   top: var(--y);
   width: var(--w, 176px);
-  min-height: 38px;
-  padding: 8px 10px;
+  min-height: 30px;
+  padding: 6px 9px;
   border: 1px solid rgba(20, 32, 56, 0.12);
   border-left: 4px solid var(--color, #1f57c3);
   border-radius: 6px;
   background: rgba(255,255,255,0.94);
   box-shadow: 0 8px 18px rgba(20, 32, 56, 0.07);
   color: #172033;
-  font-size: 0.76rem;
-  line-height: 1.25;
+  font-size: 0.68rem;
+  line-height: 1.18;
 }
 
 .timeline-event::after {
   content: "";
   position: absolute;
   left: 10px;
-  bottom: -17px;
-  width: 8px;
-  height: 8px;
+  bottom: -13px;
+  width: 7px;
+  height: 7px;
   border: 2px solid #fff;
   border-radius: 50%;
   background: var(--color, #1f57c3);
@@ -421,13 +420,13 @@ home_layout: true
 .timeline-event.training::after,
 .timeline-event.education::after {
   bottom: auto;
-  top: -17px;
+  top: -13px;
 }
 
 .timeline-event strong {
   display: block;
-  margin-bottom: 2px;
-  font-size: 0.78rem;
+  margin-bottom: 1px;
+  font-size: 0.7rem;
 }
 
 .timeline-event span {
@@ -524,121 +523,6 @@ home_layout: true
       </a>
     </div>
 
-    <section class="home-timeline" aria-labelledby="career-timeline-title">
-      <div class="home-timeline-header">
-        <h2 id="career-timeline-title">Career Timeline</h2>
-        <span>Scroll left for earlier milestones</span>
-      </div>
-
-      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline from 2019 to 2026">
-        <div class="timeline-board">
-          <div class="timeline-lane education"><div class="timeline-lane-label">Education</div></div>
-          <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
-          <div class="timeline-lane training"><div class="timeline-lane-label">Training</div></div>
-          <div class="timeline-lane talks"><div class="timeline-lane-label">Talks</div></div>
-
-          <div class="timeline-gridline" style="--x: 9%;"></div>
-          <div class="timeline-gridline" style="--x: 20%;"></div>
-          <div class="timeline-gridline" style="--x: 31%;"></div>
-          <div class="timeline-gridline" style="--x: 42%;"></div>
-          <div class="timeline-gridline" style="--x: 53%;"></div>
-          <div class="timeline-gridline" style="--x: 64%;"></div>
-          <div class="timeline-gridline" style="--x: 75%;"></div>
-          <div class="timeline-gridline" style="--x: 86%;"></div>
-
-          <div class="timeline-axis"></div>
-          <span class="timeline-year" style="--x: 9%;">2019</span>
-          <span class="timeline-year" style="--x: 20%;">2020</span>
-          <span class="timeline-year" style="--x: 31%;">2021</span>
-          <span class="timeline-year" style="--x: 42%;">2022</span>
-          <span class="timeline-year" style="--x: 53%;">2023</span>
-          <span class="timeline-year" style="--x: 64%;">2024</span>
-          <span class="timeline-year" style="--x: 75%;">2025</span>
-          <span class="timeline-year" style="--x: 86%;">2026</span>
-
-          <div class="timeline-event education" style="--x: 9%; --y: 22px; --w: 165px;">
-            <strong>B.S., Pharmacy</strong>
-            <span>Sichuan University</span>
-          </div>
-          <div class="timeline-event education" style="--x: 31%; --y: 22px; --w: 190px;">
-            <strong>M.S.E., Biomedical Engineering</strong>
-            <span>Johns Hopkins University</span>
-          </div>
-          <div class="timeline-event education" style="--x: 75%; --y: 22px; --w: 190px;">
-            <strong>Ph.D., Biomedical Engineering</strong>
-            <span>Johns Hopkins University</span>
-          </div>
-
-          <div class="timeline-event award" style="--x: 56%; --y: 108px; --w: 172px;">
-            <strong>SFB STAR Award</strong>
-            <span>Society for Biomaterials</span>
-          </div>
-          <div class="timeline-event award" style="--x: 67%; --y: 108px; --w: 178px;">
-            <strong>Hans J. Prochaska Award</strong>
-            <span>Johns Hopkins University</span>
-          </div>
-          <div class="timeline-event award" style="--x: 70%; --y: 148px; --w: 178px;">
-            <strong>ASGCT Travel Award</strong>
-            <span>Gene & Cell Therapy</span>
-          </div>
-          <div class="timeline-event award" style="--x: 78%; --y: 108px; --w: 162px;">
-            <strong>SFB STAR Award</strong>
-            <span>Society for Biomaterials</span>
-          </div>
-          <div class="timeline-event award" style="--x: 82%; --y: 148px; --w: 150px;">
-            <strong>Siebel Scholar</strong>
-            <span>Siebel Foundation</span>
-          </div>
-          <div class="timeline-event award" style="--x: 85%; --y: 108px; --w: 166px;">
-            <strong>Forbes 30 Under 30</strong>
-            <span>Science, U.S.</span>
-          </div>
-          <div class="timeline-event award" style="--x: 88%; --y: 148px; --w: 172px;">
-            <strong>Schmidt Science Fellow</strong>
-            <span>Schmidt Science Foundation</span>
-          </div>
-
-          <div class="timeline-event training" style="--x: 83%; --y: 206px; --w: 178px;">
-            <strong>Postdoctoral Associate</strong>
-            <span>Johns Hopkins University</span>
-          </div>
-          <div class="timeline-event training" style="--x: 87%; --y: 246px; --w: 174px;">
-            <strong>Postdoctoral Fellow</strong>
-            <span>Duke University</span>
-          </div>
-
-          <div class="timeline-event talk" style="--x: 45%; --y: 334px; --w: 172px;">
-            <strong>SFB Annual Meeting</strong>
-            <span>pDNA lipid nanoparticles</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 56%; --y: 294px; --w: 180px;">
-            <strong>SFB Annual Meeting</strong>
-            <span>mRNA vaccine immunity</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 68%; --y: 334px; --w: 190px;">
-            <strong>ASGCT Annual Meeting</strong>
-            <span>Local immunostimulatory niche</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 72%; --y: 294px; --w: 180px;">
-            <strong>BMES Annual Meeting</strong>
-            <span>Biomaterials lymphoid niche</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 78%; --y: 334px; --w: 168px;">
-            <strong>SFB Annual Meeting</strong>
-            <span>Extracellular fluid viscosity</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 81%; --y: 294px; --w: 178px;">
-            <strong>SFB Annual Meeting</strong>
-            <span>Nanofiber-hydrogel cancer immunotherapy</span>
-          </div>
-          <div class="timeline-event talk" style="--x: 89%; --y: 334px; --w: 190px;">
-            <strong>SFB Annual Meeting</strong>
-            <span>Age-related systemic gene expression</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <div class="intro-grid">
       <div class="intro-card">
         <div class="image-box">
@@ -687,6 +571,120 @@ home_layout: true
         </div>
       </div>
     </div>
+
+    <section class="home-timeline" aria-labelledby="career-timeline-title">
+      <div class="home-timeline-header">
+        <h2 id="career-timeline-title">Career Timeline</h2>
+        <span>Scroll left for earlier milestones</span>
+      </div>
+
+      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, and talks from 2019 to 2026">
+        <div class="timeline-board">
+          <div class="timeline-lane education"><div class="timeline-lane-label">Education &amp; Training</div></div>
+          <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
+          <div class="timeline-lane talks"><div class="timeline-lane-label">Talks</div></div>
+
+          <div class="timeline-gridline" style="--x: 9%;"></div>
+          <div class="timeline-gridline" style="--x: 20%;"></div>
+          <div class="timeline-gridline" style="--x: 31%;"></div>
+          <div class="timeline-gridline" style="--x: 42%;"></div>
+          <div class="timeline-gridline" style="--x: 53%;"></div>
+          <div class="timeline-gridline" style="--x: 64%;"></div>
+          <div class="timeline-gridline" style="--x: 75%;"></div>
+          <div class="timeline-gridline" style="--x: 86%;"></div>
+
+          <div class="timeline-axis"></div>
+          <span class="timeline-year" style="--x: 9%;">2019</span>
+          <span class="timeline-year" style="--x: 20%;">2020</span>
+          <span class="timeline-year" style="--x: 31%;">2021</span>
+          <span class="timeline-year" style="--x: 42%;">2022</span>
+          <span class="timeline-year" style="--x: 53%;">2023</span>
+          <span class="timeline-year" style="--x: 64%;">2024</span>
+          <span class="timeline-year" style="--x: 75%;">2025</span>
+          <span class="timeline-year" style="--x: 86%;">2026</span>
+
+          <div class="timeline-event education" style="--x: 9%; --y: 10px; --w: 150px;">
+            <strong>B.S., Pharmacy</strong>
+            <span>Sichuan University</span>
+          </div>
+          <div class="timeline-event education" style="--x: 31%; --y: 10px; --w: 172px;">
+            <strong>M.S.E., Biomedical Engineering</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event education" style="--x: 75%; --y: 10px; --w: 172px;">
+            <strong>Ph.D., Biomedical Engineering</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+
+          <div class="timeline-event training" style="--x: 83%; --y: 38px; --w: 160px;">
+            <strong>Postdoctoral Associate</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event training" style="--x: 87%; --y: 38px; --w: 156px;">
+            <strong>Postdoctoral Fellow</strong>
+            <span>Duke University</span>
+          </div>
+
+          <div class="timeline-event award" style="--x: 56%; --y: 84px; --w: 154px;">
+            <strong>SFB STAR Award</strong>
+            <span>Society for Biomaterials</span>
+          </div>
+          <div class="timeline-event award" style="--x: 67%; --y: 84px; --w: 160px;">
+            <strong>Hans J. Prochaska Award</strong>
+            <span>Johns Hopkins University</span>
+          </div>
+          <div class="timeline-event award" style="--x: 70%; --y: 110px; --w: 160px;">
+            <strong>ASGCT Travel Award</strong>
+            <span>Gene & Cell Therapy</span>
+          </div>
+          <div class="timeline-event award" style="--x: 78%; --y: 84px; --w: 146px;">
+            <strong>SFB STAR Award</strong>
+            <span>Society for Biomaterials</span>
+          </div>
+          <div class="timeline-event award" style="--x: 82%; --y: 110px; --w: 136px;">
+            <strong>Siebel Scholar</strong>
+            <span>Siebel Foundation</span>
+          </div>
+          <div class="timeline-event award" style="--x: 85%; --y: 84px; --w: 150px;">
+            <strong>Forbes 30 Under 30</strong>
+            <span>Science, U.S.</span>
+          </div>
+          <div class="timeline-event award" style="--x: 88%; --y: 110px; --w: 156px;">
+            <strong>Schmidt Science Fellow</strong>
+            <span>Schmidt Science Foundation</span>
+          </div>
+
+          <div class="timeline-event talk" style="--x: 45%; --y: 208px; --w: 154px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>pDNA lipid nanoparticles</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 56%; --y: 182px; --w: 162px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>mRNA vaccine immunity</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 68%; --y: 208px; --w: 170px;">
+            <strong>ASGCT Annual Meeting</strong>
+            <span>Local immunostimulatory niche</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 72%; --y: 182px; --w: 162px;">
+            <strong>BMES Annual Meeting</strong>
+            <span>Biomaterials lymphoid niche</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 78%; --y: 208px; --w: 152px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Extracellular fluid viscosity</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 81%; --y: 182px; --w: 160px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Nanofiber-hydrogel cancer immunotherapy</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 89%; --y: 208px; --w: 170px;">
+            <strong>SFB Annual Meeting</strong>
+            <span>Age-related systemic gene expression</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 
