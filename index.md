@@ -224,7 +224,7 @@ home_layout: true
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  margin: 34px 0 10px 0;
+  margin: 0 0 34px 0;
 }
 
 .home-action {
@@ -331,6 +331,21 @@ home_layout: true
   </div>
 
   <div class="home-content-tabs">
+    <div class="home-actions">
+      <a class="home-action" href="/about/">
+        <span>Profile</span>
+        <strong>Selected publications, honors, education, and talks</strong>
+      </a>
+      <a class="home-action" href="/research/">
+        <span>Research</span>
+        <strong>Publications, patents, services, and research moments</strong>
+      </a>
+      <a class="home-action" href="/teaching/">
+        <span>Teaching</span>
+        <strong>Courses, mentorship, and teaching philosophy</strong>
+      </a>
+    </div>
+
     <div class="intro-grid">
       <div class="intro-card">
         <div class="image-box">
@@ -378,21 +393,6 @@ home_layout: true
           </p>
         </div>
       </div>
-    </div>
-
-    <div class="home-actions">
-      <a class="home-action" href="/about/">
-        <span>Profile</span>
-        <strong>Selected publications, honors, education, and talks</strong>
-      </a>
-      <a class="home-action" href="/research/">
-        <span>Research</span>
-        <strong>Publications, patents, services, and research moments</strong>
-      </a>
-      <a class="home-action" href="/teaching/">
-        <span>Teaching</span>
-        <strong>Courses, mentorship, and teaching philosophy</strong>
-      </a>
     </div>
   </div>
 </div>
