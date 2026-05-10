@@ -763,12 +763,12 @@ a.timeline-event {
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event education" data-date="2025" data-image="/images/JHMI.png" data-description="Completed doctoral training in Biomedical Engineering at Johns Hopkins University, centered on biomaterials, lipid nanoparticles, and immune engineering." style="--x: 76%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" data-date="2025" data-image="/images/Yining%20with%20lab.png" data-description="Completed doctoral training in Biomedical Engineering at Johns Hopkins University, centered on biomaterials, lipid nanoparticles, and immune engineering." style="--x: 76%; --y: 10px; --w: 172px;">
             <strong>Ph.D., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
 
-          <div class="timeline-event training" data-date="2025.10" data-image="/images/JHU%20engineering%20logo1.png" data-description="Continued postdoctoral research at Johns Hopkins University before moving to Duke for the next phase of training." style="--x: 87%; --y: 38px; --w: 160px;">
+          <div class="timeline-event training" data-date="2025.10" data-image="/images/JHU%20postdoc.JPG" data-description="Continued postdoctoral research at Johns Hopkins University before moving to Duke for the next phase of training." style="--x: 87%; --y: 38px; --w: 160px;">
             <strong>Postdoctoral Associate</strong>
             <span>Johns Hopkins University</span>
           </div>
@@ -803,7 +803,7 @@ a.timeline-event {
             <span>Siebel Foundation</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" data-date="2025.12" data-image="/images/Forbes%20Science.jpg" data-description="Named to Forbes 30 Under 30 in Science, U.S., for work in genetic medicine delivery and immunoengineering." style="--x: 88%; --y: 84px; --w: 150px;">
+          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" data-date="2025.12" data-image="/images/2026%20Fobes.PNG" data-description="Named to Forbes 30 Under 30 in Science, U.S., for work in genetic medicine delivery and immunoengineering." style="--x: 88%; --y: 84px; --w: 150px;">
             <strong>Forbes 30 Under 30</strong>
             <span>Science, U.S.</span>
             <em>Media</em>
