@@ -721,12 +721,12 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" style="--x: 90%; --y: 182px; --w: 176px;">
-            <strong>ASGCT Annual Meeting</strong>
-            <span>Age-related systemic gene expression</span>
-          </div>
           <div class="timeline-event talk" style="--x: 94%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
+            <span>Age-related systemic gene expression</span>
+          </div>
+          <div class="timeline-event talk" style="--x: 96%; --y: 182px; --w: 176px;">
+            <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
         </div>
