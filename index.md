@@ -299,6 +299,85 @@ home_layout: true
   white-space: nowrap;
 }
 
+.timeline-feature {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr) auto;
+  gap: 22px;
+  align-items: center;
+  margin: 0 0 18px 0;
+  padding: 18px;
+  border: 1px solid rgba(20, 32, 56, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(20, 32, 56, 0.06);
+}
+
+.timeline-feature-media {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  background: #eef2f7;
+}
+
+.timeline-feature-media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.timeline-feature-copy span {
+  display: block;
+  margin-bottom: 6px;
+  color: #697386;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.timeline-feature-copy h3 {
+  margin: 0 0 8px 0;
+  color: #172033;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.18;
+}
+
+.timeline-feature-copy p {
+  margin: 0;
+  color: #424b5a;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.timeline-feature-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.timeline-feature-controls button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(20, 32, 56, 0.16);
+  border-radius: 999px;
+  background: #fff;
+  color: #172033;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.timeline-feature-controls button:hover,
+.timeline-feature-controls button:focus-visible {
+  border-color: rgba(31, 87, 195, 0.35);
+  color: #1f57c3;
+  outline: none;
+}
+
 .timeline-scroll {
   overflow-x: auto;
   overflow-y: hidden;
@@ -407,7 +486,8 @@ home_layout: true
 }
 
 .timeline-event:hover,
-.timeline-event:focus {
+.timeline-event:focus,
+.timeline-event.is-active {
   z-index: 12;
   background: #fff;
   box-shadow: 0 14px 28px rgba(20, 32, 56, 0.16);
@@ -502,6 +582,14 @@ a.timeline-event {
     align-items: flex-start;
     flex-direction: column;
     gap: 4px;
+  }
+
+  .timeline-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-feature-controls {
+    justify-content: flex-end;
   }
 
   .home-lower {
@@ -607,10 +695,28 @@ a.timeline-event {
       </div>
     </div>
 
-    <section class="home-timeline" aria-labelledby="career-timeline-title">
+  </div>
+</div>
+
+<section class="home-timeline" aria-labelledby="career-timeline-title">
       <div class="home-timeline-header">
         <h2 id="career-timeline-title">Career Timeline</h2>
-        <span>Scroll left for earlier milestones</span>
+        <span>Scroll right for recent milestones</span>
+      </div>
+
+      <div class="timeline-feature" aria-live="polite">
+        <div class="timeline-feature-media">
+          <img data-timeline-image src="/images/SCU.png" alt="Selected timeline milestone">
+        </div>
+        <div class="timeline-feature-copy">
+          <span data-timeline-date>2019.06</span>
+          <h3 data-timeline-title>B.S., Pharmacy</h3>
+          <p data-timeline-description>Completed undergraduate training in pharmacy at Sichuan University, building the foundation for later work in biomaterials and genetic medicine delivery.</p>
+        </div>
+        <div class="timeline-feature-controls" aria-label="Timeline event navigation">
+          <button type="button" data-timeline-prev aria-label="Previous timeline event">&#8249;</button>
+          <button type="button" data-timeline-next aria-label="Next timeline event">&#8250;</button>
+        </div>
       </div>
 
       <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, and talks from 2019 to 2026">
@@ -638,118 +744,209 @@ a.timeline-event {
           <span class="timeline-year" style="--x: 76%;">2025</span>
           <span class="timeline-year" style="--x: 93%;">2026</span>
 
-          <div class="timeline-event education" style="--x: 7%; --y: 10px; --w: 150px;">
+          <div class="timeline-event education" data-date="2019.06" data-image="/images/SCU.png" data-description="Completed undergraduate training in pharmacy at Sichuan University, building the foundation for later work in biomaterials and genetic medicine delivery." style="--x: 7%; --y: 10px; --w: 150px;">
             <strong>B.S., Pharmacy</strong>
             <span>Sichuan University</span>
           </div>
-          <div class="timeline-event education" style="--x: 24%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" data-date="2021" data-image="/images/JHMI.png" data-description="Earned the M.S.E. in Biomedical Engineering at Johns Hopkins University while developing research interests at the interface of materials and medicine." style="--x: 24%; --y: 10px; --w: 172px;">
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event education" style="--x: 76%; --y: 10px; --w: 172px;">
+          <div class="timeline-event education" data-date="2025" data-image="/images/JHMI.png" data-description="Completed doctoral training in Biomedical Engineering at Johns Hopkins University, centered on biomaterials, lipid nanoparticles, and immune engineering." style="--x: 76%; --y: 10px; --w: 172px;">
             <strong>Ph.D., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
 
-          <div class="timeline-event training" style="--x: 87%; --y: 38px; --w: 160px;">
+          <div class="timeline-event training" data-date="2025.10" data-image="/images/JHU%20engineering%20logo1.png" data-description="Continued postdoctoral research at Johns Hopkins University before moving to Duke for the next phase of training." style="--x: 87%; --y: 38px; --w: 160px;">
             <strong>Postdoctoral Associate</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event training" style="--x: 94%; --y: 38px; --w: 156px;">
+          <div class="timeline-event training" data-date="2026.02" data-image="/images/duke.png" data-description="Joined Duke University as a Postdoctoral Fellow to advance work spanning gene delivery, systems immunology, and spatial proteomics." style="--x: 94%; --y: 38px; --w: 156px;">
             <strong>Postdoctoral Fellow</strong>
             <span>Duke University</span>
           </div>
 
-          <div class="timeline-event award" style="--x: 7%; --y: 84px; --w: 174px;">
+          <div class="timeline-event award" data-date="2019" data-image="/images/SCU.png" data-description="Recognized with the Outstanding Graduates Award in Sichuan Province, China." style="--x: 7%; --y: 84px; --w: 174px;">
             <strong>Outstanding Graduates Award</strong>
             <span>Sichuan Province, China</span>
           </div>
-          <div class="timeline-event award" style="--x: 48%; --y: 84px; --w: 154px;">
+          <div class="timeline-event award" data-date="2023.04" data-image="/images/2023%20SFB.jpeg" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 48%; --y: 84px; --w: 154px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" style="--x: 61%; --y: 84px; --w: 160px;">
+          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" data-date="2024.04" data-image="/images/JHMI.png" data-description="Honored by Johns Hopkins University with the Hans J. Prochaska Research Award." style="--x: 61%; --y: 84px; --w: 160px;">
             <strong>Hans J. Prochaska Award</strong>
             <span>Johns Hopkins University</span>
             <em>Media</em>
           </a>
-          <div class="timeline-event award" style="--x: 66%; --y: 110px; --w: 160px;">
+          <div class="timeline-event award" data-date="2024.05" data-image="/images/2024%20ASGCT.JPG" data-description="Received a Meritorious Abstract Travel Award from the American Society of Gene & Cell Therapy." style="--x: 66%; --y: 110px; --w: 160px;">
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
           </div>
-          <div class="timeline-event award" style="--x: 75%; --y: 84px; --w: 146px;">
+          <div class="timeline-event award" data-date="2025.04" data-image="/images/2023%20SFB.png" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 75%; --y: 84px; --w: 146px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" style="--x: 83%; --y: 110px; --w: 136px;">
+          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" data-date="2025.09" data-image="/images/Siebel%20scholar%20images.png" data-description="Named a Siebel Scholar in recognition of leadership and academic achievement in engineering." style="--x: 83%; --y: 110px; --w: 136px;">
             <strong>Siebel Scholar</strong>
             <span>Siebel Foundation</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" style="--x: 88%; --y: 84px; --w: 150px;">
+          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" data-date="2025.12" data-image="/images/Forbes%20Science.jpg" data-description="Named to Forbes 30 Under 30 in Science, U.S., for work in genetic medicine delivery and immunoengineering." style="--x: 88%; --y: 84px; --w: 150px;">
             <strong>Forbes 30 Under 30</strong>
             <span>Science, U.S.</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" style="--x: 94%; --y: 110px; --w: 156px;">
+          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" data-date="2026.03" data-image="/images/schmidt_science_fellows.png" data-description="Selected as a Schmidt Science Fellow to pursue interdisciplinary postdoctoral research." style="--x: 94%; --y: 110px; --w: 156px;">
             <strong>Schmidt Science Fellow</strong>
             <span>Schmidt Science Foundation</span>
             <em>Media</em>
           </a>
 
-          <div class="timeline-event talk" style="--x: 37%; --y: 208px; --w: 154px;">
+          <div class="timeline-event talk" data-date="2022.03" data-image="/images/2022%20SFB.JPG" data-description="Presented work on multi-step screening and composition optimization of lipid nanoparticles for liver-targeted plasmid DNA delivery." style="--x: 37%; --y: 208px; --w: 154px;">
             <strong>SFB Annual Meeting</strong>
             <span>pDNA lipid nanoparticles</span>
           </div>
-          <div class="timeline-event talk" style="--x: 48%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" data-date="2023.03" data-image="/images/2023%20SFB.jpeg" data-description="Presented research on how lipid nanoparticle composition shapes immune responses to mRNA vaccines and anticancer immunity." style="--x: 48%; --y: 182px; --w: 162px;">
             <strong>SFB Annual Meeting</strong>
             <span>mRNA vaccine immunity</span>
           </div>
-          <div class="timeline-event talk" style="--x: 65%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" data-date="2024.05" data-image="/images/2024%20ASGCT.JPG" data-description="Presented an mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite for local immunostimulation in cancer immunotherapy." style="--x: 65%; --y: 208px; --w: 170px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Local immunostimulatory niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 72%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" data-date="2024.10" data-image="/images/Oral.png" data-description="Presented work on engineering a biomaterials-based lymphoid niche for mRNA lipid nanoparticle cancer vaccines." style="--x: 72%; --y: 182px; --w: 162px;">
             <strong>BMES Annual Meeting</strong>
             <span>Biomaterials lymphoid niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 79%; --y: 208px; --w: 152px;">
+          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2023%20SFB.png" data-description="Presented research on enhancing cell transfection efficiency through modulation of extracellular fluid viscosity." style="--x: 79%; --y: 208px; --w: 152px;">
             <strong>SFB Annual Meeting</strong>
             <span>Extracellular fluid viscosity</span>
           </div>
-          <div class="timeline-event talk" style="--x: 80%; --y: 182px; --w: 160px;">
+          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2023%20SFB.png" data-description="Presented nanofiber-hydrogel cancer immunotherapy work at the Society for Biomaterials Annual Meeting." style="--x: 80%; --y: 182px; --w: 160px;">
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" style="--x: 93.8%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" data-date="2026.03" data-image="/images/Oral.png" data-description="Presented age-related heterogeneity of systemic gene expression and its impact on immune responses to mRNA lipid nanoparticle cancer vaccines." style="--x: 93.8%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" style="--x: 94.6%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" data-date="2026.05" data-image="/images/Oral.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
         </div>
       </div>
     </section>
-  </div>
-</div>
 
 <script>
   (function () {
     var scroller = document.querySelector('[data-timeline-scroll]');
     if (!scroller) return;
 
+    var events = Array.prototype.slice.call(scroller.querySelectorAll('.timeline-event'));
+    var previewImage = document.querySelector('[data-timeline-image]');
+    var previewDate = document.querySelector('[data-timeline-date]');
+    var previewTitle = document.querySelector('[data-timeline-title]');
+    var previewDescription = document.querySelector('[data-timeline-description]');
+    var previousButton = document.querySelector('[data-timeline-prev]');
+    var nextButton = document.querySelector('[data-timeline-next]');
     var isDragging = false;
     var startX = 0;
     var startScroll = 0;
+    var activeIndex = 0;
 
-    function scrollToPresent() {
-      scroller.scrollLeft = scroller.scrollWidth - scroller.clientWidth;
+    function eventTitle(eventNode) {
+      var title = eventNode.querySelector('strong');
+      return title ? title.textContent : '';
     }
 
-    window.addEventListener('load', scrollToPresent);
-    scrollToPresent();
+    function eventSubtitle(eventNode) {
+      var subtitle = eventNode.querySelector('span');
+      return subtitle ? subtitle.textContent : '';
+    }
+
+    function selectEvent(index, shouldFocus) {
+      if (!events.length) return;
+      activeIndex = (index + events.length) % events.length;
+
+      events.forEach(function (eventNode) {
+        eventNode.classList.remove('is-active');
+      });
+
+      var selected = events[activeIndex];
+      selected.classList.add('is-active');
+
+      if (previewImage) {
+        previewImage.src = selected.dataset.image || '/images/jhu-banner.jpg';
+        previewImage.alt = eventTitle(selected) || 'Selected timeline milestone';
+      }
+
+      if (previewDate) previewDate.textContent = selected.dataset.date || '';
+      if (previewTitle) previewTitle.textContent = eventTitle(selected);
+      if (previewDescription) {
+        previewDescription.textContent = selected.dataset.description || eventSubtitle(selected);
+      }
+
+      selected.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      if (shouldFocus) selected.focus({ preventScroll: true });
+    }
+
+    function scrollToStart() {
+      scroller.scrollLeft = 0;
+    }
+
+    events.forEach(function (eventNode, index) {
+      if (!eventNode.hasAttribute('href')) eventNode.setAttribute('tabindex', '0');
+
+      eventNode.addEventListener('mouseenter', function () {
+        selectEvent(index, false);
+      });
+
+      eventNode.addEventListener('focus', function () {
+        selectEvent(index, false);
+      });
+
+      eventNode.addEventListener('keydown', function (event) {
+        if (event.key === 'ArrowRight') {
+          event.preventDefault();
+          selectEvent(activeIndex + 1, true);
+        }
+
+        if (event.key === 'ArrowLeft') {
+          event.preventDefault();
+          selectEvent(activeIndex - 1, true);
+        }
+      });
+    });
+
+    if (previousButton) {
+      previousButton.addEventListener('click', function () {
+        selectEvent(activeIndex - 1, true);
+      });
+    }
+
+    if (nextButton) {
+      nextButton.addEventListener('click', function () {
+        selectEvent(activeIndex + 1, true);
+      });
+    }
+
+    scroller.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        selectEvent(activeIndex + 1, true);
+      }
+
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        selectEvent(activeIndex - 1, true);
+      }
+    });
+
+    window.addEventListener('load', scrollToStart);
+    scrollToStart();
+    selectEvent(0, false);
 
     scroller.addEventListener('pointerdown', function (event) {
       isDragging = true;
