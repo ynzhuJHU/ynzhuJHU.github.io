@@ -901,7 +901,7 @@ home_layout: true
     var startScroll = 0;
     var activeIndex = 0;
     var hoverTimer = null;
-    var hoverDelay = 260;
+    var hoverDelay = 80;
 
     function eventTitle(eventNode) {
       var title = eventNode.querySelector('strong');
