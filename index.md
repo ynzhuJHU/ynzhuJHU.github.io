@@ -313,6 +313,10 @@ home_layout: true
   box-shadow: 0 10px 28px rgba(20, 32, 56, 0.06);
 }
 
+.timeline-feature.is-publication {
+  border-top-color: #b45309;
+}
+
 .home-content-tabs > .timeline-feature {
   margin: 34px 0 0 0;
 }
@@ -366,6 +370,17 @@ home_layout: true
   display: none;
 }
 
+.timeline-feature.is-publication .timeline-feature-media {
+  background: #fff;
+}
+
+.timeline-feature.is-publication .timeline-feature-media img {
+  object-fit: contain;
+  padding: 10px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px rgba(20, 32, 56, 0.06);
+}
+
 .timeline-feature-copy span {
   display: block;
   margin-bottom: 6px;
@@ -384,6 +399,18 @@ home_layout: true
   font-weight: 650;
   letter-spacing: 0;
   line-height: 1.18;
+}
+
+.timeline-feature-copy h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.timeline-feature-copy h3 a:hover,
+.timeline-feature-copy h3 a:focus-visible {
+  color: #1f57c3;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .timeline-feature-copy p {
@@ -440,9 +467,9 @@ home_layout: true
 .timeline-board {
   position: relative;
   width: 3250px;
-  height: 340px;
+  height: 422px;
   min-width: 3250px;
-  --axis-y: 300px;
+  --axis-y: 382px;
 }
 
 .timeline-lane {
@@ -461,6 +488,7 @@ home_layout: true
 .timeline-lane.education { top: 0; }
 .timeline-lane.awards { top: 82px; }
 .timeline-lane.talks { top: 164px; }
+.timeline-lane.publications { top: 246px; }
 
 .timeline-lane-label {
   position: sticky;
@@ -588,6 +616,7 @@ home_layout: true
 .timeline-event.award { --color: #9a3412; }
 .timeline-event.training { --color: #0f766e; }
 .timeline-event.talk { --color: #6d4ca4; }
+.timeline-event.publication { --color: #b45309; }
 
 @media (max-width: 900px) {
   .home-hero {
@@ -731,13 +760,13 @@ home_layout: true
     </div>
 
     <div class="timeline-feature" aria-live="polite">
-      <div class="timeline-feature-label">Career Timeline Highlight</div>
+      <div class="timeline-feature-label" data-timeline-label>Career Timeline Highlight</div>
       <div class="timeline-feature-media is-empty" data-timeline-media>
         <img data-timeline-image alt="Selected timeline milestone">
       </div>
       <div class="timeline-feature-copy">
         <span data-timeline-date>2026.05</span>
-        <h3 data-timeline-title>ASGCT Annual Meeting</h3>
+        <h3><a data-timeline-link href="#" target="_blank" rel="noopener">ASGCT Annual Meeting</a></h3>
         <p data-timeline-description>Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines.</p>
       </div>
       <div class="timeline-feature-controls" aria-label="Timeline event navigation">
@@ -755,11 +784,12 @@ home_layout: true
         <span>Scroll left for earlier milestones</span>
       </div>
 
-      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, and talks from 2019 to 2026">
+      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, talks, and selected publications from 2019 to 2026">
         <div class="timeline-board">
           <div class="timeline-lane education"><div class="timeline-lane-label">Education &amp; Training</div></div>
           <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
           <div class="timeline-lane talks"><div class="timeline-lane-label">Talks</div></div>
+          <div class="timeline-lane publications"><div class="timeline-lane-label">Selected Publications</div></div>
 
           <div class="timeline-gridline" style="--x: 7%;"></div>
           <div class="timeline-gridline" style="--x: 15%;"></div>
@@ -879,6 +909,47 @@ home_layout: true
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
+
+          <a class="timeline-event publication" href="https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978" target="_blank" rel="noopener" data-date="2020" data-title="Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma" data-image="/images/JCR.jpg" data-description="Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy." style="--x: 15%; --y: 250px; --w: 168px;">
+            <strong>Journal of Controlled Release</strong>
+            <span>Albumin-biomineralized nanoparticles</span>
+          </a>
+          <a class="timeline-event publication" href="https://pubs.acs.org/doi/full/10.1021/acs.nanolett.1c01421" target="_blank" rel="noopener" data-date="2021" data-title="Size-controlled and shelf-stable DNA particles for production of lentiviral vectors" data-image="/images/FigureSize.jpeg" data-description="Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency." style="--x: 24%; --y: 276px; --w: 162px;">
+            <strong>Nano Letters</strong>
+            <span>Shelf-stable DNA particles</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s41467-022-31993-y" target="_blank" rel="noopener" data-date="2022" data-title="Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression" data-image="/images/Figuremultistep.png" data-description="A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design." style="--x: 34%; --y: 250px; --w: 174px;">
+            <strong>Nature Communications</strong>
+            <span>pDNA lipid nanoparticles</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s41551-023-01131-0" target="_blank" rel="noopener" data-date="2024" data-title="Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity" data-image="/images/FigureScreening.png" data-description="An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses." style="--x: 58.5%; --y: 250px; --w: 184px;">
+            <strong>Nature Biomedical Engineering</strong>
+            <span>LNP modulation of helper T cells</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.sciencedirect.com/science/article/pii/S0142961224000930" target="_blank" rel="noopener" data-date="2024" data-title="Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery" data-image="/images/Oral.png" data-description="A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol." style="--x: 63%; --y: 302px; --w: 150px;">
+            <strong>Biomaterials</strong>
+            <span>Liver gene editing LNPs</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-024-00116-3" target="_blank" rel="noopener" data-date="2024" data-title="Tuning extracellular fluid viscosity to enhance transfection efficiency" data-image="/images/Viscosity.png" data-description="Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types." style="--x: 67%; --y: 276px; --w: 174px;">
+            <strong>Nature Chemical Engineering</strong>
+            <span>Extracellular fluid viscosity</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.science.org/doi/10.1126/sciadv.ady5579" target="_blank" rel="noopener" data-date="2025" data-title="A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins" data-image="/images/sciadv.ady5579-f1.jpg" data-description="A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation." style="--x: 76%; --y: 302px; --w: 166px;">
+            <strong>Science Advances</strong>
+            <span>Spleen-tropic LNPs</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s41467-025-61299-8" target="_blank" rel="noopener" data-date="2025" data-title="An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy" data-image="/images/LiNx.jpg" data-description="An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration." style="--x: 80%; --y: 250px; --w: 184px;">
+            <strong>Nature Communications</strong>
+            <span>Nanofiber-hydrogel cancer immunotherapy</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank" rel="noopener" data-date="2026" data-title="Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response" data-image="/images/Imidazolium.jpg" data-description="Screening 1,944 formulations identified LipidBrick LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity." style="--x: 91%; --y: 302px; --w: 168px;">
+            <strong>Materials Today</strong>
+            <span>Imidazolium mRNA LNPs</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 94.5%; --y: 250px; --w: 186px;">
+            <strong>Nature Chemical Engineering</strong>
+            <span>Crosslinked mRNA vaccine LNPs</span>
+          </a>
         </div>
       </div>
     </section>
@@ -889,10 +960,12 @@ home_layout: true
     if (!scroller) return;
 
     var events = Array.prototype.slice.call(scroller.querySelectorAll('.timeline-event'));
+    var previewFeature = document.querySelector('.timeline-feature');
+    var previewLabel = document.querySelector('[data-timeline-label]');
     var previewMedia = document.querySelector('[data-timeline-media]');
     var previewImage = document.querySelector('[data-timeline-image]');
     var previewDate = document.querySelector('[data-timeline-date]');
-    var previewTitle = document.querySelector('[data-timeline-title]');
+    var previewLink = document.querySelector('[data-timeline-link]');
     var previewDescription = document.querySelector('[data-timeline-description]');
     var previousButton = document.querySelector('[data-timeline-prev]');
     var nextButton = document.querySelector('[data-timeline-next]');
@@ -923,6 +996,12 @@ home_layout: true
 
       var selected = events[activeIndex];
       selected.classList.add('is-active');
+      var isPublication = selected.classList.contains('publication');
+
+      if (previewFeature) previewFeature.classList.toggle('is-publication', isPublication);
+      if (previewLabel) {
+        previewLabel.textContent = isPublication ? 'Selected Publication' : 'Career Timeline Highlight';
+      }
 
       if (previewImage) {
         var imageSource = selected.dataset.image || '';
@@ -936,8 +1015,17 @@ home_layout: true
         previewImage.classList.remove('is-contained');
       }
 
-      if (previewDate) previewDate.textContent = selected.dataset.date || '';
-      if (previewTitle) previewTitle.textContent = eventTitle(selected);
+      if (previewDate) {
+        previewDate.textContent = isPublication ? eventTitle(selected) + ' / ' + (selected.dataset.date || '') : selected.dataset.date || '';
+      }
+      if (previewLink) {
+        previewLink.textContent = isPublication ? selected.dataset.title || eventSubtitle(selected) : eventTitle(selected);
+        if (selected.href) {
+          previewLink.href = selected.href;
+        } else {
+          previewLink.removeAttribute('href');
+        }
+      }
       if (previewDescription) {
         previewDescription.textContent = selected.dataset.description || eventSubtitle(selected);
       }
