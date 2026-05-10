@@ -846,11 +846,11 @@ a.timeline-event {
             <strong>BMES Annual Meeting</strong>
             <span>Biomaterials lymphoid niche</span>
           </div>
-          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2023%20SFB.png" data-description="Presented research on enhancing cell transfection efficiency through modulation of extracellular fluid viscosity." style="--x: 79%; --y: 208px; --w: 152px;">
+          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2025%20SFB.JPG" data-description="Presented research on enhancing cell transfection efficiency through modulation of extracellular fluid viscosity." style="--x: 79%; --y: 208px; --w: 152px;">
             <strong>SFB Annual Meeting</strong>
             <span>Extracellular fluid viscosity</span>
           </div>
-          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2023%20SFB.png" data-description="Presented nanofiber-hydrogel cancer immunotherapy work at the Society for Biomaterials Annual Meeting." style="--x: 80%; --y: 182px; --w: 160px;">
+          <div class="timeline-event talk" data-date="2025.03" data-image="/images/2025%20SFB.JPG" data-description="Presented nanofiber-hydrogel cancer immunotherapy work at the Society for Biomaterials Annual Meeting." style="--x: 80%; --y: 182px; --w: 160px;">
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
