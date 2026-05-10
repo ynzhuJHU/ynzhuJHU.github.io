@@ -875,7 +875,7 @@ home_layout: true
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.05" data-image="" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" data-date="2026.05" data-image="/images/ASGCT-2026-BlueSky-Posts.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
