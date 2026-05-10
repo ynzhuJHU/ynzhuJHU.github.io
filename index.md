@@ -826,7 +826,7 @@ a.timeline-event {
             <strong>ASGCT Annual Meeting</strong>
             <span>Local immunostimulatory niche</span>
           </div>
-          <div class="timeline-event talk" data-date="2024.10" data-image="/images/Oral.png" data-description="Presented work on engineering a biomaterials-based lymphoid niche for mRNA lipid nanoparticle cancer vaccines." style="--x: 72%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" data-date="2024.10" data-image="/images/2024%20BMES.PNG" data-description="Presented work on engineering a biomaterials-based lymphoid niche for mRNA lipid nanoparticle cancer vaccines." style="--x: 72%; --y: 182px; --w: 162px;">
             <strong>BMES Annual Meeting</strong>
             <span>Biomaterials lymphoid niche</span>
           </div>
