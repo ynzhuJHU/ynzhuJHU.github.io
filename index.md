@@ -763,6 +763,10 @@ a.timeline-event {
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
+          <div class="timeline-event training" data-date="2024.08-09" data-image="/images/Visiting%20Duke.JPG" data-description="Visited Duke University during August and September 2024, building connections that helped shape the next stage of postdoctoral research." style="--x: 70.5%; --y: 38px; --w: 154px;">
+            <strong>Visiting Duke University</strong>
+            <span>Duke University</span>
+          </div>
           <div class="timeline-event education" data-date="2025" data-image="/images/Yining%20with%20lab.png" data-description="Completed doctoral training in Biomedical Engineering at Johns Hopkins University, centered on biomaterials, lipid nanoparticles, and immune engineering." style="--x: 76%; --y: 10px; --w: 172px;">
             <strong>Ph.D., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
