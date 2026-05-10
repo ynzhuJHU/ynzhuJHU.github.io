@@ -320,16 +320,17 @@ home_layout: true
 
 .timeline-board {
   position: relative;
-  width: 1380px;
-  height: 268px;
-  min-width: 1380px;
+  width: 1900px;
+  height: 286px;
+  min-width: 1900px;
+  --axis-y: 250px;
 }
 
 .timeline-lane {
   position: absolute;
   left: 0;
   right: 0;
-  height: 74px;
+  height: 70px;
   border-bottom: 1px solid rgba(20, 32, 56, 0.07);
   background: rgba(20, 32, 56, 0.025);
 }
@@ -339,8 +340,8 @@ home_layout: true
 }
 
 .timeline-lane.education { top: 0; }
-.timeline-lane.awards { top: 74px; }
-.timeline-lane.talks { top: 148px; }
+.timeline-lane.awards { top: 70px; }
+.timeline-lane.talks { top: 140px; }
 
 .timeline-lane-label {
   position: sticky;
@@ -403,24 +404,28 @@ home_layout: true
   line-height: 1.18;
 }
 
+.timeline-event::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 100%;
+  width: 1px;
+  height: max(8px, calc(var(--axis-y) - var(--y) - 100%));
+  background: var(--color, #1f57c3);
+  opacity: 0.42;
+}
+
 .timeline-event::after {
   content: "";
   position: absolute;
-  left: 10px;
-  bottom: -13px;
+  left: 8px;
+  top: calc(var(--axis-y) - var(--y) - 4px);
   width: 7px;
   height: 7px;
   border: 2px solid #fff;
   border-radius: 50%;
   background: var(--color, #1f57c3);
   box-shadow: 0 0 0 1px rgba(20, 32, 56, 0.14);
-}
-
-.timeline-event.talk::after,
-.timeline-event.training::after,
-.timeline-event.education::after {
-  bottom: auto;
-  top: -13px;
 }
 
 .timeline-event strong {
