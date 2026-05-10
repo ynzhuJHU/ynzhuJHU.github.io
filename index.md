@@ -323,6 +323,10 @@ home_layout: true
   background: #eef2f7;
 }
 
+.timeline-feature-media.is-empty {
+  background: #050505;
+}
+
 .timeline-feature-media img {
   width: 100%;
   height: 100%;
@@ -335,6 +339,10 @@ home_layout: true
   object-fit: contain;
   padding: 14px;
   background: #fff;
+}
+
+.timeline-feature-media.is-empty img {
+  display: none;
 }
 
 .timeline-feature-copy span {
@@ -707,8 +715,8 @@ a.timeline-event {
     </div>
 
     <div class="timeline-feature" aria-live="polite">
-      <div class="timeline-feature-media">
-        <img data-timeline-image src="/images/Oral.png" alt="Selected timeline milestone">
+      <div class="timeline-feature-media is-empty" data-timeline-media>
+        <img data-timeline-image alt="Selected timeline milestone">
       </div>
       <div class="timeline-feature-copy">
         <span data-timeline-date>2026.05</span>
@@ -802,7 +810,7 @@ a.timeline-event {
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
           </div>
-          <div class="timeline-event award" data-date="2025.04" data-image="/images/2023%20SFB.png" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 75%; --y: 84px; --w: 146px;">
+          <div class="timeline-event award" data-date="2025.04" data-image="/images/2025%20SFB%20travel%20award.JPG" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 75%; --y: 84px; --w: 146px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
@@ -850,7 +858,7 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.05" data-image="/images/Oral.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" data-date="2026.05" data-image="" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
@@ -864,6 +872,7 @@ a.timeline-event {
     if (!scroller) return;
 
     var events = Array.prototype.slice.call(scroller.querySelectorAll('.timeline-event'));
+    var previewMedia = document.querySelector('[data-timeline-media]');
     var previewImage = document.querySelector('[data-timeline-image]');
     var previewDate = document.querySelector('[data-timeline-date]');
     var previewTitle = document.querySelector('[data-timeline-title]');
@@ -897,8 +906,14 @@ a.timeline-event {
       selected.classList.add('is-active');
 
       if (previewImage) {
-        previewImage.src = selected.dataset.image || '/images/jhu-banner.jpg';
-        previewImage.alt = eventTitle(selected) || 'Selected timeline milestone';
+        var imageSource = selected.dataset.image || '';
+        if (previewMedia) previewMedia.classList.toggle('is-empty', !imageSource);
+        if (imageSource) {
+          previewImage.src = imageSource;
+        } else {
+          previewImage.removeAttribute('src');
+        }
+        previewImage.alt = imageSource ? eventTitle(selected) || 'Selected timeline milestone' : '';
         previewImage.classList.remove('is-contained');
       }
 
