@@ -765,7 +765,7 @@ a.timeline-event {
             <strong>Postdoctoral Associate</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event training" data-date="2026.02" data-image="/images/duke.png" data-description="Joined Duke University as a Postdoctoral Fellow to advance work spanning gene delivery, systems immunology, and spatial proteomics." style="--x: 94%; --y: 38px; --w: 156px;">
+          <div class="timeline-event training" data-date="2026.02" data-image="/images/Duke%20Postdoc.png" data-description="Started as a Postdoctoral Fellow at Duke University, advancing work spanning gene delivery, systems immunology, and spatial proteomics." style="--x: 94%; --y: 38px; --w: 156px;">
             <strong>Postdoctoral Fellow</strong>
             <span>Duke University</span>
           </div>
@@ -831,7 +831,7 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.03" data-image="/images/Oral.png" data-description="Presented age-related heterogeneity of systemic gene expression and its impact on immune responses to mRNA lipid nanoparticle cancer vaccines." style="--x: 93.8%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" data-date="2026.03" data-image="/images/2026%20SFB.JPG" data-description="Presented age-related heterogeneity of systemic gene expression and its impact on immune responses to mRNA lipid nanoparticle cancer vaccines." style="--x: 93.8%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
