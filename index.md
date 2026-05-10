@@ -320,9 +320,9 @@ home_layout: true
 
 .timeline-board {
   position: relative;
-  width: 2500px;
+  width: 3250px;
   height: 286px;
-  min-width: 2500px;
+  min-width: 3250px;
   --axis-y: 250px;
 }
 
