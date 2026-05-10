@@ -827,7 +827,7 @@ home_layout: true
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
           </div>
-          <div class="timeline-event award" data-date="2025.04" data-image="/images/2025%20SFB%20travel%20award.JPG" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 75%; --y: 84px; --w: 146px;">
+          <div class="timeline-event award" data-date="2025.04" data-image="/images/2025%20SFB%20travel%20award.png" data-description="Received a Student Travel Achievement Recognition Award from the Society for Biomaterials." style="--x: 75%; --y: 84px; --w: 146px;">
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
