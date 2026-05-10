@@ -763,6 +763,10 @@ a.timeline-event {
             <strong>M.S.E., Biomedical Engineering</strong>
             <span>Johns Hopkins University</span>
           </div>
+          <div class="timeline-event training" data-date="2023.11" data-image="/images/2023%20DBO.JPG" data-description="Passed the Doctoral Board Oral Exam through the JHU BME PhD Council, a major milestone in doctoral training." style="--x: 56%; --y: 38px; --w: 166px;">
+            <strong>Doctoral Board Oral Exam</strong>
+            <span>JHU BME PhD Council</span>
+          </div>
           <div class="timeline-event training" data-date="2024.08-09" data-image="/images/Visiting%20Duke.JPG" data-description="Visited Duke University during August and September 2024, building connections that helped shape the next stage of postdoctoral research." style="--x: 70.5%; --y: 38px; --w: 154px;">
             <strong>Visiting Duke University</strong>
             <span>Duke University</span>
