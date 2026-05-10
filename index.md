@@ -705,27 +705,27 @@ a.timeline-event {
             <strong>SFB Annual Meeting</strong>
             <span>mRNA vaccine immunity</span>
           </div>
-          <div class="timeline-event talk" style="--x: 63%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" style="--x: 65%; --y: 208px; --w: 170px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Local immunostimulatory niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 69%; --y: 182px; --w: 162px;">
+          <div class="timeline-event talk" style="--x: 72%; --y: 182px; --w: 162px;">
             <strong>BMES Annual Meeting</strong>
             <span>Biomaterials lymphoid niche</span>
           </div>
-          <div class="timeline-event talk" style="--x: 75%; --y: 208px; --w: 152px;">
+          <div class="timeline-event talk" style="--x: 79%; --y: 208px; --w: 152px;">
             <strong>SFB Annual Meeting</strong>
             <span>Extracellular fluid viscosity</span>
           </div>
-          <div class="timeline-event talk" style="--x: 81%; --y: 182px; --w: 160px;">
+          <div class="timeline-event talk" style="--x: 80%; --y: 182px; --w: 160px;">
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" style="--x: 94%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" style="--x: 93.8%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" style="--x: 96%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" style="--x: 94.6%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>

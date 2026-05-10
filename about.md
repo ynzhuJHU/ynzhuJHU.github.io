@@ -1165,32 +1165,32 @@ layout: single
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2025</span>
+      <span class="talk-year">2025.03</span>
       <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</em></div>
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2025</span>
+      <span class="talk-year">2025.03</span>
       <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2024</span>
+      <span class="talk-year">2024.10</span>
       <div><a href="https://www.bmes.org/bmes2024" target="_blank">Biomedical Engineering Society Annual Meeting.</a> <em>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2024</span>
+      <span class="talk-year">2024.05</span>
       <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene & Cell Therapy Annual Meeting.</a> <em>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2023</span>
+      <span class="talk-year">2023.03</span>
       <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</em></div>
     </div>
 
     <div class="talk-card">
-      <span class="talk-year">2022</span>
+      <span class="talk-year">2022.03</span>
       <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</em></div>
     </div>
   </div>
