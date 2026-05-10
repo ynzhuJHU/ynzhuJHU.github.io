@@ -913,7 +913,7 @@ home_layout: true
       return subtitle ? subtitle.textContent : '';
     }
 
-    function selectEvent(index, shouldFocus) {
+    function selectEvent(index, shouldFocus, shouldScroll) {
       if (!events.length) return;
       activeIndex = (index + events.length) % events.length;
 
@@ -942,7 +942,9 @@ home_layout: true
         previewDescription.textContent = selected.dataset.description || eventSubtitle(selected);
       }
 
-      selected.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      if (shouldScroll !== false) {
+        selected.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
       if (shouldFocus) selected.focus({ preventScroll: true });
     }
 
@@ -951,14 +953,14 @@ home_layout: true
     }
 
     function initializeTimeline() {
-      selectEvent(events.length - 1, false);
+      selectEvent(events.length - 1, false, false);
       scrollToPresent();
     }
 
     function queueHoverSelect(index) {
       window.clearTimeout(hoverTimer);
       hoverTimer = window.setTimeout(function () {
-        selectEvent(index, false);
+        selectEvent(index, false, false);
       }, hoverDelay);
     }
 
@@ -978,7 +980,7 @@ home_layout: true
 
       eventNode.addEventListener('click', function () {
         cancelHoverSelect();
-        selectEvent(index, false);
+        selectEvent(index, false, false);
       });
 
       eventNode.addEventListener('keydown', function (event) {
