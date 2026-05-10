@@ -402,6 +402,25 @@ home_layout: true
   color: #172033;
   font-size: 0.68rem;
   line-height: 1.18;
+  text-decoration: none;
+  transition: background 0.16s ease, box-shadow 0.16s ease, z-index 0s;
+}
+
+.timeline-event:hover,
+.timeline-event:focus {
+  z-index: 12;
+  background: #fff;
+  box-shadow: 0 14px 28px rgba(20, 32, 56, 0.16);
+  outline: none;
+}
+
+.timeline-event:focus-visible {
+  outline: 2px solid var(--color, #1f57c3);
+  outline-offset: 3px;
+}
+
+a.timeline-event {
+  cursor: pointer;
 }
 
 .timeline-event::before {
@@ -437,6 +456,17 @@ home_layout: true
 .timeline-event span {
   display: block;
   color: #657184;
+}
+
+.timeline-event em {
+  display: block;
+  margin-top: 2px;
+  color: var(--color, #1f57c3);
+  font-size: 0.62rem;
+  font-style: normal;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .timeline-event.education { --color: #1f57c3; }
@@ -634,10 +664,11 @@ home_layout: true
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <div class="timeline-event award" style="--x: 67%; --y: 84px; --w: 160px;">
+          <a class="timeline-event award" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener" style="--x: 67%; --y: 84px; --w: 160px;">
             <strong>Hans J. Prochaska Award</strong>
             <span>Johns Hopkins University</span>
-          </div>
+            <em>Media</em>
+          </a>
           <div class="timeline-event award" style="--x: 70%; --y: 110px; --w: 160px;">
             <strong>ASGCT Travel Award</strong>
             <span>Gene & Cell Therapy</span>
@@ -646,18 +677,21 @@ home_layout: true
             <strong>SFB STAR Award</strong>
             <span>Society for Biomaterials</span>
           </div>
-          <div class="timeline-event award" style="--x: 82%; --y: 110px; --w: 136px;">
+          <a class="timeline-event award" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener" style="--x: 82%; --y: 110px; --w: 136px;">
             <strong>Siebel Scholar</strong>
             <span>Siebel Foundation</span>
-          </div>
-          <div class="timeline-event award" style="--x: 85%; --y: 84px; --w: 150px;">
+            <em>Media</em>
+          </a>
+          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" style="--x: 85%; --y: 84px; --w: 150px;">
             <strong>Forbes 30 Under 30</strong>
             <span>Science, U.S.</span>
-          </div>
-          <div class="timeline-event award" style="--x: 88%; --y: 110px; --w: 156px;">
+            <em>Media</em>
+          </a>
+          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" style="--x: 88%; --y: 110px; --w: 156px;">
             <strong>Schmidt Science Fellow</strong>
             <span>Schmidt Science Foundation</span>
-          </div>
+            <em>Media</em>
+          </a>
 
           <div class="timeline-event talk" style="--x: 45%; --y: 208px; --w: 154px;">
             <strong>SFB Annual Meeting</strong>
