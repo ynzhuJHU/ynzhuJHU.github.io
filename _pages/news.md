@@ -288,7 +288,7 @@ layout: single
 <div class="news-page">
 
 <section class="news-hero">
-  <img src="{{ '/images/Recognition.png' | relative_url }}" alt="Research recognition and news highlights">
+  <img src="{{ '/images/Duke 2.jpeg' | relative_url }}" alt="Duke University campus">
   <div class="news-hero-content">
     <span class="news-eyebrow">News and Recognition</span>
     <h1>Updates from research, awards, and media coverage</h1>
