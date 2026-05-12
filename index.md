@@ -501,7 +501,7 @@ home_layout: true
   padding-left: 16px;
   background: linear-gradient(90deg, rgba(255,255,255,0.96), rgba(255,255,255,0.72));
   color: #526071;
-  font-size: 0.86rem;
+  font-size: 0.94rem;
   font-weight: 750;
 }
 
@@ -784,7 +784,7 @@ home_layout: true
         <span>Scroll left for earlier milestones</span>
       </div>
 
-      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, talks, and selected publications from 2019 to 2026">
+      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, talks, and selected publications from 2019 to August 2026">
         <div class="timeline-board">
           <div class="timeline-lane education"><div class="timeline-lane-label">Education &amp; Training</div></div>
           <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
@@ -798,7 +798,8 @@ home_layout: true
           <div class="timeline-gridline" style="--x: 45%;"></div>
           <div class="timeline-gridline" style="--x: 59%;"></div>
           <div class="timeline-gridline" style="--x: 76%;"></div>
-          <div class="timeline-gridline" style="--x: 93%;"></div>
+          <div class="timeline-gridline" style="--x: 86%;"></div>
+          <div class="timeline-gridline" style="--x: 94.5%;"></div>
 
           <div class="timeline-axis"></div>
           <span class="timeline-year" style="--x: 7%;">2019</span>
@@ -808,7 +809,8 @@ home_layout: true
           <span class="timeline-year" style="--x: 45%;">2023</span>
           <span class="timeline-year" style="--x: 59%;">2024</span>
           <span class="timeline-year" style="--x: 76%;">2025</span>
-          <span class="timeline-year" style="--x: 93%;">2026</span>
+          <span class="timeline-year" style="--x: 86%;">2026</span>
+          <span class="timeline-year" style="--x: 94.5%;">Aug. 2026</span>
 
           <div class="timeline-event education" data-date="2019.06" data-image="/images/SCU.png" data-description="Completed undergraduate training in pharmacy at Sichuan University, building the foundation for later work in biomaterials and genetic medicine delivery." style="--x: 7%; --y: 10px; --w: 150px;">
             <strong>B.S., Pharmacy</strong>
@@ -831,11 +833,11 @@ home_layout: true
             <span>Johns Hopkins University</span>
           </div>
 
-          <div class="timeline-event training" data-date="2025.10" data-image="/images/JHU%20postdoc.JPG" data-description="Continued postdoctoral research at Johns Hopkins University before moving to Duke for the next phase of training." style="--x: 87%; --y: 38px; --w: 160px;">
+          <div class="timeline-event training" data-date="2025.10" data-image="/images/JHU%20postdoc.JPG" data-description="Continued postdoctoral research at Johns Hopkins University before moving to Duke for the next phase of training." style="--x: 84%; --y: 38px; --w: 160px;">
             <strong>Postdoctoral Associate</strong>
             <span>Johns Hopkins University</span>
           </div>
-          <div class="timeline-event training" data-date="2026.02" data-image="/images/Duke%20Postdoc.png" data-description="Started as a Postdoctoral Fellow at Duke University, advancing work spanning gene delivery, systems immunology, and spatial proteomics." style="--x: 94%; --y: 38px; --w: 156px;">
+          <div class="timeline-event training" data-date="2026.02" data-image="/images/Duke%20Postdoc.png" data-description="Started as a Postdoctoral Fellow at Duke University, advancing work spanning gene delivery, systems immunology, and spatial proteomics." style="--x: 86.8%; --y: 38px; --w: 156px;">
             <strong>Postdoctoral Fellow</strong>
             <span>Duke University</span>
           </div>
@@ -866,12 +868,12 @@ home_layout: true
             <span>Siebel Foundation</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" data-date="2025.12" data-image="/images/2026%20Fobes.PNG" data-description="Named to Forbes 30 Under 30 in Science, U.S., for work in genetic medicine delivery and immunoengineering." style="--x: 88%; --y: 84px; --w: 150px;">
+          <a class="timeline-event award" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener" data-date="2025.12" data-image="/images/2026%20Fobes.PNG" data-description="Named to Forbes 30 Under 30 in Science, U.S., for work in genetic medicine delivery and immunoengineering." style="--x: 85%; --y: 84px; --w: 150px;">
             <strong>Forbes 30 Under 30</strong>
             <span>Science, U.S.</span>
             <em>Media</em>
           </a>
-          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" data-date="2026.03" data-image="/images/2026%20Schmidt.JPG" data-description="Selected as a Schmidt Science Fellow to pursue interdisciplinary postdoctoral research." style="--x: 94%; --y: 110px; --w: 156px;">
+          <a class="timeline-event award" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener" data-date="2026.03" data-image="/images/2026%20Schmidt.JPG" data-description="Selected as a Schmidt Science Fellow to pursue interdisciplinary postdoctoral research." style="--x: 88%; --y: 110px; --w: 156px;">
             <strong>Schmidt Science Fellow</strong>
             <span>Schmidt Science Foundation</span>
             <em>Media</em>
@@ -901,11 +903,11 @@ home_layout: true
             <strong>SFB Annual Meeting</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.03" data-image="/images/2026%20SFB.JPG" data-description="Presented age-related heterogeneity of systemic gene expression and its impact on immune responses to mRNA lipid nanoparticle cancer vaccines." style="--x: 93.8%; --y: 208px; --w: 170px;">
+          <div class="timeline-event talk" data-date="2026.03" data-image="/images/2026%20SFB.JPG" data-description="Presented age-related heterogeneity of systemic gene expression and its impact on immune responses to mRNA lipid nanoparticle cancer vaccines." style="--x: 88%; --y: 208px; --w: 170px;">
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.05" data-image="/images/ASGCT-2026-BlueSky-Posts.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 94.6%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" data-date="2026.05" data-image="/images/ASGCT-2026-BlueSky-Posts.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 90.2%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
@@ -942,11 +944,11 @@ home_layout: true
             <strong>Nature Communications</strong>
             <span>Nanofiber-hydrogel cancer immunotherapy</span>
           </a>
-          <a class="timeline-event publication" href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank" rel="noopener" data-date="2026" data-title="Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response" data-image="/images/Imidazolium.jpg" data-description="Screening 1,944 formulations identified LipidBrick LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity." style="--x: 91%; --y: 302px; --w: 168px;">
+          <a class="timeline-event publication" href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank" rel="noopener" data-date="2026" data-title="Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response" data-image="/images/Imidazolium.jpg" data-description="Screening 1,944 formulations identified LipidBrick LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity." style="--x: 86%; --y: 302px; --w: 168px;">
             <strong>Materials Today</strong>
             <span>Imidazolium mRNA LNPs</span>
           </a>
-          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 94.5%; --y: 250px; --w: 186px;">
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 90.2%; --y: 250px; --w: 186px;">
             <strong>Nature Chemical Engineering</strong>
             <span>Crosslinked mRNA vaccine LNPs</span>
           </a>
