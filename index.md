@@ -14,8 +14,8 @@ home_layout: true
   border-radius: 16px;
   background: #101827;
   box-shadow: 0 18px 42px rgba(18, 28, 45, 0.16);
-  min-height: 360px;
-  height: clamp(360px, 42vw, 560px);
+  min-height: 270px;
+  height: clamp(270px, 31.5vw, 420px);
 }
 
 .home-hero-movie,
