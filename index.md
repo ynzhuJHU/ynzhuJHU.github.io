@@ -810,7 +810,6 @@ home_layout: true
           <span class="timeline-year" style="--x: 59%;">2024</span>
           <span class="timeline-year" style="--x: 76%;">2025</span>
           <span class="timeline-year" style="--x: 86%;">2026</span>
-          <span class="timeline-year" style="--x: 94.5%;">Aug. 2026</span>
 
           <div class="timeline-event education" data-date="2019.06" data-image="/images/SCU.png" data-description="Completed undergraduate training in pharmacy at Sichuan University, building the foundation for later work in biomaterials and genetic medicine delivery." style="--x: 7%; --y: 10px; --w: 150px;">
             <strong>B.S., Pharmacy</strong>
