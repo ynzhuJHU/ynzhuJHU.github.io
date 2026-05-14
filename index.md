@@ -761,8 +761,8 @@ home_layout: true
 
     <div class="timeline-feature" aria-live="polite">
       <div class="timeline-feature-label" data-timeline-label>Career Timeline Highlight</div>
-      <div class="timeline-feature-media is-empty" data-timeline-media>
-        <img data-timeline-image alt="Selected timeline milestone">
+      <div class="timeline-feature-media" data-timeline-media>
+        <img data-timeline-image src="/images/2026%20ASGCT.jpg" alt="ASGCT Annual Meeting">
       </div>
       <div class="timeline-feature-copy">
         <span data-timeline-date>2026.05</span>
@@ -906,7 +906,7 @@ home_layout: true
             <strong>SFB Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
-          <div class="timeline-event talk" data-date="2026.05" data-image="/images/ASGCT-2026-BlueSky-Posts.png" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 90.2%; --y: 182px; --w: 176px;">
+          <div class="timeline-event talk" data-date="2026.05" data-image="/images/2026%20ASGCT.jpg" data-description="Oral presentation at ASGCT on age-related heterogeneity of systemic gene expression in mRNA lipid nanoparticle cancer vaccines." style="--x: 90.2%; --y: 182px; --w: 176px;">
             <strong>ASGCT Annual Meeting</strong>
             <span>Age-related systemic gene expression</span>
           </div>
