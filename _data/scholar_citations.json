@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-05-13T10:46:03+00:00",
-  "total_citations": 1563,
+  "last_updated": "2026-05-15T10:39:57+00:00",
+  "total_citations": 1568,
   "publications": [
     {
       "id": "crosslinking-lnp",
@@ -27,7 +27,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 24,
+      "citations": 25,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -47,7 +47,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 112,
+      "citations": 113,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -67,7 +67,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 16,
+      "citations": 17,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
@@ -77,7 +77,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 155,
+      "citations": 156,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
@@ -97,7 +97,7 @@
     {
       "id": "albumin-biomineralized-melanoma",
       "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
-      "citations": 101,
+      "citations": 102,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
