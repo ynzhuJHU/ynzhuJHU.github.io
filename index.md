@@ -30,7 +30,7 @@ home_layout: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 48s infinite;
+  animation: hero-movie 62s infinite;
   will-change: opacity, transform;
 }
 
@@ -38,41 +38,43 @@ home_layout: true
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: none;
+  animation: hero-video 62s infinite;
 }
 
 .home-hero-slide:nth-child(2) {
   background-image: url("/images/Duke%204.jpg");
-  animation-delay: 6s;
+  animation-delay: 20s;
 }
 
 .home-hero-slide:nth-child(3) {
   background-image: url("/images/Duke%205.jpg");
-  animation-delay: 12s;
+  animation-delay: 26s;
 }
 
 .home-hero-slide:nth-child(4) {
   background-image: url("/images/jhu.jpg");
-  animation-delay: 18s;
+  animation-delay: 32s;
 }
 
 .home-hero-slide:nth-child(5) {
   background-image: url("/images/jhu2.png");
-  animation-delay: 24s;
+  animation-delay: 38s;
 }
 
 .home-hero-slide:nth-child(6) {
   background-image: url("/images/duke.jpg");
-  animation-delay: 30s;
+  animation-delay: 44s;
 }
 
 .home-hero-slide:nth-child(7) {
   background-image: url("/images/Duke%202.jpeg");
-  animation-delay: 36s;
+  animation-delay: 50s;
 }
 
 .home-hero-slide:nth-child(8) {
   background-image: url("/images/Duke%203.jpg");
-  animation-delay: 42s;
+  animation-delay: 56s;
 }
 
 .home-hero::after {
@@ -198,11 +200,11 @@ home_layout: true
     transform: scale(1.03);
   }
 
-  11.5% {
+  8.7% {
     opacity: 0.86;
   }
 
-  12.5% {
+  9.7% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -215,6 +217,28 @@ home_layout: true
   100% {
     opacity: 0.86;
     transform: scale(1.03);
+  }
+}
+
+@keyframes hero-video {
+  0% {
+    opacity: 0.86;
+  }
+
+  31.3% {
+    opacity: 0.86;
+  }
+
+  32.3% {
+    opacity: 0;
+  }
+
+  97% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.86;
   }
 }
 
@@ -678,7 +702,7 @@ home_layout: true
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
     <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="auto" poster="/images/Duke%204.jpg">
-      <source src="/images/Graduation.m4v" type="video/mp4">
+      <source src="/images/Graduation.mp4" type="video/mp4">
       <source src="/images/Graduation.mov" type="video/quicktime">
     </video>
     <span class="home-hero-slide"></span>
