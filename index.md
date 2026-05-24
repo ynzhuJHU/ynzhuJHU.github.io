@@ -40,11 +40,8 @@ home_layout: true
   object-fit: cover;
 }
 
-.home-hero-slide:nth-child(1) {
-  background-image: url("/images/Duke%204.jpg");
-}
-
 .home-hero-slide:nth-child(2) {
+  background-image: url("/images/Duke%204.jpg");
   animation-delay: 6s;
 }
 
@@ -680,10 +677,10 @@ home_layout: true
 
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
-    <span class="home-hero-slide"></span>
     <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="metadata">
       <source src="/images/Graduation.mov" type="video/quicktime">
     </video>
+    <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
