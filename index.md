@@ -25,12 +25,19 @@ home_layout: true
 }
 
 .home-hero-slide {
+  display: block;
   background-size: cover;
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 42s infinite;
+  animation: hero-movie 48s infinite;
   will-change: opacity, transform;
+}
+
+.home-hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-hero-slide:nth-child(1) {
@@ -38,33 +45,37 @@ home_layout: true
 }
 
 .home-hero-slide:nth-child(2) {
-  background-image: url("/images/Duke%205.jpg");
   animation-delay: 6s;
 }
 
 .home-hero-slide:nth-child(3) {
-  background-image: url("/images/jhu.jpg");
+  background-image: url("/images/Duke%205.jpg");
   animation-delay: 12s;
 }
 
 .home-hero-slide:nth-child(4) {
-  background-image: url("/images/jhu2.png");
+  background-image: url("/images/jhu.jpg");
   animation-delay: 18s;
 }
 
 .home-hero-slide:nth-child(5) {
-  background-image: url("/images/duke.jpg");
+  background-image: url("/images/jhu2.png");
   animation-delay: 24s;
 }
 
 .home-hero-slide:nth-child(6) {
-  background-image: url("/images/Duke%202.jpeg");
+  background-image: url("/images/duke.jpg");
   animation-delay: 30s;
 }
 
 .home-hero-slide:nth-child(7) {
-  background-image: url("/images/Duke%203.jpg");
+  background-image: url("/images/Duke%202.jpeg");
   animation-delay: 36s;
+}
+
+.home-hero-slide:nth-child(8) {
+  background-image: url("/images/Duke%203.jpg");
+  animation-delay: 42s;
 }
 
 .home-hero::after {
@@ -194,7 +205,7 @@ home_layout: true
     opacity: 0.86;
   }
 
-  14.3% {
+  12.5% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -670,6 +681,9 @@ home_layout: true
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
     <span class="home-hero-slide"></span>
+    <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/images/Graduation.mov" type="video/quicktime">
+    </video>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
