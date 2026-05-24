@@ -677,7 +677,8 @@ home_layout: true
 
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
-    <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="metadata">
+    <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="auto" poster="/images/Duke%204.jpg">
+      <source src="/images/Graduation.m4v" type="video/mp4">
       <source src="/images/Graduation.mov" type="video/quicktime">
     </video>
     <span class="home-hero-slide"></span>
