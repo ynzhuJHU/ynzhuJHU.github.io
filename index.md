@@ -30,7 +30,7 @@ home_layout: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 62s infinite;
+  animation: hero-movie 72s infinite;
   will-change: opacity, transform;
 }
 
@@ -39,42 +39,42 @@ home_layout: true
   height: 100%;
   object-fit: cover;
   transform: none;
-  animation: hero-video 62s infinite;
+  animation: hero-video 72s infinite;
 }
 
 .home-hero-slide:nth-child(2) {
   background-image: url("/images/Duke%204.jpg");
-  animation-delay: 20s;
+  animation-delay: 30s;
 }
 
 .home-hero-slide:nth-child(3) {
   background-image: url("/images/Duke%205.jpg");
-  animation-delay: 26s;
+  animation-delay: 36s;
 }
 
 .home-hero-slide:nth-child(4) {
   background-image: url("/images/jhu.jpg");
-  animation-delay: 32s;
+  animation-delay: 42s;
 }
 
 .home-hero-slide:nth-child(5) {
   background-image: url("/images/jhu2.png");
-  animation-delay: 38s;
+  animation-delay: 48s;
 }
 
 .home-hero-slide:nth-child(6) {
   background-image: url("/images/duke.jpg");
-  animation-delay: 44s;
+  animation-delay: 54s;
 }
 
 .home-hero-slide:nth-child(7) {
   background-image: url("/images/Duke%202.jpeg");
-  animation-delay: 50s;
+  animation-delay: 60s;
 }
 
 .home-hero-slide:nth-child(8) {
   background-image: url("/images/Duke%203.jpg");
-  animation-delay: 56s;
+  animation-delay: 66s;
 }
 
 .home-hero::after {
@@ -200,11 +200,11 @@ home_layout: true
     transform: scale(1.03);
   }
 
-  8.7% {
+  7.5% {
     opacity: 0.86;
   }
 
-  9.7% {
+  8.4% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -225,11 +225,11 @@ home_layout: true
     opacity: 0.86;
   }
 
-  31.3% {
+  40.7% {
     opacity: 0.86;
   }
 
-  32.3% {
+  41.7% {
     opacity: 0;
   }
 
