@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-05-29T11:42:33+00:00",
-  "total_citations": 1590,
+  "last_updated": "2026-05-30T10:19:02+00:00",
+  "total_citations": 1594,
   "publications": [
     {
       "id": "crosslinking-lnp",
@@ -47,7 +47,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 114,
+      "citations": 115,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
