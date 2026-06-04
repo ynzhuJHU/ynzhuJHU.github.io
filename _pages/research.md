@@ -457,7 +457,7 @@ layout: single
 
 
 
-<h2 id="collaborative-publications">Collaborative publications (20):</h2>
+<h2 id="collaborative-publications">Collaborative publications (21):</h2>
 
 
 • B Torkzaban, **Y Zhu**, C Lopez, JM Alexander, J Ma, Y Sun, KR Maschhoff, et al., J Coller\*. [Use of poly adenosine tail mimetics to enhance mRNA expression from genes associated with haploinsufficiency disorders](https://www.sciencedirect.com/science/article/pii/S2162253125000071). ***Molecular Therapy Nucleic Acids***, 2025.
@@ -497,6 +497,8 @@ layout: single
 •	S Li, Y Hu, A Li, J Lin, K Hsieh, Z Schneiderman, P Zhang, **Y Zhu**, et al., HQ Mao\*. [Payload distribution and capacity of mRNA lipid nanoparticles](https://www.nature.com/articles/s41467-022-33157-4). ***Nature Communications***, 2022.
 
 •	Y Hu, S Tzeng, L Cheng, J Lin, A Rueda, S Yu, S Li, Z Schneiderman, **Y Zhu**, et al., HQ Mao\*. [Supramolecular assembly of polycation/mRNA nanoparticles and in vivo monocyte programming](https://www.pnas.org/doi/10.1073/pnas.2400194121). ***Proceedings of the National Academy of Sciences of the United States of America***, 2024.
+
+•	J Lin†, Y Hu†\*, TH Pial, KD Goodier, D Yu, P Brailsford, M Choi-Ali, JT Feng, S Li, **Y Zhu**, et al., HQ Mao\*. [Trivalent ions kinetic-gating for producing high-concentration and shelf-stable plasmid DNA/PEI particles](https://www.nature.com/articles/s41467-026-73921-4). ***Nature Communications***, 2026.
 
 •	J. Kong, Z.-C. Yao, J. L. Stelzel, Y.-H. Yang, J. Chen, H. Feng, C. Schmidt, C. Zhang, K. Krishnan, L. Chen, J. Pan, K. Ding, **Y. Zhu**, X. Li, J. C. Doloff, H.-Q. Mao*, S. K. Reddy*. [Granular Nanofiber-Hydrogel Composite-Programmed Regenerative Inflammation and Adipose Tissue Formation](https://onlinelibrary.wiley.com/doi/10.1002/adhm.202403094). ***Advanced Healthcare Materials***, 2024.
 
