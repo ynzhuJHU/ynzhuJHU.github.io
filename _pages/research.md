@@ -334,7 +334,7 @@ layout: single
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
-    <strong class="count-up" data-count="20">0</strong>
+    <strong class="count-up" data-count="21">0</strong>
     <span>collaborative publications</span>
   </a>
   <a class="research-stat" href="#review-articles">
