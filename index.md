@@ -648,7 +648,7 @@ home_layout: true
 .timeline-event.award { --color: #9a3412; }
 .timeline-event.training { --color: #0f766e; }
 .timeline-event.talk { --color: #6d4ca4; }
-.timeline-event.publication { --color: #b45309; }
+.timeline-event.publication { --color: #eab308; }
 
 @media (max-width: 900px) {
   .home-hero {
