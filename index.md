@@ -987,7 +987,7 @@ home_layout: true
             <strong>Nature Chemical Engineering</strong>
             <span>Crosslinked mRNA vaccine LNPs</span>
           </a>
-          <a class="timeline-event publication" href="https://www.nature.com/natbiomedeng/research-articles" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 94.5%; --y: 302px; --w: 188px;">
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 94.5%; --y: 302px; --w: 188px;">
             <strong>Nature Biomedical Engineering</strong>
             <span>Tissue-specific T cell immunity</span>
           </a>

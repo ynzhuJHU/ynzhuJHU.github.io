@@ -686,7 +686,7 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
     </div>
     <div class="paper-box-text">
       <div class="paper-title">
-        <a href="https://www.nature.com/natbiomedeng/research-articles" target="_blank">
+        <a href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank">
           Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection
         </a>
       </div>
