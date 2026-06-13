@@ -820,7 +820,7 @@ home_layout: true
         <span>Scroll left for earlier milestones</span>
       </div>
 
-      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, talks, and selected publications from 2019 to August 2026">
+      <div class="timeline-scroll" data-timeline-scroll tabindex="0" aria-label="Scrollable career timeline with education, training, awards, talks, and selected publications from 2019 to 2026">
         <div class="timeline-board">
           <div class="timeline-lane education"><div class="timeline-lane-label">Education &amp; Training</div></div>
           <div class="timeline-lane awards"><div class="timeline-lane-label">Awards</div></div>
@@ -986,6 +986,10 @@ home_layout: true
           <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 90.2%; --y: 250px; --w: 186px;">
             <strong>Nature Chemical Engineering</strong>
             <span>Crosslinked mRNA vaccine LNPs</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.nature.com/search?q=Lipid%20nanoparticle%20composition%20directs%20systemic%20trafficking%20and%20tissue-specific%20T%20cell%20immunity%20after%20intramuscular%20injection" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 94.5%; --y: 302px; --w: 188px;">
+            <strong>Nature Biomedical Engineering</strong>
+            <span>Tissue-specific T cell immunity</span>
           </a>
         </div>
       </div>

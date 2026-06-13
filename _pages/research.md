@@ -573,7 +573,7 @@ layout: single
 
 <div class="research-stats">
   <a class="research-stat" href="#lead-author-publications">
-    <strong class="count-up" data-count="10">0</strong>
+    <strong class="count-up" data-count="11">0</strong>
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
@@ -676,9 +676,32 @@ layout: single
 Lead-author cards use * for equal contribution and # for corresponding author. Collaborative publications use † for equal contribution and * for corresponding author.
 
 
-<h2 id="lead-author-publications">Lead author publications (10):</h2>
+<h2 id="lead-author-publications">Lead author publications (11):</h2>
 
 <div class="lead-publication-cards">
+  <div class="paper-box">
+    <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>
+    <div class="paper-box-image">
+      <img src="{{ '/images/NBME 20260613.png' | relative_url }}" alt="Systemic trafficking and tissue-specific T cell immunity figure">
+    </div>
+    <div class="paper-box-text">
+      <div class="paper-title">
+        <a href="https://www.nature.com/search?q=Lipid%20nanoparticle%20composition%20directs%20systemic%20trafficking%20and%20tissue-specific%20T%20cell%20immunity%20after%20intramuscular%20injection" target="_blank">
+          Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection
+        </a>
+      </div>
+      <div class="paper-authors">
+        Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.
+      </div>
+      <div class="paper-meta">
+        {% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
+      </div>
+      <ul class="paper-summary">
+        <li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="paper-box">
     <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
     <div class="paper-box-image">

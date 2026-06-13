@@ -5,6 +5,16 @@
   "total_citations": 1623,
   "publications": [
     {
+      "id": "tissue-specific-t-cell-immunity",
+      "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
+      "citations": 0,
+      "citation_label": "citations",
+      "status": "manual",
+      "matched_title": "",
+      "matched_year": "2026",
+      "match_score": 0
+    },
+    {
       "id": "crosslinking-lnp",
       "title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
       "citations": 1,
