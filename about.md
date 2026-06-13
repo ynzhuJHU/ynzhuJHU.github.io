@@ -498,7 +498,7 @@ layout: single
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
-      <a href="https://www.nature.com/search?q=Lipid%20nanoparticle%20composition%20directs%20systemic%20trafficking%20and%20tissue-specific%20T%20cell%20immunity%20after%20intramuscular%20injection" target="_blank">
+      <a href="https://www.nature.com/natbiomedeng/research-articles" target="_blank">
         Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection
       </a>
     </div>
