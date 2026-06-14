@@ -1,7 +1,7 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-06-13T10:40:36+00:00",
+  "last_updated": "2026-06-14T11:09:22+00:00",
   "total_citations": 1623,
   "publications": [
     {
@@ -9,10 +9,10 @@
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
       "citations": 0,
       "citation_label": "citations",
-      "status": "manual",
-      "matched_title": "",
-      "matched_year": "2026",
-      "match_score": 0
+      "status": "preserved",
+      "best_match_title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
+      "best_match_year": "2026",
+      "best_match_score": 0.448
     },
     {
       "id": "crosslinking-lnp",
