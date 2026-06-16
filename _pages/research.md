@@ -695,6 +695,7 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
       </div>
       <div class="paper-meta">
         {% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
+        <a class="meta-pill news" href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank">News</a>
       </div>
       <ul class="paper-summary">
         <li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li>
