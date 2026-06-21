@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-06-20T10:42:25+00:00",
-  "total_citations": 1628,
+  "last_updated": "2026-06-21T11:25:50+00:00",
+  "total_citations": 1630,
   "publications": [
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -77,7 +77,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 18,
+      "citations": 19,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
