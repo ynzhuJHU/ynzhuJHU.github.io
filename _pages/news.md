@@ -403,6 +403,18 @@ layout: single
     <article class="news-list-item">
       <span class="news-date">2026</span>
       <div>
+        <h2>Lipid nanoparticle design shapes vaccine trafficking and tissue-specific immunity</h2>
+        <p>INBT story on how lipid nanoparticle composition directs where mRNA vaccines travel and where immune protection is built.</p>
+        <div class="news-link-row">
+          <a href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank" rel="noopener">News</a>
+          <a href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener">Publication</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-list-item">
+      <span class="news-date">2026</span>
+      <div>
         <h2>New crosslinking chemistry boosts mRNA lipid nanoparticles</h2>
         <p>INBT story on crosslinking chemistry for stability and potency in mRNA lipid nanoparticles.</p>
         <div class="news-link-row">
