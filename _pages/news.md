@@ -321,7 +321,10 @@ layout: single
         <span class="news-date">2026</span>
         <h2>Selected as a Schmidt Science Fellow</h2>
         <p>Recognized by the Schmidt Science Foundation for interdisciplinary postdoctoral research spanning genetic medicine delivery, systems immunology, and spatial proteomics.</p>
-        <div class="news-card-link"><a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Read the news</a></div>
+        <div class="news-card-link news-link-row">
+          <a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Forbes</a>
+          <a href="https://www.bme.jhu.edu/news-events/news/hopkins-bme-alum-receives-schmidt-science-fellowship/" target="_blank" rel="noopener">JHU BME</a>
+        </div>
       </div>
     </article>
 
@@ -356,6 +359,14 @@ layout: single
       <div>
         <h2>Schmidt Science Fellow announcement</h2>
         <p>Coverage of the 2026 cohort of Schmidt Science Fellows. <a href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Read more</a></p>
+      </div>
+    </article>
+
+    <article class="news-list-item">
+      <span class="news-date">May 15, 2026</span>
+      <div>
+        <h2>Hopkins BME alum receives Schmidt Science Fellowship</h2>
+        <p>Johns Hopkins Biomedical Engineering coverage of Yining Zhu's selection as a 2026 Schmidt Science Fellow. <a href="https://www.bme.jhu.edu/news-events/news/hopkins-bme-alum-receives-schmidt-science-fellowship/" target="_blank" rel="noopener">Read more</a></p>
       </div>
     </article>
 
