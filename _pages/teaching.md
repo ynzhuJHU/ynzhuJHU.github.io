@@ -319,8 +319,8 @@ layout: single
   <div class="philosophy-card">
     <div class="philosophy-mark">"</div>
     <div>
-      <p>A teacher is a person who passes down the Dao, imparts professional knowledge, and resolves doubt.</p>
-      <cite>Y. Han</cite>
+      <p>Education for all, with teaching tailored to each learner's aptitude.</p>
+      <cite>Confucian</cite>
     </div>
   </div>
 </section>
