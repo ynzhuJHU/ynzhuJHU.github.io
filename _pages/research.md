@@ -577,7 +577,7 @@ layout: single
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
-    <strong class="count-up" data-count="22">0</strong>
+    <strong class="count-up" data-count="23">0</strong>
     <span>collaborative publications</span>
   </a>
   <a class="research-stat" href="#review-articles">
@@ -942,8 +942,10 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
 
 
 
-<h2 id="collaborative-publications">Collaborative publications (22):</h2>
+<h2 id="collaborative-publications">Collaborative publications (23):</h2>
 
+
+• M Patel, J Choy, L Cheng, E Ariail, M Jain, SR Shannon, D Antov, I Cozzone, X Huang, M Cheng, S Li, J Sun, D Yang, JP Popev, BA Biggs, CJ Erb, BC Chang, T Tian, M Mullaney, G Glenn, **Y Zhu**, et al., HQ Mao\*. [Cytokine co-presentation on targeted lipid nanoparticles enhances in vivo T cell engineering](https://www.sciencedirect.com/science/article/abs/pii/S0142961226004539). ***Biomaterials***, 2026.
 
 • S Schiffers†, BW Nelson†, M Prigge, S Krishna, L Watkins, **Y Zhu**, N Tyagi, H Beiki, S Das, A Raman, J Ma, T Andresson, HQ Mao, B Wu\*, S Oberdoerffer\*. [*N*<sup>4</sup>-Acetylcytidine enhances synthetic mRNA translation yield and fidelity](https://www.nature.com/articles/s41586-026-10729-8). ***Nature***, 2026.
 
