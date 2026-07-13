@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-07-12T10:02:06+00:00",
-  "total_citations": 1666,
+  "last_updated": "2026-07-13T11:31:35+00:00",
+  "total_citations": 1677,
   "publications": [
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -37,7 +37,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 27,
+      "citations": 28,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -47,7 +47,7 @@
     {
       "id": "spleen-tropic-lnps",
       "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
-      "citations": 3,
+      "citations": 4,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
@@ -67,7 +67,7 @@
     {
       "id": "fluid-viscosity-transfection",
       "title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
-      "citations": 11,
+      "citations": 12,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
@@ -87,7 +87,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 166,
+      "citations": 168,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
