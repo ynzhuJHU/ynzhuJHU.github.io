@@ -577,7 +577,7 @@ layout: single
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
-    <strong class="count-up" data-count="23">0</strong>
+    <strong class="count-up" data-count="24">0</strong>
     <span>collaborative publications</span>
   </a>
   <a class="research-stat" href="#review-articles">
@@ -942,7 +942,9 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
 
 
 
-<h2 id="collaborative-publications">Collaborative publications (23):</h2>
+<h2 id="collaborative-publications">Collaborative publications (24):</h2>
+
+• Y Su, J Choy, X Liu, **Y Zhu**, J Lin, C Wei, KD Goodier, D Yu, L Cheng, M Patel, X Lu, J Ma, J Wang, HQ Mao\*. [Stabilizing Anionic mRNA Lipid Nanoparticles by Cleavable Crosslinking of Cholesterol](https://pubs.acs.org/doi/10.1021/acsami.6c06888). ***ACS Applied Materials & Interfaces***, 2026.
 
 
 • M Patel, J Choy, L Cheng, E Ariail, M Jain, SR Shannon, D Antov, I Cozzone, X Huang, M Cheng, S Li, J Sun, D Yang, JP Popev, BA Biggs, CJ Erb, BC Chang, T Tian, M Mullaney, G Glenn, **Y Zhu**, et al., HQ Mao\*. [Cytokine co-presentation on targeted lipid nanoparticles enhances in vivo T cell engineering](https://www.sciencedirect.com/science/article/abs/pii/S0142961226004539). ***Biomaterials***, 2026.
