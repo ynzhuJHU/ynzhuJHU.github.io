@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-07-19T10:01:40+00:00",
-  "total_citations": 1695,
+  "last_updated": "2026-07-20T11:16:02+00:00",
+  "total_citations": 1701,
   "publications": [
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -17,7 +17,7 @@
     {
       "id": "crosslinking-lnp",
       "title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
-      "citations": 2,
+      "citations": 3,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
@@ -27,8 +27,8 @@
     {
       "id": "imidazolium-lnp",
       "title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
-      "citations": 0,
-      "citation_label": "citations",
+      "citations": 1,
+      "citation_label": "citation",
       "status": "matched",
       "matched_title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
       "matched_year": "2026",
@@ -57,7 +57,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 123,
+      "citations": 124,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -87,7 +87,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 170,
+      "citations": 171,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
