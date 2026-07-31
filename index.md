@@ -256,7 +256,7 @@ home_layout: true
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  margin: 0 0 34px 0;
+  margin: 0 0 16px 0;
 }
 
 .home-action {
@@ -298,6 +298,53 @@ home_layout: true
 .home-action:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(20, 32, 56, 0.1);
+}
+
+.home-research-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 28px 0;
+}
+
+.home-research-stat {
+  display: block;
+  min-width: 0;
+  padding: 11px 13px 10px;
+  border: 1px solid rgba(31, 87, 195, 0.12);
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(20, 32, 56, 0.055);
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.home-research-stat strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #1f57c3;
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.home-research-stat span {
+  display: block;
+  color: #4b5563;
+  font-size: 0.74rem;
+  line-height: 1.3;
+}
+
+.home-research-stat:hover,
+.home-research-stat:focus-visible {
+  border-color: rgba(31, 87, 195, 0.3);
+  box-shadow: 0 10px 22px rgba(20, 32, 56, 0.09);
+  transform: translateY(-2px);
+}
+
+.home-research-stat:focus-visible {
+  outline: 3px solid rgba(31, 87, 195, 0.2);
+  outline-offset: 2px;
 }
 
 .home-timeline {
@@ -674,6 +721,10 @@ home_layout: true
     grid-template-columns: 1fr;
   }
 
+  .home-research-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .home-timeline-header {
     align-items: flex-start;
     flex-direction: column;
@@ -745,6 +796,25 @@ home_layout: true
         <strong>Courses, mentorship, and teaching philosophy</strong>
       </a>
     </div>
+
+    <nav class="home-research-stats" aria-label="Research publication and patent totals">
+      <a class="home-research-stat" href="/research/#lead-author-publications">
+        <strong>11</strong>
+        <span>lead-author publications</span>
+      </a>
+      <a class="home-research-stat" href="/research/#collaborative-publications">
+        <strong>24</strong>
+        <span>collaborative publications</span>
+      </a>
+      <a class="home-research-stat" href="/research/#review-articles">
+        <strong>3</strong>
+        <span>review articles</span>
+      </a>
+      <a class="home-research-stat" href="/research/#patents">
+        <strong>10</strong>
+        <span>patent filings</span>
+      </a>
+    </nav>
 
     <div class="intro-grid">
       <div class="intro-card">
