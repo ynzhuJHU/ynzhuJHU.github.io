@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-02T10:10:41+00:00",
-  "total_citations": 1714,
+  "last_updated": "2026-08-03T11:48:21+00:00",
+  "total_citations": 1751,
   "publications": [
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -17,7 +17,7 @@
     {
       "id": "crosslinking-lnp",
       "title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
-      "citations": 3,
+      "citations": 4,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
@@ -47,7 +47,7 @@
     {
       "id": "spleen-tropic-lnps",
       "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
-      "citations": 4,
+      "citations": 7,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
@@ -57,7 +57,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 124,
+      "citations": 123,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -97,7 +97,7 @@
     {
       "id": "lentiviral-dna-particles",
       "title": "Size-controlled and shelf-stable DNA particles for production of lentiviral vectors",
-      "citations": 32,
+      "citations": 34,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Size-Controlled and Shelf-Stable DNA Particles for Production of Lentiviral Vectors",
