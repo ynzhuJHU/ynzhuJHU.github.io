@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-03T11:48:21+00:00",
-  "total_citations": 1751,
+  "last_updated": "2026-08-04T10:58:22+00:00",
+  "total_citations": 1754,
   "publications": [
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -47,7 +47,7 @@
     {
       "id": "spleen-tropic-lnps",
       "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
-      "citations": 7,
+      "citations": 8,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
