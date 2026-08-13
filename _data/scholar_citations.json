@@ -5,6 +5,16 @@
   "total_citations": 1765,
   "publications": [
     {
+      "id": "beta-cell-directed-rna-delivery",
+      "title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
+      "citations": 0,
+      "citation_label": "citations",
+      "status": "unmatched",
+      "matched_title": null,
+      "matched_year": null,
+      "match_score": 0.0
+    },
+    {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
       "citations": 4,

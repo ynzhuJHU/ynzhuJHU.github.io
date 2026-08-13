@@ -309,6 +309,10 @@ layout: single
   --journal-accent: #00a88f;
 }
 
+.publication-section .journal-acs-nano {
+  --journal-accent: #ef6c22;
+}
+
 .publication-section .journal-nature-communications {
   --journal-accent: #e64b35;
 }
@@ -573,7 +577,7 @@ layout: single
 
 <div class="research-stats">
   <a class="research-stat" href="#lead-author-publications">
-    <strong class="count-up" data-count="11">0</strong>
+    <strong class="count-up" data-count="12">0</strong>
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
@@ -677,9 +681,32 @@ layout: single
 Lead-author cards use * for equal contribution and # for corresponding author. Collaborative publications use † for equal contribution and * for corresponding author.
 
 
-<h2 id="lead-author-publications">Lead author publications (11):</h2>
+<h2 id="lead-author-publications">Lead author publications (12):</h2>
 
 <div class="lead-publication-cards">
+  <div class="paper-box">
+    <div class="paper-box-label journal-acs-nano"><span class="journal-name">ACS Nano</span><span class="journal-year">2026</span></div>
+    <div class="paper-box-image">
+      <img src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery">
+    </div>
+    <div class="paper-box-text">
+      <div class="paper-title">
+        <a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank">
+          Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery
+        </a>
+      </div>
+      <div class="paper-authors">
+        Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.
+      </div>
+      <div class="paper-meta">
+        {% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}
+      </div>
+      <ul class="paper-summary">
+        <li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="paper-box">
     <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>
     <div class="paper-box-image">

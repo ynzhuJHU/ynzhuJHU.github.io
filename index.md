@@ -799,7 +799,7 @@ home_layout: true
 
     <nav class="home-research-stats" aria-label="Research publication and patent totals">
       <a class="home-research-stat" href="/research/#lead-author-publications">
-        <strong class="home-count-up" data-count="11">0</strong>
+        <strong class="home-count-up" data-count="12">0</strong>
         <span>lead-author publications</span>
       </a>
       <a class="home-research-stat" href="/research/#collaborative-publications">
@@ -1110,6 +1110,10 @@ home_layout: true
           <a class="timeline-event publication" href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 94.5%; --y: 302px; --w: 188px;">
             <strong>Nature Biomedical Engineering</strong>
             <span>Tissue-specific T cell immunity</span>
+          </a>
+          <a class="timeline-event publication" href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank" rel="noopener" data-date="2026.08.13" data-title="Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery" data-image="/images/beta%20cell.png" data-description="An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models." style="--x: 94.5%; --y: 250px; --w: 188px;">
+            <strong>ACS Nano</strong>
+            <span>β cell-directed RNA delivery</span>
           </a>
         </div>
       </div>
