@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-14T09:29:21+00:00",
-  "total_citations": 1768,
+  "last_updated": "2026-08-15T08:48:11+00:00",
+  "total_citations": 1769,
   "publications": [
     {
       "id": "beta-cell-directed-rna-delivery",
@@ -47,7 +47,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 31,
+      "citations": 32,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
