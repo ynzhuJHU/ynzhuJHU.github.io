@@ -1,7 +1,7 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-16T08:49:32+00:00",
+  "last_updated": "2026-08-17T09:03:03+00:00",
   "total_citations": 1772,
   "publications": [
     {
@@ -10,9 +10,9 @@
       "citations": 0,
       "citation_label": "citations",
       "status": "preserved",
-      "best_match_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
+      "best_match_title": "ENGINEERING LIPID NANOPARTICLES AND MICROGEL MATRIX TO MODULATE IMMUNE ACTIVATION PROFILE AND POTENTIATE IMMUNE RESPONSES FOR NUCLEIC ACID VACCINES",
       "best_match_year": "2025",
-      "best_match_score": 0.467
+      "best_match_score": 0.515
     },
     {
       "id": "tissue-specific-t-cell-immunity",
