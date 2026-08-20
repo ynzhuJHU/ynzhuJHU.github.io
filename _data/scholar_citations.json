@@ -1,18 +1,18 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-19T08:57:29+00:00",
-  "total_citations": 1776,
+  "last_updated": "2026-08-20T08:58:56+00:00",
+  "total_citations": 1782,
   "publications": [
     {
       "id": "beta-cell-directed-rna-delivery",
       "title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
       "citations": 0,
       "citation_label": "citations",
-      "status": "preserved",
-      "best_match_title": "ENGINEERING LIPID NANOPARTICLES AND MICROGEL MATRIX TO MODULATE IMMUNE ACTIVATION PROFILE AND POTENTIATE IMMUNE RESPONSES FOR NUCLEIC ACID VACCINES",
-      "best_match_year": "2025",
-      "best_match_score": 0.515
+      "status": "matched",
+      "matched_title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
+      "matched_year": null,
+      "match_score": 1.0
     },
     {
       "id": "tissue-specific-t-cell-immunity",
@@ -67,7 +67,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 123,
+      "citations": 125,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -87,7 +87,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 25,
+      "citations": 26,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
@@ -97,7 +97,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 177,
+      "citations": 178,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
