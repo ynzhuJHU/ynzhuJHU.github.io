@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-24T09:07:06+00:00",
-  "total_citations": 1788,
+  "last_updated": "2026-08-25T09:02:46+00:00",
+  "total_citations": 1790,
   "publications": [
     {
       "id": "beta-cell-directed-rna-delivery",
@@ -37,8 +37,8 @@
     {
       "id": "imidazolium-lnp",
       "title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
-      "citations": 1,
-      "citation_label": "citation",
+      "citations": 2,
+      "citation_label": "citations",
       "status": "matched",
       "matched_title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
       "matched_year": "2026",
