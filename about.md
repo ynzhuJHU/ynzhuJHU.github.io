@@ -221,6 +221,10 @@ layout: single
   --journal-accent: #00a88f;
 }
 
+.journal-biorxiv {
+  --journal-accent: #b31b1b;
+}
+
 .journal-acs-nano {
   --journal-accent: #ef6c22;
 }
@@ -494,6 +498,30 @@ layout: single
     window.requestAnimationFrame(step);
   });
 </script>
+
+<div class="paper-box">
+  <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
+  <div class="paper-box-image">
+    <img src="{{ '/images/Age.png' | relative_url }}" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
+  </div>
+  <div class="paper-box-text">
+    <div class="paper-title">
+      <a href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1.abstract" target="_blank">
+        Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression
+      </a>
+    </div>
+    <div class="paper-authors">
+      <strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.
+    </div>
+    <div class="paper-meta">
+      {% include citation_pill.html id="age-adaptive-mrna-vaccines" fallback=0 %}
+      <a class="meta-pill news" href="https://doi.org/10.64898/2026.04.11.717910" target="_blank">Preprint</a>
+    </div>
+    <ul class="paper-summary">
+      <li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li>
+    </ul>
+  </div>
+</div>
 
 <div class="paper-box">
   <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>

@@ -2,6 +2,11 @@
   "scholar_id": "rp1pkakAAAAJ",
   "publications": [
     {
+      "id": "age-adaptive-mrna-vaccines",
+      "title": "Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression",
+      "fallback_citations": 0
+    },
+    {
       "id": "beta-cell-directed-rna-delivery",
       "title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
       "fallback_citations": 0

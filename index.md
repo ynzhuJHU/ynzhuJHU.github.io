@@ -850,7 +850,7 @@ home_layout: true
 
     <nav class="home-research-stats" aria-label="Research publication and patent totals">
       <a class="home-research-stat" href="/research/#lead-author-publications">
-        <strong class="home-count-up" data-count="12">0</strong>
+        <strong class="home-count-up" data-count="13">0</strong>
         <span>lead-author publications</span>
       </a>
       <a class="home-research-stat" href="/research/#collaborative-publications">
