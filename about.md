@@ -526,7 +526,7 @@ layout: single
 <div class="paper-box">
   <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
-    <img src="{{ '/images/Age.png' | relative_url }}?v=20260827" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
+    <img src="{{ '/images/Age.png' | relative_url }}?v=532050f2" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
   </div>
   <div class="paper-box-text">
     <div class="paper-title">
