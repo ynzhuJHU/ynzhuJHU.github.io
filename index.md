@@ -30,7 +30,7 @@ home_layout: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 72s infinite;
+  animation: hero-movie 78s infinite;
   will-change: opacity, transform;
 }
 
@@ -39,42 +39,47 @@ home_layout: true
   height: 100%;
   object-fit: cover;
   transform: none;
-  animation: hero-video 72s infinite;
+  animation: hero-video 78s infinite;
 }
 
 .home-hero-slide:nth-child(2) {
-  background-image: url("/images/Duke%204.jpg");
+  background-image: url("/images/CODEX-1.png");
   animation-delay: 30s;
 }
 
 .home-hero-slide:nth-child(3) {
-  background-image: url("/images/Duke%205.jpg");
+  background-image: url("/images/Duke%204.jpg");
   animation-delay: 36s;
 }
 
 .home-hero-slide:nth-child(4) {
-  background-image: url("/images/jhu.jpg");
+  background-image: url("/images/Duke%205.jpg");
   animation-delay: 42s;
 }
 
 .home-hero-slide:nth-child(5) {
-  background-image: url("/images/jhu2.png");
+  background-image: url("/images/jhu.jpg");
   animation-delay: 48s;
 }
 
 .home-hero-slide:nth-child(6) {
-  background-image: url("/images/duke.jpg");
+  background-image: url("/images/jhu2.png");
   animation-delay: 54s;
 }
 
 .home-hero-slide:nth-child(7) {
-  background-image: url("/images/Duke%202.jpeg");
+  background-image: url("/images/duke.jpg");
   animation-delay: 60s;
 }
 
 .home-hero-slide:nth-child(8) {
-  background-image: url("/images/Duke%203.jpg");
+  background-image: url("/images/Duke%202.jpeg");
   animation-delay: 66s;
+}
+
+.home-hero-slide:nth-child(9) {
+  background-image: url("/images/Duke%203.jpg");
+  animation-delay: 72s;
 }
 
 .home-hero::after {
@@ -200,11 +205,11 @@ home_layout: true
     transform: scale(1.03);
   }
 
-  7.5% {
+  7% {
     opacity: 0.86;
   }
 
-  8.4% {
+  7.7% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -225,11 +230,11 @@ home_layout: true
     opacity: 0.86;
   }
 
-  40.7% {
+  37.7% {
     opacity: 0.86;
   }
 
-  41.7% {
+  38.5% {
     opacity: 0;
   }
 
@@ -756,6 +761,7 @@ home_layout: true
       <source src="/images/Graduation.mp4" type="video/mp4">
       <source src="/images/Graduation.mov" type="video/quicktime">
     </video>
+    <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
