@@ -581,7 +581,7 @@ layout: single
 
 <div class="research-stats">
   <a class="research-stat" href="#lead-author-publications">
-    <strong class="count-up" data-count="13">0</strong>
+    <strong class="count-up" data-count="14">0</strong>
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
@@ -685,9 +685,33 @@ layout: single
 Lead-author cards use * for equal contribution and # for corresponding author. Collaborative publications use † for equal contribution and * for corresponding author.
 
 
-<h2 id="lead-author-publications">Lead author publications (13):</h2>
+<h2 id="lead-author-publications">Lead author publications (14):</h2>
 
 <div class="lead-publication-cards">
+  <div class="paper-box">
+    <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
+    <div class="paper-box-image">
+      <img src="{{ '/images/NanoSTAMP.png' | relative_url }}" alt="NanoSTAMP spatial profiling workflow for pooled barcoded mRNA lipid nanoparticles">
+    </div>
+    <div class="paper-box-text">
+      <div class="paper-title">
+        <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank">
+          Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP
+        </a>
+      </div>
+      <div class="paper-authors">
+        <strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.
+      </div>
+      <div class="paper-meta">
+        {% include citation_pill.html id="nanostamp" fallback=0 %}
+        <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank">Preprint</a>
+      </div>
+      <ul class="paper-summary">
+        <li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="paper-box">
     <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
     <div class="paper-box-image">

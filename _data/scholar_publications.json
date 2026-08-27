@@ -2,6 +2,11 @@
   "scholar_id": "rp1pkakAAAAJ",
   "publications": [
     {
+      "id": "nanostamp",
+      "title": "Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP",
+      "fallback_citations": 0
+    },
+    {
       "id": "age-adaptive-mrna-vaccines",
       "title": "Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression",
       "fallback_citations": 0

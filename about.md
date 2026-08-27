@@ -502,6 +502,30 @@ layout: single
 <div class="paper-box">
   <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
   <div class="paper-box-image">
+    <img src="{{ '/images/NanoSTAMP.png' | relative_url }}" alt="NanoSTAMP spatial profiling workflow for pooled barcoded mRNA lipid nanoparticles">
+  </div>
+  <div class="paper-box-text">
+    <div class="paper-title">
+      <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank">
+        Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP
+      </a>
+    </div>
+    <div class="paper-authors">
+      <strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.
+    </div>
+    <div class="paper-meta">
+      {% include citation_pill.html id="nanostamp" fallback=0 %}
+      <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank">Preprint</a>
+    </div>
+    <ul class="paper-summary">
+      <li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
+  <div class="paper-box-image">
     <img src="{{ '/images/Age.png' | relative_url }}" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
   </div>
   <div class="paper-box-text">

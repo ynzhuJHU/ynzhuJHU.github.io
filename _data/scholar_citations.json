@@ -5,6 +5,16 @@
   "total_citations": 1790,
   "publications": [
     {
+      "id": "nanostamp",
+      "title": "Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP",
+      "citations": 0,
+      "citation_label": "citations",
+      "status": "not_found",
+      "matched_title": null,
+      "matched_year": null,
+      "match_score": 0.0
+    },
+    {
       "id": "age-adaptive-mrna-vaccines",
       "title": "Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression",
       "citations": 0,
