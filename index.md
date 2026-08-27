@@ -30,7 +30,7 @@ home_layout: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 78s infinite;
+  animation: hero-movie 96s infinite;
   will-change: opacity, transform;
 }
 
@@ -39,47 +39,62 @@ home_layout: true
   height: 100%;
   object-fit: cover;
   transform: none;
-  animation: hero-video 78s infinite;
+  animation: hero-video 96s infinite;
 }
 
 .home-hero-slide:nth-child(2) {
-  background-image: url("/images/CODEX-1.png");
+  background-image: url("/images/CODEX-1-enhanced.png");
   animation-delay: 30s;
 }
 
 .home-hero-slide:nth-child(3) {
-  background-image: url("/images/Duke%204.jpg");
+  background-image: url("/images/Duke%20Postdoc.png");
   animation-delay: 36s;
 }
 
 .home-hero-slide:nth-child(4) {
-  background-image: url("/images/Duke%205.jpg");
+  background-image: url("/images/Yining%20with%20lab.JPG");
   animation-delay: 42s;
 }
 
 .home-hero-slide:nth-child(5) {
-  background-image: url("/images/jhu.jpg");
+  background-image: url("/images/Yining%20with%20lab.png");
   animation-delay: 48s;
 }
 
 .home-hero-slide:nth-child(6) {
-  background-image: url("/images/jhu2.png");
+  background-image: url("/images/Duke%204.jpg");
   animation-delay: 54s;
 }
 
 .home-hero-slide:nth-child(7) {
-  background-image: url("/images/duke.jpg");
+  background-image: url("/images/Duke%205.jpg");
   animation-delay: 60s;
 }
 
 .home-hero-slide:nth-child(8) {
-  background-image: url("/images/Duke%202.jpeg");
+  background-image: url("/images/jhu.jpg");
   animation-delay: 66s;
 }
 
 .home-hero-slide:nth-child(9) {
-  background-image: url("/images/Duke%203.jpg");
+  background-image: url("/images/jhu2.png");
   animation-delay: 72s;
+}
+
+.home-hero-slide:nth-child(10) {
+  background-image: url("/images/duke.jpg");
+  animation-delay: 78s;
+}
+
+.home-hero-slide:nth-child(11) {
+  background-image: url("/images/Duke%202.jpeg");
+  animation-delay: 84s;
+}
+
+.home-hero-slide:nth-child(12) {
+  background-image: url("/images/Duke%203.jpg");
+  animation-delay: 90s;
 }
 
 .home-hero::after {
@@ -205,11 +220,11 @@ home_layout: true
     transform: scale(1.03);
   }
 
-  7% {
+  5.5% {
     opacity: 0.86;
   }
 
-  7.7% {
+  6.25% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -230,11 +245,11 @@ home_layout: true
     opacity: 0.86;
   }
 
-  37.7% {
+  30.4% {
     opacity: 0.86;
   }
 
-  38.5% {
+  31.25% {
     opacity: 0;
   }
 
@@ -761,6 +776,9 @@ home_layout: true
       <source src="/images/Graduation.mp4" type="video/mp4">
       <source src="/images/Graduation.mov" type="video/quicktime">
     </video>
+    <span class="home-hero-slide"></span>
+    <span class="home-hero-slide"></span>
+    <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
