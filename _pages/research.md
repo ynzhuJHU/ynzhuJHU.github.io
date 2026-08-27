@@ -685,29 +685,6 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
 
 <div class="lead-publication-cards">
   <div class="paper-box">
-    <div class="paper-box-label journal-acs-nano"><span class="journal-name">ACS Nano</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank">
-          Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery
-        </a>
-      </div>
-      <div class="paper-authors">
-        Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}
-      </div>
-      <ul class="paper-summary">
-        <li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box">
     <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>
     <div class="paper-box-image">
       <img src="{{ '/images/NBME 20260613.png' | relative_url }}" alt="Systemic trafficking and tissue-specific T cell immunity figure">
@@ -751,6 +728,29 @@ Lead-author cards use * for equal contribution and # for corresponding author. C
       </div>
       <ul class="paper-summary">
         <li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="paper-box">
+    <div class="paper-box-label journal-acs-nano"><span class="journal-name">ACS Nano</span><span class="journal-year">2026</span></div>
+    <div class="paper-box-image">
+      <img src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery">
+    </div>
+    <div class="paper-box-text">
+      <div class="paper-title">
+        <a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank">
+          Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery
+        </a>
+      </div>
+      <div class="paper-authors">
+        Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.
+      </div>
+      <div class="paper-meta">
+        {% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}
+      </div>
+      <ul class="paper-summary">
+        <li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li>
       </ul>
     </div>
   </div>
