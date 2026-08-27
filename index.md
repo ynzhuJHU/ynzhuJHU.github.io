@@ -1154,17 +1154,25 @@ home_layout: true
             <strong>Materials Today</strong>
             <span>Imidazolium mRNA LNPs</span>
           </a>
-          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 90.2%; --y: 250px; --w: 186px;">
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener" data-date="2026" data-title="Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines" data-image="/images/crosslink.png" data-description="A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses." style="--x: 86%; --y: 250px; --w: 145px;">
             <strong>Nature Chemical Engineering</strong>
             <span>Crosslinked mRNA vaccine LNPs</span>
           </a>
-          <a class="timeline-event publication" href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 94.5%; --y: 302px; --w: 188px;">
+          <a class="timeline-event publication" href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener" data-date="2026.06" data-title="Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection" data-image="/images/NBME%2020260613.png" data-description="Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells." style="--x: 91.2%; --y: 302px; --w: 145px;">
             <strong>Nature Biomedical Engineering</strong>
             <span>Tissue-specific T cell immunity</span>
           </a>
-          <a class="timeline-event publication" href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank" rel="noopener" data-date="2026.08.13" data-title="Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery" data-image="/images/beta%20cell.png" data-description="An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models." style="--x: 94.5%; --y: 250px; --w: 188px;">
+          <a class="timeline-event publication" href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank" rel="noopener" data-date="2026.08.13" data-title="Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery" data-image="/images/beta%20cell.png" data-description="An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models." style="--x: 91.2%; --y: 250px; --w: 145px;">
             <strong>ACS Nano</strong>
             <span>β cell-directed RNA delivery</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1" target="_blank" rel="noopener" data-date="2026.10" data-title="Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression" data-image="/images/Age.png?v=20260827" data-description="Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice." style="--x: 95.7%; --y: 302px; --w: 135px;">
+            <strong>bioRxiv</strong>
+            <span>Age-adaptive mRNA vaccines</span>
+          </a>
+          <a class="timeline-event publication" href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank" rel="noopener" data-date="2026.10" data-title="Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP" data-image="/images/NanoSTAMP.png" data-description="NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo." style="--x: 95.7%; --y: 250px; --w: 135px;">
+            <strong>bioRxiv</strong>
+            <span>NanoSTAMP spatial LNP screening</span>
           </a>
         </div>
       </div>
