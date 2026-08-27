@@ -108,7 +108,7 @@ home_layout: true
   right: 34px;
   top: 50%;
   z-index: 1;
-  max-width: 660px;
+  max-width: 820px;
   transform: translateY(-50%);
   color: #fff;
   text-align: right;
@@ -195,7 +195,7 @@ home_layout: true
 .home-tags {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
@@ -729,6 +729,7 @@ home_layout: true
   .home-hero-content {
     left: 20px;
     right: 20px;
+    max-width: none;
     text-align: left;
   }
 
@@ -738,6 +739,7 @@ home_layout: true
 
   .home-tags {
     justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .home-actions {
