@@ -1,28 +1,28 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-26T09:06:45+00:00",
-  "total_citations": 1790,
+  "last_updated": "2026-08-27T19:08:16+00:00",
+  "total_citations": 1793,
   "publications": [
     {
       "id": "nanostamp",
       "title": "Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP",
       "citations": 0,
       "citation_label": "citations",
-      "status": "not_found",
-      "matched_title": null,
-      "matched_year": null,
-      "match_score": 0.0
+      "status": "preserved",
+      "best_match_title": "Supramolecular assembly of polycation/mRNA nanoparticles and in vivo monocyte programming",
+      "best_match_year": "2024",
+      "best_match_score": 0.446
     },
     {
       "id": "age-adaptive-mrna-vaccines",
       "title": "Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression",
-      "citations": 0,
-      "citation_label": "citations",
-      "status": "not_found",
-      "matched_title": null,
-      "matched_year": null,
-      "match_score": 0.0
+      "citations": 1,
+      "citation_label": "citation",
+      "status": "matched",
+      "matched_title": "Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression",
+      "matched_year": "2026",
+      "match_score": 1.0
     },
     {
       "id": "beta-cell-directed-rna-delivery",
@@ -47,7 +47,7 @@
     {
       "id": "crosslinking-lnp",
       "title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
-      "citations": 4,
+      "citations": 5,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 178,
+      "citations": 179,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
