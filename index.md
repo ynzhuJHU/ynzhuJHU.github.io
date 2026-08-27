@@ -30,7 +30,7 @@ home_layout: true
   background-position: center;
   opacity: 0;
   transform: scale(1.03);
-  animation: hero-movie 96s infinite;
+  animation: hero-movie 76s infinite;
   will-change: opacity, transform;
 }
 
@@ -39,62 +39,61 @@ home_layout: true
   height: 100%;
   object-fit: cover;
   transform: none;
-  animation: hero-video 96s infinite;
+  animation: hero-video 76s infinite;
 }
 
-.home-hero-slide:nth-child(2) {
+.home-hero-slide:nth-child(1) {
   background-image: url("/images/CODEX-1-enhanced.png");
-  animation-delay: 30s;
 }
 
 .home-hero-slide:nth-child(3) {
   background-image: url("/images/Duke%20Postdoc.png");
-  animation-delay: 36s;
+  animation-delay: 16s;
 }
 
 .home-hero-slide:nth-child(4) {
   background-image: url("/images/Yining%20with%20lab.JPG");
-  animation-delay: 42s;
+  animation-delay: 22s;
 }
 
 .home-hero-slide:nth-child(5) {
   background-image: url("/images/Yining%20with%20lab.png");
-  animation-delay: 48s;
+  animation-delay: 28s;
 }
 
 .home-hero-slide:nth-child(6) {
   background-image: url("/images/Duke%204.jpg");
-  animation-delay: 54s;
+  animation-delay: 34s;
 }
 
 .home-hero-slide:nth-child(7) {
   background-image: url("/images/Duke%205.jpg");
-  animation-delay: 60s;
+  animation-delay: 40s;
 }
 
 .home-hero-slide:nth-child(8) {
   background-image: url("/images/jhu.jpg");
-  animation-delay: 66s;
+  animation-delay: 46s;
 }
 
 .home-hero-slide:nth-child(9) {
   background-image: url("/images/jhu2.png");
-  animation-delay: 72s;
+  animation-delay: 52s;
 }
 
 .home-hero-slide:nth-child(10) {
   background-image: url("/images/duke.jpg");
-  animation-delay: 78s;
+  animation-delay: 58s;
 }
 
 .home-hero-slide:nth-child(11) {
   background-image: url("/images/Duke%202.jpeg");
-  animation-delay: 84s;
+  animation-delay: 64s;
 }
 
 .home-hero-slide:nth-child(12) {
   background-image: url("/images/Duke%203.jpg");
-  animation-delay: 90s;
+  animation-delay: 70s;
 }
 
 .home-hero::after {
@@ -220,11 +219,11 @@ home_layout: true
     transform: scale(1.03);
   }
 
-  5.5% {
+  7.1% {
     opacity: 0.86;
   }
 
-  6.25% {
+  7.9% {
     opacity: 0;
     transform: scale(1.13);
   }
@@ -242,23 +241,27 @@ home_layout: true
 
 @keyframes hero-video {
   0% {
-    opacity: 0.86;
-  }
-
-  30.4% {
-    opacity: 0.86;
-  }
-
-  31.25% {
     opacity: 0;
   }
 
-  97% {
+  6.5% {
+    opacity: 0;
+  }
+
+  7.9% {
+    opacity: 0.86;
+  }
+
+  19.7% {
+    opacity: 0.86;
+  }
+
+  21.05% {
     opacity: 0;
   }
 
   100% {
-    opacity: 0.86;
+    opacity: 0;
   }
 }
 
@@ -772,11 +775,10 @@ home_layout: true
 
 <section class="home-hero">
   <div class="home-hero-movie" aria-hidden="true">
-    <video class="home-hero-slide home-hero-video" autoplay muted loop playsinline preload="auto" poster="/images/Duke%204.jpg">
-      <source src="/images/Graduation.mp4" type="video/mp4">
-      <source src="/images/Graduation.mov" type="video/quicktime">
-    </video>
     <span class="home-hero-slide"></span>
+    <video class="home-hero-slide home-hero-video" muted playsinline preload="auto" poster="/images/Duke%204.jpg">
+      <source src="/images/Graduation-trimmed.mp4" type="video/mp4">
+    </video>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
     <span class="home-hero-slide"></span>
@@ -795,10 +797,33 @@ home_layout: true
       <span>Immunoengineering</span>
       <span>Gene Therapy</span>
       <span>Biomaterials</span>
-      <span>Spatial Proteomics</span>
+      <span>Spatial Multiomics</span>
+      <span>Immune Senescence</span>
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    var heroVideo = document.querySelector('.home-hero-video');
+    var playbackTimer;
+
+    if (!heroVideo || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    function scheduleHeroVideo() {
+      window.clearTimeout(playbackTimer);
+      heroVideo.pause();
+      heroVideo.currentTime = 0;
+      playbackTimer = window.setTimeout(function () {
+        heroVideo.currentTime = 0;
+        heroVideo.play().catch(function () {});
+      }, 6000);
+    }
+
+    heroVideo.addEventListener('animationiteration', scheduleHeroVideo);
+    scheduleHeroVideo();
+  }());
+</script>
 
 <div class="home-lower">
   <div class="home-sidebar-slot">
