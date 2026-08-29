@@ -1,18 +1,18 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-28T20:17:01+00:00",
-  "total_citations": 1795,
+  "last_updated": "2026-08-29T13:51:41+00:00",
+  "total_citations": 1796,
   "publications": [
     {
       "id": "nanostamp",
       "title": "Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP",
       "citations": 0,
       "citation_label": "citations",
-      "status": "preserved",
-      "best_match_title": "Supramolecular assembly of polycation/mRNA nanoparticles and in vivo monocyte programming",
-      "best_match_year": "2024",
-      "best_match_score": 0.446
+      "status": "matched",
+      "matched_title": "Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP",
+      "matched_year": "2026",
+      "match_score": 1.0
     },
     {
       "id": "age-adaptive-mrna-vaccines",
@@ -37,7 +37,7 @@
     {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
-      "citations": 4,
+      "citations": 5,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
