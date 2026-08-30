@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-08-29T13:51:41+00:00",
-  "total_citations": 1796,
+  "last_updated": "2026-08-30T13:49:59+00:00",
+  "total_citations": 1805,
   "publications": [
     {
       "id": "nanostamp",
@@ -37,7 +37,7 @@
     {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
-      "citations": 5,
+      "citations": 6,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
@@ -87,7 +87,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 125,
+      "citations": 126,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -107,7 +107,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 26,
+      "citations": 27,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 179,
+      "citations": 181,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
@@ -137,7 +137,7 @@
     {
       "id": "albumin-biomineralized-melanoma",
       "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
-      "citations": 103,
+      "citations": 104,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
