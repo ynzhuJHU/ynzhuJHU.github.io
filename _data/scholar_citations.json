@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-09-08T12:55:10+00:00",
-  "total_citations": 1818,
+  "last_updated": "2026-09-09T13:00:00+00:00",
+  "total_citations": 1821,
   "publications": [
     {
       "id": "nanostamp",
@@ -97,7 +97,7 @@
     {
       "id": "fluid-viscosity-transfection",
       "title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
-      "citations": 14,
+      "citations": 15,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 182,
+      "citations": 183,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
