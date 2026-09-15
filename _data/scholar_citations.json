@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-09-14T15:04:27+00:00",
-  "total_citations": 1824,
+  "last_updated": "2026-09-15T13:39:03+00:00",
+  "total_citations": 1826,
   "publications": [
     {
       "id": "nanostamp",
@@ -67,7 +67,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 33,
+      "citations": 34,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
