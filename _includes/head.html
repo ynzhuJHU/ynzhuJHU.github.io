@@ -784,6 +784,9 @@ p {
 
 .sidebar .author__urls {
   display: grid !important;
+  position: relative;
+  right: auto;
+  z-index: auto;
   gap: 8px;
   margin: 0;
   padding: 0;
@@ -791,6 +794,12 @@ p {
   background: transparent;
   box-shadow: none;
   list-style: none !important;
+}
+
+.sidebar .author__urls::before,
+.sidebar .author__urls::after,
+.sidebar .author__urls_sm {
+  display: none !important;
 }
 
 .sidebar .author__urls li {
@@ -994,6 +1003,56 @@ p {
 @media (min-width: 1280px) {
   .masthead__inner-wrap {
     max-width: 1220px !important;
+  }
+}
+
+@media (max-width: 924px) {
+  .sidebar .profile_box {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 0;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .sidebar .author__urls-wrapper {
+    position: static;
+    z-index: auto;
+  }
+
+  .sidebar .author__urls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .sidebar .author__urls li:first-child,
+  .sidebar .author__urls .sidebar-scholar-link {
+    grid-column: 1 / -1;
+  }
+
+  .sidebar .author__urls a {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar-recognition {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .sidebar-recognition__label {
+    grid-column: 1 / -1;
+  }
+
+  .sidebar-recognition img {
+    height: 78px;
+    max-height: 78px;
   }
 }
 
