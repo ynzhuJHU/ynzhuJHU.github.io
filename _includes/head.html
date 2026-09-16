@@ -11,7 +11,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">
 
@@ -29,7 +29,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">
 
@@ -343,6 +343,10 @@ p {
   box-shadow: 0 6px 18px rgba(20, 32, 56, 0.04);
 }
 
+.mobile-nav-toggle {
+  display: none;
+}
+
 .site-nav-modern .visible-links {
   display: flex !important;
   align-items: center;
@@ -587,14 +591,112 @@ p {
 }
 
 @media (max-width: 760px) {
-  .site-nav-modern .visible-links {
-    flex-wrap: wrap;
+  .masthead__inner-wrap {
+    padding: 0.55rem 0.75rem;
   }
 
+  .site-nav-modern {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .mobile-nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    width: 100%;
+    min-height: 44px;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid rgba(20, 32, 56, 0.1);
+    border-radius: 8px;
+    background: #fff;
+    color: #293241;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .mobile-nav-toggle__icon,
+  .mobile-nav-toggle__icon::before,
+  .mobile-nav-toggle__icon::after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+    transition: transform 0.18s ease;
+  }
+
+  .mobile-nav-toggle__icon {
+    position: relative;
+  }
+
+  .mobile-nav-toggle__icon::before,
+  .mobile-nav-toggle__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+
+  .mobile-nav-toggle__icon::before {
+    top: -6px;
+  }
+
+  .mobile-nav-toggle__icon::after {
+    top: 6px;
+  }
+
+  .site-nav-modern.is-open .mobile-nav-toggle__icon {
+    background: transparent;
+  }
+
+  .site-nav-modern.is-open .mobile-nav-toggle__icon::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .site-nav-modern.is-open .mobile-nav-toggle__icon::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  .site-nav-modern .visible-links {
+    display: none !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.2rem;
+    margin-top: 0.45rem;
+    padding: 0.35rem;
+    border: 1px solid rgba(20, 32, 56, 0.08);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(20, 32, 56, 0.1);
+  }
+
+  .site-nav-modern.is-open .visible-links {
+    display: flex !important;
+  }
+
+  .masthead__menu-item,
+  .masthead-dropdown {
+    width: 100%;
+  }
+
+  .masthead__menu-item a,
+  .masthead-dropdown-trigger {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0.8rem 0.85rem !important;
+    line-height: 1.2;
+  }
+
+  .masthead-dropdown-trigger::after,
+  .masthead__menu-item--dropdown::after,
   .masthead-submenu {
-    position: static;
-    min-width: min(260px, calc(100vw - 40px));
-    margin: 6px 0.15rem 0 0.15rem;
+    display: none !important;
   }
 }
 
@@ -681,7 +783,7 @@ p {
 }
 
 .sidebar .author__urls {
-  display: grid;
+  display: grid !important;
   gap: 8px;
   margin: 0;
   padding: 0;
@@ -892,6 +994,45 @@ p {
 @media (min-width: 1280px) {
   .masthead__inner-wrap {
     max-width: 1220px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  #main {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .page,
+  .page2,
+  .page__inner-wrap,
+  .page__content {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .page__content p,
+  .page__content li,
+  .paper-box-text {
+    overflow-wrap: anywhere;
+  }
+
+  .page__content p,
+  .page__content li {
+    text-align: left;
+    text-justify: auto;
+  }
+
+  .page__content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sidebar .profile_box {
+    padding: 18px 15px;
   }
 }
 
