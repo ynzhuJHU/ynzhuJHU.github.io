@@ -1167,7 +1167,7 @@ home_layout: true
             <span>β cell-directed RNA delivery</span>
           </a>
           <a class="timeline-event publication" href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1" target="_blank" rel="noopener" data-date="2026.10" data-title="Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression" data-image="/images/Age.png?v=532050f2" data-description="Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice." style="--x: 95.7%; --y: 302px; --w: 135px;">
-            <strong>NBME (in press)</strong>
+            <strong>Nature Biomedical Engineering (in press)</strong>
             <span>Age-adaptive mRNA vaccines</span>
           </a>
           <a class="timeline-event publication" href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank" rel="noopener" data-date="2026.10" data-title="Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP" data-image="/images/NanoSTAMP.png" data-description="NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo." style="--x: 95.7%; --y: 250px; --w: 135px;">
