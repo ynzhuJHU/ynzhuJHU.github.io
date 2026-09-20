@@ -57,9 +57,9 @@ layout: single
 
 <div class="about-honor-rail" id="honor-rail" tabindex="0" role="region" aria-label="Featured honors, scroll horizontally">
 
-<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/2026%20Schmidt.JPG" alt="Schmidt Science Fellow"></div><div class="about-honor-copy"><p class="about-eyebrow">2026.03</p><h3>Schmidt Science Fellow</h3><p>Schmidt Science Foundation</p><a class="about-text-link" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
+<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/2026%20Schmidt.JPG" alt="Schmidt Science Fellow"></div><div class="about-honor-copy"><p class="about-eyebrow">2026.03</p><h3>Schmidt Science Fellow</h3><p>Schmidt Futures, US</p><a class="about-text-link" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
-<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/Forbes%20Science.jpg" alt="Forbes 30 Under 30 in Science"></div><div class="about-honor-copy"><p class="about-eyebrow">2025.12</p><h3>Forbes 30 Under 30 in Science</h3><p>Forbes Media</p><a class="about-text-link" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
+<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/Forbes%20Science.jpg" alt="Forbes 30 Under 30 in Science"></div><div class="about-honor-copy"><p class="about-eyebrow">2026</p><h3>Forbes 30 Under 30 in Science</h3><p>Forbes Media</p><a class="about-text-link" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
 <article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/Siebel-Scholars-1024x664.png" alt="Siebel Scholar Award"></div><div class="about-honor-copy"><p class="about-eyebrow">2025.09</p><h3>Siebel Scholar Award</h3><p>Siebel Foundation</p><a class="about-text-link" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
@@ -67,17 +67,9 @@ layout: single
 
 <div class="about-rail-footer"><span>Fellowships and recognition</span><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="honor-rail" aria-label="Previous honors"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="honor-rail" aria-label="Next honors"><span aria-hidden="true">&#8594;</span></button></div></div>
 
-<details class="about-more-honors"><summary>More honors and awards<span aria-hidden="true">+</span></summary><div class="about-award-list">
-
-<article class="about-award-row"><span>2025.04</span><div><h3>Student Travel Achievement Recognition Award</h3><p>Society for Biomaterials</p></div></article>
-
-<article class="about-award-row"><span>2024.05</span><div><h3>Meritorious Abstract Travel Award</h3><p>American Society of Gene & Cell Therapy</p></div></article>
-
-<article class="about-award-row"><span>2024.04</span><div><h3>The Hans J. Prochaska Research Award</h3><p>Johns Hopkins University</p></div><a class="about-text-link" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener">Read the story &#8599;</a></article>
-
-<article class="about-award-row"><span>2023.04</span><div><h3>Student Travel Achievement Recognition Award</h3><p>Society for Biomaterials</p></div></article>
-
-</div></details></section>
+<details class="about-more-honors" data-full-awards><summary>View the full award list <span aria-hidden="true">+</span></summary>
+{% include full_awards.html %}
+</details></section>
 
 <section id="professional-training" class="about-band about-training">
 
@@ -159,3 +151,14 @@ layout: single
   </div>
 </dialog>
 <script src="{{ '/assets/js/research-profile.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+
+<dialog class="research-profile-dialog awards-dialog" id="awards-dialog" aria-labelledby="awards-dialog-title">
+  <div class="research-profile-shell">
+    <header class="research-profile-header">
+      <h2 id="awards-dialog-title">Awards and honors</h2>
+      <button type="button" class="research-profile-close" aria-label="Close full award list" autofocus><span aria-hidden="true">&#215;</span></button>
+    </header>
+    <div class="awards-dialog-content" tabindex="0" role="region" aria-label="Full award list"></div>
+  </div>
+</dialog>
+<script src="{{ '/assets/js/awards.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

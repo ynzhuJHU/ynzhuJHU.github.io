@@ -258,11 +258,11 @@ details[open] > summary .about-chevron { transform: rotate(225deg); }
 .about-profile-plus { display: grid; place-items: center; flex: 0 0 30px; width: 30px; height: 30px; border-radius: 50%; background: #e9f2ff; color: #0066cc; font-size: 24px; line-height: 1; }
 html.research-profile-open, .research-profile-open body { overflow: hidden; }
 .research-profile-dialog:not([open]) { display: none; }
-#research-profile-dialog { width: min(1380px, calc(100% - 64px)); max-width: none; height: calc(100vh - 64px); height: calc(100dvh - 64px); max-height: none; margin: auto; padding: 0; border: 0; border-radius: 28px; overflow: hidden; background: #fff; color: #172033; box-shadow: 0 24px 90px rgba(0, 0, 0, 0.25); }
-#research-profile-dialog::backdrop { background: rgba(20, 25, 34, 0.48); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+:is(#research-profile-dialog, #awards-dialog) { width: min(1380px, calc(100% - 64px)); max-width: none; height: calc(100vh - 64px); height: calc(100dvh - 64px); max-height: none; margin: auto; padding: 0; border: 0; border-radius: 28px; overflow: hidden; background: #fff; color: #172033; box-shadow: 0 24px 90px rgba(0, 0, 0, 0.25); }
+:is(#research-profile-dialog, #awards-dialog)::backdrop { background: rgba(20, 25, 34, 0.48); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
 .research-profile-shell { display: flex; flex-direction: column; height: 100%; }
 .research-profile-header { display: flex; align-items: center; flex: 0 0 auto; gap: 20px; padding: 16px 24px; border-bottom: 1px solid #e8e8ed; }
-#research-profile-dialog .research-profile-header h2 { margin: 0; padding: 0; border: 0; font-size: 1.2rem; line-height: 1.3; }
+:is(#research-profile-dialog, #awards-dialog) .research-profile-header h2 { margin: 0; padding: 0; border: 0; font-size: 1.2rem; line-height: 1.3; }
 .research-profile-header > a { margin-left: auto; color: #0066cc; font-size: 14px; text-decoration: none; }
 .research-profile-close { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #e8e8ed; color: #55555d; font-size: 30px; cursor: pointer; }
 .research-profile-close:hover { background: #dcdce2; }
@@ -272,12 +272,34 @@ html.research-profile-open, .research-profile-open body { overflow: hidden; }
 .research-profile-frame { display: block; width: 100%; height: 100%; border: 0; }
 .research-profile-dialog [hidden] { display: none; }
 @media (prefers-reduced-motion: no-preference) {
-  #research-profile-dialog[open] { animation: research-profile-enter 260ms ease-out; }
+  :is(#research-profile-dialog, #awards-dialog)[open] { animation: research-profile-enter 260ms ease-out; }
   @keyframes research-profile-enter { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 }
 @media (max-width: 760px) {
-  #research-profile-dialog { width: calc(100% - 16px); height: calc(100vh - 24px); height: calc(100dvh - 24px); border-radius: 20px; }
+  :is(#research-profile-dialog, #awards-dialog) { width: calc(100% - 16px); height: calc(100vh - 24px); height: calc(100dvh - 24px); border-radius: 20px; }
   .research-profile-header { gap: 10px; padding: 12px; flex-wrap: wrap; }
-  #research-profile-dialog .research-profile-header h2 { flex: 1; font-size: 1.05rem; }
+  :is(#research-profile-dialog, #awards-dialog) .research-profile-header h2 { flex: 1; font-size: 1.05rem; }
   .research-profile-header > a { order: 3; flex-basis: 100%; margin: 0; min-height: 32px; display: flex; align-items: center; gap: 4px; }
+}
+
+/* The complete award list also remains readable without dialog support. */
+#main .full-award-list { margin: 0; padding: 0; list-style: none; }
+#main .full-award-row { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 28px; margin: 0; padding: 26px 0; border-bottom: 1px solid #e2e5eb; }
+#main .full-award-row:last-child { border-bottom: 0; }
+#main .full-award-years { color: #1f57c3; font-size: 0.9rem; font-weight: 650; line-height: 1.5; }
+#main .full-award-row h3 { margin: 0; font-family: "Source Serif 4", Georgia, serif; font-size: 1.3rem; line-height: 1.3; }
+#main .full-award-row h3 a { color: inherit; text-decoration: none; }
+#main .full-award-row h3 a:hover { color: #0066cc; text-decoration: underline; }
+#main .full-award-row p { margin: 8px 0 0; color: #627086; font-size: 0.94rem; line-height: 1.5; }
+.about-awards-trigger { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; margin-top: 24px; padding: 18px 0; border: 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7; background: transparent; color: #0066cc; font: inherit; text-align: left; cursor: pointer; }
+.about-awards-trigger > span { display: grid; place-items: center; flex: 0 0 30px; height: 30px; border-radius: 50%; background: #e9f2ff; font-size: 24px; line-height: 1; }
+#awards-dialog { width: min(1100px, calc(100% - 64px)); }
+#awards-dialog .research-profile-close { margin-left: auto; }
+.awards-dialog-content { min-height: 0; overflow-y: auto; overscroll-behavior-y: contain; padding: 12px clamp(24px, 5vw, 72px) 32px; }
+@media (max-width: 760px) {
+  #awards-dialog { width: calc(100% - 16px); }
+  #main .full-award-row { grid-template-columns: 1fr; gap: 8px; padding: 20px 0; }
+  #main .full-award-row h3 { font-size: 1.12rem; }
+  #main .full-award-row p { font-size: 0.9rem; }
+  .awards-dialog-content { padding: 8px 20px 24px; }
 }

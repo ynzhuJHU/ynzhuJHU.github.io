@@ -1,0 +1,11 @@
+<ol class="full-award-list">
+{% for award in site.data.awards %}
+  <li class="full-award-row">
+    <span class="full-award-years">{{ award.years | escape }}</span>
+    <div>
+      <h3>{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener">{{ award.title | escape }}</a>{% else %}{{ award.title | escape }}{% endif %}</h3>
+      {% if award.organization %}<p>{{ award.organization | escape }}</p>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>
