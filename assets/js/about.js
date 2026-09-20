@@ -37,6 +37,62 @@
     updateControls();
   });
 
+  // Reveal newly visible publication cards in a short left-to-right sequence.
+  // Cards remain visible by default if animation or observation is unavailable.
+  root.querySelectorAll(".about-publication-rail").forEach(function (rail) {
+    if (reducedMotion.matches || !("IntersectionObserver" in window)) return;
+    var cards = rail.querySelectorAll(".about-publication-card");
+    if (!cards.length || typeof cards[0].animate !== "function") return;
+    var animations = new Map();
+    var revealed = new Set();
+    var observer = new IntersectionObserver(function (entries) {
+      var entering = entries.filter(function (entry) {
+        return entry.isIntersecting && entry.intersectionRect.width > 0 &&
+          entry.intersectionRect.height > 0 && !revealed.has(entry.target);
+      }).sort(function (a, b) {
+        return a.boundingClientRect.left - b.boundingClientRect.left;
+      });
+
+      entering.forEach(function (entry, index) {
+        var card = entry.target;
+        revealed.add(card);
+        observer.unobserve(card);
+        if (reducedMotion.matches || card.contains(document.activeElement)) return;
+        var animation = card.animate([
+          { opacity: 0, transform: "translateY(24px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ], {
+          duration: 650,
+          delay: Math.min(index, 3) * 100,
+          easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+          fill: "backwards"
+        });
+        animations.set(card, animation);
+        animation.onfinish = function () { animations.delete(card); };
+      });
+    }, { rootMargin: "0px 0px -40px 0px", threshold: 0 });
+
+    cards.forEach(function (card) { observer.observe(card); });
+    rail.addEventListener("focusin", function (event) {
+      var card = event.target.closest(".about-publication-card");
+      if (!card) return;
+      revealed.add(card);
+      observer.unobserve(card);
+      if (animations.has(card)) {
+        animations.get(card).cancel();
+        animations.delete(card);
+      }
+    });
+    function stopMotion(event) {
+      if (!event.matches) return;
+      observer.disconnect();
+      animations.forEach(function (animation) { animation.cancel(); });
+      animations.clear();
+    }
+    if (reducedMotion.addEventListener) reducedMotion.addEventListener("change", stopMotion);
+    else reducedMotion.addListener(stopMotion);
+  });
+
   var journey = root.querySelector("[data-journey]");
   if (!journey) return;
   var items = journey.querySelectorAll(".about-journey-item");
