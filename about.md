@@ -6,445 +6,15 @@ layout: single
 ---
 
 
-<style>
-.about-hero {
-  position: relative;
-  overflow: hidden;
-  min-height: 310px;
-  margin: 0 0 34px 0;
-  border-radius: 8px;
-  background: #102233;
-  box-shadow: 0 18px 40px rgba(20, 32, 56, 0.14);
-}
+<link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<div class="about-experience">
 
-.about-hero img {
-  width: 100%;
-  min-height: 310px;
-  max-height: 420px;
-  object-fit: cover;
-  object-position: center 42%;
-  display: block;
-  opacity: 0.78;
-}
-
-.about-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(12, 24, 38, 0.74), rgba(12, 24, 38, 0.35) 56%, rgba(12, 24, 38, 0.1));
-}
-
-.about-hero-content {
-  position: absolute;
-  left: 32px;
-  right: 32px;
-  bottom: 30px;
-  z-index: 1;
-  max-width: 720px;
-  color: #fff;
-}
-
-.about-hero-kicker {
-  display: inline-flex;
-  margin-bottom: 12px;
-  color: #91f2df;
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.about-hero h1 {
-  margin: 0 0 12px 0;
-  color: #fff;
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 2.05rem;
-  font-weight: 750;
-  line-height: 1.18;
-  letter-spacing: 0;
-}
-
-.about-hero p {
-  max-width: 660px;
-  margin: 0;
-  color: rgba(255,255,255,0.9);
-  font-size: 1rem;
-  line-height: 1.65;
-}
-
-.about-hero-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-  margin-top: 18px;
-}
-
-.about-hero-tags span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 28px;
-  padding: 0 12px;
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 8px;
-  background: rgba(255,255,255,0.14);
-  color: #fff;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 360px minmax(0, 1fr);
-  gap: 28px;
-  align-items: start;
-}
-
-.about-main,
-.about-side {
-  min-width: 0;
-}
-
-.about-side {
-  display: grid;
-  gap: 20px;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.about-main {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.pub-header {
-  scroll-margin-top: 90px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 26px;
-  padding-bottom: 10px;
-  border-bottom: 1.5px solid #d9d9d9;
-}
-
-.pub-header h2 {
-  margin: 0;
-  font-size: 1.65rem;
-}
-
-.scholar-pub-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: 34px;
-  padding: 0 14px;
-  border-radius: 999px;
-  background: #1f57c3;
-  color: #fff;
-  font-size: 0.86rem;
-  font-weight: 750;
-  text-decoration: none;
-  box-shadow: 0 10px 22px rgba(31, 87, 195, 0.18);
-  white-space: nowrap;
-}
-
-.scholar-pub-pill:hover {
-  color: #fff;
-  background: #17439a;
-}
-
-.scholar-pub-count {
-  font-variant-numeric: tabular-nums;
-}
-
-.paper-box {
-  position: relative;
-  display: flex;
-  gap: 22px;
-  align-items: center;
-  background: #fbfcfe;
-  border-radius: 8px;
-  padding: 58px 22px 18px 22px;
-  margin: 24px 0;
-  box-shadow: 0 8px 20px rgba(20,32,56,0.06);
-  border: 1px solid rgba(0,0,0,0.05);
-  transition: all 0.25s ease;
-}
-
-.paper-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-}
-
-.paper-box-label {
-  position: absolute;
-  top: 12px;
-  left: 24px;
-  --journal-accent: #9a4fac;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  width: calc(100% - 48px);
-  padding: 7px 0 0 0;
-  border-top: 4px solid var(--journal-accent);
-  background: transparent;
-  color: #080808;
-  line-height: 1.05;
-  white-space: nowrap;
-}
-
-.journal-name {
-  display: inline;
-  color: #080808;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.06rem;
-  font-weight: 800;
-  letter-spacing: 0;
-}
-
-.journal-year {
-  display: inline;
-  color: #1f57c3;
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  vertical-align: baseline;
-}
-
-.journal-year::before {
-  content: "/";
-  margin-right: 8px;
-  color: #9ca3af;
-  font-weight: 700;
-}
-
-.journal-nature-chemical-engineering {
-  --journal-accent: #00a88f;
-}
-
-.journal-biorxiv {
-  --journal-accent: #b31b1b;
-}
-
-.journal-acs-nano {
-  --journal-accent: #ef6c22;
-}
-
-.journal-nature-communications {
-  --journal-accent: #e64b35;
-}
-
-.journal-nature-biomedical-engineering {
-  --journal-accent: #9a4fac;
-}
-
-.journal-materials-today {
-  --journal-accent: #2f80ed;
-}
-
-.journal-science-advances {
-  --journal-accent: #f2b705;
-}
-
-.journal-biomaterials {
-  --journal-accent: #7c3aed;
-}
-
-.journal-nano-letters {
-  --journal-accent: #d97706;
-}
-
-.journal-journal-of-controlled-release {
-  --journal-accent: #64748b;
-}
-
-.paper-box-image {
-  flex: 0 0 36%;
-  display: flex;
-  align-items: center;
-}
-
-.paper-box-image img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
-}
-
-.paper-box-text {
-  flex: 1;
-  max-width: none;
-  font-size: 0.94rem;
-  line-height: 1.5;
-}
-
-.paper-title {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.12rem;
-  font-weight: 750;
-  line-height: 1.28;
-  letter-spacing: 0;
-  margin-bottom: 9px;
-}
-
-.paper-title a {
-  color: #1f2937;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.paper-title a:hover {
-  color: #2563eb;
-}
-
-.paper-authors {
-  margin-bottom: 9px;
-  color: #4b5563;
-  font-size: 0.82rem;
-  line-height: 1.45;
-}
-
-.paper-authors strong {
-  color: #111827;
-  font-weight: 750;
-}
-
-.pub-author-note {
-  margin: -14px 0 20px 0;
-  color: #4b5563;
-  font-size: 0.82rem;
-  line-height: 1.45;
-}
-
-.paper-meta {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin: 8px 0 10px 0;
-  flex-wrap: wrap;
-}
-
-.meta-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 28px;
-  padding: 0 11px;
-  border-radius: 999px;
-  background: #e9f1ff;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #1f57c3;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.meta-pill:hover {
-  background: #dbe8ff;
-}
-
-.paper-box-text .meta-pill.news {
-  height: auto;
-  padding: 0;
-  border-radius: 0;
-  background: transparent;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: #1f57c3;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.paper-box-text .meta-pill.news:hover {
-  background: transparent;
-  color: #17439a;
-}
-
-.paper-summary {
-  margin: 0;
-  padding: 10px 0 0 16px;
-  border-top: 1px solid rgba(20, 32, 56, 0.08);
-  color: #374151;
-  font-size: 0.84rem;
-  line-height: 1.45;
-}
-
-.paper-summary li {
-  margin: 0;
-  padding-left: 2px;
-}
-
-@media (max-width: 900px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-hero {
-    min-height: 390px;
-  }
-
-  .about-hero img {
-    min-height: 390px;
-  }
-
-  .about-hero-content {
-    left: 20px;
-    right: 20px;
-    bottom: 24px;
-  }
-
-  .about-hero h1 {
-    font-size: 1.52rem;
-  }
-
-  .pub-header {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .paper-box {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 22px;
-  }
-
-  .paper-box-image {
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .paper-box-text {
-    max-width: 100%;
-  }
-
-  .paper-title {
-    font-size: 1.05rem;
-  }
-
-  .paper-box-label {
-    position: static;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 14px;
-    white-space: normal;
-  }
-
-  .journal-name {
-    font-size: 1rem;
-    line-height: 1.08;
-  }
-
-  .journal-year::before {
-    margin-right: 6px;
-  }
-}
-</style>
 
 <section class="about-hero">
   <img src="{{ '/images/jhu2.png' | relative_url }}" alt="Johns Hopkins campus">
   <div class="about-hero-content">
-    <span class="about-hero-kicker">About Me</span>
-    <h1>Engineering the Future of Medicine.</h1>
+    <span class="about-hero-kicker">Yining Zhu, Ph.D.</span>
+    <h1>Engineering the future<br>of medicine.</h1>
     <p>I work at the interface of biomaterials, gene delivery, and systems immunology to design next-generation genetic medicines and immune-engineering platforms.</p>
     <div class="about-hero-tags" aria-label="Research themes">
       <span>Biomaterials</span>
@@ -455,859 +25,320 @@ layout: single
   </div>
 </section>
 
-<div class="about-grid">
-<main class="about-main">
 
-<div id="selected-publications" class="pub-header">
-  <h2>Selected Publications</h2>
-  <a class="scholar-pub-pill" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl" target="_blank">
-    Google Scholar - <span class="scholar-pub-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations
-  </a>
-</div>
+<nav class="about-section-nav" aria-label="About page sections">
+  <a href="#selected-publications">Publications</a>
+  <a href="#honors-awards">Honors &amp; awards</a>
+  <a href="#professional-training">Professional training</a>
+  <a href="#education">Education</a>
+  <a href="#talks">Talks</a>
+</nav>
+<section id="selected-publications" class="about-band about-publications" data-card-rail>
 
-<p class="pub-author-note">* Denotes equal contribution; # denotes corresponding author.</p>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var counter = document.querySelector(".scholar-pub-count");
-    if (!counter) return;
+<header class="about-heading"><div><p class="about-eyebrow">Research in focus</p><h2>Selected publications.</h2></div><a class="about-text-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&amp;hl" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">&#8599;</span><small>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</small></a></header>
 
-    var target = Number(String(counter.dataset.count || 0).replace(/\D/g, ""));
-    var duration = 4000;
-    var startTime = null;
-    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+<p class="about-section-intro">Explore the studies. Open a card’s details for the findings and full author list.</p>
+<div class="about-publication-rail" id="publication-rail" tabindex="0" role="region" aria-label="Selected publications, scroll horizontally">
 
-    if (reduceMotion || !target) {
-      counter.textContent = target;
-      return;
-    }
 
-    function step(timestamp) {
-      if (!startTime) startTime = timestamp;
-      var progress = Math.min((timestamp - startTime) / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 2);
-      counter.textContent = Math.min(target, Math.round(eased * target));
-
-      if (progress < 1) {
-        window.requestAnimationFrame(step);
-      } else {
-        counter.textContent = target;
-      }
-    }
-
-    window.requestAnimationFrame(step);
-  });
-</script>
-
-<div class="paper-box">
-  <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/NanoSTAMP.png' | relative_url }}" alt="NanoSTAMP spatial profiling workflow for pooled barcoded mRNA lipid nanoparticles">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/NanoSTAMP.png' | relative_url }}" alt="NanoSTAMP spatial profiling workflow for pooled barcoded mRNA lipid nanoparticles"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">bioRxiv<span>2026</span></p>
+    <h3><a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank" rel="noopener">
         Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="nanostamp" fallback=0 %}
-      <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank">Preprint</a>
-    </div>
-    <ul class="paper-summary">
-      <li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="nanostamp" fallback=0 %}
+      <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank" rel="noopener">Preprint</a></div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/Age.png' | relative_url }}?v=532050f2" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1.abstract" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/Age.png' | relative_url }}?v=532050f2" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">bioRxiv<span>2026</span></p>
+    <h3><a href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1.abstract" target="_blank" rel="noopener">
         Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="age-adaptive-mrna-vaccines" fallback=0 %}
-      <a class="meta-pill news" href="https://doi.org/10.64898/2026.04.11.717910" target="_blank">Preprint</a>
-    </div>
-    <ul class="paper-summary">
-      <li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="age-adaptive-mrna-vaccines" fallback=0 %}
+      <a class="meta-pill news" href="https://doi.org/10.64898/2026.04.11.717910" target="_blank" rel="noopener">Preprint</a></div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/NBME 20260613.png' | relative_url }}" alt="Systemic trafficking and tissue-specific T cell immunity figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/NBME 20260613.png' | relative_url }}" alt="Systemic trafficking and tissue-specific T cell immunity figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Biomedical Engineering<span>2026</span></p>
+    <h3><a href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener">
         Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection
-      </a>
-    </div>
-    <div class="paper-authors">
-      Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
-      <a class="meta-pill news" href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank">News</a>
-    </div>
-    <ul class="paper-summary">
-      <li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
+      <a class="meta-pill news" href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank" rel="noopener">News</a></div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li></ul><p class="about-authors"><strong>Authors</strong><br>Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Chemical Engineering<span>2026</span></p>
+    <h3><a href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener">
         Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines
-      </a>
-    </div>
-    <div class="paper-authors">
-      Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank">News</a>
-      {% include citation_pill.html id="crosslinking-lnp" fallback=1 %}
-    </div>
-    <ul class="paper-summary">
-      <li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="crosslinking-lnp" fallback=1 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li></ul><p class="about-authors"><strong>Authors</strong><br>Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-acs-nano"><span class="journal-name">ACS Nano</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">ACS Nano<span>2026</span></p>
+    <h3><a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank" rel="noopener">
         Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery
-      </a>
-    </div>
-    <div class="paper-authors">
-      Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}
-    </div>
-    <ul class="paper-summary">
-      <li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li></ul><p class="about-authors"><strong>Authors</strong><br>Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-materials-today"><span class="journal-name">Materials Today</span><span class="journal-year">2026</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Materials Today<span>2026</span></p>
+    <h3><a href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank" rel="noopener">
         Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response
-      </a>
-    </div>
-    <div class="paper-authors">
-      Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="imidazolium-lnp" fallback=0 %}
-    </div>
-    <ul class="paper-summary">
-      <li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="imidazolium-lnp" fallback=0 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li></ul><p class="about-authors"><strong>Authors</strong><br>Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2025</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s41467-025-61299-8" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Communications<span>2025</span></p>
+    <h3><a href="https://www.nature.com/articles/s41467-025-61299-8" target="_blank" rel="noopener">
         An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="lnp-nanofiber-hydrogel" fallback=19 %}
-    </div>
-    <ul class="paper-summary">
-      <li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="lnp-nanofiber-hydrogel" fallback=19 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-science-advances"><span class="journal-name">Science Advances</span><span class="journal-year">2025</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.science.org/doi/10.1126/sciadv.ady5579" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Science Advances<span>2025</span></p>
+    <h3><a href="https://www.science.org/doi/10.1126/sciadv.ady5579" target="_blank" rel="noopener">
         A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins
-      </a>
-    </div>
-    <div class="paper-authors">
-      Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank">News</a>
-      {% include citation_pill.html id="spleen-tropic-lnps" fallback=2 %}
-    </div>
-    <ul class="paper-summary">
-      <li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="spleen-tropic-lnps" fallback=2 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li></ul><p class="about-authors"><strong>Authors</strong><br>Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2024</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s41551-023-01131-0" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Biomedical Engineering<span>2024</span></p>
+    <h3><a href="https://www.nature.com/articles/s41551-023-01131-0" target="_blank" rel="noopener">
         Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank">News</a>
-      {% include citation_pill.html id="helper-t-cell-lnps" fallback=105 %}
-    </div>
-    <ul class="paper-summary">
-      <li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="helper-t-cell-lnps" fallback=105 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2024</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s44286-024-00116-3#citeas" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Chemical Engineering<span>2024</span></p>
+    <h3><a href="https://www.nature.com/articles/s44286-024-00116-3#citeas" target="_blank" rel="noopener">
         Tuning extracellular fluid viscosity to enhance transfection efficiency
-      </a>
-    </div>
-    <div class="paper-authors">
-      Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank">News</a>
-      {% include citation_pill.html id="fluid-viscosity-transfection" fallback=9 %}
-    </div>
-    <ul class="paper-summary">
-      <li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="fluid-viscosity-transfection" fallback=9 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li></ul><p class="about-authors"><strong>Authors</strong><br>Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-biomaterials"><span class="journal-name">Biomaterials</span><span class="journal-year">2024</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0142961224000930" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Biomaterials<span>2024</span></p>
+    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0142961224000930" target="_blank" rel="noopener">
         Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="intraduodenal-liver-editing" fallback=15 %}
-    </div>
-    <ul class="paper-summary">
-      <li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="intraduodenal-liver-editing" fallback=15 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2022</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.nature.com/articles/s41467-022-31993-y" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nature Communications<span>2022</span></p>
+    <h3><a href="https://www.nature.com/articles/s41467-022-31993-y" target="_blank" rel="noopener">
         Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC#, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank">News</a>
-      {% include citation_pill.html id="dna-lnp-multistep-screening" fallback=149 %}
-    </div>
-    <ul class="paper-summary">
-      <li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="dna-lnp-multistep-screening" fallback=149 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC#, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-nano-letters"><span class="journal-name">Nano Letters</span><span class="journal-year">2021</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Nano Letters<span>2021</span></p>
+    <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/" target="_blank" rel="noopener">
         Size-controlled and shelf-stable DNA particles for production of lentiviral vectors
-      </a>
-    </div>
-    <div class="paper-authors">
-      Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ#.
-    </div>
-    <div class="paper-meta">
-      <a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank">News</a>
-      {% include citation_pill.html id="lentiviral-dna-particles" fallback=31 %}
-    </div>
-    <ul class="paper-summary">
-      <li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank" rel="noopener">News</a>
+      {% include citation_pill.html id="lentiviral-dna-particles" fallback=31 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li></ul><p class="about-authors"><strong>Authors</strong><br>Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ#.</p>
+    </details>
   </div>
-</div>
+</article>
 
-<div class="paper-box">
-  <div class="paper-box-label journal-journal-of-controlled-release"><span class="journal-name">Journal of Controlled Release</span><span class="journal-year">2020</span></div>
-  <div class="paper-box-image">
-    <img src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure">
-  </div>
-  <div class="paper-box-text">
-    <div class="paper-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978" target="_blank">
+<article class="about-publication-card">
+  <div class="about-publication-image"><img loading="lazy" decoding="async" src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure"></div>
+  <div class="about-publication-copy">
+    <p class="about-publication-journal">Journal of Controlled Release<span>2020</span></p>
+    <h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978" target="_blank" rel="noopener">
         Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma
-      </a>
-    </div>
-    <div class="paper-authors">
-      <strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X#.
-    </div>
-    <div class="paper-meta">
-      {% include citation_pill.html id="albumin-biomineralized-melanoma" fallback=99 %}
-    </div>
-    <ul class="paper-summary">
-      <li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li>
-    </ul>
+      </a></h3>
+    <div class="about-publication-meta">{% include citation_pill.html id="albumin-biomineralized-melanoma" fallback=99 %}</div>
+    <details class="about-study-details"><summary>Study details<span aria-hidden="true">+</span></summary>
+      <ul><li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X#.</p>
+    </details>
   </div>
+</article>
+
 </div>
 
+<div class="about-rail-footer"><p>14 selected works <span aria-hidden="true">&middot;</span> * Equal contribution; # corresponding author.</p><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div></div>
 
-</main>
-<aside class="about-side">
+<a class="about-text-link" href="/research/#publications">View the full research portfolio <span aria-hidden="true">&#8594;</span></a>
 
-<style>
-.about-lower {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  margin-top: 0;
-  color: #172033;
-}
-
-.about-section {
-  scroll-margin-top: 90px;
-  margin: 0;
-  padding: 18px;
-  border: 1px solid rgba(20, 32, 56, 0.09);
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 8px 20px rgba(20, 32, 56, 0.055);
-}
-
-.about-training-section {
-  order: 1;
-}
-
-.about-education-section {
-  order: 2;
-}
-
-.about-honors-section {
-  order: 3;
-}
-
-.about-talks-section {
-  order: 4;
-}
-
-.about-section-heading {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  margin: 0 0 16px 0;
-  padding: 0;
-  border-left: 0;
-  border-radius: 0;
-  background: transparent;
-}
-
-.about-section h2 {
-  margin: 0;
-  color: #172033;
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.22rem;
-  font-weight: 650;
-  line-height: 1.2;
-}
-
-.about-section-kicker {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 12px;
-  height: 12px;
-  border: 3px solid #dbe8ff;
-  border-radius: 50%;
-  background: #1f57c3;
-  box-shadow: 0 0 0 4px rgba(31, 87, 195, 0.08);
-}
-
-.awards-showcase {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-  align-items: start;
-}
-
-.award-grid {
-  display: grid;
-  gap: 12px;
-}
-
-.award-card,
-.appointment-card,
-.education-card,
-.talk-card {
-  position: relative;
-  padding: 12px 14px;
-  border: 1px solid rgba(20, 32, 56, 0.09);
-  border-left: 4px solid #1f57c3;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 8px 22px rgba(20, 32, 56, 0.055);
-}
-
-.award-card {
-  display: grid;
-  grid-template-columns: 68px minmax(0, 1fr);
-  gap: 10px;
-  align-items: center;
-}
-
-.award-date,
-.appointment-date,
-.education-date,
-.talk-year {
-  color: #1f57c3;
-  font-size: 0.76rem;
-  font-weight: 750;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-}
-
-.award-title,
-.appointment-title,
-.education-title {
-  display: block;
-  color: #111827;
-  font-size: 0.9rem;
-  font-weight: 750;
-  line-height: 1.35;
-}
-
-.award-org,
-.appointment-place,
-.education-place {
-  display: block;
-  margin-top: 3px;
-  color: #5d6675;
-  font-size: 0.8rem;
-  line-height: 1.4;
-}
-
-.award-link {
-  display: inline-flex;
-  align-items: center;
-  grid-column: 2;
-  justify-self: start;
-  min-height: 28px;
-  padding: 0 11px;
-  border-radius: 999px;
-  background: #eef5ff;
-  color: #1f57c3;
-  font-size: 0.82rem;
-  font-weight: 750;
-  text-decoration: none;
-}
-
-.award-link:hover {
-  background: #dbe8ff;
-  color: #17439a;
-}
-
-.award-media {
-  display: none;
-}
-
-.award-media img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 14px 32px rgba(20, 32, 56, 0.16);
-}
-
-.appointment-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
-
-.appointment-card {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 78px;
-  gap: 12px;
-  align-items: center;
-}
-
-.appointment-card:nth-child(2) {
-  border-left-color: #0f766e;
-}
-
-.appointment-logo {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.appointment-logo img {
-  max-width: 78px;
-  max-height: 46px;
-  object-fit: contain;
-}
-
-.education-timeline {
-  display: grid;
-  gap: 12px;
-}
-
-.education-card {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 78px;
-  gap: 12px;
-  align-items: center;
-}
-
-.education-card:nth-child(2) {
-  border-left-color: #0f766e;
-}
-
-.education-card:nth-child(3) {
-  border-left-color: #9a3412;
-}
-
-.education-logo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.education-logo img {
-  max-width: 78px;
-  max-height: 46px;
-  object-fit: contain;
-}
-
-.talk-grid {
-  display: grid;
-  gap: 12px;
-}
-
-.talk-card {
-  display: grid;
-  grid-template-columns: 48px minmax(0, 1fr);
-  gap: 12px;
-  border-left-color: #0f766e;
-  font-size: 0.84rem;
-  line-height: 1.45;
-}
-
-.talk-card a {
-  display: block;
-  color: #1f57c3;
-  font-weight: 750;
-  text-align: justify;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-.talk-card em {
-  display: block;
-  margin-top: 3px;
-  color: #293241;
-  text-align: justify;
-}
-
-@media (max-width: 900px) {
-  .about-main,
-  .about-side {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .awards-showcase,
-  .appointment-grid,
-  .award-card,
-  .appointment-card,
-  .education-card,
-  .talk-card {
-    grid-template-columns: 1fr;
-  }
-
-  .appointment-logo,
-  .education-logo {
-    justify-content: flex-start;
-  }
-
-  .award-link {
-    grid-column: auto;
-  }
-}
-</style>
-
-<div class="about-lower">
-
-<section id="honors-awards" class="about-section about-honors-section">
-  <div class="about-section-heading">
-    <span class="about-section-kicker" aria-hidden="true"></span>
-    <h2>Honors and Awards</h2>
-  </div>
-
-  <div class="awards-showcase">
-    <div class="award-grid">
-      <div class="award-card">
-        <span class="award-date">2026.03</span>
-        <div>
-          <span class="award-title">Schmidt Science Fellow</span>
-          <span class="award-org">Schmidt Science Foundation</span>
-        </div>
-        <a class="award-link" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank">News</a>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2025.12</span>
-        <div>
-          <span class="award-title">Forbes 30 Under 30 in Science</span>
-          <span class="award-org">Forbes Media</span>
-        </div>
-        <a class="award-link" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank">News</a>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2025.09</span>
-        <div>
-          <span class="award-title">Siebel Scholar Award</span>
-          <span class="award-org">Siebel Foundation</span>
-        </div>
-        <a class="award-link" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank">News</a>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2025.04</span>
-        <div>
-          <span class="award-title">Student Travel Achievement Recognition Award</span>
-          <span class="award-org">Society for Biomaterials</span>
-        </div>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2024.05</span>
-        <div>
-          <span class="award-title">Meritorious Abstract Travel Award</span>
-          <span class="award-org">American Society of Gene & Cell Therapy</span>
-        </div>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2024.04</span>
-        <div>
-          <span class="award-title">The Hans J. Prochaska Research Award</span>
-          <span class="award-org">Johns Hopkins University</span>
-        </div>
-        <a class="award-link" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank">News</a>
-      </div>
-
-      <div class="award-card">
-        <span class="award-date">2023.04</span>
-        <div>
-          <span class="award-title">Student Travel Achievement Recognition Award</span>
-          <span class="award-org">Society for Biomaterials</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="award-media">
-      <img src="/images/schmidt_science_fellows.png" alt="Schmidt Science Fellows">
-      <img src="/images/Forbes Science.jpg" alt="Forbes 30 Under 30 Science">
-    </div>
-  </div>
 </section>
-<section id="professional-training" class="about-section about-training-section">
-  <div class="about-section-heading">
-    <span class="about-section-kicker" aria-hidden="true"></span>
-    <h2>Professional Training</h2>
-  </div>
 
-  <div class="appointment-grid">
-    <div class="appointment-card">
-      <div>
-        <span class="appointment-date">2026.02 - current</span>
-        <span class="appointment-title">Postdoctoral Fellow</span>
-        <span class="appointment-place">Duke University</span>
-      </div>
-      <div class="appointment-logo">
-        <img src="/images/duke.png" alt="Duke University logo">
-      </div>
-    </div>
+<section id="honors-awards" class="about-band about-honors" data-card-rail>
 
-    <div class="appointment-card">
-      <div>
-        <span class="appointment-date">2025.10 - 2026.01</span>
-        <span class="appointment-title">Postdoctoral Associate</span>
-        <span class="appointment-place">Johns Hopkins University</span>
-      </div>
-      <div class="appointment-logo">
-        <img src="/images/JHU engineering logo1.png" alt="Johns Hopkins University Engineering logo">
-      </div>
-    </div>
-  </div>
-</section>
-<section id="education" class="about-section about-education-section">
-  <div class="about-section-heading">
-    <span class="about-section-kicker" aria-hidden="true"></span>
-    <h2>Education</h2>
-  </div>
+<header class="about-heading"><div><p class="about-eyebrow">Recognition</p><h2>Honors and awards.</h2></div></header>
 
-  <div class="education-timeline">
-    <div class="education-card">
-      <div>
-        <span class="education-date">2025</span>
-        <span class="education-title">Ph.D., Biomedical Engineering</span>
-        <span class="education-place">Johns Hopkins University</span>
-      </div>
-      <div class="education-logo">
-        <img src="/images/JHMI.png" alt="Johns Hopkins University">
-      </div>
-    </div>
+<div class="about-honor-rail" id="honor-rail" tabindex="0" role="region" aria-label="Featured honors, scroll horizontally">
 
-    <div class="education-card">
-      <div>
-        <span class="education-date">2021</span>
-        <span class="education-title">M.S.E., Biomedical Engineering</span>
-        <span class="education-place">Johns Hopkins University</span>
-      </div>
-      <div class="education-logo">
-        <img src="/images/JHMI.png" alt="Johns Hopkins University">
-      </div>
-    </div>
+<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/2026%20Schmidt.JPG" alt="Schmidt Science Fellow"></div><div class="about-honor-copy"><p class="about-eyebrow">2026.03</p><h3>Schmidt Science Fellow</h3><p>Schmidt Science Foundation</p><a class="about-text-link" href="https://www.forbes.com/sites/michaeltnietzel/2026/03/25/the-2026-cohort-of-schmidt-science-fellows-is-announced/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
-    <div class="education-card">
-      <div>
-        <span class="education-date">2019</span>
-        <span class="education-title">B.S., Pharmacy</span>
-        <span class="education-place">Sichuan University</span>
-      </div>
-      <div class="education-logo">
-        <img src="/images/SCU.png" alt="Sichuan University">
-      </div>
-    </div>
-  </div>
-</section>
-<section id="talks" class="about-section about-talks-section">
-  <div class="about-section-heading">
-    <span class="about-section-kicker" aria-hidden="true"></span>
-    <h2>Talks</h2>
-  </div>
+<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/Forbes%20Science.jpg" alt="Forbes 30 Under 30 in Science"></div><div class="about-honor-copy"><p class="about-eyebrow">2025.12</p><h3>Forbes 30 Under 30 in Science</h3><p>Forbes Media</p><a class="about-text-link" href="https://www.forbes.com/profile/yining-zhu/?list=30under30-science/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
-  <div class="talk-grid">
-    <div class="talk-card">
-      <span class="talk-year">2026.05</span>
-      <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene &amp; Cell Therapy Annual Meeting.</a> <em>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</em> <strong>Oral Presentation.</strong></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2026.03</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2025.03</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2025.03</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2024.10</span>
-      <div><a href="https://www.bmes.org/bmes2024" target="_blank">Biomedical Engineering Society Annual Meeting.</a> <em>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2024.05</span>
-      <div><a href="https://www.asgct.org/" target="_blank">American Society of Gene & Cell Therapy Annual Meeting.</a> <em>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2023.03</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</em></div>
-    </div>
-
-    <div class="talk-card">
-      <span class="talk-year">2022.03</span>
-      <div><a href="https://biomaterials.org/events" target="_blank">Society of Biomaterials Annual Meeting and Exposition.</a> <em>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</em></div>
-    </div>
-  </div>
-</section>
+<article class="about-honor-card"><div class="about-honor-image"><img loading="lazy" decoding="async" src="/images/Siebel-Scholars-1024x664.png" alt="Siebel Scholar Award"></div><div class="about-honor-copy"><p class="about-eyebrow">2025.09</p><h3>Siebel Scholar Award</h3><p>Siebel Foundation</p><a class="about-text-link" href="https://hub.jhu.edu/2025/10/13/johns-hopkins-siebel-scholars-2026/" target="_blank" rel="noopener">Read the story &#8599;</a></div></article>
 
 </div>
-</aside>
-</div>
+
+<div class="about-rail-footer"><span>Fellowships and recognition</span><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="honor-rail" aria-label="Previous honors"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="honor-rail" aria-label="Next honors"><span aria-hidden="true">&#8594;</span></button></div></div>
+
+<details class="about-more-honors"><summary>More honors and awards<span aria-hidden="true">+</span></summary><div class="about-award-list">
+
+<article class="about-award-row"><span>2025.04</span><div><h3>Student Travel Achievement Recognition Award</h3><p>Society for Biomaterials</p></div></article>
+
+<article class="about-award-row"><span>2024.05</span><div><h3>Meritorious Abstract Travel Award</h3><p>American Society of Gene & Cell Therapy</p></div></article>
+
+<article class="about-award-row"><span>2024.04</span><div><h3>The Hans J. Prochaska Research Award</h3><p>Johns Hopkins University</p></div><a class="about-text-link" href="https://hopkinsyidp.org/people/yining-zhu/" target="_blank" rel="noopener">Read the story &#8599;</a></article>
+
+<article class="about-award-row"><span>2023.04</span><div><h3>Student Travel Achievement Recognition Award</h3><p>Society for Biomaterials</p></div></article>
+
+</div></details></section>
+
+<section id="professional-training" class="about-band about-training">
+
+<header class="about-heading"><div><p class="about-eyebrow">Professional training</p><h2>A journey across disciplines.</h2></div></header>
+
+<div class="about-journey" data-journey><div class="about-journey-options">
+
+<details class="about-journey-item" open data-image="/images/Duke%20Postdoc.png" data-caption="Postdoctoral research at Duke University">
+    <summary><span><small>2026.02 – current</small>Duke University</span><span class="about-chevron" aria-hidden="true"></span></summary>
+    <div class="about-journey-description"><h3>Postdoctoral Fellow</h3><p>I am a Postdoctoral Fellow in Biomedical Engineering in the laboratory of Dr. John W. Hickey, advancing work at the intersection of gene delivery, systems immunology, and spatial proteomics.</p></div>
+    <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/Duke%20Postdoc.png" alt="Postdoctoral research at Duke University"><figcaption>Postdoctoral research at Duke University</figcaption></figure>
+  </details>
+
+<details class="about-journey-item"  data-image="/images/JHU%20postdoc.JPG" data-caption="Postdoctoral research at Johns Hopkins University">
+    <summary><span><small>2025.10 – 2026.01</small>Johns Hopkins University</span><span class="about-chevron" aria-hidden="true"></span></summary>
+    <div class="about-journey-description"><h3>Postdoctoral Associate</h3><p>Following my doctoral training, I continued postdoctoral research at Johns Hopkins University with Dr. Hai-Quan Mao, building on my work in biomaterials, lipid nanoparticles, and immune engineering.</p></div>
+    <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/JHU%20postdoc.JPG" alt="Postdoctoral research at Johns Hopkins University"><figcaption>Postdoctoral research at Johns Hopkins University</figcaption></figure>
+  </details>
+
+</div><figure class="about-journey-stage" aria-live="polite" aria-atomic="true"><img loading="lazy" decoding="async" src="/images/Duke%20Postdoc.png" alt="Postdoctoral research at Duke University"><figcaption>Postdoctoral research at Duke University</figcaption></figure></div></section>
+
+<section id="education" class="about-band about-education">
+
+<header class="about-heading"><div><p class="about-eyebrow">Education</p><h2>The foundations.</h2></div></header>
+
+<div class="about-education-grid">
+
+<article class="about-degree"><span class="about-degree-year">2025</span><div class="about-degree-logo"><img src="/images/JHMI.png" alt="Johns Hopkins University"></div><h3>Ph.D., Biomedical Engineering</h3><p>Johns Hopkins University</p></article>
+
+<article class="about-degree"><span class="about-degree-year">2021</span><div class="about-degree-logo"><img src="/images/JHMI.png" alt="Johns Hopkins University"></div><h3>M.S.E., Biomedical Engineering</h3><p>Johns Hopkins University</p></article>
+
+<article class="about-degree"><span class="about-degree-year">2019</span><div class="about-degree-logo"><img src="/images/SCU.png" alt="Sichuan University"></div><h3>B.S., Pharmacy</h3><p>Sichuan University</p></article>
+
+</div></section>
+
+<section id="talks" class="about-band about-talks">
+
+<header class="about-heading"><div><p class="about-eyebrow">Conversations in science</p><h2>Talks and presentations.</h2></div></header>
+
+<div class="about-talk-list">
+
+<details class="about-talk"><summary><span class="about-talk-date">2026.05</span><span>American Society of Gene &amp; Cell Therapy Annual Meeting.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</p><p class="about-talk-format">Oral Presentation.</p><p><a href="https://www.asgct.org/" target="_blank" rel="noopener">American Society of Gene &amp; Cell Therapy Annual Meeting.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2026.03</span><span>Society of Biomaterials Annual Meeting and Exposition.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Age-related Heterogeneity of Systemic Gene Expression Impairs Immune Responses to mRNA Lipid Nanoparticle Cancer Vaccines.</p><p><a href="https://biomaterials.org/events" target="_blank" rel="noopener">Society of Biomaterials Annual Meeting and Exposition.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2025.03</span><span>Society of Biomaterials Annual Meeting and Exposition.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Enhancing Cell Transfection Efficiency via Modulation of Extracellular Fluid Viscosity.</p><p><a href="https://biomaterials.org/events" target="_blank" rel="noopener">Society of Biomaterials Annual Meeting and Exposition.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2025.03</span><span>Society of Biomaterials Annual Meeting and Exposition.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</p><p><a href="https://biomaterials.org/events" target="_blank" rel="noopener">Society of Biomaterials Annual Meeting and Exposition.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2024.10</span><span>Biomedical Engineering Society Annual Meeting.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Engineering A Biomaterials-based Lymphoid Niche for mRNA Lipid Nanoparticle Cancer Vaccines.</p><p><a href="https://www.bmes.org/bmes2024" target="_blank" rel="noopener">Biomedical Engineering Society Annual Meeting.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2024.05</span><span>American Society of Gene & Cell Therapy Annual Meeting.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>A mRNA lipid nanoparticle incorporated nanofiber-hydrogel composite generates a local immunostimulatory niche for cancer immunotherapy.</p><p><a href="https://www.asgct.org/" target="_blank" rel="noopener">American Society of Gene & Cell Therapy Annual Meeting.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2023.03</span><span>Society of Biomaterials Annual Meeting and Exposition.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Lipid Nanoparticle Composition Shapes Immune Response to mRNA Vaccine and Potency of Anticancer Immunity.</p><p><a href="https://biomaterials.org/events" target="_blank" rel="noopener">Society of Biomaterials Annual Meeting and Exposition.</a></p></div></details>
+
+<details class="about-talk"><summary><span class="about-talk-date">2022.03</span><span>Society of Biomaterials Annual Meeting and Exposition.</span><span class="about-chevron" aria-hidden="true"></span></summary><div class="about-talk-description"><p>Multi-step Screening and Composition Optimization of Lipid Nanoparticles for Liver-targeted Plasmid DNA Delivery.</p><p><a href="https://biomaterials.org/events" target="_blank" rel="noopener">Society of Biomaterials Annual Meeting and Exposition.</a></p></div></details>
+
+</div></section></div>
+
+<script src="{{ '/assets/js/about.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
