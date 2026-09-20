@@ -98,19 +98,19 @@ layout: single
   </details>
 
 <details id="education" class="about-journey-item" data-image="/images/Yining%20with%20lab.png" data-caption="Doctoral training at Johns Hopkins University">
-    <summary><span><small>2025</small>Ph.D., Biomedical Engineering<span class="about-journey-place">Johns Hopkins University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
+    <summary><span><small>2021–2025</small>Ph.D., Biomedical Engineering<span class="about-journey-place">Johns Hopkins University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
     <div class="about-journey-description"><p>My doctoral training focused on biomaterials, lipid nanoparticles, and immune engineering.</p></div>
     <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/Yining%20with%20lab.png" alt="Doctoral training at Johns Hopkins University"><figcaption>Doctoral training at Johns Hopkins University</figcaption></figure>
   </details>
 
 <details id="education-masters" class="about-journey-item" data-image="/images/MSE%20graduation.png" data-caption="Master’s graduation at Johns Hopkins University">
-    <summary><span><small>2021</small>M.S.E., Biomedical Engineering<span class="about-journey-place">Johns Hopkins University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
+    <summary><span><small>2019–2021</small>M.S.E., Biomedical Engineering<span class="about-journey-place">Johns Hopkins University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
     <div class="about-journey-description"><p>I earned my M.S.E. in Biomedical Engineering at Johns Hopkins University.</p></div>
     <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/MSE%20graduation.png" alt="Master’s graduation at Johns Hopkins University"><figcaption>Master’s graduation at Johns Hopkins University</figcaption></figure>
   </details>
 
 <details id="education-bachelors" class="about-journey-item" data-image="/images/sichuan-undergraduate-graduation.jpg" data-caption="Undergraduate graduation at Sichuan University">
-    <summary><span><small>2019</small>B.S., Pharmacy<span class="about-journey-place">Sichuan University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
+    <summary><span><small>2015–2019</small>B.S., Pharmacy<span class="about-journey-place">Sichuan University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
     <div class="about-journey-description"><p>I earned my B.S. in Pharmacy at Sichuan University, establishing the foundation for my later work in biomaterials and genetic medicine delivery.</p></div>
     <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/sichuan-undergraduate-graduation.jpg" alt="Undergraduate graduation at Sichuan University"><figcaption>Undergraduate graduation at Sichuan University</figcaption></figure>
   </details>
