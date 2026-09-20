@@ -1,0 +1,102 @@
+/* A compact reading scale for phones; desktop and tablet layouts stay intact. */
+@media (max-width: 760px) {
+  :root { --page-gutter: 16px; }
+  body { font-size: 15px; line-height: 1.55; }
+  #main { padding-bottom: 32px; }
+  #main .page__content { font-size: 15px; }
+  #main .page__content h1 { font-size: 1.75rem; }
+  #main .page__content h2 { font-size: 1.55rem; }
+  #main .page__content h3 { font-size: 1.12rem; }
+
+  /* Shorter heroes still grow naturally when text wraps on narrow phones. */
+  #main .page__content .about-experience .about-hero {
+    min-height: 360px;
+    padding: 36px var(--page-gutter);
+  }
+  #main .page__content .research-portfolio .research-hero {
+    min-height: 340px;
+    padding: 32px var(--page-gutter);
+  }
+  #main .about-hero-kicker { margin-bottom: 16px; font-size: 15px; }
+  #main .about-hero p { margin: 18px 0; }
+  #main :is(.about-hero, .research-hero, .teaching-hero, .news-hero) p {
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+  #main .home-hero { min-height: 280px; height: auto; padding: 32px var(--page-gutter); }
+  #main .home-hero-content { position: relative; inset: auto; transform: none; }
+  #main .home-hero h1 { font-size: 1.3rem; }
+  #main :is(.teaching-hero, .news-hero) {
+    display: flex;
+    align-items: end;
+    min-height: 280px;
+    padding: 28px var(--page-gutter);
+  }
+  #main :is(.teaching-hero, .news-hero) > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: none;
+    object-fit: cover;
+  }
+  #main :is(.teaching-hero-content, .news-hero-content) { position: relative; inset: auto; }
+
+  #main :is(.about-section-nav, .research-section-nav) { gap: 20px; padding: 4px var(--page-gutter); }
+  #main :is(.about-section-nav, .research-section-nav) a { display: inline-flex; align-items: center; min-height: 44px; }
+  #main .about-band { padding-top: 36px; padding-bottom: 36px; }
+  #main .about-band.about-publications { padding-top: 22px; }
+  #main :is(.about-heading, .research-heading) { gap: 16px; margin-bottom: 22px; }
+  #main :is(.about-scholar-link, .research-scholar-link) { padding: 12px 18px; }
+  #main :is(.about-eyebrow, .research-kicker) { margin-bottom: 10px; }
+  #main .about-selection-note { display: block; margin-top: 8px; font-size: 0.65em; }
+
+  /* Shared publication cards on About and Research. */
+  #main .about-publication-rail { grid-auto-columns: min(80vw, 340px); gap: 14px; }
+  #main .about-publication-card { border-radius: 18px; }
+  #main .about-journal-band { margin: 18px 18px 0; }
+  #main .about-publication-image { height: 185px; padding: 18px; }
+  #main .about-publication-copy { padding: 18px; }
+  #main .about-publication-meta { margin: 16px 0; }
+  #main .about-study-details { padding-top: 14px; }
+  #main .about-study-details ul { margin: 14px 0; font-size: 0.9rem; line-height: 1.55; }
+  #main .about-honor-copy { padding: 22px; }
+  #main .about-more-honors > summary { padding: 18px 0; font-size: 16px; }
+  #main .about-award-row { padding: 18px 0; gap: 16px; }
+  #main .about-journey { padding: 20px; border-radius: 20px; }
+  #main .about-journey-item summary { padding: 18px 0; font-size: 1.15rem; }
+  #main .about-journey-item summary small { margin-bottom: 7px; }
+  #main .about-journey-description p { margin-bottom: 18px; font-size: 0.94rem; line-height: 1.55; }
+  #main .about-journey-inline img { max-height: 300px; }
+  #main .about-talk summary { padding: 18px 0; font-size: 15px; gap: 12px; grid-template-columns: 60px 1fr 16px; }
+  #main .about-talk-description { padding: 0 0 16px 72px; }
+
+  #main .research-portfolio :is(.research-section, .talk-gallery) { padding-top: 36px; padding-bottom: 36px; }
+  #main .research-portfolio .publication-section { padding-top: 20px; }
+  #main .research-stats { padding-top: 18px; padding-bottom: 12px; gap: 16px 0; }
+  #main .research-stat { padding-top: 4px; padding-bottom: 4px; }
+  #main .research-library-nav a { min-height: 44px; padding: 9px 14px; }
+  #main :is(.research-reference-grid, .research-review-grid, .research-patent-grid) > p {
+    padding: 20px 18px 20px 48px;
+    line-height: 1.55;
+  }
+  #main :is(.research-reference-grid, .research-review-grid, .research-patent-grid) > p::before { top: 20px; left: 16px; }
+  #main .research-portfolio .service-panel > p { padding: 24px; font-size: 1rem; }
+
+  /* Home, teaching, and news use the same compact spacing. */
+  #main .home-lower { margin-top: 24px; gap: 22px; }
+  #main .intro-grid { margin: 24px 0 32px; gap: 18px; }
+  #main .intro-copy { padding: 16px; }
+  #main .intro-card .image-box { aspect-ratio: 16 / 9; }
+  #main .home-action { padding: 14px 16px; }
+  #main .sidebar .author__avatar img { width: 116px; height: 116px; max-width: 116px; }
+  #main .sidebar .author__name { font-size: 1.3rem; }
+  #main :is(.teaching-section, .news-section) { margin: 26px 0; padding-top: 20px; }
+  #main :is(.course-card, .news-card-body, .news-list-item) { padding: 16px; }
+  #main :is(.course-card, .news-card, .news-list-item) h2 { font-size: 1.12rem; }
+  #main .philosophy-card { padding: 20px; }
+  #main .philosophy-card p { font-size: 1rem; }
+  #main .news-overview { gap: 12px; margin-bottom: 26px; }
+  #main .news-overview a { padding: 16px; }
+}
