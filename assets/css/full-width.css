@@ -1,0 +1,127 @@
+/* Full-width imagery with a separate, readable content column. */
+:root {
+  --page-gutter: clamp(20px, 4vw, 64px);
+  --content-width: 1440px;
+  --section-background: #f5f5f7;
+}
+
+html,
+body {
+  background: var(--section-background);
+}
+
+#main,
+#main.home-main {
+  display: block !important;
+  width: 100%;
+  max-width: none !important;
+  margin-top: 0;
+  padding: 0 0 48px;
+}
+
+#main > .page,
+#main > .page2 {
+  float: none !important;
+  width: 100% !important;
+  max-width: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main .page__inner-wrap {
+  float: none !important;
+  width: 100%;
+  margin: 0;
+}
+
+#main .page__content,
+#main .research-page,
+#main .teaching-page,
+#main .news-page {
+  display: grid;
+  grid-template-columns:
+    minmax(var(--page-gutter), 1fr)
+    minmax(0, var(--content-width))
+    minmax(var(--page-gutter), 1fr);
+  width: 100%;
+  margin: 0;
+}
+
+#main .page__content > *,
+#main .research-page > *,
+#main .teaching-page > *,
+#main .news-page > * {
+  grid-column: 2;
+  min-width: 0;
+}
+
+#main .page__content > .research-page,
+#main .page__content > .teaching-page,
+#main .page__content > .news-page,
+#main .home-hero,
+#main .about-hero,
+#main .research-hero,
+#main .teaching-hero,
+#main .news-hero {
+  grid-column: 1 / -1;
+}
+
+#main .home-hero,
+#main .about-hero,
+#main .research-hero,
+#main .teaching-hero,
+#main .news-hero {
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#main .home-lower {
+  margin-top: clamp(32px, 4vw, 64px);
+}
+
+/* Align the navigation and hero copy with the wider content below. */
+.masthead .masthead__inner-wrap {
+  width: 100%;
+  max-width: none !important;
+  padding-left: max(var(--page-gutter), calc((100% - var(--content-width)) / 2));
+  padding-right: max(var(--page-gutter), calc((100% - var(--content-width)) / 2));
+}
+
+.masthead .masthead-submenu {
+  padding-left: max(var(--page-gutter), calc((100% - var(--content-width)) / 2)) !important;
+  padding-right: max(var(--page-gutter), calc((100% - var(--content-width)) / 2)) !important;
+}
+
+@media (min-width: 901px) {
+  #main .home-hero {
+    height: clamp(420px, 70svh, 760px);
+  }
+
+  #main .home-hero-content {
+    right: max(var(--page-gutter), calc((100% - var(--content-width)) / 2));
+  }
+
+  #main .about-hero img,
+  #main .research-hero img,
+  #main .teaching-hero img,
+  #main .news-hero img {
+    height: clamp(380px, 36vw, 560px);
+    max-height: none;
+  }
+
+  #main .about-hero-content,
+  #main .research-hero-content,
+  #main .teaching-hero-content,
+  #main .news-hero-content {
+    left: max(var(--page-gutter), calc((100% - var(--content-width)) / 2));
+    bottom: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --page-gutter: 20px;
+  }
+}
