@@ -37,7 +37,7 @@ layout: single
 
 <header class="about-heading"><div><p class="about-eyebrow">Research in focus</p><h2>Selected publications <span class="about-selection-note">(First author &amp; Corresponding)</span></h2></div><a class="about-scholar-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&amp;hl" target="_blank" rel="noopener"><span class="about-scholar-title">Google Scholar <span aria-hidden="true">&#8599;</span></span><small>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</small></a></header>
 
-<div class="about-publication-toolbar"><div class="about-publication-overview"><p>14 selected works <span aria-hidden="true">&middot;</span> * Equal contribution; # corresponding author.</p><a class="about-text-link" href="/research/#publications">View the full research portfolio <span aria-hidden="true">&#8594;</span></a></div><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div></div>
+<div class="about-publication-toolbar"><div class="about-publication-overview"><p>14 selected works <span aria-hidden="true">&middot;</span> * Equal contribution; # corresponding author.</p><a class="about-text-link about-profile-trigger" href="{{ "/research/#publications" | relative_url }}" data-research-profile>View my full research profile <span class="about-profile-plus" aria-hidden="true">+</span></a></div><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div></div>
 <div class="about-publication-rail" id="publication-rail" tabindex="0" role="region" aria-label="Selected publications, scroll horizontally">
 
 
@@ -144,3 +144,18 @@ layout: single
 </div></section></div>
 
 <script src="{{ '/assets/js/about.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+
+<dialog class="research-profile-dialog" id="research-profile-dialog" aria-labelledby="research-profile-title">
+  <div class="research-profile-shell">
+    <header class="research-profile-header">
+      <h2 id="research-profile-title">Full research profile</h2>
+      <a href="{{ '/research/' | relative_url }}" target="_blank" rel="noopener">Open full page <span aria-hidden="true">&#8599;</span></a>
+      <button type="button" class="research-profile-close" aria-label="Close research profile" autofocus><span aria-hidden="true">&#215;</span></button>
+    </header>
+    <div class="research-profile-body" aria-busy="true">
+      <p class="research-profile-status" role="status">Loading research profile…</p>
+      <iframe class="research-profile-frame" title="Yining Zhu’s full research profile" data-src="{{ '/research/' | relative_url }}" hidden></iframe>
+    </div>
+  </div>
+</dialog>
+<script src="{{ '/assets/js/research-profile.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

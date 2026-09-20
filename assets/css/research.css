@@ -161,3 +161,9 @@
 @media (prefers-reduced-motion: reduce) {
   .research-portfolio *, .research-portfolio *::before, .research-portfolio *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+/* The About-page overlay embeds this same live portfolio without a second site menu. */
+.research-embedded .masthead { display: none; }
+.research-embedded #main { padding-bottom: 0; }
+.research-embedded .research-portfolio :is(.research-section, .talk-gallery) { scroll-margin-top: 20px; }
+.research-embedded .research-portfolio :is(.research-group-title, .about-publication-card) { scroll-margin-top: 20px; }
