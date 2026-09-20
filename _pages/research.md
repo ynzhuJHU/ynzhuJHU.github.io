@@ -7,6 +7,8 @@ layout: single
 
 <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
+<link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
 <div class="research-page research-portfolio">
 
 <section class="research-hero">
@@ -19,7 +21,7 @@ layout: single
 </section>
 
 <nav class="research-section-nav" aria-label="Research page sections">
-  <a href="#research-directions">Research directions</a><a href="#publications">Publications</a><a href="#patents">Patents</a><a href="#academic-services">Academic services</a><a href="#research-moments">Conference moments</a>
+  <a href="#publications">Publications</a><a href="#patents">Patents</a><a href="#academic-services">Academic services</a><a href="#research-moments">Conference moments</a>
 </nav>
 
 <div class="research-stats">
@@ -93,26 +95,6 @@ layout: single
 
 
 
-<section id="research-directions" class="research-directions">
-<header class="research-heading"><div><p class="research-kicker">From materials to immune discovery</p><h2>Connected research directions.</h2></div></header>
-<div class="research-explorer" data-research-explorer><div class="research-explorer-options">
-<details class="research-topic" open data-image="/images/FigureScreening.png" data-caption="Lipid nanoparticle screening for enhanced antitumor immunity">
-  <summary><span><small>01</small>Lipid nanoparticles</span><span class="research-chevron" aria-hidden="true"></span></summary>
-  <div class="research-topic-copy"><p>I design and screen lipid nanoparticles to connect formulation chemistry with gene expression, immune activation, and tissue-specific delivery.</p><a href="#study-helper-t-cell-lnps">Explore a related study <span aria-hidden="true">&#8594;</span></a></div>
-  <figure class="research-topic-inline"><img src="/images/FigureScreening.png" alt="Lipid nanoparticle screening for enhanced antitumor immunity" loading="lazy" decoding="async"><figcaption>Lipid nanoparticle screening for enhanced antitumor immunity</figcaption></figure>
-</details>
-<details class="research-topic"  data-image="/images/LiNx.jpg" data-caption="Nanofiber-hydrogel composites for cancer immunotherapy">
-  <summary><span><small>02</small>Biomaterial immune niches</span><span class="research-chevron" aria-hidden="true"></span></summary>
-  <div class="research-topic-copy"><p>My work combines mRNA lipid nanoparticles with nanofiber-hydrogel composites to recruit immune cells and create a local immunostimulatory niche for cancer immunotherapy.</p><a href="#study-lnp-nanofiber-hydrogel">Explore a related study <span aria-hidden="true">&#8594;</span></a></div>
-  <figure class="research-topic-inline"><img src="/images/LiNx.jpg" alt="Nanofiber-hydrogel composites for cancer immunotherapy" loading="lazy" decoding="async"><figcaption>Nanofiber-hydrogel composites for cancer immunotherapy</figcaption></figure>
-</details>
-<details class="research-topic"  data-image="/images/NanoSTAMP.png" data-caption="NanoSTAMP spatial profiling of pooled lipid nanoparticle delivery">
-  <summary><span><small>03</small>Spatial multiomics</span><span class="research-chevron" aria-hidden="true"></span></summary>
-  <div class="research-topic-copy"><p>NanoSTAMP combines barcoded LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring tissue responses.</p><a href="#study-nanostamp">Explore a related study <span aria-hidden="true">&#8594;</span></a></div>
-  <figure class="research-topic-inline"><img src="/images/NanoSTAMP.png" alt="NanoSTAMP spatial profiling of pooled lipid nanoparticle delivery" loading="lazy" decoding="async"><figcaption>NanoSTAMP spatial profiling of pooled lipid nanoparticle delivery</figcaption></figure>
-</details>
-</div><figure class="research-explorer-stage" aria-live="polite" aria-atomic="true"><img src="/images/FigureScreening.png" alt="Lipid nanoparticle screening for enhanced antitumor immunity" loading="lazy" decoding="async"><figcaption>Lipid nanoparticle screening for enhanced antitumor immunity</figcaption></figure></div></section>
-
 <section id="publications" class="research-section publication-section" markdown="1">
 
 <header class="research-heading"><div><p class="research-kicker">Research library</p><h2>Publications.</h2></div><a class="research-scholar-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar <span aria-hidden="true">&#8599;</span></strong><span>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</span></a></header>
@@ -123,342 +105,17 @@ layout: single
 
 
 <nav class="research-library-nav" aria-label="Publication categories"><a href="#lead-author-publications">Lead-author <span>14</span></a><a href="#collaborative-publications">Collaborative <span>24</span></a><a href="#review-articles">Reviews <span>3</span></a></nav>
-<h3 id="lead-author-publications" class="research-group-title">Lead-author publications <span>14</span></h3>
-
-<div class="lead-publication-cards">
-  <div class="paper-box" id="study-nanostamp">
-    <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/NanoSTAMP.png' | relative_url }}" alt="NanoSTAMP spatial profiling workflow for pooled barcoded mRNA lipid nanoparticles">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.biorxiv.org/content/10.64898/2026.08.25.746710v1" target="_blank" rel="noopener">
-          Spatial profiling of pooled mRNA-LNP delivery in vivo with NanoSTAMP
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="nanostamp" fallback=0 %}
-        <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank" rel="noopener">Preprint</a>
-      </div>
-      <ul class="paper-summary">
-        <li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-age-adaptive-mrna-vaccines">
-    <div class="paper-box-label journal-biorxiv"><span class="journal-name">bioRxiv</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/Age.png' | relative_url }}?v=532050f2" alt="Age-adaptive mRNA lipid nanoparticle cancer vaccine study overview">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.biorxiv.org/content/10.64898/2026.04.11.717910v1.abstract" target="_blank" rel="noopener">
-          Engineering age-adaptive mRNA lipid nanoparticle cancer vaccines via reprogramming systemic gene expression
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="age-adaptive-mrna-vaccines" fallback=0 %}
-        <a class="meta-pill news" href="https://doi.org/10.64898/2026.04.11.717910" target="_blank" rel="noopener">Preprint</a>
-      </div>
-      <ul class="paper-summary">
-        <li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-tissue-specific-t-cell-immunity">
-    <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/NBME 20260613.png' | relative_url }}" alt="Systemic trafficking and tissue-specific T cell immunity figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s41551-026-01706-7" target="_blank" rel="noopener">
-          Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection
-        </a>
-      </div>
-      <div class="paper-authors">
-        Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
-        <a class="meta-pill news" href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank" rel="noopener">News</a>
-      </div>
-      <ul class="paper-summary">
-        <li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-crosslinking-lnp">
-    <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/crosslink.png' | relative_url }}" alt="Crosslinking LNP figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s44286-026-00356-5" target="_blank" rel="noopener">
-          Crosslinking of lipid nanoparticles enhances the delivery efficiency and efficacy of mRNA vaccines
-        </a>
-      </div>
-      <div class="paper-authors">
-        Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="crosslinking-lnp" fallback=1 %}
-      </div>
-      <ul class="paper-summary">
-        <li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-beta-cell-directed-rna-delivery">
-    <div class="paper-box-label journal-acs-nano"><span class="journal-name">ACS Nano</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/beta cell.png' | relative_url }}" alt="Integrated compositional screening and ligand targeting strategy for beta cell-directed RNA delivery">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://pubs.acs.org/doi/10.1021/acsnano.6c06440" target="_blank" rel="noopener">
-          Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery
-        </a>
-      </div>
-      <div class="paper-authors">
-        Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}
-      </div>
-      <ul class="paper-summary">
-        <li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-imidazolium-lnp">
-    <div class="paper-box-label journal-materials-today"><span class="journal-name">Materials Today</span><span class="journal-year">2026</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/Imidazolium.jpg' | relative_url }}" alt="Imidazolium LNP figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.sciencedirect.com/science/article/pii/S1369702126001112" target="_blank" rel="noopener">
-          Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response
-        </a>
-      </div>
-      <div class="paper-authors">
-        Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="imidazolium-lnp" fallback=0 %}
-      </div>
-      <ul class="paper-summary">
-        <li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-lnp-nanofiber-hydrogel">
-    <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2025</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/LiNx.jpg' | relative_url }}" alt="Nanofiber hydrogel composite figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s41467-025-61299-8" target="_blank" rel="noopener">
-          An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="lnp-nanofiber-hydrogel" fallback=19 %}
-      </div>
-      <ul class="paper-summary">
-        <li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-spleen-tropic-lnps">
-    <div class="paper-box-label journal-science-advances"><span class="journal-name">Science Advances</span><span class="journal-year">2025</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/sciadv.ady5579-f1.jpg' | relative_url }}" alt="Spleen-tropic LNP screening figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.science.org/doi/10.1126/sciadv.ady5579" target="_blank" rel="noopener">
-          A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins
-        </a>
-      </div>
-      <div class="paper-authors">
-        Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="spleen-tropic-lnps" fallback=2 %}
-      </div>
-      <ul class="paper-summary">
-        <li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-helper-t-cell-lnps">
-    <div class="paper-box-label journal-nature-biomedical-engineering"><span class="journal-name">Nature Biomedical Engineering</span><span class="journal-year">2024</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/FigureScreening.png' | relative_url }}" alt="Helper T cell LNP screening figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s41551-023-01131-0" target="_blank" rel="noopener">
-          Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="helper-t-cell-lnps" fallback=105 %}
-      </div>
-      <ul class="paper-summary">
-        <li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-intraduodenal-liver-editing">
-    <div class="paper-box-label journal-biomaterials"><span class="journal-name">Biomaterials</span><span class="journal-year">2024</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/Oral.png' | relative_url }}" alt="Intraduodenal delivery figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.sciencedirect.com/science/article/pii/S0142961224000930" target="_blank" rel="noopener">
-          Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="intraduodenal-liver-editing" fallback=15 %}
-      </div>
-      <ul class="paper-summary">
-        <li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-fluid-viscosity-transfection">
-    <div class="paper-box-label journal-nature-chemical-engineering"><span class="journal-name">Nature Chemical Engineering</span><span class="journal-year">2024</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/Viscosity.png' | relative_url }}" alt="Viscosity transfection figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s44286-024-00116-3#citeas" target="_blank" rel="noopener">
-          Tuning extracellular fluid viscosity to enhance transfection efficiency
-        </a>
-      </div>
-      <div class="paper-authors">
-        Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="fluid-viscosity-transfection" fallback=9 %}
-      </div>
-      <ul class="paper-summary">
-        <li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-dna-lnp-multistep-screening">
-    <div class="paper-box-label journal-nature-communications"><span class="journal-name">Nature Communications</span><span class="journal-year">2022</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/Figuremultistep.png' | relative_url }}" alt="DNA LNP multistep screening figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.nature.com/articles/s41467-022-31993-y" target="_blank" rel="noopener">
-          Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC#, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="dna-lnp-multistep-screening" fallback=149 %}
-      </div>
-      <ul class="paper-summary">
-        <li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-lentiviral-dna-particles">
-    <div class="paper-box-label journal-nano-letters"><span class="journal-name">Nano Letters</span><span class="journal-year">2021</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/FigureSize.jpeg' | relative_url }}" alt="Lentiviral vector DNA particle figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8283758/" target="_blank" rel="noopener">
-          Size-controlled and shelf-stable DNA particles for production of lentiviral vectors
-        </a>
-      </div>
-      <div class="paper-authors">
-        Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ#.
-      </div>
-      <div class="paper-meta">
-        <a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank" rel="noopener">News</a>
-        {% include citation_pill.html id="lentiviral-dna-particles" fallback=31 %}
-      </div>
-      <ul class="paper-summary">
-        <li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="paper-box" id="study-albumin-biomineralized-melanoma">
-    <div class="paper-box-label journal-journal-of-controlled-release"><span class="journal-name">Journal of Controlled Release</span><span class="journal-year">2020</span></div>
-    <div class="paper-box-image">
-      <img loading="lazy" decoding="async" src="{{ '/images/JCR.jpg' | relative_url }}" alt="Melanoma photoimmunotherapy figure">
-    </div>
-    <div class="paper-box-text">
-      <div class="paper-title">
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168365920301978" target="_blank" rel="noopener">
-          Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma
-        </a>
-      </div>
-      <div class="paper-authors">
-        <strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X#.
-      </div>
-      <div class="paper-meta">
-        {% include citation_pill.html id="albumin-biomineralized-melanoma" fallback=99 %}
-      </div>
-      <ul class="paper-summary">
-        <li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li>
-      </ul>
-    </div>
-  </div>
+<div class="about-experience research-lead-publications">
+<section data-card-rail aria-labelledby="lead-author-publications">
+<div class="about-publication-toolbar">
+  <h3 id="lead-author-publications" class="research-group-title">Lead-author publications <span>14</span></h3>
+  <div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="lead-publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="lead-publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div>
 </div>
-
-
+<div class="about-publication-rail" id="lead-publication-rail" tabindex="0" role="region" aria-label="Lead-author publications, scroll horizontally">
+{% include lead_publication_cards.html %}
+</div>
+</section>
+</div>
 
 <h3 id="collaborative-publications" class="research-group-title">Collaborative publications <span>24</span></h3>
 
@@ -618,4 +275,4 @@ S Huang, **Y Zhu**, L Zhang, Z Zhang\*. [Recent advances in delivery systems for
 
 </div>
 
-<script src="{{ '/assets/js/research.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/about.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
