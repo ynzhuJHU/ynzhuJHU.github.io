@@ -448,8 +448,6 @@ p {
   inset: 0;
   z-index: 999;
   background: rgba(232, 234, 239, 0.42);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -460,6 +458,16 @@ p {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+/* Both page layouts place their content after the shared masthead.
+   Blur that content directly so every page uses the same effect. */
+#main {
+  transition: filter 280ms ease;
+}
+
+.masthead.is-expanded ~ #main {
+  filter: blur(16px);
 }
 
 .masthead-submenu {
@@ -664,6 +672,7 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #main,
   .masthead,
   .masthead-expansion,
   .masthead-backdrop,
