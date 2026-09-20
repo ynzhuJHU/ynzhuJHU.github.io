@@ -61,4 +61,24 @@
   journey.classList.add("is-enhanced");
   var initial = journey.querySelector("details[open]");
   if (initial) selectItem(initial);
+
+  // Keep existing Education links useful after merging it into the journey.
+  function revealJourneyHash() {
+    var id;
+    try {
+      id = decodeURIComponent(window.location.hash.slice(1));
+    } catch (error) {
+      return;
+    }
+    var target = document.getElementById(id);
+    if (!target || !journey.contains(target) || !target.matches(".about-journey-item")) return;
+    target.open = true;
+    selectItem(target);
+    window.requestAnimationFrame(function () {
+      target.scrollIntoView({ block: "start" });
+    });
+  }
+
+  window.addEventListener("hashchange", revealJourneyHash);
+  revealJourneyHash();
 }());
