@@ -35,9 +35,9 @@ layout: single
 <section id="selected-publications" class="about-band about-publications" data-card-rail>
 
 
-<header class="about-heading"><div><p class="about-eyebrow">Research in focus</p><h2>Selected publications.</h2></div><a class="about-scholar-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&amp;hl" target="_blank" rel="noopener"><span class="about-scholar-title">Google Scholar <span aria-hidden="true">&#8599;</span></span><small>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</small></a></header>
+<header class="about-heading"><div><p class="about-eyebrow">Research in focus</p><h2>Selected publications <span class="about-selection-note">(First author &amp; Corresponding)</span></h2></div><a class="about-scholar-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&amp;hl" target="_blank" rel="noopener"><span class="about-scholar-title">Google Scholar <span aria-hidden="true">&#8599;</span></span><small>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</small></a></header>
 
-<p class="about-section-intro">Browse selected studies, findings, and full author lists.</p>
+<div class="about-publication-toolbar"><div class="about-publication-overview"><p>14 selected works <span aria-hidden="true">&middot;</span> * Equal contribution; # corresponding author.</p><a class="about-text-link" href="/research/#publications">View the full research portfolio <span aria-hidden="true">&#8594;</span></a></div><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div></div>
 <div class="about-publication-rail" id="publication-rail" tabindex="0" role="region" aria-label="Selected publications, scroll horizontally">
 
 
@@ -52,7 +52,8 @@ layout: single
     <div class="about-publication-meta">{% include citation_pill.html id="nanostamp" fallback=0 %}
       <a class="meta-pill news" href="https://doi.org/10.64898/2026.08.25.746710" target="_blank" rel="noopener">Preprint</a></div>
     <div class="about-study-details">
-      <ul><li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Miao Y*, Anderson IJ, Li Y, Aghnatios B, No J, Ma J, Yu D, Wei C, Lu X, Wang J, van de Klashorst J, Mao HQ, Hickey JW#.</p>
+      <ul><li>NanoSTAMP combines barcoded pooled LNP screening with spatial-omics readouts to connect formulation identity with cell-type-specific uptake, cargo expression, and neighboring multicellular tissue responses in vivo.</li></ul>
     </div>
   </div>
 </article>
@@ -68,7 +69,8 @@ layout: single
     <div class="about-publication-meta">{% include citation_pill.html id="age-adaptive-mrna-vaccines" fallback=0 %}
       <a class="meta-pill news" href="https://doi.org/10.64898/2026.04.11.717910" target="_blank" rel="noopener">Preprint</a></div>
     <div class="about-study-details">
-      <ul><li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Wei C*, Ma J, Yu D, Wang J, Lu X, Goodier KD, Lin J, Liu X, Su Y, Jiang Z, Greco AH, Cheng L, Toh WH, Miao Y, Schneck JP, Doloff JC, Hickey JW, Mao HQ.</p>
+      <ul><li>Age-related loss of systemic mRNA expression limits vaccine-induced T cell immunity, while an optimized LNP restores distal antigen expression and therapeutic antitumor efficacy in aged mice.</li></ul>
     </div>
   </div>
 </article>
@@ -84,7 +86,8 @@ layout: single
     <div class="about-publication-meta">{% include citation_pill.html id="tissue-specific-t-cell-immunity" fallback=0 %}
       <a class="meta-pill news" href="https://inbt.jhu.edu/new-research-shows-lipid-nanoparticle-design-influences-where-vaccines-travel-and-where-immune-protection-is-built/" target="_blank" rel="noopener">News</a></div>
     <div class="about-study-details">
-      <ul><li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li></ul><p class="about-authors"><strong>Authors</strong><br>Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Wei C*, <strong>Zhu Y*#</strong>, Lu X, Goodier KD, Yu D, Liu X, Choy J, Téllez Calderón A, Su Y, Ma J, Lin J, Li S, Schneck JP, Murphy SC#, Mao HQ#.</p>
+      <ul><li>Lipid nanoparticle composition governs their movement from muscle to distant organs, enabling organ-specific antigen expression and driving the formation of tissue-resident cytotoxic T cells.</li></ul>
     </div>
   </div>
 </article>
@@ -100,7 +103,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://inbt.jhu.edu/new-crosslinking-chemistry-boosts-stability-and-potency-of-mrna-lipid-nanoparticles/" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="crosslinking-lnp" fallback=1 %}</div>
     <div class="about-study-details">
-      <ul><li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li></ul><p class="about-authors"><strong>Authors</strong><br>Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Liu X*, <strong>Zhu Y*</strong>, Wei C, Lin J, Yu D, Kong J, Shao F, Ma J, Xu T, Lu X, Su Y, Goodier KD, Cheng L, Toh WH, Erb CJ, Li S, Wang TH, Mao HQ#.</p>
+      <ul><li>A reversible post-assembly crosslinking strategy enhances LNP-mediated mRNA delivery while preserving intracellular release, enabling improved endosomal escape, sustained in vivo expression, and robust immune and antitumor responses.</li></ul>
     </div>
   </div>
 </article>
@@ -115,7 +119,8 @@ layout: single
       </a></h3>
     <div class="about-publication-meta">{% include citation_pill.html id="beta-cell-directed-rna-delivery" fallback=0 %}</div>
     <div class="about-study-details">
-      <ul><li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li></ul><p class="about-authors"><strong>Authors</strong><br>Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Yu D*, <strong>Zhu Y*</strong>, Roca-Rivada A, Guo Z, Cheng L, Weng G, Toh WH, Martin-Vazquez E, Buemi A, Mourad NI, Kasinathan D, Ma J, Lin J, Kong J, Quiroz VM, Tzeng SY, Lu X, Su Y, Liu X, Shen Z, Goodier KD, Wei C, Greco AH, Doloff JC, Eizirik DL#, Mao HQ#.</p>
+      <ul><li>An integrated strategy combines high-throughput LNP compositional screening with β cell-specific surface ligands to enable selective RNA delivery to pancreatic β cells in mouse and human models.</li></ul>
     </div>
   </div>
 </article>
@@ -130,7 +135,8 @@ layout: single
       </a></h3>
     <div class="about-publication-meta">{% include citation_pill.html id="imidazolium-lnp" fallback=0 %}</div>
     <div class="about-study-details">
-      <ul><li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li></ul><p class="about-authors"><strong>Authors</strong><br>Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Lin J*, <strong>Zhu Y*</strong>, Cheng L, Wei C, Kong J, Choy J, Lu X, Yu D, Ma J, Liu X, Su Y, Naganand S, Gueguen C, Huaulme Q, Urguia P, Mao HQ#.</p>
+      <ul><li>Screening 1,944 formulations identified LipidBrick® LNPs that outperform the clinical benchmark ALC-0315, producing stronger antigen-specific T-cell responses while maintaining low cytotoxicity.</li></ul>
     </div>
   </div>
 </article>
@@ -145,7 +151,8 @@ layout: single
       </a></h3>
     <div class="about-publication-meta">{% include citation_pill.html id="lnp-nanofiber-hydrogel" fallback=19 %}</div>
     <div class="about-study-details">
-      <ul><li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Yao ZC*, Li S*, Ma J, Wei C, Yu D, Stelzel JL, Ni BYX, Miao Y, Van Batavia K, Lu X, Lin J, Dai Y, Kong J, Shen R, Goodier KD, Liu X, Cheng L, Vuong I, Howard GP, Livingston NK, Choy J, Schneck JP, Doloff JC, Reddy SK, Hickey JW, Mao HQ#.</p>
+      <ul><li>An mRNA LNP-incorporated microgel matrix recruits immune cells, supports antigen expression and presentation, and elicits potent antitumor efficacy with a single administration.</li></ul>
     </div>
   </div>
 </article>
@@ -161,7 +168,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://inbt.jhu.edu/machine-learning-unlocks-next-generation-lipid-nanoparticles-for-safer-gene-editing/" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="spleen-tropic-lnps" fallback=2 %}</div>
     <div class="about-study-details">
-      <ul><li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li></ul><p class="about-authors"><strong>Authors</strong><br>Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Lu X*, <strong>Zhu Y*</strong>, Wei C, Cheng L, Goodier KD, Kong J, Gao X, Yu D, Liu X, Long Y, Lin J, Ma J, Su Y, Mao HQ#.</p>
+      <ul><li>A multistep in vivo screening platform identified LNPs that preferentially target the spleen and deliver CRISPR-Cas9 ribonucleoproteins directly to T cells, enabling efficient gene editing without ex vivo manipulation.</li></ul>
     </div>
   </div>
 </article>
@@ -177,7 +185,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2023/12/14/lipid-nanoparticles-for-enhanced-anti-cancer-immunity/#new_tab" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="helper-t-cell-lnps" fallback=105 %}</div>
     <div class="about-study-details">
-      <ul><li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Ma J, Shen R, Lin J, Li S, Lu X, Stelzel JL, Kong J, Cheng L, Vuong I, Yao ZC, Wei C, Korinetz NM, Toh WH, Choy J, Reynolds RA, Shears MJ, Cho WJ, Livingston NK, Howard GP, Hu Y, Tzeng SY, Zack DJ, Green JJ, Zheng L, Doloff JC, Schneck JP, Reddy SK, Murphy SC#, Mao HQ#.</p>
+      <ul><li>An LNP screening strategy optimized helper lipid identity and component ratios to enhance dendritic cell delivery of tumour-antigen-encoding mRNA and improve immune activation toward stronger antitumour responses.</li></ul>
     </div>
   </div>
 </article>
@@ -193,7 +202,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://engineering.jhu.edu/news/goldilocks-breakthrough-in-gene-therapy-development/" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="fluid-viscosity-transfection" fallback=9 %}</div>
     <div class="about-study-details">
-      <ul><li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li></ul><p class="about-authors"><strong>Authors</strong><br>Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Ma J*, <strong>Zhu Y*</strong>, Kong J, Yu D, Toh WH, Jain M, Ni Q, Ge Z, Lin J, Choy J, Cheng L, Konstantopoulos K, Konig M, Sun S#, Mao HQ#.</p>
+      <ul><li>Matching cell culture viscosity to that of biological fluids substantially improves transfection efficiency across multiple gene delivery platforms and cell types.</li></ul>
     </div>
   </div>
 </article>
@@ -208,7 +218,8 @@ layout: single
       </a></h3>
     <div class="about-publication-meta">{% include citation_pill.html id="intraduodenal-liver-editing" fallback=15 %}</div>
     <div class="about-study-details">
-      <ul><li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Cai SS*, Ma J, Cheng L, Wei C, Aggarwal A, Toh WH, Shin C, Shen R, Kong J, Mao SA, Lao YH, Leong KW#, Mao HQ#.</p>
+      <ul><li>A multi-step screening strategy identified pDNA LNP formulations for intraduodenal delivery and non-viral gene editing in mouse liver, reducing PCSK9 and ANGPTL3 to lower LDL cholesterol.</li></ul>
     </div>
   </div>
 </article>
@@ -224,7 +235,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2022/08/23/gene-medicine-delivery-faster-affordable/#new_tab" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="dna-lnp-multistep-screening" fallback=149 %}</div>
     <div class="about-study-details">
-      <ul><li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC#, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y</strong>, Shen R, Vuong I, Reynolds RA, Shears MJ, Yao ZC, Hu Y, Cho WJ, Kong J, Reddy SK, Murphy SC#, Mao HQ#.</p>
+      <ul><li>A multi-step platform identified optimized plasmid DNA LNPs for liver-targeted delivery and prolonged transgene expression, addressing a major gap in systematic pDNA LNP design.</li></ul>
     </div>
   </div>
 </article>
@@ -240,7 +252,8 @@ layout: single
     <div class="about-publication-meta"><a class="meta-pill news" href="https://hub.jhu.edu/2021/07/15/projects-creates-better-viral-vectors-for-gene-therapy/" target="_blank" rel="noopener">News</a>
       {% include citation_pill.html id="lentiviral-dna-particles" fallback=31 %}</div>
     <div class="about-study-details">
-      <ul><li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li></ul><p class="about-authors"><strong>Authors</strong><br>Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ#.</p>
+      <p class="about-authors"><strong>Authors</strong><br>Hu Y*, <strong>Zhu Y*</strong>, Sutherland ND, Wilson DR, Pang M, Liu E, Staub JR, Berlinicke CA, Zack DJ, Green JJ, Reddy SK, Mao HQ#.</p>
+      <ul><li>Size-controlled pDNA/PEI particles improved lentiviral vector production, with an optimal particle size of 400-500 nm linked to enhanced cellular uptake and transfection efficiency.</li></ul>
     </div>
   </div>
 </article>
@@ -255,16 +268,17 @@ layout: single
       </a></h3>
     <div class="about-publication-meta">{% include citation_pill.html id="albumin-biomineralized-melanoma" fallback=99 %}</div>
     <div class="about-study-details">
-      <ul><li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li></ul><p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X#.</p>
+      <p class="about-authors"><strong>Authors</strong><br><strong>Zhu Y*</strong>, Xue J, Chen W, Bai S, Zheng T, He C, Guo Z, Jiang M, Du G, Sun X#.</p>
+      <ul><li>Albumin-biomineralized nanoparticles co-delivering a photosensitizer and immunoadjuvant were engineered to couple tumor ablation with immune activation for melanoma therapy.</li></ul>
     </div>
   </div>
 </article>
 
 </div>
 
-<div class="about-rail-footer"><p>14 selected works <span aria-hidden="true">&middot;</span> * Equal contribution; # corresponding author.</p><div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="publication-rail" aria-label="Previous publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="publication-rail" aria-label="Next publications"><span aria-hidden="true">&#8594;</span></button></div></div>
 
-<a class="about-text-link" href="/research/#publications">View the full research portfolio <span aria-hidden="true">&#8594;</span></a>
+
+
 
 </section>
 
@@ -326,10 +340,10 @@ layout: single
     <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/MSE%20graduation.png" alt="Master’s graduation at Johns Hopkins University"><figcaption>Master’s graduation at Johns Hopkins University</figcaption></figure>
   </details>
 
-<details id="education-bachelors" class="about-journey-item" data-image="/images/SCU.png" data-caption="Sichuan University">
+<details id="education-bachelors" class="about-journey-item" data-image="/images/sichuan-undergraduate-graduation.jpg" data-caption="Undergraduate graduation at Sichuan University">
     <summary><span><small>2019</small>B.S., Pharmacy<span class="about-journey-place">Sichuan University</span></span><span class="about-chevron" aria-hidden="true"></span></summary>
     <div class="about-journey-description"><p>I earned my B.S. in Pharmacy at Sichuan University, establishing the foundation for my later work in biomaterials and genetic medicine delivery.</p></div>
-    <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/SCU.png" alt="Sichuan University"><figcaption>Sichuan University</figcaption></figure>
+    <figure class="about-journey-inline"><img loading="lazy" decoding="async" src="/images/sichuan-undergraduate-graduation.jpg" alt="Undergraduate graduation at Sichuan University"><figcaption>Undergraduate graduation at Sichuan University</figcaption></figure>
   </details>
 
 </div><figure class="about-journey-stage" aria-live="polite" aria-atomic="true"><img loading="lazy" decoding="async" src="/images/Duke%20Postdoc.png" alt="Postdoctoral research at Duke University"><figcaption>Postdoctoral research at Duke University</figcaption></figure></div></section>
