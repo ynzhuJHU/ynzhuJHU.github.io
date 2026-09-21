@@ -1,0 +1,8 @@
+<a class="scholar-badge" href="{{ include.url | default: site.author.googlescholar }}" target="_blank" rel="noopener">
+  <span class="scholar-badge-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M7 12v5c3 2 7 2 10 0v-5M21 9v7"/></svg></span>
+  <span class="scholar-badge-copy">
+    <span class="scholar-badge-title">Google Scholar</span>
+    <span class="scholar-badge-citations"><span{% if include.animate %} class="author-scholar-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}"{% endif %}>{{ site.data.scholar_citations.total_citations | default: 1500 }}</span> citations</span>
+  </span>
+  <svg class="scholar-badge-arrow" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
+</a>

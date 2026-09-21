@@ -97,7 +97,7 @@ layout: single
 
 <section id="publications" class="research-section publication-section" markdown="1">
 
-<header class="research-heading"><div><p class="research-kicker">Research library</p><h2>Publications.</h2></div><a class="research-scholar-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><strong>Google Scholar <span aria-hidden="true">&#8599;</span></strong><span>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</span></a></header>
+<header class="research-heading"><div><p class="research-kicker">Research library</p><h2>Publications.</h2></div>{% include scholar_badge.html %}</header>
 
 <p class="research-library-intro">Up-to-date publication links and citation counts.</p>
 

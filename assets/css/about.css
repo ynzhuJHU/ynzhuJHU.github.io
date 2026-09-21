@@ -96,21 +96,6 @@
 .about-experience .about-text-link { color: #0066cc; font-size: 16px; text-decoration: none; line-height: 1.5; }
 .about-experience .about-text-link:hover { text-decoration: underline; }
 .about-text-link small { display: block; margin-top: 5px; color: #6e6e73; font-size: 13px; }
-.about-scholar-link {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  flex-shrink: 0;
-  padding: 16px 24px;
-  border-radius: 12px;
-  background: #1f57c3;
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 0 6px 18px rgba(31, 87, 195, 0.16);
-}
-.about-scholar-title { font-size: 1.05rem; font-weight: 700; }
-.about-scholar-link small { color: #fff; font-size: 0.9rem; }
-.about-scholar-link:hover { background: #17439a; color: #fff; text-decoration: none; }
 .about-experience .about-section-intro { margin: -20px 0 32px; color: #6e6e73; font-size: 16px; }
 
 .about-publications { background: #f5f5f7; }

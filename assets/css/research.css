@@ -94,10 +94,6 @@
 /* The complete publication library remains visible. */
 .research-portfolio .publication-section { padding-top: 24px; background: #f5f5f7; }
 .publication-section .research-heading { margin-bottom: 22px; }
-.research-scholar-link { display: flex; flex-direction: column; gap: 4px; flex-shrink: 0; padding: 16px 24px; border-radius: 12px; background: #1f57c3; color: #fff; text-decoration: none; box-shadow: 0 6px 18px rgba(31, 87, 195, 0.15); }
-.research-scholar-link strong { font-size: 1.05rem; }
-.research-scholar-link span { font-size: 0.9rem; }
-.research-scholar-link:hover { background: #17439a; color: #fff; text-decoration: none; }
 .research-library-intro { margin: 0 0 10px; color: #627086; font-size: 0.9rem; }
 .research-author-key { margin: 0 0 16px; color: #627086; font-size: 0.82rem; }
 .research-library-nav { display: flex; gap: 12px; overflow-x: auto; scrollbar-width: thin; padding: 6px 0 8px; margin-bottom: 12px; }

@@ -48,7 +48,6 @@
   #main .about-band { padding-top: 36px; padding-bottom: 36px; }
   #main .about-band.about-publications { padding-top: 22px; }
   #main :is(.about-heading, .research-heading) { gap: 16px; margin-bottom: 22px; }
-  #main :is(.about-scholar-link, .research-scholar-link) { padding: 12px 18px; }
   #main :is(.about-eyebrow, .research-kicker) { margin-bottom: 10px; }
   #main .about-selection-note { display: block; margin-top: 8px; font-size: 0.65em; }
 

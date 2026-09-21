@@ -21,11 +21,7 @@
       {% endif %}
       {% if author.googlescholar %}
         <li class="sidebar-scholar-link">
-          <a href="{{ author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
-            <i class="fas fa-fw fa-graduation-cap"></i>
-            <span>Google Scholar</span>
-            <strong><span class="author-scholar-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations</strong>
-          </a>
+          {% include scholar_badge.html url=author.googlescholar animate=true %}
         </li>
       {% endif %}
       {% if author.employer %}
