@@ -21,7 +21,7 @@
       {% endif %}
       {% if author.googlescholar %}
         <li class="sidebar-scholar-link">
-          <a href="{{ "/scholar/" | relative_url }}" data-page-preview="Google Scholar overview" aria-label="Google Scholar overview">
+          <a href="{{ author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
             <i class="fas fa-fw fa-graduation-cap"></i>
             <span>Google Scholar</span>
             <strong><span class="author-scholar-count" data-count="{{ site.data.scholar_citations.total_citations | default: 1500 }}">0</span> citations</strong>
@@ -250,7 +250,7 @@
         <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.googlescholar %}
-        <a href="{{ "/scholar/" | relative_url }}" data-page-preview="Google Scholar overview" aria-label="Google Scholar overview"><i class="fas fa-fw fa-graduation-cap"></i></a>
+        <a href="{{ author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
