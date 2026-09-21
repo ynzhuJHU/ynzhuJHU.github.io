@@ -97,7 +97,7 @@ layout: single
 
 <section id="publications" class="research-section publication-section" markdown="1">
 
-<header class="research-heading"><div><p class="research-kicker">Research library</p><h2>Publications.</h2></div><a class="research-scholar-link" href="https://scholar.google.com/citations?user=rp1pkakAAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar <span aria-hidden="true">&#8599;</span></strong><span>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</span></a></header>
+<header class="research-heading"><div><p class="research-kicker">Research library</p><h2>Publications.</h2></div><a class="research-scholar-link" href="{{ "/scholar/" | relative_url }}" data-page-preview="Google Scholar overview"><strong>Google Scholar <span aria-hidden="true">+</span></strong><span>{{ site.data.scholar_citations.total_citations | default: 1500 }} citations</span></a></header>
 
 <p class="research-library-intro">Up-to-date publication links and citation counts.</p>
 

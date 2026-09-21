@@ -62,8 +62,8 @@
           { opacity: 0, transform: "translateY(24px)" },
           { opacity: 1, transform: "translateY(0)" }
         ], {
-          duration: 975,
-          delay: Math.min(index, 3) * 150,
+          duration: 1658,
+          delay: Math.min(index, 3) * 255,
           easing: "cubic-bezier(0.22, 1, 0.36, 1)",
           fill: "backwards"
         });
