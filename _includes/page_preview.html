@@ -1,0 +1,14 @@
+<dialog class="research-profile-dialog" id="page-preview-dialog" aria-labelledby="page-preview-title">
+  <div class="research-profile-shell">
+    <header class="research-profile-header">
+      <button type="button" class="page-preview-back" aria-label="Back to previous preview" hidden>←</button>
+      <h2 id="page-preview-title">Page preview</h2>
+      <a class="page-preview-full" href="{{ '/research/' | relative_url }}" target="_blank" rel="noopener">Open full page <span aria-hidden="true">&#8599;</span></a>
+      <button type="button" class="research-profile-close" aria-label="Close page preview" autofocus><span aria-hidden="true">&#215;</span></button>
+    </header>
+    <div class="research-profile-body" aria-busy="false">
+      <p class="research-profile-status" role="status">Loading…</p>
+      <iframe class="research-profile-frame" title="Page preview" hidden></iframe>
+    </div>
+  </div>
+</dialog>

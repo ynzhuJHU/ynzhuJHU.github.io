@@ -3,7 +3,7 @@
   if (!root) return;
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-  root.querySelectorAll("[data-card-rail]").forEach(function (section) {
+  document.querySelectorAll("[data-card-rail]").forEach(function (section) {
     var rail = section.querySelector('[role="region"]');
     var previous = section.querySelector("[data-rail-prev]");
     var next = section.querySelector("[data-rail-next]");

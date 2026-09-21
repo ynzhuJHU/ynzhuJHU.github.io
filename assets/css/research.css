@@ -167,3 +167,14 @@
 .research-embedded #main { padding-bottom: 0; }
 .research-embedded .research-portfolio :is(.research-section, .talk-gallery) { scroll-margin-top: 20px; }
 .research-embedded .research-portfolio :is(.research-group-title, .about-publication-card) { scroll-margin-top: 20px; }
+
+/* Three references per column, with three columns visible on wide screens. */
+.research-collaborative-rail { margin-top: 40px; min-width: 0; }
+.research-portfolio .research-collaborative-rail .research-group-title { margin: 0; }
+#collaborative-rail { grid-template-columns: none; grid-template-rows: repeat(3, auto); grid-auto-flow: column; grid-auto-columns: minmax(280px, calc((100% - 36px) / 3)); gap: 18px; align-items: stretch; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scrollbar-width: thin; padding: 4px 2px 18px; }
+#collaborative-rail > p { padding: 20px 20px 20px 52px; scroll-snap-align: start; }
+#collaborative-rail > p::before { top: 20px; left: 18px; }
+@media (max-width: 760px) {
+  #collaborative-rail { grid-auto-columns: min(84vw, 360px); gap: 14px; }
+  .research-collaborative-rail { margin-top: 28px; }
+}

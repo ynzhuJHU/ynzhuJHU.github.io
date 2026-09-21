@@ -1,3 +1,6 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 {% include analytics.html %}
+
+{% include page_preview.html %}
+<script src="{{ "/assets/js/page-preview.js" | relative_url }}?v={{ site.time | date: "%s" }}" defer></script>

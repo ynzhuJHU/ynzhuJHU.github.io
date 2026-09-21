@@ -1,0 +1,33 @@
+/* Open the complete research profile above the current About-page position. */
+.about-experience .about-profile-trigger { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; }
+.about-profile-plus { display: grid; place-items: center; flex: 0 0 30px; width: 30px; height: 30px; border-radius: 50%; background: #e9f2ff; color: #0066cc; font-size: 24px; line-height: 1; }
+html.research-profile-open, .research-profile-open body { overflow: hidden; }
+.research-profile-dialog:not([open]) { display: none; }
+:is(#page-preview-dialog, #awards-dialog) { width: min(1380px, calc(100% - 64px)); max-width: none; height: calc(100vh - 64px); height: calc(100dvh - 64px); max-height: none; margin: auto; padding: 0; border: 0; border-radius: 28px; overflow: hidden; background: #fff; color: #172033; box-shadow: 0 24px 90px rgba(0, 0, 0, 0.25); }
+:is(#page-preview-dialog, #awards-dialog)::backdrop { background: rgba(20, 25, 34, 0.48); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.research-profile-shell { display: flex; flex-direction: column; height: 100%; }
+.research-profile-header { display: flex; align-items: center; flex: 0 0 auto; gap: 20px; padding: 16px 24px; border-bottom: 1px solid #e8e8ed; }
+:is(#page-preview-dialog, #awards-dialog) .research-profile-header h2 { margin: 0; padding: 0; border: 0; font-size: 1.2rem; line-height: 1.3; }
+.research-profile-header > a { margin-left: auto; color: #0066cc; font-size: 14px; text-decoration: none; }
+.research-profile-close { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #e8e8ed; color: #55555d; font-size: 30px; cursor: pointer; }
+.research-profile-close:hover { background: #dcdce2; }
+.research-profile-dialog :is(a, button):focus-visible { outline: 3px solid #0066cc; outline-offset: 3px; }
+.research-profile-body { position: relative; flex: 1 1 auto; min-height: 0; }
+.research-profile-status { margin: 0; padding: 36px; color: #627086; font-size: 15px; }
+.research-profile-frame { display: block; width: 100%; height: 100%; border: 0; }
+.research-profile-dialog [hidden] { display: none; }
+@media (prefers-reduced-motion: no-preference) {
+  :is(#page-preview-dialog, #awards-dialog)[open] { animation: research-profile-enter 260ms ease-out; }
+  @keyframes research-profile-enter { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+}
+@media (max-width: 760px) {
+  :is(#page-preview-dialog, #awards-dialog) { width: calc(100% - 16px); height: calc(100vh - 24px); height: calc(100dvh - 24px); border-radius: 20px; }
+  .research-profile-header { gap: 10px; padding: 12px; flex-wrap: wrap; }
+  :is(#page-preview-dialog, #awards-dialog) .research-profile-header h2 { flex: 1; font-size: 1.05rem; }
+  .research-profile-header > a { order: 3; flex-basis: 100%; margin: 0; min-height: 32px; display: flex; align-items: center; gap: 4px; }
+}
+
+.page-preview-back { flex: 0 0 44px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #e8e8ed; color: #55555d; font-size: 23px; cursor: pointer; }
+.page-embedded .masthead { display: none; }
+.page-embedded #main { padding-bottom: 0; }
+.page-embedded #main [id] { scroll-margin-top: 20px; }

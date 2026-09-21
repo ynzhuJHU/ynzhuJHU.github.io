@@ -1,0 +1,14 @@
+#main .cv-viewer { min-width: 0; padding-bottom: 28px; }
+.cv-toolbar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; flex-wrap: wrap; gap: 16px; padding: 16px 0; background: #f5f5f7; }
+#main .cv-toolbar h1 { margin: 0 auto 0 0; font-size: 1.5rem; }
+.cv-toolbar > a { font-size: 14px; color: #0066cc; }
+.cv-zoom { display: flex; gap: 6px; }
+.cv-zoom button { min-width: 44px; height: 44px; padding: 0 12px; border: 1px solid #dce3ee; border-radius: 10px; color: #293241; background: #fff; font-size: 16px; cursor: pointer; }
+.cv-zoom button:disabled { opacity: 0.45; cursor: default; }
+.cv-status { color: #627086; font-size: 14px; }
+.cv-pages { overflow-x: auto; overscroll-behavior-x: contain; padding: 4px 0 16px; }
+#main .cv-page { max-width: none; margin: 0 auto 22px; }
+.cv-page canvas { display: block; width: 100%; height: auto; background: #fff; box-shadow: 0 4px 18px rgba(20, 32, 56, 0.12); }
+.cv-page figcaption { margin-top: 10px; color: #627086; text-align: center; font-size: 12px; }
+.cv-page-text { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: pre-wrap; }
+@media (max-width: 760px) { .cv-toolbar { gap: 10px; padding: 12px 0; } #main .cv-toolbar h1 { flex-basis: 100%; font-size: 1.3rem; } .cv-toolbar > a { margin-left: auto; } }

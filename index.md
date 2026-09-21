@@ -834,34 +834,34 @@ home_layout: true
 
   <div class="home-content-tabs">
     <div class="home-actions">
-      <a class="home-action" href="/about/">
+      <a class="home-action" href="/about/" data-page-preview="Profile">
         <span>Profile</span>
         <strong>Selected publications, honors, education, and talks</strong>
       </a>
-      <a class="home-action" href="/research/">
+      <a class="home-action" href="/research/" data-page-preview="Research">
         <span>Research</span>
         <strong>Publications, patents, services, and research moments</strong>
       </a>
-      <a class="home-action" href="/teaching/">
+      <a class="home-action" href="/teaching/" data-page-preview="Teaching">
         <span>Teaching</span>
         <strong>Courses, mentorship, and teaching philosophy</strong>
       </a>
     </div>
 
     <nav class="home-research-stats" aria-label="Research publication and patent totals">
-      <a class="home-research-stat" href="/research/#lead-author-publications">
+      <a class="home-research-stat" href="/research/#lead-author-publications" data-page-preview="Lead-author publications">
         <strong class="home-count-up" data-count="14">0</strong>
         <span>lead-author publications</span>
       </a>
-      <a class="home-research-stat" href="/research/#collaborative-publications">
+      <a class="home-research-stat" href="/research/#collaborative-publications" data-page-preview="Collaborative publications">
         <strong class="home-count-up" data-count="24">0</strong>
         <span>collaborative publications</span>
       </a>
-      <a class="home-research-stat" href="/research/#review-articles">
+      <a class="home-research-stat" href="/research/#review-articles" data-page-preview="Review articles">
         <strong class="home-count-up" data-count="3">0</strong>
         <span>review articles</span>
       </a>
-      <a class="home-research-stat" href="/research/#patents">
+      <a class="home-research-stat" href="/research/#patents" data-page-preview="Patents">
         <strong class="home-count-up" data-count="10">0</strong>
         <span>patent filings</span>
       </a>

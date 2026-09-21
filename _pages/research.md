@@ -117,9 +117,12 @@ layout: single
 </section>
 </div>
 
+<div class="research-collaborative-rail" data-card-rail>
+<div class="about-publication-toolbar">
 <h3 id="collaborative-publications" class="research-group-title">Collaborative publications <span>24</span></h3>
-
-<div class="research-reference-grid" markdown="1">
+<div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="collaborative-rail" aria-label="Previous collaborative publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="collaborative-rail" aria-label="Next collaborative publications"><span aria-hidden="true">&#8594;</span></button></div>
+</div>
+<div class="research-reference-grid" id="collaborative-rail" tabindex="0" role="region" aria-label="Collaborative publications, three per column; scroll horizontally" markdown="1">
 
 Y Su, J Choy, X Liu, **Y Zhu**, J Lin, C Wei, KD Goodier, D Yu, L Cheng, M Patel, X Lu, J Ma, J Wang, HQ Mao\*. [Stabilizing Anionic mRNA Lipid Nanoparticles by Cleavable Crosslinking of Cholesterol](https://pubs.acs.org/doi/10.1021/acsami.6c06888). ***ACS Applied Materials & Interfaces***, 2026.
 
@@ -171,6 +174,8 @@ X Ke, L Shelton, Y Hu, **Y Zhu**, E Chow, H Tang, JL Santos, HQ Mao\*. [Surface-
 C Li, X Chen, X Luo, H Wang, **Y Zhu**, G Du, W Chen, Z Chen, X Hao, et al., X Sun\*. [Nanoemulsions target to ectopic lymphoids in inflamed joints to restore immune tolerance in rheumatoid arthritis](https://pubs.acs.org/doi/10.1021/acs.nanolett.0c05110). ***Nano Letters***, 2020.
 
 
+
+</div>
 
 </div>
 
