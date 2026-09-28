@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-09-27T14:03:18+00:00",
-  "total_citations": 1851,
+  "last_updated": "2026-09-28T16:48:24+00:00",
+  "total_citations": 1856,
   "publications": [
     {
       "id": "nanostamp",
@@ -27,8 +27,8 @@
     {
       "id": "beta-cell-directed-rna-delivery",
       "title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
-      "citations": 0,
-      "citation_label": "citations",
+      "citations": 1,
+      "citation_label": "citation",
       "status": "matched",
       "matched_title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
       "matched_year": "2026",
@@ -37,7 +37,7 @@
     {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
-      "citations": 6,
+      "citations": 7,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
