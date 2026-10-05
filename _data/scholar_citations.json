@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-10-04T14:08:17+00:00",
-  "total_citations": 1864,
+  "last_updated": "2026-10-05T17:12:25+00:00",
+  "total_citations": 1867,
   "publications": [
     {
       "id": "nanostamp",
@@ -67,7 +67,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 35,
+      "citations": 36,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 188,
+      "citations": 189,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
@@ -137,7 +137,7 @@
     {
       "id": "albumin-biomineralized-melanoma",
       "title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
-      "citations": 106,
+      "citations": 107,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Albumin-biomineralized nanoparticles to synergize phototherapy and immunotherapy against melanoma",
