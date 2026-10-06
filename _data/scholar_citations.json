@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-10-05T17:12:25+00:00",
-  "total_citations": 1867,
+  "last_updated": "2026-10-06T15:22:34+00:00",
+  "total_citations": 1870,
   "publications": [
     {
       "id": "nanostamp",
@@ -37,7 +37,7 @@
     {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
-      "citations": 7,
+      "citations": 9,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
@@ -107,7 +107,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 27,
+      "citations": 28,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
