@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-10-11T14:57:13+00:00",
-  "total_citations": 1877,
+  "last_updated": "2026-10-12T18:00:43+00:00",
+  "total_citations": 1885,
   "publications": [
     {
       "id": "nanostamp",
@@ -57,7 +57,7 @@
     {
       "id": "imidazolium-lnp",
       "title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
-      "citations": 2,
+      "citations": 3,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Imidazolium lipid-based nanoparticles enable effective mRNA delivery and cellular immune response",
@@ -67,7 +67,7 @@
     {
       "id": "lnp-nanofiber-hydrogel",
       "title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
-      "citations": 37,
+      "citations": 39,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "An mRNA lipid nanoparticle-incorporated nanofiber-hydrogel composite for cancer immunotherapy",
@@ -77,7 +77,7 @@
     {
       "id": "spleen-tropic-lnps",
       "title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell-targeted delivery of gene-editing proteins",
-      "citations": 13,
+      "citations": 14,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "A multistep platform identifies spleen-tropic lipid nanoparticles for in vivo T cell–targeted delivery of gene-editing proteins",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 191,
+      "citations": 192,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
