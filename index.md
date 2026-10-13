@@ -854,7 +854,7 @@ home_layout: true
         <span>lead-author publications</span>
       </a>
       <a class="home-research-stat" href="/research/#collaborative-publications" data-page-preview="Collaborative publications">
-        <strong class="home-count-up" data-count="24">0</strong>
+        <strong class="home-count-up" data-count="25">0</strong>
         <span>collaborative publications</span>
       </a>
       <a class="home-research-stat" href="/research/#review-articles" data-page-preview="Review articles">

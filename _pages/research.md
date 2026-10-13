@@ -30,7 +30,7 @@ layout: single
     <span>lead-author publications</span>
   </a>
   <a class="research-stat" href="#collaborative-publications">
-    <strong class="count-up" data-count="24">24</strong>
+    <strong class="count-up" data-count="25">25</strong>
     <span>collaborative publications</span>
   </a>
   <a class="research-stat" href="#review-articles">
@@ -104,7 +104,7 @@ layout: single
 <p class="research-author-key">Lead-author cards use * for equal contribution and # for corresponding author. Collaborative publications use † for equal contribution and * for corresponding author.</p>
 
 
-<nav class="research-library-nav" aria-label="Publication categories"><a href="#lead-author-publications">Lead-author <span>14</span></a><a href="#collaborative-publications">Collaborative <span>24</span></a><a href="#review-articles">Reviews <span>3</span></a></nav>
+<nav class="research-library-nav" aria-label="Publication categories"><a href="#lead-author-publications">Lead-author <span>14</span></a><a href="#collaborative-publications">Collaborative <span>25</span></a><a href="#review-articles">Reviews <span>3</span></a></nav>
 <div class="about-experience research-lead-publications">
 <section data-card-rail aria-labelledby="lead-author-publications">
 <div class="about-publication-toolbar">
@@ -119,10 +119,12 @@ layout: single
 
 <div class="research-collaborative-rail" data-card-rail>
 <div class="about-publication-toolbar">
-<h3 id="collaborative-publications" class="research-group-title">Collaborative publications <span>24</span></h3>
+<h3 id="collaborative-publications" class="research-group-title">Collaborative publications <span>25</span></h3>
 <div class="about-rail-controls"><button type="button" data-rail-prev aria-controls="collaborative-rail" aria-label="Previous collaborative publications"><span aria-hidden="true">&#8592;</span></button><button type="button" data-rail-next aria-controls="collaborative-rail" aria-label="Next collaborative publications"><span aria-hidden="true">&#8594;</span></button></div>
 </div>
 <div class="research-reference-grid" id="collaborative-rail" tabindex="0" role="region" aria-label="Collaborative publications, three per column; scroll horizontally" markdown="1">
+
+SS Cai†, C Slater†, V Farag, G Gonzalez, V Yang, M Patel, A Qi, V Huerta, L Cheng, **Y Zhu**, S Ding, J Ma, SX Windemuth, HQ Mao, Q Wang, KW Leong. [Intracranial delivery of neuron-preferential lipid nanoparticles for gene-editing activity in mouse brain](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(26)00420-0). ***Cell Reports Physical Science***, 2026.
 
 Y Su, J Choy, X Liu, **Y Zhu**, J Lin, C Wei, KD Goodier, D Yu, L Cheng, M Patel, X Lu, J Ma, J Wang, HQ Mao\*. [Stabilizing Anionic mRNA Lipid Nanoparticles by Cleavable Crosslinking of Cholesterol](https://pubs.acs.org/doi/10.1021/acsami.6c06888). ***ACS Applied Materials & Interfaces***, 2026.
 
