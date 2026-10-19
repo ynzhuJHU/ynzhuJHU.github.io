@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-10-18T12:38:58+00:00",
-  "total_citations": 1896,
+  "last_updated": "2026-10-19T15:45:04+00:00",
+  "total_citations": 1899,
   "publications": [
     {
       "id": "nanostamp",
@@ -27,8 +27,8 @@
     {
       "id": "beta-cell-directed-rna-delivery",
       "title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
-      "citations": 1,
-      "citation_label": "citation",
+      "citations": 2,
+      "citation_label": "citations",
       "status": "matched",
       "matched_title": "Engineering Lipid Nanoparticles through Integrated Compositional and Ligand Targeting Enhances β Cell-Directed RNA Delivery",
       "matched_year": "2026",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 193,
+      "citations": 195,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
