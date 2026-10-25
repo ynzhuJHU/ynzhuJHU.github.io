@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-10-24T12:45:13+00:00",
-  "total_citations": 1907,
+  "last_updated": "2026-10-25T13:13:27+00:00",
+  "total_citations": 1912,
   "publications": [
     {
       "id": "nanostamp",
@@ -107,7 +107,7 @@
     {
       "id": "intraduodenal-liver-editing",
       "title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
-      "citations": 28,
+      "citations": 29,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Optimization of lipid nanoparticles for gene editing of the liver via intraduodenal delivery",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 194,
+      "citations": 195,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
@@ -127,7 +127,7 @@
     {
       "id": "lentiviral-dna-particles",
       "title": "Size-controlled and shelf-stable DNA particles for production of lentiviral vectors",
-      "citations": 34,
+      "citations": 35,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Size-Controlled and Shelf-Stable DNA Particles for Production of Lentiviral Vectors",
