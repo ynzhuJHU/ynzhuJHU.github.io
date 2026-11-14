@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-11-13T16:31:26+00:00",
-  "total_citations": 1951,
+  "last_updated": "2026-11-14T15:10:18+00:00",
+  "total_citations": 1957,
   "publications": [
     {
       "id": "nanostamp",
@@ -97,7 +97,7 @@
     {
       "id": "fluid-viscosity-transfection",
       "title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
-      "citations": 15,
+      "citations": 16,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Tuning extracellular fluid viscosity to enhance transfection efficiency",
