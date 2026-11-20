@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-11-19T17:26:42+00:00",
-  "total_citations": 1966,
+  "last_updated": "2026-11-20T17:00:56+00:00",
+  "total_citations": 1971,
   "publications": [
     {
       "id": "nanostamp",
@@ -37,7 +37,7 @@
     {
       "id": "tissue-specific-t-cell-immunity",
       "title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
-      "citations": 9,
+      "citations": 10,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Lipid nanoparticle composition directs systemic trafficking and tissue-specific T cell immunity after intramuscular injection",
@@ -87,7 +87,7 @@
     {
       "id": "helper-t-cell-lnps",
       "title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
-      "citations": 131,
+      "citations": 132,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Screening for lipid nanoparticles that modulate the immune activity of helper T cells towards enhanced antitumour activity",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 196,
+      "citations": 197,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
