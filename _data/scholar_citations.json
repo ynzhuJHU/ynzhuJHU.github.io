@@ -1,8 +1,8 @@
 {
   "scholar_id": "rp1pkakAAAAJ",
   "source": "google_scholar",
-  "last_updated": "2026-11-24T19:32:54+00:00",
-  "total_citations": 1981,
+  "last_updated": "2026-11-25T18:40:48+00:00",
+  "total_citations": 1989,
   "publications": [
     {
       "id": "nanostamp",
@@ -117,7 +117,7 @@
     {
       "id": "dna-lnp-multistep-screening",
       "title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
-      "citations": 198,
+      "citations": 200,
       "citation_label": "citations",
       "status": "matched",
       "matched_title": "Multi-step screening of DNA/lipid nanoparticles and co-delivery with siRNA to enhance and prolong gene expression",
